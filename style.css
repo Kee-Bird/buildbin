@@ -1,0 +1,12 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#1d2433;background:#f6f7fb;line-height:1.5}
+header{background:#14213d;color:#fff;padding:2rem 1rem;text-align:center}header h1{margin:0;font-size:2rem}header a{color:#fca311}
+main{max-width:1100px;margin:auto;padding:1rem}.sponsor{border:2px dashed #fca311;background:#fff8ec;padding:1rem;border-radius:10px;margin:1rem 0}
+.sponsor small{color:#a15c00;font-weight:700;text-transform:uppercase}.filters{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+select{padding:.6rem;border-radius:8px;border:1px solid #ccd;font-size:1rem;flex:1;min-width:180px}
+#results{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.card{background:#fff;border-radius:12px;padding:1rem;box-shadow:0 1px 4px #0001}.card h3{margin:.2rem 0}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem}.t{background:#eef;padding:.15rem .5rem;border-radius:99px;font-size:.8rem}
+.Beginner{background:#d8f5e0}.Intermediate{background:#fff1c2}.Advanced{background:#ffd9d9}.small{font-size:.85rem;color:#556}
+nav.cats{display:flex;flex-wrap:wrap;gap:.5rem}nav.cats a{background:#fff;padding:.3rem .7rem;border-radius:99px;text-decoration:none;color:#14213d;border:1px solid #dde}
+.news{background:#14213d;color:#fff;padding:1.5rem;border-radius:12px;margin:2rem 0}.news input{padding:.6rem;border-radius:8px;border:0;width:min(100%,300px)}
+.news button{padding:.6rem 1rem;border:0;border-radius:8px;background:#fca311;font-weight:700}footer{text-align:center;color:#778;padding:2rem;font-size:.85rem}

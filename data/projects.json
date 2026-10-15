@@ -1,0 +1,881 @@
+{
+ "boards": {
+  "uno": "Arduino Uno",
+  "pi": "Raspberry Pi 4/5",
+  "esp32": "ESP32",
+  "pico": "Raspberry Pi Pico",
+  "nano": "Arduino Nano",
+  "esp8266": "ESP8266 (NodeMCU/D1 mini)",
+  "f4": "STM32 F4 flight controller"
+ },
+ "categories": {
+  "home-automation": "Home automation",
+  "robotics": "Robotics",
+  "drones-fpv": "Drones & FPV",
+  "sensors-weather": "Sensors & weather",
+  "led-lighting": "LED & lighting",
+  "audio": "Audio",
+  "wearables": "Wearables"
+ },
+ "projects": [
+  {
+   "title": "Pi-hole network ad blocker",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "home-automation"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "35-80",
+   "time": "1-2 hrs",
+   "parts": [
+    "Raspberry Pi (any model w/ network)",
+    "microSD card 16GB+",
+    "5V USB power supply",
+    "Ethernet cable"
+   ],
+   "tools": [
+    "Computer for flashing"
+   ],
+   "description": "Block ads network-wide with DNS filtering.",
+   "reference": "pi-hole.net"
+  },
+  {
+   "title": "Home Assistant server",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "home-automation"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "80-150",
+   "time": "2-3 hrs",
+   "parts": [
+    "Raspberry Pi 4/5 (4GB+)",
+    "microSD or SSD",
+    "Official power supply",
+    "Case with fan"
+   ],
+   "tools": [
+    "Computer for flashing"
+   ],
+   "description": "Central hub for smart-home automations.",
+   "reference": "home-assistant.io"
+  },
+  {
+   "title": "ESPHome temperature/humidity sensor",
+   "boards": [
+    "esp32",
+    "esp8266"
+   ],
+   "categories": [
+    "home-automation",
+    "sensors-weather"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "10-20",
+   "time": "1 hr",
+   "parts": [
+    "ESP32 or D1 mini",
+    "BME280 or DHT22 sensor",
+    "Jumper wires",
+    "USB cable"
+   ],
+   "tools": [
+    "Computer w/ ESPHome"
+   ],
+   "description": "Wi-Fi sensor that reports into Home Assistant.",
+   "reference": "esphome.io"
+  },
+  {
+   "title": "WLED addressable LED controller",
+   "boards": [
+    "esp32",
+    "esp8266"
+   ],
+   "categories": [
+    "led-lighting",
+    "home-automation"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "20-50",
+   "time": "1-2 hrs",
+   "parts": [
+    "ESP32 or D1 mini",
+    "WS2812B LED strip",
+    "5V power supply (sized to strip)",
+    "Level shifter (74AHCT125)",
+    "1000\u00b5F capacitor",
+    "330\u03a9 resistor"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "App-controlled LED strip effects over Wi-Fi.",
+   "reference": "kno.wled.ge"
+  },
+  {
+   "title": "Smart garage door opener",
+   "boards": [
+    "esp32",
+    "esp8266"
+   ],
+   "categories": [
+    "home-automation"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "15-30",
+   "time": "2-3 hrs",
+   "parts": [
+    "ESP32 or D1 mini",
+    "Relay module",
+    "Reed switch",
+    "5V supply",
+    "Wire"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "Open/close and monitor the garage from your phone.",
+   "reference": "esphome.io"
+  },
+  {
+   "title": "Smart plant watering system",
+   "boards": [
+    "uno",
+    "esp32"
+   ],
+   "categories": [
+    "home-automation",
+    "sensors-weather"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "20-40",
+   "time": "2 hrs",
+   "parts": [
+    "Arduino Uno or ESP32",
+    "Capacitive soil moisture sensor",
+    "5V relay module",
+    "Mini submersible pump",
+    "Silicone tubing",
+    "Power supply"
+   ],
+   "tools": [
+    "Wire strippers",
+    "Screwdriver"
+   ],
+   "description": "Waters plants automatically when soil is dry.",
+   "reference": "arduino.cc project hub"
+  },
+  {
+   "title": "Obstacle-avoiding robot car",
+   "boards": [
+    "uno"
+   ],
+   "categories": [
+    "robotics"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "30-50",
+   "time": "3-4 hrs",
+   "parts": [
+    "Arduino Uno",
+    "2WD/4WD robot chassis kit",
+    "L298N motor driver",
+    "HC-SR04 ultrasonic sensor",
+    "SG90 servo",
+    "Battery pack (AA or 18650)"
+   ],
+   "tools": [
+    "Screwdriver",
+    "Wire strippers"
+   ],
+   "description": "Classic first robot that drives and avoids walls.",
+   "reference": "arduino.cc project hub"
+  },
+  {
+   "title": "Line-following robot",
+   "boards": [
+    "uno",
+    "nano"
+   ],
+   "categories": [
+    "robotics"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "25-45",
+   "time": "3 hrs",
+   "parts": [
+    "Arduino Uno/Nano",
+    "Robot chassis w/ 2 DC motors",
+    "TCRT5000 IR sensor array",
+    "L298N or TB6612 driver",
+    "Battery pack"
+   ],
+   "tools": [
+    "Screwdriver",
+    "Electrical tape"
+   ],
+   "description": "Follows a black tape line using IR sensors.",
+   "reference": "instructables.com"
+  },
+  {
+   "title": "Otto DIY biped robot",
+   "boards": [
+    "nano"
+   ],
+   "categories": [
+    "robotics"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "30-60",
+   "time": "3-4 hrs",
+   "parts": [
+    "Arduino Nano",
+    "4x SG90 servos",
+    "HC-SR04 sensor",
+    "Buzzer",
+    "3D-printed Otto body",
+    "4xAA battery holder"
+   ],
+   "tools": [
+    "3D printer (or buy printed parts)",
+    "Screwdriver"
+   ],
+   "description": "Open-source walking, dancing robot.",
+   "reference": "ottodiy.com"
+  },
+  {
+   "title": "Self-balancing robot",
+   "boards": [
+    "uno",
+    "esp32"
+   ],
+   "categories": [
+    "robotics"
+   ],
+   "difficulty": "Advanced",
+   "est_cost_usd": "50-90",
+   "time": "6-10 hrs",
+   "parts": [
+    "Arduino Uno or ESP32",
+    "MPU6050 IMU",
+    "2x NEMA17 steppers + A4988 drivers (or geared DC motors)",
+    "Chassis",
+    "Li-ion battery pack"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "Two-wheel robot balanced with a PID loop.",
+   "reference": "instructables.com"
+  },
+  {
+   "title": "Pi Pico robot arm (servo)",
+   "boards": [
+    "pico",
+    "uno"
+   ],
+   "categories": [
+    "robotics"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "40-80",
+   "time": "4-6 hrs",
+   "parts": [
+    "Raspberry Pi Pico or Arduino",
+    "4-6x MG90S/MG996R servos",
+    "Acrylic or printed arm kit",
+    "PCA9685 servo driver",
+    "5-6V power supply",
+    "Potentiometers for control"
+   ],
+   "tools": [
+    "Screwdriver",
+    "Hex keys"
+   ],
+   "description": "Desktop arm you control with knobs or code.",
+   "reference": "raspberrypi.com"
+  },
+  {
+   "title": "ESP32-CAM surveillance rover",
+   "boards": [
+    "esp32"
+   ],
+   "categories": [
+    "robotics"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "30-50",
+   "time": "3-5 hrs",
+   "parts": [
+    "ESP32-CAM + programmer",
+    "2WD chassis",
+    "L298N or DRV8833 driver",
+    "18650 batteries + holder"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "Drive a camera car from your browser.",
+   "reference": "randomnerdtutorials.com"
+  },
+  {
+   "title": "5-inch FPV freestyle quad (Betaflight)",
+   "boards": [
+    "f4"
+   ],
+   "categories": [
+    "drones-fpv"
+   ],
+   "difficulty": "Advanced",
+   "est_cost_usd": "250-450 (excl. radio/goggles)",
+   "time": "8-15 hrs",
+   "parts": [
+    "5\" carbon frame",
+    "F4/F7 flight controller + 4-in-1 ESC stack",
+    "4x 2207 motors",
+    "5\" props",
+    "FPV camera + VTX (analog or digital)",
+    "ELRS receiver",
+    "6S LiPo batteries"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Hex drivers",
+    "Smoke stopper",
+    "LiPo charger"
+   ],
+   "description": "Build and tune a freestyle quad with Betaflight.",
+   "reference": "betaflight.com / Joshua Bardwell guides"
+  },
+  {
+   "title": "Tiny Whoop indoor micro drone",
+   "boards": [
+    "f4"
+   ],
+   "categories": [
+    "drones-fpv"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "100-180",
+   "time": "2-4 hrs",
+   "parts": [
+    "65-75mm whoop frame",
+    "1S AIO flight controller w/ ELRS",
+    "4x 0702/0802 motors",
+    "Ducted props",
+    "Nano FPV camera",
+    "1S LiPo batteries"
+   ],
+   "tools": [
+    "Fine-tip soldering iron",
+    "Tweezers"
+   ],
+   "description": "Small ducted quad that's safe to fly indoors.",
+   "reference": "betaflight.com"
+  },
+  {
+   "title": "INAV fixed-wing with GPS return-to-home",
+   "boards": [
+    "f4"
+   ],
+   "categories": [
+    "drones-fpv"
+   ],
+   "difficulty": "Advanced",
+   "est_cost_usd": "200-400",
+   "time": "10-20 hrs",
+   "parts": [
+    "Foam wing airframe (e.g. ~1m flying wing)",
+    "INAV-compatible F4/F7 FC",
+    "GPS + compass module",
+    "ESC + brushless motor",
+    "2x servos",
+    "ELRS receiver",
+    "3S/4S LiPo"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Hot glue gun",
+    "Hobby knife"
+   ],
+   "description": "Autonomous-capable plane with waypoints and RTH.",
+   "reference": "github.com/iNavFlight/inav"
+  },
+  {
+   "title": "ArduPilot drone with Pi companion computer",
+   "boards": [
+    "pi",
+    "f4"
+   ],
+   "categories": [
+    "drones-fpv",
+    "robotics"
+   ],
+   "difficulty": "Advanced",
+   "est_cost_usd": "400-800",
+   "time": "15-30 hrs",
+   "parts": [
+    "Quad frame 450mm",
+    "ArduPilot FC (e.g. Pixhawk-class)",
+    "GPS module",
+    "4x motors + ESCs",
+    "Raspberry Pi 4",
+    "Telemetry radio",
+    "4S LiPo"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Ground station laptop (Mission Planner/QGC)"
+   ],
+   "description": "Scripted missions with MAVLink from a Pi.",
+   "reference": "ardupilot.org"
+  },
+  {
+   "title": "ELRS DIY receiver/backpack tinkering",
+   "boards": [
+    "esp8266",
+    "esp32"
+   ],
+   "categories": [
+    "drones-fpv"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "15-40",
+   "time": "1-3 hrs",
+   "parts": [
+    "ESP8285/ESP32 ELRS-compatible board",
+    "SX1280 radio module (or prebuilt RX)",
+    "Antenna"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Computer w/ ELRS Configurator"
+   ],
+   "description": "Learn ExpressLRS firmware flashing and binding.",
+   "reference": "expresslrs.org"
+  },
+  {
+   "title": "Raspberry Pi weather station",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "sensors-weather"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "60-150",
+   "time": "4-6 hrs",
+   "parts": [
+    "Raspberry Pi",
+    "BME280 sensor",
+    "Anemometer/wind vane/rain gauge kit",
+    "ADC (MCP3008)",
+    "Weatherproof enclosure"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Drill"
+   ],
+   "description": "Logs temp, pressure, wind and rain.",
+   "reference": "raspberrypi.com projects"
+  },
+  {
+   "title": "Air quality monitor (PM2.5)",
+   "boards": [
+    "esp32",
+    "esp8266"
+   ],
+   "categories": [
+    "sensors-weather",
+    "home-automation"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "30-50",
+   "time": "2 hrs",
+   "parts": [
+    "ESP32 or D1 mini",
+    "PMS5003 or SDS011 particulate sensor",
+    "BME280",
+    "OLED display (SSD1306)"
+   ],
+   "tools": [
+    "Wire strippers"
+   ],
+   "description": "Measures particulates and shows AQI.",
+   "reference": "sensor.community"
+  },
+  {
+   "title": "CO2 monitor with SCD40",
+   "boards": [
+    "esp32",
+    "pico"
+   ],
+   "categories": [
+    "sensors-weather"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "40-70",
+   "time": "1-2 hrs",
+   "parts": [
+    "ESP32 or Pico W",
+    "Sensirion SCD40/SCD41",
+    "OLED or e-paper display",
+    "USB-C power"
+   ],
+   "tools": [
+    "Soldering iron"
+   ],
+   "description": "Know when to open a window based on CO2 ppm.",
+   "reference": "learn.adafruit.com"
+  },
+  {
+   "title": "Pico W web-connected thermometer",
+   "boards": [
+    "pico"
+   ],
+   "categories": [
+    "sensors-weather"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "10-20",
+   "time": "1 hr",
+   "parts": [
+    "Raspberry Pi Pico W",
+    "DS18B20 sensor",
+    "4.7k\u03a9 resistor",
+    "Breadboard + jumpers"
+   ],
+   "tools": [
+    "Computer w/ Thonny (MicroPython)"
+   ],
+   "description": "MicroPython intro: serve readings on a web page.",
+   "reference": "raspberrypi.com"
+  },
+  {
+   "title": "Infinity mirror",
+   "boards": [
+    "nano",
+    "esp32"
+   ],
+   "categories": [
+    "led-lighting"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "40-80",
+   "time": "4-6 hrs",
+   "parts": [
+    "Arduino Nano or ESP32",
+    "WS2812B strip",
+    "Mirror",
+    "One-way mirror film/acrylic",
+    "Picture frame",
+    "5V supply"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Hot glue gun"
+   ],
+   "description": "Endless tunnel-of-light effect.",
+   "reference": "instructables.com"
+  },
+  {
+   "title": "LED matrix scrolling sign",
+   "boards": [
+    "uno",
+    "esp32"
+   ],
+   "categories": [
+    "led-lighting"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "20-40",
+   "time": "2 hrs",
+   "parts": [
+    "Arduino or ESP32",
+    "MAX7219 8x32 LED matrix",
+    "Jumper wires",
+    "5V supply"
+   ],
+   "tools": [
+    "Computer w/ Arduino IDE"
+   ],
+   "description": "Scroll messages, clock or stock tickers.",
+   "reference": "github.com/MajicDesigns/MD_Parola"
+  },
+  {
+   "title": "Ambilight TV backlight (Hyperion)",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "led-lighting",
+    "home-automation"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "60-100",
+   "time": "3-4 hrs",
+   "parts": [
+    "Raspberry Pi",
+    "WS2812B/SK6812 strip",
+    "HDMI capture/splitter",
+    "5V high-current supply"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "Bias lighting that reacts to on-screen colors.",
+   "reference": "hyperion-project.org"
+  },
+  {
+   "title": "Pi music streamer (Volumio/moOde)",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "audio"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "60-120",
+   "time": "2 hrs",
+   "parts": [
+    "Raspberry Pi",
+    "DAC HAT (e.g. HiFiBerry-class)",
+    "microSD card",
+    "Power supply",
+    "Case"
+   ],
+   "tools": [
+    "Computer for flashing"
+   ],
+   "description": "Network audio player for an old stereo.",
+   "reference": "volumio.com / moodeaudio.org"
+  },
+  {
+   "title": "Bluetooth speaker build",
+   "boards": [
+    "esp32"
+   ],
+   "categories": [
+    "audio"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "40-80",
+   "time": "4-6 hrs",
+   "parts": [
+    "ESP32 (A2DP) or BT amp board",
+    "PAM8403/MAX98357A amplifier",
+    "2x full-range drivers",
+    "18650 + BMS + charger board",
+    "Enclosure"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Drill"
+   ],
+   "description": "Portable speaker with ESP32 Bluetooth audio.",
+   "reference": "github.com/pschatzmann/ESP32-A2DP"
+  },
+  {
+   "title": "MIDI controller",
+   "boards": [
+    "pico",
+    "uno"
+   ],
+   "categories": [
+    "audio"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "30-60",
+   "time": "4-6 hrs",
+   "parts": [
+    "Raspberry Pi Pico (or Arduino Leonardo/Micro)",
+    "Arcade buttons",
+    "Potentiometers/sliders",
+    "Enclosure"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Drill"
+   ],
+   "description": "USB MIDI pads and knobs for your DAW.",
+   "reference": "learn.adafruit.com"
+  },
+  {
+   "title": "Retro game console (RetroPie)",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "audio"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "60-120",
+   "time": "2-3 hrs",
+   "parts": [
+    "Raspberry Pi",
+    "microSD card",
+    "USB controllers",
+    "Case",
+    "HDMI cable"
+   ],
+   "tools": [
+    "Computer for flashing"
+   ],
+   "description": "Emulation station for classic games.",
+   "reference": "retropie.org.uk"
+  },
+  {
+   "title": "NeoPixel LED wearable/costume",
+   "boards": [
+    "pico",
+    "nano"
+   ],
+   "categories": [
+    "wearables",
+    "led-lighting"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "20-40",
+   "time": "2-3 hrs",
+   "parts": [
+    "Adafruit Gemma/QT Py or Pico",
+    "NeoPixel strip/rings",
+    "LiPo battery + charger",
+    "Conductive thread or wire"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Needle"
+   ],
+   "description": "Light-up hoodie, hat or cosplay piece.",
+   "reference": "learn.adafruit.com"
+  },
+  {
+   "title": "Smartwatch (ESP32 dev watch)",
+   "boards": [
+    "esp32"
+   ],
+   "categories": [
+    "wearables"
+   ],
+   "difficulty": "Advanced",
+   "est_cost_usd": "40-80",
+   "time": "6-10 hrs",
+   "parts": [
+    "ESP32 watch dev kit (e.g. LilyGO T-Watch-class)",
+    "USB cable"
+   ],
+   "tools": [
+    "Computer w/ Arduino IDE/PlatformIO"
+   ],
+   "description": "Program your own watch faces and apps.",
+   "reference": "github.com/Xinyuan-LilyGO"
+  },
+  {
+   "title": "Step counter wristband",
+   "boards": [
+    "pico",
+    "nano"
+   ],
+   "categories": [
+    "wearables",
+    "sensors-weather"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "20-40",
+   "time": "3-4 hrs",
+   "parts": [
+    "Microcontroller (Pico/Nano)",
+    "MPU6050 or LSM6DS3 IMU",
+    "0.96\" OLED",
+    "LiPo + charger",
+    "Strap/3D-printed case"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "DIY pedometer with an accelerometer.",
+   "reference": "instructables.com"
+  },
+  {
+   "title": "Mechanical macro keypad",
+   "boards": [
+    "pico"
+   ],
+   "categories": [
+    "home-automation"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "20-40",
+   "time": "2-3 hrs",
+   "parts": [
+    "Raspberry Pi Pico",
+    "Mechanical switches",
+    "Keycaps",
+    "3D-printed or acrylic plate",
+    "Diodes (if matrix)"
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers"
+   ],
+   "description": "Programmable shortcut pad with KMK/CircuitPython.",
+   "reference": "github.com/KMKfw/kmk_firmware"
+  },
+  {
+   "title": "Pi security camera (MotionEye)",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "home-automation"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "50-100",
+   "time": "2 hrs",
+   "parts": [
+    "Raspberry Pi",
+    "Pi Camera Module",
+    "microSD card",
+    "Power supply",
+    "Case/mount"
+   ],
+   "tools": [
+    "Computer for flashing"
+   ],
+   "description": "Motion-detecting camera with web viewing.",
+   "reference": "github.com/motioneye-project"
+  }
+ ]
+}
