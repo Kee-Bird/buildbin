@@ -30,10 +30,22 @@
    "est_cost_usd": "35-80",
    "time": "1-2 hrs",
    "parts": [
-    "Raspberry Pi (any model w/ network)",
-    "microSD card 16GB+",
-    "5V USB power supply",
-    "Ethernet cable"
+    {
+     "name": "Raspberry Pi (any model w/ network)",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "microSD card 16GB+",
+     "url": "https://www.amazon.com/s?k=microSD+card+16GB%2B&tag=buildbin-20"
+    },
+    {
+     "name": "5V USB power supply",
+     "url": "https://www.amazon.com/s?k=5V+USB+power+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Ethernet cable",
+     "url": "https://www.amazon.com/s?k=Ethernet+cable&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer for flashing"
@@ -53,10 +65,22 @@
    "est_cost_usd": "80-150",
    "time": "2-3 hrs",
    "parts": [
-    "Raspberry Pi 4/5 (4GB+)",
-    "microSD or SSD",
-    "Official power supply",
-    "Case with fan"
+    {
+     "name": "Raspberry Pi 4/5 (4GB+)",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4%2F5&tag=buildbin-20"
+    },
+    {
+     "name": "microSD or SSD",
+     "url": "https://www.amazon.com/s?k=microSD+or+SSD&tag=buildbin-20"
+    },
+    {
+     "name": "Official power supply",
+     "url": "https://www.amazon.com/s?k=Official+power+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Case with fan",
+     "url": "https://www.amazon.com/s?k=Case+with+fan&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer for flashing"
@@ -78,10 +102,22 @@
    "est_cost_usd": "10-20",
    "time": "1 hr",
    "parts": [
-    "ESP32 or D1 mini",
-    "BME280 or DHT22 sensor",
-    "Jumper wires",
-    "USB cable"
+    {
+     "name": "ESP32 or D1 mini",
+     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+    },
+    {
+     "name": "BME280 or DHT22 sensor",
+     "url": "https://www.amazon.com/s?k=BME280+or+DHT22+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "Jumper wires",
+     "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+    },
+    {
+     "name": "USB cable",
+     "url": "https://www.amazon.com/s?k=USB+cable&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer w/ ESPHome"
@@ -103,12 +139,30 @@
    "est_cost_usd": "20-50",
    "time": "1-2 hrs",
    "parts": [
-    "ESP32 or D1 mini",
-    "WS2812B LED strip",
-    "5V power supply (sized to strip)",
-    "Level shifter (74AHCT125)",
-    "1000\u00b5F capacitor",
-    "330\u03a9 resistor"
+    {
+     "name": "ESP32 or D1 mini",
+     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+    },
+    {
+     "name": "WS2812B LED strip",
+     "url": "https://www.amazon.com/s?k=WS2812B+LED+strip&tag=buildbin-20"
+    },
+    {
+     "name": "5V power supply (sized to strip)",
+     "url": "https://www.amazon.com/s?k=5V+power+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Level shifter (74AHCT125)",
+     "url": "https://www.amazon.com/s?k=Level+shifter&tag=buildbin-20"
+    },
+    {
+     "name": "1000\u00b5F capacitor",
+     "url": "https://www.amazon.com/s?k=1000%C2%B5F+capacitor&tag=buildbin-20"
+    },
+    {
+     "name": "330\u03a9 resistor",
+     "url": "https://www.amazon.com/s?k=330%CE%A9+resistor&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -131,11 +185,26 @@
    "est_cost_usd": "15-30",
    "time": "2-3 hrs",
    "parts": [
-    "ESP32 or D1 mini",
-    "Relay module",
-    "Reed switch",
-    "5V supply",
-    "Wire"
+    {
+     "name": "ESP32 or D1 mini",
+     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+    },
+    {
+     "name": "Relay module",
+     "url": "https://www.amazon.com/s?k=Relay+module&tag=buildbin-20"
+    },
+    {
+     "name": "Reed switch",
+     "url": "https://www.amazon.com/s?k=Reed+switch&tag=buildbin-20"
+    },
+    {
+     "name": "5V supply",
+     "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Wire",
+     "url": "https://www.amazon.com/s?k=Wire&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -159,12 +228,30 @@
    "est_cost_usd": "20-40",
    "time": "2 hrs",
    "parts": [
-    "Arduino Uno or ESP32",
-    "Capacitive soil moisture sensor",
-    "5V relay module",
-    "Mini submersible pump",
-    "Silicone tubing",
-    "Power supply"
+    {
+     "name": "Arduino Uno or ESP32",
+     "url": "https://www.amazon.com/s?k=Arduino+Uno+or+ESP32&tag=buildbin-20"
+    },
+    {
+     "name": "Capacitive soil moisture sensor",
+     "url": "https://www.amazon.com/s?k=Capacitive+soil+moisture+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "5V relay module",
+     "url": "https://www.amazon.com/s?k=5V+relay+module&tag=buildbin-20"
+    },
+    {
+     "name": "Mini submersible pump",
+     "url": "https://www.amazon.com/s?k=Mini+submersible+pump&tag=buildbin-20"
+    },
+    {
+     "name": "Silicone tubing",
+     "url": "https://www.amazon.com/s?k=Silicone+tubing&tag=buildbin-20"
+    },
+    {
+     "name": "Power supply",
+     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Wire strippers",
@@ -185,12 +272,30 @@
    "est_cost_usd": "30-50",
    "time": "3-4 hrs",
    "parts": [
-    "Arduino Uno",
-    "2WD/4WD robot chassis kit",
-    "L298N motor driver",
-    "HC-SR04 ultrasonic sensor",
-    "SG90 servo",
-    "Battery pack (AA or 18650)"
+    {
+     "name": "Arduino Uno",
+     "url": "https://www.amazon.com/s?k=Arduino+Uno&tag=buildbin-20"
+    },
+    {
+     "name": "2WD/4WD robot chassis kit",
+     "url": "https://www.amazon.com/s?k=2WD%2F4WD+robot+chassis+kit&tag=buildbin-20"
+    },
+    {
+     "name": "L298N motor driver",
+     "url": "https://www.amazon.com/s?k=L298N+motor+driver&tag=buildbin-20"
+    },
+    {
+     "name": "HC-SR04 ultrasonic sensor",
+     "url": "https://www.amazon.com/s?k=HC-SR04+ultrasonic+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "SG90 servo",
+     "url": "https://www.amazon.com/s?k=SG90+servo&tag=buildbin-20"
+    },
+    {
+     "name": "Battery pack (AA or 18650)",
+     "url": "https://www.amazon.com/s?k=Battery+pack&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Screwdriver",
@@ -212,11 +317,26 @@
    "est_cost_usd": "25-45",
    "time": "3 hrs",
    "parts": [
-    "Arduino Uno/Nano",
-    "Robot chassis w/ 2 DC motors",
-    "TCRT5000 IR sensor array",
-    "L298N or TB6612 driver",
-    "Battery pack"
+    {
+     "name": "Arduino Uno/Nano",
+     "url": "https://www.amazon.com/s?k=Arduino+Uno%2FNano&tag=buildbin-20"
+    },
+    {
+     "name": "Robot chassis w/ 2 DC motors",
+     "url": "https://www.amazon.com/s?k=Robot+chassis+w%2F+2+DC+motors&tag=buildbin-20"
+    },
+    {
+     "name": "TCRT5000 IR sensor array",
+     "url": "https://www.amazon.com/s?k=TCRT5000+IR+sensor+array&tag=buildbin-20"
+    },
+    {
+     "name": "L298N or TB6612 driver",
+     "url": "https://www.amazon.com/s?k=L298N+or+TB6612+driver&tag=buildbin-20"
+    },
+    {
+     "name": "Battery pack",
+     "url": "https://www.amazon.com/s?k=Battery+pack&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Screwdriver",
@@ -237,12 +357,30 @@
    "est_cost_usd": "30-60",
    "time": "3-4 hrs",
    "parts": [
-    "Arduino Nano",
-    "4x SG90 servos",
-    "HC-SR04 sensor",
-    "Buzzer",
-    "3D-printed Otto body",
-    "4xAA battery holder"
+    {
+     "name": "Arduino Nano",
+     "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+    },
+    {
+     "name": "4x SG90 servos",
+     "url": "https://www.amazon.com/s?k=4x+SG90+servos&tag=buildbin-20"
+    },
+    {
+     "name": "HC-SR04 sensor",
+     "url": "https://www.amazon.com/s?k=HC-SR04+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "Buzzer",
+     "url": "https://www.amazon.com/s?k=Buzzer&tag=buildbin-20"
+    },
+    {
+     "name": "3D-printed Otto body",
+     "url": "https://www.amazon.com/s?k=3D-printed+Otto+body&tag=buildbin-20"
+    },
+    {
+     "name": "4xAA battery holder",
+     "url": "https://www.amazon.com/s?k=4xAA+battery+holder&tag=buildbin-20"
+    }
    ],
    "tools": [
     "3D printer (or buy printed parts)",
@@ -264,11 +402,26 @@
    "est_cost_usd": "50-90",
    "time": "6-10 hrs",
    "parts": [
-    "Arduino Uno or ESP32",
-    "MPU6050 IMU",
-    "2x NEMA17 steppers + A4988 drivers (or geared DC motors)",
-    "Chassis",
-    "Li-ion battery pack"
+    {
+     "name": "Arduino Uno or ESP32",
+     "url": "https://www.amazon.com/s?k=Arduino+Uno+or+ESP32&tag=buildbin-20"
+    },
+    {
+     "name": "MPU6050 IMU",
+     "url": "https://www.amazon.com/s?k=MPU6050+IMU&tag=buildbin-20"
+    },
+    {
+     "name": "2x NEMA17 steppers + A4988 drivers (or geared DC motors)",
+     "url": "https://www.amazon.com/s?k=2x+NEMA17+steppers+%2B+A4988+drivers&tag=buildbin-20"
+    },
+    {
+     "name": "Chassis",
+     "url": "https://www.amazon.com/s?k=Chassis&tag=buildbin-20"
+    },
+    {
+     "name": "Li-ion battery pack",
+     "url": "https://www.amazon.com/s?k=Li-ion+battery+pack&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -291,12 +444,30 @@
    "est_cost_usd": "40-80",
    "time": "4-6 hrs",
    "parts": [
-    "Raspberry Pi Pico or Arduino",
-    "4-6x MG90S/MG996R servos",
-    "Acrylic or printed arm kit",
-    "PCA9685 servo driver",
-    "5-6V power supply",
-    "Potentiometers for control"
+    {
+     "name": "Raspberry Pi Pico or Arduino",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+or+Arduino&tag=buildbin-20"
+    },
+    {
+     "name": "4-6x MG90S/MG996R servos",
+     "url": "https://www.amazon.com/s?k=4-6x+MG90S%2FMG996R+servos&tag=buildbin-20"
+    },
+    {
+     "name": "Acrylic or printed arm kit",
+     "url": "https://www.amazon.com/s?k=Acrylic+or+printed+arm+kit&tag=buildbin-20"
+    },
+    {
+     "name": "PCA9685 servo driver",
+     "url": "https://www.amazon.com/s?k=PCA9685+servo+driver&tag=buildbin-20"
+    },
+    {
+     "name": "5-6V power supply",
+     "url": "https://www.amazon.com/s?k=5-6V+power+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Potentiometers for control",
+     "url": "https://www.amazon.com/s?k=Potentiometers+for+control&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Screwdriver",
@@ -317,10 +488,22 @@
    "est_cost_usd": "30-50",
    "time": "3-5 hrs",
    "parts": [
-    "ESP32-CAM + programmer",
-    "2WD chassis",
-    "L298N or DRV8833 driver",
-    "18650 batteries + holder"
+    {
+     "name": "ESP32-CAM + programmer",
+     "url": "https://www.amazon.com/s?k=ESP32-CAM+%2B+programmer&tag=buildbin-20"
+    },
+    {
+     "name": "2WD chassis",
+     "url": "https://www.amazon.com/s?k=2WD+chassis&tag=buildbin-20"
+    },
+    {
+     "name": "L298N or DRV8833 driver",
+     "url": "https://www.amazon.com/s?k=L298N+or+DRV8833+driver&tag=buildbin-20"
+    },
+    {
+     "name": "18650 batteries + holder",
+     "url": "https://www.amazon.com/s?k=18650+batteries+%2B+holder&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -342,13 +525,34 @@
    "est_cost_usd": "250-450 (excl. radio/goggles)",
    "time": "8-15 hrs",
    "parts": [
-    "5\" carbon frame",
-    "F4/F7 flight controller + 4-in-1 ESC stack",
-    "4x 2207 motors",
-    "5\" props",
-    "FPV camera + VTX (analog or digital)",
-    "ELRS receiver",
-    "6S LiPo batteries"
+    {
+     "name": "5\" carbon frame",
+     "url": "https://www.amazon.com/s?k=5%22+carbon+frame&tag=buildbin-20"
+    },
+    {
+     "name": "F4/F7 flight controller + 4-in-1 ESC stack",
+     "url": "https://www.amazon.com/s?k=F4%2FF7+flight+controller+%2B+4-in-1+ESC+stack&tag=buildbin-20"
+    },
+    {
+     "name": "4x 2207 motors",
+     "url": "https://www.amazon.com/s?k=4x+2207+motors&tag=buildbin-20"
+    },
+    {
+     "name": "5\" props",
+     "url": "https://www.amazon.com/s?k=5%22+props&tag=buildbin-20"
+    },
+    {
+     "name": "FPV camera + VTX (analog or digital)",
+     "url": "https://www.amazon.com/s?k=FPV+camera+%2B+VTX&tag=buildbin-20"
+    },
+    {
+     "name": "ELRS receiver",
+     "url": "https://www.amazon.com/s?k=ELRS+receiver&tag=buildbin-20"
+    },
+    {
+     "name": "6S LiPo batteries",
+     "url": "https://www.amazon.com/s?k=6S+LiPo+batteries&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -373,12 +577,30 @@
    "est_cost_usd": "100-180",
    "time": "2-4 hrs",
    "parts": [
-    "65-75mm whoop frame",
-    "1S AIO flight controller w/ ELRS",
-    "4x 0702/0802 motors",
-    "Ducted props",
-    "Nano FPV camera",
-    "1S LiPo batteries"
+    {
+     "name": "65-75mm whoop frame",
+     "url": "https://www.amazon.com/s?k=65-75mm+whoop+frame&tag=buildbin-20"
+    },
+    {
+     "name": "1S AIO flight controller w/ ELRS",
+     "url": "https://www.amazon.com/s?k=1S+AIO+flight+controller+w%2F+ELRS&tag=buildbin-20"
+    },
+    {
+     "name": "4x 0702/0802 motors",
+     "url": "https://www.amazon.com/s?k=4x+0702%2F0802+motors&tag=buildbin-20"
+    },
+    {
+     "name": "Ducted props",
+     "url": "https://www.amazon.com/s?k=Ducted+props&tag=buildbin-20"
+    },
+    {
+     "name": "Nano FPV camera",
+     "url": "https://www.amazon.com/s?k=Nano+FPV+camera&tag=buildbin-20"
+    },
+    {
+     "name": "1S LiPo batteries",
+     "url": "https://www.amazon.com/s?k=1S+LiPo+batteries&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Fine-tip soldering iron",
@@ -399,13 +621,34 @@
    "est_cost_usd": "200-400",
    "time": "10-20 hrs",
    "parts": [
-    "Foam wing airframe (e.g. ~1m flying wing)",
-    "INAV-compatible F4/F7 FC",
-    "GPS + compass module",
-    "ESC + brushless motor",
-    "2x servos",
-    "ELRS receiver",
-    "3S/4S LiPo"
+    {
+     "name": "Foam wing airframe (e.g. ~1m flying wing)",
+     "url": "https://www.amazon.com/s?k=Foam+wing+airframe&tag=buildbin-20"
+    },
+    {
+     "name": "INAV-compatible F4/F7 FC",
+     "url": "https://www.amazon.com/s?k=INAV-compatible+F4%2FF7+FC&tag=buildbin-20"
+    },
+    {
+     "name": "GPS + compass module",
+     "url": "https://www.amazon.com/s?k=GPS+%2B+compass+module&tag=buildbin-20"
+    },
+    {
+     "name": "ESC + brushless motor",
+     "url": "https://www.amazon.com/s?k=ESC+%2B+brushless+motor&tag=buildbin-20"
+    },
+    {
+     "name": "2x servos",
+     "url": "https://www.amazon.com/s?k=2x+servos&tag=buildbin-20"
+    },
+    {
+     "name": "ELRS receiver",
+     "url": "https://www.amazon.com/s?k=ELRS+receiver&tag=buildbin-20"
+    },
+    {
+     "name": "3S/4S LiPo",
+     "url": "https://www.amazon.com/s?k=3S%2F4S+LiPo&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -431,13 +674,34 @@
    "est_cost_usd": "400-800",
    "time": "15-30 hrs",
    "parts": [
-    "Quad frame 450mm",
-    "ArduPilot FC (e.g. Pixhawk-class)",
-    "GPS module",
-    "4x motors + ESCs",
-    "Raspberry Pi 4",
-    "Telemetry radio",
-    "4S LiPo"
+    {
+     "name": "Quad frame 450mm",
+     "url": "https://www.amazon.com/s?k=Quad+frame+450mm&tag=buildbin-20"
+    },
+    {
+     "name": "ArduPilot FC (e.g. Pixhawk-class)",
+     "url": "https://www.amazon.com/s?k=ArduPilot+FC&tag=buildbin-20"
+    },
+    {
+     "name": "GPS module",
+     "url": "https://www.amazon.com/s?k=GPS+module&tag=buildbin-20"
+    },
+    {
+     "name": "4x motors + ESCs",
+     "url": "https://www.amazon.com/s?k=4x+motors+%2B+ESCs&tag=buildbin-20"
+    },
+    {
+     "name": "Raspberry Pi 4",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+    },
+    {
+     "name": "Telemetry radio",
+     "url": "https://www.amazon.com/s?k=Telemetry+radio&tag=buildbin-20"
+    },
+    {
+     "name": "4S LiPo",
+     "url": "https://www.amazon.com/s?k=4S+LiPo&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -461,9 +725,18 @@
    "est_cost_usd": "15-40",
    "time": "1-3 hrs",
    "parts": [
-    "ESP8285/ESP32 ELRS-compatible board",
-    "SX1280 radio module (or prebuilt RX)",
-    "Antenna"
+    {
+     "name": "ESP8285/ESP32 ELRS-compatible board",
+     "url": "https://www.amazon.com/s?k=ESP8285%2FESP32+ELRS-compatible+board&tag=buildbin-20"
+    },
+    {
+     "name": "SX1280 radio module (or prebuilt RX)",
+     "url": "https://www.amazon.com/s?k=SX1280+radio+module&tag=buildbin-20"
+    },
+    {
+     "name": "Antenna",
+     "url": "https://www.amazon.com/s?k=Antenna&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -484,11 +757,26 @@
    "est_cost_usd": "60-150",
    "time": "4-6 hrs",
    "parts": [
-    "Raspberry Pi",
-    "BME280 sensor",
-    "Anemometer/wind vane/rain gauge kit",
-    "ADC (MCP3008)",
-    "Weatherproof enclosure"
+    {
+     "name": "Raspberry Pi",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "BME280 sensor",
+     "url": "https://www.amazon.com/s?k=BME280+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "Anemometer/wind vane/rain gauge kit",
+     "url": "https://www.amazon.com/s?k=Anemometer%2Fwind+vane%2Frain+gauge+kit&tag=buildbin-20"
+    },
+    {
+     "name": "ADC (MCP3008)",
+     "url": "https://www.amazon.com/s?k=ADC&tag=buildbin-20"
+    },
+    {
+     "name": "Weatherproof enclosure",
+     "url": "https://www.amazon.com/s?k=Weatherproof+enclosure&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -513,10 +801,22 @@
    "est_cost_usd": "30-50",
    "time": "2 hrs",
    "parts": [
-    "ESP32 or D1 mini",
-    "PMS5003 or SDS011 particulate sensor",
-    "BME280",
-    "OLED display (SSD1306)"
+    {
+     "name": "ESP32 or D1 mini",
+     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+    },
+    {
+     "name": "PMS5003 or SDS011 particulate sensor",
+     "url": "https://www.amazon.com/s?k=PMS5003+or+SDS011+particulate+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "BME280",
+     "url": "https://www.amazon.com/s?k=BME280&tag=buildbin-20"
+    },
+    {
+     "name": "OLED display (SSD1306)",
+     "url": "https://www.amazon.com/s?k=OLED+display&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Wire strippers"
@@ -537,10 +837,22 @@
    "est_cost_usd": "40-70",
    "time": "1-2 hrs",
    "parts": [
-    "ESP32 or Pico W",
-    "Sensirion SCD40/SCD41",
-    "OLED or e-paper display",
-    "USB-C power"
+    {
+     "name": "ESP32 or Pico W",
+     "url": "https://www.amazon.com/s?k=ESP32+or+Pico+W&tag=buildbin-20"
+    },
+    {
+     "name": "Sensirion SCD40/SCD41",
+     "url": "https://www.amazon.com/s?k=Sensirion+SCD40%2FSCD41&tag=buildbin-20"
+    },
+    {
+     "name": "OLED or e-paper display",
+     "url": "https://www.amazon.com/s?k=OLED+or+e-paper+display&tag=buildbin-20"
+    },
+    {
+     "name": "USB-C power",
+     "url": "https://www.amazon.com/s?k=USB-C+power&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron"
@@ -560,10 +872,22 @@
    "est_cost_usd": "10-20",
    "time": "1 hr",
    "parts": [
-    "Raspberry Pi Pico W",
-    "DS18B20 sensor",
-    "4.7k\u03a9 resistor",
-    "Breadboard + jumpers"
+    {
+     "name": "Raspberry Pi Pico W",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+W&tag=buildbin-20"
+    },
+    {
+     "name": "DS18B20 sensor",
+     "url": "https://www.amazon.com/s?k=DS18B20+sensor&tag=buildbin-20"
+    },
+    {
+     "name": "4.7k\u03a9 resistor",
+     "url": "https://www.amazon.com/s?k=4.7k%CE%A9+resistor&tag=buildbin-20"
+    },
+    {
+     "name": "Breadboard + jumpers",
+     "url": "https://www.amazon.com/s?k=Breadboard+%2B+jumpers&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer w/ Thonny (MicroPython)"
@@ -584,12 +908,30 @@
    "est_cost_usd": "40-80",
    "time": "4-6 hrs",
    "parts": [
-    "Arduino Nano or ESP32",
-    "WS2812B strip",
-    "Mirror",
-    "One-way mirror film/acrylic",
-    "Picture frame",
-    "5V supply"
+    {
+     "name": "Arduino Nano or ESP32",
+     "url": "https://www.amazon.com/s?k=Arduino+Nano+or+ESP32&tag=buildbin-20"
+    },
+    {
+     "name": "WS2812B strip",
+     "url": "https://www.amazon.com/s?k=WS2812B+strip&tag=buildbin-20"
+    },
+    {
+     "name": "Mirror",
+     "url": "https://www.amazon.com/s?k=Mirror&tag=buildbin-20"
+    },
+    {
+     "name": "One-way mirror film/acrylic",
+     "url": "https://www.amazon.com/s?k=One-way+mirror+film%2Facrylic&tag=buildbin-20"
+    },
+    {
+     "name": "Picture frame",
+     "url": "https://www.amazon.com/s?k=Picture+frame&tag=buildbin-20"
+    },
+    {
+     "name": "5V supply",
+     "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -613,10 +955,22 @@
    "est_cost_usd": "20-40",
    "time": "2 hrs",
    "parts": [
-    "Arduino or ESP32",
-    "MAX7219 8x32 LED matrix",
-    "Jumper wires",
-    "5V supply"
+    {
+     "name": "Arduino or ESP32",
+     "url": "https://www.amazon.com/s?k=Arduino+or+ESP32&tag=buildbin-20"
+    },
+    {
+     "name": "MAX7219 8x32 LED matrix",
+     "url": "https://www.amazon.com/s?k=MAX7219+8x32+LED+matrix&tag=buildbin-20"
+    },
+    {
+     "name": "Jumper wires",
+     "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+    },
+    {
+     "name": "5V supply",
+     "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer w/ Arduino IDE"
@@ -637,10 +991,22 @@
    "est_cost_usd": "60-100",
    "time": "3-4 hrs",
    "parts": [
-    "Raspberry Pi",
-    "WS2812B/SK6812 strip",
-    "HDMI capture/splitter",
-    "5V high-current supply"
+    {
+     "name": "Raspberry Pi",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "WS2812B/SK6812 strip",
+     "url": "https://www.amazon.com/s?k=WS2812B%2FSK6812+strip&tag=buildbin-20"
+    },
+    {
+     "name": "HDMI capture/splitter",
+     "url": "https://www.amazon.com/s?k=HDMI+capture%2Fsplitter&tag=buildbin-20"
+    },
+    {
+     "name": "5V high-current supply",
+     "url": "https://www.amazon.com/s?k=5V+high-current+supply&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -662,11 +1028,26 @@
    "est_cost_usd": "60-120",
    "time": "2 hrs",
    "parts": [
-    "Raspberry Pi",
-    "DAC HAT (e.g. HiFiBerry-class)",
-    "microSD card",
-    "Power supply",
-    "Case"
+    {
+     "name": "Raspberry Pi",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "DAC HAT (e.g. HiFiBerry-class)",
+     "url": "https://www.amazon.com/s?k=DAC+HAT&tag=buildbin-20"
+    },
+    {
+     "name": "microSD card",
+     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+    },
+    {
+     "name": "Power supply",
+     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Case",
+     "url": "https://www.amazon.com/s?k=Case&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer for flashing"
@@ -686,11 +1067,26 @@
    "est_cost_usd": "40-80",
    "time": "4-6 hrs",
    "parts": [
-    "ESP32 (A2DP) or BT amp board",
-    "PAM8403/MAX98357A amplifier",
-    "2x full-range drivers",
-    "18650 + BMS + charger board",
-    "Enclosure"
+    {
+     "name": "ESP32 (A2DP) or BT amp board",
+     "url": "https://www.amazon.com/s?k=ESP32+or+BT+amp+board&tag=buildbin-20"
+    },
+    {
+     "name": "PAM8403/MAX98357A amplifier",
+     "url": "https://www.amazon.com/s?k=PAM8403%2FMAX98357A+amplifier&tag=buildbin-20"
+    },
+    {
+     "name": "2x full-range drivers",
+     "url": "https://www.amazon.com/s?k=2x+full-range+drivers&tag=buildbin-20"
+    },
+    {
+     "name": "18650 + BMS + charger board",
+     "url": "https://www.amazon.com/s?k=18650+%2B+BMS+%2B+charger+board&tag=buildbin-20"
+    },
+    {
+     "name": "Enclosure",
+     "url": "https://www.amazon.com/s?k=Enclosure&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -714,10 +1110,22 @@
    "est_cost_usd": "30-60",
    "time": "4-6 hrs",
    "parts": [
-    "Raspberry Pi Pico (or Arduino Leonardo/Micro)",
-    "Arcade buttons",
-    "Potentiometers/sliders",
-    "Enclosure"
+    {
+     "name": "Raspberry Pi Pico (or Arduino Leonardo/Micro)",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
+    },
+    {
+     "name": "Arcade buttons",
+     "url": "https://www.amazon.com/s?k=Arcade+buttons&tag=buildbin-20"
+    },
+    {
+     "name": "Potentiometers/sliders",
+     "url": "https://www.amazon.com/s?k=Potentiometers%2Fsliders&tag=buildbin-20"
+    },
+    {
+     "name": "Enclosure",
+     "url": "https://www.amazon.com/s?k=Enclosure&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -740,11 +1148,26 @@
    "est_cost_usd": "60-120",
    "time": "2-3 hrs",
    "parts": [
-    "Raspberry Pi",
-    "microSD card",
-    "USB controllers",
-    "Case",
-    "HDMI cable"
+    {
+     "name": "Raspberry Pi",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "microSD card",
+     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+    },
+    {
+     "name": "USB controllers",
+     "url": "https://www.amazon.com/s?k=USB+controllers&tag=buildbin-20"
+    },
+    {
+     "name": "Case",
+     "url": "https://www.amazon.com/s?k=Case&tag=buildbin-20"
+    },
+    {
+     "name": "HDMI cable",
+     "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer for flashing"
@@ -766,10 +1189,22 @@
    "est_cost_usd": "20-40",
    "time": "2-3 hrs",
    "parts": [
-    "Adafruit Gemma/QT Py or Pico",
-    "NeoPixel strip/rings",
-    "LiPo battery + charger",
-    "Conductive thread or wire"
+    {
+     "name": "Adafruit Gemma/QT Py or Pico",
+     "url": "https://www.amazon.com/s?k=Adafruit+Gemma%2FQT+Py+or+Pico&tag=buildbin-20"
+    },
+    {
+     "name": "NeoPixel strip/rings",
+     "url": "https://www.amazon.com/s?k=NeoPixel+strip%2Frings&tag=buildbin-20"
+    },
+    {
+     "name": "LiPo battery + charger",
+     "url": "https://www.amazon.com/s?k=LiPo+battery+%2B+charger&tag=buildbin-20"
+    },
+    {
+     "name": "Conductive thread or wire",
+     "url": "https://www.amazon.com/s?k=Conductive+thread+or+wire&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -790,8 +1225,14 @@
    "est_cost_usd": "40-80",
    "time": "6-10 hrs",
    "parts": [
-    "ESP32 watch dev kit (e.g. LilyGO T-Watch-class)",
-    "USB cable"
+    {
+     "name": "ESP32 watch dev kit (e.g. LilyGO T-Watch-class)",
+     "url": "https://www.amazon.com/s?k=ESP32+watch+dev+kit&tag=buildbin-20"
+    },
+    {
+     "name": "USB cable",
+     "url": "https://www.amazon.com/s?k=USB+cable&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer w/ Arduino IDE/PlatformIO"
@@ -813,11 +1254,26 @@
    "est_cost_usd": "20-40",
    "time": "3-4 hrs",
    "parts": [
-    "Microcontroller (Pico/Nano)",
-    "MPU6050 or LSM6DS3 IMU",
-    "0.96\" OLED",
-    "LiPo + charger",
-    "Strap/3D-printed case"
+    {
+     "name": "Microcontroller (Pico/Nano)",
+     "url": "https://www.amazon.com/s?k=Microcontroller&tag=buildbin-20"
+    },
+    {
+     "name": "MPU6050 or LSM6DS3 IMU",
+     "url": "https://www.amazon.com/s?k=MPU6050+or+LSM6DS3+IMU&tag=buildbin-20"
+    },
+    {
+     "name": "0.96\" OLED",
+     "url": "https://www.amazon.com/s?k=0.96%22+OLED&tag=buildbin-20"
+    },
+    {
+     "name": "LiPo + charger",
+     "url": "https://www.amazon.com/s?k=LiPo+%2B+charger&tag=buildbin-20"
+    },
+    {
+     "name": "Strap/3D-printed case",
+     "url": "https://www.amazon.com/s?k=Strap%2F3D-printed+case&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -839,11 +1295,26 @@
    "est_cost_usd": "20-40",
    "time": "2-3 hrs",
    "parts": [
-    "Raspberry Pi Pico",
-    "Mechanical switches",
-    "Keycaps",
-    "3D-printed or acrylic plate",
-    "Diodes (if matrix)"
+    {
+     "name": "Raspberry Pi Pico",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
+    },
+    {
+     "name": "Mechanical switches",
+     "url": "https://www.amazon.com/s?k=Mechanical+switches&tag=buildbin-20"
+    },
+    {
+     "name": "Keycaps",
+     "url": "https://www.amazon.com/s?k=Keycaps&tag=buildbin-20"
+    },
+    {
+     "name": "3D-printed or acrylic plate",
+     "url": "https://www.amazon.com/s?k=3D-printed+or+acrylic+plate&tag=buildbin-20"
+    },
+    {
+     "name": "Diodes (if matrix)",
+     "url": "https://www.amazon.com/s?k=Diodes&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Soldering iron",
@@ -865,11 +1336,26 @@
    "est_cost_usd": "50-100",
    "time": "2 hrs",
    "parts": [
-    "Raspberry Pi",
-    "Pi Camera Module",
-    "microSD card",
-    "Power supply",
-    "Case/mount"
+    {
+     "name": "Raspberry Pi",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "Pi Camera Module",
+     "url": "https://www.amazon.com/s?k=Pi+Camera+Module&tag=buildbin-20"
+    },
+    {
+     "name": "microSD card",
+     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+    },
+    {
+     "name": "Power supply",
+     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+    },
+    {
+     "name": "Case/mount",
+     "url": "https://www.amazon.com/s?k=Case%2Fmount&tag=buildbin-20"
+    }
    ],
    "tools": [
     "Computer for flashing"

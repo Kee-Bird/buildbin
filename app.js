@@ -1,3 +1,5 @@
+const TAG='buildbin-20',amz=n=>'https://www.amazon.com/s?k='+encodeURIComponent(n.replace(/\s*\([^)]*\)/g,'').trim()||n).replace(/%20/g,'+')+'&tag='+TAG;
+const partLink=x=>{const n=typeof x=='string'?x:x.name,u=(typeof x=='object'&&x.url)||amz(n);return `<li><a href="${u}" target="_blank" rel="sponsored nofollow noopener">${n}</a></li>`};
 const $=s=>document.querySelector(s);let D;
 fetch((window.ROOT||'')+'data/projects.json').then(r=>r.json()).then(d=>{D=d;
 for(const[k,v]of Object.entries(d.boards))$('#board').add(new Option(v,k));
@@ -10,7 +12,7 @@ $('#count').textContent=r.length+' matching projects';
 $('#results').innerHTML=r.map(p=>`<article class="card"><h3>${p.title}</h3><p>${p.description}</p>
 <div class="tags"><span class="t ${p.difficulty}">${p.difficulty}</span><span class="t">~$${p.est_cost_usd} (approx. estimate)</span><span class="t">⏱ ${p.time}</span></div>
 <p class="small"><b>Boards:</b> ${p.boards.map(x=>D.boards[x]).join(', ')}</p>
-<details><summary>Parts list & tools</summary><ul>${p.parts.map(x=>`<li>${x}</li>`).join('')}</ul><p class="small"><b>Tools:</b> ${p.tools.join(', ')}</p><p class="small"><b>Learn more:</b> ${p.reference}</p></details></article>`).join('');}
+<details><summary>Parts list & tools · 🛒 Buy parts</summary><ul>${p.parts.map(partLink).join('')}</ul><p class="aff">Part links are Amazon searches. As an Amazon Associate, BuildBin earns from qualifying purchases.</p><p class="small"><b>Tools:</b> ${p.tools.join(', ')}</p><p class="small"><b>Learn more:</b> ${p.reference}</p></details></article>`).join('');}
 ['#board','#cat','#lvl'].forEach(s=>document.addEventListener('change',e=>e.target.matches(s)&&render()));
 document.querySelectorAll('.nl-form').forEach(f=>f.addEventListener('submit',async e=>{e.preventDefault();
 const m=f.querySelector('.nl-msg'),b=f.querySelector('button'),email=f.email.value.trim();

@@ -1,4 +1,7 @@
-import json,os
+import json,os,re,urllib.parse
+def url(n):
+    q=re.sub(r"\s*\([^)]*\)","",n).strip() or n
+    return "https://www.amazon.com/s?k="+urllib.parse.quote_plus(q)+"&tag=buildbin-20"
 B={"uno":"Arduino Uno","pi":"Raspberry Pi 4/5","esp32":"ESP32","pico":"Raspberry Pi Pico","nano":"Arduino Nano","esp8266":"ESP8266 (NodeMCU/D1 mini)","f4":"STM32 F4 flight controller"}
 C={"home-automation":"Home automation","robotics":"Robotics","drones-fpv":"Drones & FPV","sensors-weather":"Sensors & weather","led-lighting":"LED & lighting","audio":"Audio","wearables":"Wearables"}
 def p(t,b,c,d,cost,time,parts,tools,desc,src):
@@ -39,5 +42,6 @@ p("Step counter wristband",["pico","nano"],["wearables","sensors-weather"],"Inte
 p("Mechanical macro keypad",["pico"],["home-automation"],"Beginner","20-40","2-3 hrs",["Raspberry Pi Pico","Mechanical switches","Keycaps","3D-printed or acrylic plate","Diodes (if matrix)"],S,"Programmable shortcut pad with KMK/CircuitPython.","github.com/KMKfw/kmk_firmware"),
 p("Pi security camera (MotionEye)",["pi"],["home-automation"],"Beginner","50-100","2 hrs",["Raspberry Pi","Pi Camera Module","microSD card","Power supply","Case/mount"],["Computer for flashing"],"Motion-detecting camera with web viewing.","github.com/motioneye-project"),
 ]
+for _p in P: _p["parts"]=[{"name":x,"url":url(x)} for x in _p["parts"]]
 json.dump(dict(boards=B,categories=C,projects=P),open("data/projects.json","w"),indent=1)
 print(len(P))

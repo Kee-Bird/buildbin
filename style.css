@@ -11,3 +11,4 @@ nav.cats{display:flex;flex-wrap:wrap;gap:.5rem}nav.cats a{background:#fff;paddin
 .news{background:#14213d;color:#fff;padding:1.5rem;border-radius:12px;margin:2rem 0}.news input{padding:.6rem;border-radius:8px;border:0;width:min(100%,300px)}
 .news button{padding:.6rem 1rem;border:0;border-radius:8px;background:#fca311;font-weight:700}footer{text-align:center;color:#778;padding:2rem;font-size:.85rem}
 .nl-msg{margin:.5rem 0 0;min-height:1.2em}
+.aff{font-size:.75rem;color:#778;margin:.3rem 0}.card li a{color:#14213d}
