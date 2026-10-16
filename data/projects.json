@@ -1,1936 +1,1937 @@
 {
- "boards": {
-  "uno": "Arduino Uno",
-  "pi": "Raspberry Pi 4/5",
-  "esp32": "ESP32",
-  "pico": "Raspberry Pi Pico",
-  "nano": "Arduino Nano",
-  "esp8266": "ESP8266 (NodeMCU/D1 mini)",
-  "f4": "STM32 F4 flight controller",
-  "promicro": "Arduino Pro Micro (ATmega32U4)"
- },
- "categories": {
-  "home-automation": "Home automation",
-  "robotics": "Robotics",
-  "drones-fpv": "Drones & FPV",
-  "sensors-weather": "Sensors & weather",
-  "led-lighting": "LED & lighting",
-  "audio": "Audio",
-  "wearables": "Wearables",
-  "gaming": "Gaming"
- },
- "projects": [
-  {
-   "title": "Pi-hole network ad blocker",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "home-automation"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "35-80",
-   "time": "1-2 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi (any model w/ network)",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card 16GB+",
-     "url": "https://www.amazon.com/s?k=microSD+card+16GB%2B&tag=buildbin-20"
-    },
-    {
-     "name": "5V USB power supply",
-     "url": "https://www.amazon.com/s?k=5V+USB+power+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Ethernet cable",
-     "url": "https://www.amazon.com/s?k=Ethernet+cable&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Block ads network-wide with DNS filtering.",
-   "reference": "pi-hole.net",
-   "reference_url": "https://docs.pi-hole.net/main/basic-install/",
-   "thumb": "assets/thumbs/0.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pi-hole_Screenshot.png",
-   "thumb_license": "Public domain",
-   "thumb_author": "Pi-hole"
+  "boards": {
+    "uno": "Arduino Uno",
+    "pi": "Raspberry Pi 4/5",
+    "esp32": "ESP32",
+    "pico": "Raspberry Pi Pico",
+    "nano": "Arduino Nano",
+    "esp8266": "ESP8266 (NodeMCU/D1 mini)",
+    "f4": "STM32 F4 flight controller",
+    "promicro": "Arduino Pro Micro (ATmega32U4)"
   },
-  {
-   "title": "Home Assistant server",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "home-automation"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "80-150",
-   "time": "2-3 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi 4/5 (4GB+)",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4%2F5&tag=buildbin-20"
-    },
-    {
-     "name": "microSD or SSD",
-     "url": "https://www.amazon.com/s?k=microSD+or+SSD&tag=buildbin-20"
-    },
-    {
-     "name": "Official power supply",
-     "url": "https://www.amazon.com/s?k=Official+power+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Case with fan",
-     "url": "https://www.amazon.com/s?k=Case+with+fan&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Central hub for smart-home automations.",
-   "reference": "home-assistant.io",
-   "reference_url": "https://www.home-assistant.io/installation/raspberrypi",
-   "thumb": "assets/thumbs/1.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Screenshot_of_Home_Assistant_Frontend.png",
-   "thumb_license": "CC BY-SA 4.0",
-   "thumb_author": "Fabian.a"
+  "categories": {
+    "home-automation": "Home automation",
+    "robotics": "Robotics",
+    "drones-fpv": "Drones & FPV",
+    "sensors-weather": "Sensors & weather",
+    "led-lighting": "LED & lighting",
+    "audio": "Audio",
+    "wearables": "Wearables",
+    "gaming": "Gaming"
   },
-  {
-   "title": "ESPHome temperature/humidity sensor",
-   "boards": [
-    "esp32",
-    "esp8266"
-   ],
-   "categories": [
-    "home-automation",
-    "sensors-weather"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "10-20",
-   "time": "1 hr",
-   "parts": [
+  "projects": [
     {
-     "name": "ESP32 or D1 mini",
-     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+      "title": "Pi-hole network ad blocker",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "35-80",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi (any model w/ network)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card 16GB+",
+          "url": "https://www.amazon.com/s?k=microSD+card+16GB%2B&tag=buildbin-20"
+        },
+        {
+          "name": "5V USB power supply",
+          "url": "https://www.amazon.com/s?k=5V+USB+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Ethernet cable",
+          "url": "https://www.amazon.com/s?k=Ethernet+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Block ads network-wide with DNS filtering.",
+      "reference": "pi-hole.net",
+      "reference_url": "https://docs.pi-hole.net/main/basic-install/",
+      "thumb": "assets/thumbs/0.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pi-hole_Screenshot.png",
+      "thumb_license": "Public domain",
+      "thumb_author": "Pi-hole"
     },
     {
-     "name": "BME280 or DHT22 sensor",
-     "url": "https://www.amazon.com/s?k=BME280+or+DHT22+sensor&tag=buildbin-20"
+      "title": "Home Assistant server",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "80-150",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4/5 (4GB+)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4%2F5&tag=buildbin-20"
+        },
+        {
+          "name": "microSD or SSD",
+          "url": "https://www.amazon.com/s?k=microSD+or+SSD&tag=buildbin-20"
+        },
+        {
+          "name": "Official power supply",
+          "url": "https://www.amazon.com/s?k=Official+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Case with fan",
+          "url": "https://www.amazon.com/s?k=Case+with+fan&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Central hub for smart-home automations.",
+      "reference": "home-assistant.io",
+      "reference_url": "https://www.home-assistant.io/installation/raspberrypi",
+      "thumb": "assets/thumbs/1.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Screenshot_of_Home_Assistant_Frontend.png",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Fabian.a"
     },
     {
-     "name": "Jumper wires",
-     "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+      "title": "ESPHome temperature/humidity sensor",
+      "boards": [
+        "esp32",
+        "esp8266"
+      ],
+      "categories": [
+        "home-automation",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "ESP32 or D1 mini",
+          "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+        },
+        {
+          "name": "BME280 or DHT22 sensor",
+          "url": "https://www.amazon.com/s?k=BME280+or+DHT22+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB cable",
+          "url": "https://www.amazon.com/s?k=USB+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer w/ ESPHome"
+      ],
+      "description": "Wi-Fi sensor that reports into Home Assistant.",
+      "reference": "esphome.io",
+      "reference_url": "https://esphome.io/components/sensor/dht/",
+      "thumb": "assets/thumbs/2.webp",
+      "thumb_credit": "https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
     },
     {
-     "name": "USB cable",
-     "url": "https://www.amazon.com/s?k=USB+cable&tag=buildbin-20"
+      "title": "WLED addressable LED controller",
+      "boards": [
+        "esp32",
+        "esp8266"
+      ],
+      "categories": [
+        "led-lighting",
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-50",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "ESP32 or D1 mini",
+          "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+        },
+        {
+          "name": "WS2812B LED strip",
+          "url": "https://www.amazon.com/s?k=WS2812B+LED+strip&tag=buildbin-20"
+        },
+        {
+          "name": "5V power supply (sized to strip)",
+          "url": "https://www.amazon.com/s?k=5V+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Level shifter (74AHCT125)",
+          "url": "https://www.amazon.com/s?k=Level+shifter&tag=buildbin-20"
+        },
+        {
+          "name": "1000µF capacitor",
+          "url": "https://www.amazon.com/s?k=1000%C2%B5F+capacitor&tag=buildbin-20"
+        },
+        {
+          "name": "330Ω resistor",
+          "url": "https://www.amazon.com/s?k=330%CE%A9+resistor&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "App-controlled LED strip effects over Wi-Fi.",
+      "reference": "kno.wled.ge",
+      "reference_url": "https://kno.wled.ge/basics/getting-started/",
+      "thumb": "assets/thumbs/3.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:16346-SMD_LED_-_RGB_WS2812B_Strip_of_50_-01.jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "SparkFun Electronics"
+    },
+    {
+      "title": "Smart garage door opener",
+      "boards": [
+        "esp32",
+        "esp8266"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "15-30",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "ESP32 or D1 mini",
+          "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+        },
+        {
+          "name": "Relay module",
+          "url": "https://www.amazon.com/s?k=Relay+module&tag=buildbin-20"
+        },
+        {
+          "name": "Reed switch",
+          "url": "https://www.amazon.com/s?k=Reed+switch&tag=buildbin-20"
+        },
+        {
+          "name": "5V supply",
+          "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Wire",
+          "url": "https://www.amazon.com/s?k=Wire&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "Open/close and monitor the garage from your phone.",
+      "reference": "esphome.io",
+      "reference_url": "https://esphome.io/cookbook/garage-door/",
+      "thumb": "assets/thumbs/4.webp",
+      "thumb_credit": "https://www.instructables.com/ESP8266-Garage-Door-Opener/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Smart plant watering system",
+      "boards": [
+        "uno",
+        "esp32"
+      ],
+      "categories": [
+        "home-automation",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-40",
+      "time": "2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno or ESP32",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+or+ESP32&tag=buildbin-20"
+        },
+        {
+          "name": "Capacitive soil moisture sensor",
+          "url": "https://www.amazon.com/s?k=Capacitive+soil+moisture+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "5V relay module",
+          "url": "https://www.amazon.com/s?k=5V+relay+module&tag=buildbin-20"
+        },
+        {
+          "name": "Mini submersible pump",
+          "url": "https://www.amazon.com/s?k=Mini+submersible+pump&tag=buildbin-20"
+        },
+        {
+          "name": "Silicone tubing",
+          "url": "https://www.amazon.com/s?k=Silicone+tubing&tag=buildbin-20"
+        },
+        {
+          "name": "Power supply",
+          "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Wire strippers",
+        "Screwdriver"
+      ],
+      "description": "Waters plants automatically when soil is dry.",
+      "reference": "arduino.cc project hub",
+      "reference_url": "https://projecthub.arduino.cc/lc_lab/automatic-plant-watering-system-with-arduino-ee4b0c",
+      "thumb": "assets/thumbs/5.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Obstacle-avoiding robot car",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-50",
+      "time": "3-4 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno&tag=buildbin-20"
+        },
+        {
+          "name": "2WD/4WD robot chassis kit",
+          "url": "https://www.amazon.com/s?k=2WD%2F4WD+robot+chassis+kit&tag=buildbin-20"
+        },
+        {
+          "name": "L298N motor driver",
+          "url": "https://www.amazon.com/s?k=L298N+motor+driver&tag=buildbin-20"
+        },
+        {
+          "name": "HC-SR04 ultrasonic sensor",
+          "url": "https://www.amazon.com/s?k=HC-SR04+ultrasonic+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 servo",
+          "url": "https://www.amazon.com/s?k=SG90+servo&tag=buildbin-20"
+        },
+        {
+          "name": "Battery pack (AA or 18650)",
+          "url": "https://www.amazon.com/s?k=Battery+pack&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Screwdriver",
+        "Wire strippers"
+      ],
+      "description": "Classic first robot that drives and avoids walls.",
+      "reference": "arduino.cc project hub",
+      "reference_url": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/",
+      "thumb": "assets/thumbs/6.webp",
+      "thumb_credit": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Line-following robot",
+      "boards": [
+        "uno",
+        "nano"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "25-45",
+      "time": "3 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno/Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno%2FNano&tag=buildbin-20"
+        },
+        {
+          "name": "Robot chassis w/ 2 DC motors",
+          "url": "https://www.amazon.com/s?k=Robot+chassis+w%2F+2+DC+motors&tag=buildbin-20"
+        },
+        {
+          "name": "TCRT5000 IR sensor array",
+          "url": "https://www.amazon.com/s?k=TCRT5000+IR+sensor+array&tag=buildbin-20"
+        },
+        {
+          "name": "L298N or TB6612 driver",
+          "url": "https://www.amazon.com/s?k=L298N+or+TB6612+driver&tag=buildbin-20"
+        },
+        {
+          "name": "Battery pack",
+          "url": "https://www.amazon.com/s?k=Battery+pack&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Screwdriver",
+        "Electrical tape"
+      ],
+      "description": "Follows a black tape line using IR sensors.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/",
+      "thumb": "assets/thumbs/7.webp",
+      "thumb_credit": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Otto DIY biped robot",
+      "boards": [
+        "nano"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-60",
+      "time": "3-4 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "4x SG90 servos",
+          "url": "https://www.amazon.com/s?k=4x+SG90+servos&tag=buildbin-20"
+        },
+        {
+          "name": "HC-SR04 sensor",
+          "url": "https://www.amazon.com/s?k=HC-SR04+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "Buzzer",
+          "url": "https://www.amazon.com/s?k=Buzzer&tag=buildbin-20"
+        },
+        {
+          "name": "3D-printed Otto body",
+          "url": "https://www.amazon.com/s?k=3D-printed+Otto+body&tag=buildbin-20"
+        },
+        {
+          "name": "4xAA battery holder",
+          "url": "https://www.amazon.com/s?k=4xAA+battery+holder&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "3D printer (or buy printed parts)",
+        "Screwdriver"
+      ],
+      "description": "Open-source walking, dancing robot.",
+      "reference": "www.ottodiy.com",
+      "reference_url": "https://www.ottodiy.com/academy",
+      "thumb": "assets/thumbs/8.webp",
+      "thumb_credit": "https://www.ottodiy.com/academy",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Self-balancing robot",
+      "boards": [
+        "uno",
+        "esp32"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "50-90",
+      "time": "6-10 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno or ESP32",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+or+ESP32&tag=buildbin-20"
+        },
+        {
+          "name": "MPU6050 IMU",
+          "url": "https://www.amazon.com/s?k=MPU6050+IMU&tag=buildbin-20"
+        },
+        {
+          "name": "2x NEMA17 steppers + A4988 drivers (or geared DC motors)",
+          "url": "https://www.amazon.com/s?k=2x+NEMA17+steppers+%2B+A4988+drivers&tag=buildbin-20"
+        },
+        {
+          "name": "Chassis",
+          "url": "https://www.amazon.com/s?k=Chassis&tag=buildbin-20"
+        },
+        {
+          "name": "Li-ion battery pack",
+          "url": "https://www.amazon.com/s?k=Li-ion+battery+pack&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "Two-wheel robot balanced with a PID loop.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/",
+      "thumb": "assets/thumbs/9.webp",
+      "thumb_credit": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Pi Pico robot arm (servo)",
+      "boards": [
+        "pico",
+        "uno"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-80",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico or Arduino",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+or+Arduino&tag=buildbin-20"
+        },
+        {
+          "name": "4-6x MG90S/MG996R servos",
+          "url": "https://www.amazon.com/s?k=4-6x+MG90S%2FMG996R+servos&tag=buildbin-20"
+        },
+        {
+          "name": "Acrylic or printed arm kit",
+          "url": "https://www.amazon.com/s?k=Acrylic+or+printed+arm+kit&tag=buildbin-20"
+        },
+        {
+          "name": "PCA9685 servo driver",
+          "url": "https://www.amazon.com/s?k=PCA9685+servo+driver&tag=buildbin-20"
+        },
+        {
+          "name": "5-6V power supply",
+          "url": "https://www.amazon.com/s?k=5-6V+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Potentiometers for control",
+          "url": "https://www.amazon.com/s?k=Potentiometers+for+control&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Screwdriver",
+        "Hex keys"
+      ],
+      "description": "Desktop arm you control with knobs or code.",
+      "reference": "raspberrypi.com",
+      "reference_url": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/",
+      "thumb": "assets/thumbs/10.webp",
+      "thumb_credit": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "ESP32-CAM surveillance rover",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "30-50",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "ESP32-CAM + programmer",
+          "url": "https://www.amazon.com/s?k=ESP32-CAM+%2B+programmer&tag=buildbin-20"
+        },
+        {
+          "name": "2WD chassis",
+          "url": "https://www.amazon.com/s?k=2WD+chassis&tag=buildbin-20"
+        },
+        {
+          "name": "L298N or DRV8833 driver",
+          "url": "https://www.amazon.com/s?k=L298N+or+DRV8833+driver&tag=buildbin-20"
+        },
+        {
+          "name": "18650 batteries + holder",
+          "url": "https://www.amazon.com/s?k=18650+batteries+%2B+holder&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "Drive a camera car from your browser.",
+      "reference": "randomnerdtutorials.com",
+      "reference_url": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/",
+      "thumb": "assets/thumbs/11.webp",
+      "thumb_credit": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "5-inch FPV freestyle quad (Betaflight)",
+      "boards": [
+        "f4"
+      ],
+      "categories": [
+        "drones-fpv"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "250-450 (excl. radio/goggles)",
+      "time": "8-15 hrs",
+      "parts": [
+        {
+          "name": "5\" carbon frame",
+          "url": "https://www.amazon.com/s?k=5%22+carbon+frame&tag=buildbin-20"
+        },
+        {
+          "name": "F4/F7 flight controller + 4-in-1 ESC stack",
+          "url": "https://www.amazon.com/s?k=F4%2FF7+flight+controller+%2B+4-in-1+ESC+stack&tag=buildbin-20"
+        },
+        {
+          "name": "4x 2207 motors",
+          "url": "https://www.amazon.com/s?k=4x+2207+motors&tag=buildbin-20"
+        },
+        {
+          "name": "5\" props",
+          "url": "https://www.amazon.com/s?k=5%22+props&tag=buildbin-20"
+        },
+        {
+          "name": "FPV camera + VTX (analog or digital)",
+          "url": "https://www.amazon.com/s?k=FPV+camera+%2B+VTX&tag=buildbin-20"
+        },
+        {
+          "name": "ELRS receiver",
+          "url": "https://www.amazon.com/s?k=ELRS+receiver&tag=buildbin-20"
+        },
+        {
+          "name": "6S LiPo batteries",
+          "url": "https://www.amazon.com/s?k=6S+LiPo+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Hex drivers",
+        "Smoke stopper",
+        "LiPo charger"
+      ],
+      "description": "Build and tune a freestyle quad with Betaflight.",
+      "reference": "betaflight.com / Joshua Bardwell guides",
+      "reference_url": "https://oscarliang.com/how-to-build-fpv-drone-analog/",
+      "thumb": "assets/thumbs/12.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Racing_Drone.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Commanderbryce"
+    },
+    {
+      "title": "Tiny Whoop indoor micro drone",
+      "boards": [
+        "f4"
+      ],
+      "categories": [
+        "drones-fpv"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "100-180",
+      "time": "2-4 hrs",
+      "parts": [
+        {
+          "name": "65-75mm whoop frame",
+          "url": "https://www.amazon.com/s?k=65-75mm+whoop+frame&tag=buildbin-20"
+        },
+        {
+          "name": "1S AIO flight controller w/ ELRS",
+          "url": "https://www.amazon.com/s?k=1S+AIO+flight+controller+w%2F+ELRS&tag=buildbin-20"
+        },
+        {
+          "name": "4x 0702/0802 motors",
+          "url": "https://www.amazon.com/s?k=4x+0702%2F0802+motors&tag=buildbin-20"
+        },
+        {
+          "name": "Ducted props",
+          "url": "https://www.amazon.com/s?k=Ducted+props&tag=buildbin-20"
+        },
+        {
+          "name": "Nano FPV camera",
+          "url": "https://www.amazon.com/s?k=Nano+FPV+camera&tag=buildbin-20"
+        },
+        {
+          "name": "1S LiPo batteries",
+          "url": "https://www.amazon.com/s?k=1S+LiPo+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Fine-tip soldering iron",
+        "Tweezers"
+      ],
+      "description": "Small ducted quad that's safe to fly indoors.",
+      "reference": "betaflight.com",
+      "reference_url": "https://oscarliang.com/how-to-build-tiny-whoop/",
+      "thumb": "assets/thumbs/13.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Whoop_drone_Meteor65.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "SokilFPV"
+    },
+    {
+      "title": "INAV fixed-wing with GPS return-to-home",
+      "boards": [
+        "f4"
+      ],
+      "categories": [
+        "drones-fpv"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "200-400",
+      "time": "10-20 hrs",
+      "parts": [
+        {
+          "name": "Foam wing airframe (e.g. ~1m flying wing)",
+          "url": "https://www.amazon.com/s?k=Foam+wing+airframe&tag=buildbin-20"
+        },
+        {
+          "name": "INAV-compatible F4/F7 FC",
+          "url": "https://www.amazon.com/s?k=INAV-compatible+F4%2FF7+FC&tag=buildbin-20"
+        },
+        {
+          "name": "GPS + compass module",
+          "url": "https://www.amazon.com/s?k=GPS+%2B+compass+module&tag=buildbin-20"
+        },
+        {
+          "name": "ESC + brushless motor",
+          "url": "https://www.amazon.com/s?k=ESC+%2B+brushless+motor&tag=buildbin-20"
+        },
+        {
+          "name": "2x servos",
+          "url": "https://www.amazon.com/s?k=2x+servos&tag=buildbin-20"
+        },
+        {
+          "name": "ELRS receiver",
+          "url": "https://www.amazon.com/s?k=ELRS+receiver&tag=buildbin-20"
+        },
+        {
+          "name": "3S/4S LiPo",
+          "url": "https://www.amazon.com/s?k=3S%2F4S+LiPo&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Hot glue gun",
+        "Hobby knife"
+      ],
+      "description": "Autonomous-capable plane with waypoints and RTH.",
+      "reference": "github.com/iNavFlight/inav",
+      "reference_url": "https://github.com/iNavFlight/inav/wiki",
+      "thumb": "assets/thumbs/14.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "ArduPilot drone with Pi companion computer",
+      "boards": [
+        "pi",
+        "f4"
+      ],
+      "categories": [
+        "drones-fpv",
+        "robotics"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "400-800",
+      "time": "15-30 hrs",
+      "parts": [
+        {
+          "name": "Quad frame 450mm",
+          "url": "https://www.amazon.com/s?k=Quad+frame+450mm&tag=buildbin-20"
+        },
+        {
+          "name": "ArduPilot FC (e.g. Pixhawk-class)",
+          "url": "https://www.amazon.com/s?k=ArduPilot+FC&tag=buildbin-20"
+        },
+        {
+          "name": "GPS module",
+          "url": "https://www.amazon.com/s?k=GPS+module&tag=buildbin-20"
+        },
+        {
+          "name": "4x motors + ESCs",
+          "url": "https://www.amazon.com/s?k=4x+motors+%2B+ESCs&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi 4",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "Telemetry radio",
+          "url": "https://www.amazon.com/s?k=Telemetry+radio&tag=buildbin-20"
+        },
+        {
+          "name": "4S LiPo",
+          "url": "https://www.amazon.com/s?k=4S+LiPo&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Ground station laptop (Mission Planner/QGC)"
+      ],
+      "description": "Scripted missions with MAVLink from a Pi.",
+      "reference": "ardupilot.org",
+      "reference_url": "https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html",
+      "thumb": "assets/thumbs/15.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "ELRS DIY receiver/backpack tinkering",
+      "boards": [
+        "esp8266",
+        "esp32"
+      ],
+      "categories": [
+        "drones-fpv"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "15-40",
+      "time": "1-3 hrs",
+      "parts": [
+        {
+          "name": "ESP8285/ESP32 ELRS-compatible board",
+          "url": "https://www.amazon.com/s?k=ESP8285%2FESP32+ELRS-compatible+board&tag=buildbin-20"
+        },
+        {
+          "name": "SX1280 radio module (or prebuilt RX)",
+          "url": "https://www.amazon.com/s?k=SX1280+radio+module&tag=buildbin-20"
+        },
+        {
+          "name": "Antenna",
+          "url": "https://www.amazon.com/s?k=Antenna&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Computer w/ ELRS Configurator"
+      ],
+      "description": "Learn ExpressLRS firmware flashing and binding.",
+      "reference": "expresslrs.org",
+      "reference_url": "https://www.expresslrs.org/quick-start/getting-started/",
+      "thumb": "assets/thumbs/16.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Raspberry Pi weather station",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "sensors-weather"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "60-150",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "BME280 sensor",
+          "url": "https://www.amazon.com/s?k=BME280+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "Anemometer/wind vane/rain gauge kit",
+          "url": "https://www.amazon.com/s?k=Anemometer%2Fwind+vane%2Frain+gauge+kit&tag=buildbin-20"
+        },
+        {
+          "name": "ADC (MCP3008)",
+          "url": "https://www.amazon.com/s?k=ADC&tag=buildbin-20"
+        },
+        {
+          "name": "Weatherproof enclosure",
+          "url": "https://www.amazon.com/s?k=Weatherproof+enclosure&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Drill"
+      ],
+      "description": "Logs temp, pressure, wind and rain.",
+      "reference": "raspberrypi.com projects",
+      "reference_url": "https://projects.raspberrypi.org/en/projects/build-your-own-weather-station",
+      "thumb": "assets/thumbs/17.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arduino_uno_diy_lcd_weather_station.jpg",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Crackopl"
+    },
+    {
+      "title": "Air quality monitor (PM2.5)",
+      "boards": [
+        "esp32",
+        "esp8266"
+      ],
+      "categories": [
+        "sensors-weather",
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-50",
+      "time": "2 hrs",
+      "parts": [
+        {
+          "name": "ESP32 or D1 mini",
+          "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
+        },
+        {
+          "name": "PMS5003 or SDS011 particulate sensor",
+          "url": "https://www.amazon.com/s?k=PMS5003+or+SDS011+particulate+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "BME280",
+          "url": "https://www.amazon.com/s?k=BME280&tag=buildbin-20"
+        },
+        {
+          "name": "OLED display (SSD1306)",
+          "url": "https://www.amazon.com/s?k=OLED+display&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Wire strippers"
+      ],
+      "description": "Measures particulates and shows AQI.",
+      "reference": "sensor.community",
+      "reference_url": "https://sensor.community/en/sensors/airrohr/",
+      "thumb": "assets/thumbs/18.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Feinstaubsensor_SDS011.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "ubahnverleih"
+    },
+    {
+      "title": "CO2 monitor with SCD40",
+      "boards": [
+        "esp32",
+        "pico"
+      ],
+      "categories": [
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "40-70",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "ESP32 or Pico W",
+          "url": "https://www.amazon.com/s?k=ESP32+or+Pico+W&tag=buildbin-20"
+        },
+        {
+          "name": "Sensirion SCD40/SCD41",
+          "url": "https://www.amazon.com/s?k=Sensirion+SCD40%2FSCD41&tag=buildbin-20"
+        },
+        {
+          "name": "OLED or e-paper display",
+          "url": "https://www.amazon.com/s?k=OLED+or+e-paper+display&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C power",
+          "url": "https://www.amazon.com/s?k=USB-C+power&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron"
+      ],
+      "description": "Know when to open a window based on CO2 ppm.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://newbiely.com/tutorials/raspberry-pico/raspberry-pi-pico-scd40-co2-sensor",
+      "thumb": "assets/thumbs/19.webp",
+      "thumb_credit": "https://learn.adafruit.com/diy-trinkey-no-solder-air-quality-monitor",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Pico W web-connected thermometer",
+      "boards": [
+        "pico"
+      ],
+      "categories": [
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico W",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+W&tag=buildbin-20"
+        },
+        {
+          "name": "DS18B20 sensor",
+          "url": "https://www.amazon.com/s?k=DS18B20+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "4.7kΩ resistor",
+          "url": "https://www.amazon.com/s?k=4.7k%CE%A9+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "Breadboard + jumpers",
+          "url": "https://www.amazon.com/s?k=Breadboard+%2B+jumpers&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer w/ Thonny (MicroPython)"
+      ],
+      "description": "MicroPython intro: serve readings on a web page.",
+      "reference": "raspberrypi.com",
+      "reference_url": "https://projects.raspberrypi.org/en/projects/get-started-pico-w",
+      "thumb": "assets/thumbs/20.webp",
+      "thumb_credit": "https://randomnerdtutorials.com/raspberry-pi-pico-ds18b20-micropython/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Infinity mirror",
+      "boards": [
+        "nano",
+        "esp32"
+      ],
+      "categories": [
+        "led-lighting"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-80",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano or ESP32",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano+or+ESP32&tag=buildbin-20"
+        },
+        {
+          "name": "WS2812B strip",
+          "url": "https://www.amazon.com/s?k=WS2812B+strip&tag=buildbin-20"
+        },
+        {
+          "name": "Mirror",
+          "url": "https://www.amazon.com/s?k=Mirror&tag=buildbin-20"
+        },
+        {
+          "name": "One-way mirror film/acrylic",
+          "url": "https://www.amazon.com/s?k=One-way+mirror+film%2Facrylic&tag=buildbin-20"
+        },
+        {
+          "name": "Picture frame",
+          "url": "https://www.amazon.com/s?k=Picture+frame&tag=buildbin-20"
+        },
+        {
+          "name": "5V supply",
+          "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Hot glue gun"
+      ],
+      "description": "Endless tunnel-of-light effect.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/",
+      "thumb": "assets/thumbs/21.webp",
+      "thumb_credit": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "LED matrix scrolling sign",
+      "boards": [
+        "uno",
+        "esp32"
+      ],
+      "categories": [
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-40",
+      "time": "2 hrs",
+      "parts": [
+        {
+          "name": "Arduino or ESP32",
+          "url": "https://www.amazon.com/s?k=Arduino+or+ESP32&tag=buildbin-20"
+        },
+        {
+          "name": "MAX7219 8x32 LED matrix",
+          "url": "https://www.amazon.com/s?k=MAX7219+8x32+LED+matrix&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "5V supply",
+          "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Scroll messages, clock or stock tickers.",
+      "reference": "github.com/MajicDesigns/MD_Parola",
+      "reference_url": "https://majicdesigns.github.io/MD_Parola/",
+      "thumb": "assets/thumbs/22.webp",
+      "thumb_credit": "https://lastminuteengineers.com/max7219-dot-matrix-arduino-tutorial/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Ambilight TV backlight (Hyperion)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "led-lighting",
+        "home-automation"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "60-100",
+      "time": "3-4 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "WS2812B/SK6812 strip",
+          "url": "https://www.amazon.com/s?k=WS2812B%2FSK6812+strip&tag=buildbin-20"
+        },
+        {
+          "name": "HDMI capture/splitter",
+          "url": "https://www.amazon.com/s?k=HDMI+capture%2Fsplitter&tag=buildbin-20"
+        },
+        {
+          "name": "5V high-current supply",
+          "url": "https://www.amazon.com/s?k=5V+high-current+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "Bias lighting that reacts to on-screen colors.",
+      "reference": "hyperion-project.org",
+      "reference_url": "https://docs.hyperion-project.org/",
+      "thumb": "assets/thumbs/23.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Ambilight-1.jpg",
+      "thumb_license": "CC BY 3.0",
+      "thumb_author": "Stephan Legachev"
+    },
+    {
+      "title": "Pi music streamer (Volumio/moOde)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "audio"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "60-120",
+      "time": "2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "DAC HAT (e.g. HiFiBerry-class)",
+          "url": "https://www.amazon.com/s?k=DAC+HAT&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card",
+          "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "Power supply",
+          "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Case",
+          "url": "https://www.amazon.com/s?k=Case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Network audio player for an old stereo.",
+      "reference": "volumio.com / moodeaudio.org",
+      "reference_url": "https://volumio.com/get-started/",
+      "thumb": "assets/thumbs/24.webp",
+      "thumb_credit": "https://volumio.com/get-started/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Bluetooth speaker build",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "audio"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-80",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "ESP32 (A2DP) or BT amp board",
+          "url": "https://www.amazon.com/s?k=ESP32+or+BT+amp+board&tag=buildbin-20"
+        },
+        {
+          "name": "PAM8403/MAX98357A amplifier",
+          "url": "https://www.amazon.com/s?k=PAM8403%2FMAX98357A+amplifier&tag=buildbin-20"
+        },
+        {
+          "name": "2x full-range drivers",
+          "url": "https://www.amazon.com/s?k=2x+full-range+drivers&tag=buildbin-20"
+        },
+        {
+          "name": "18650 + BMS + charger board",
+          "url": "https://www.amazon.com/s?k=18650+%2B+BMS+%2B+charger+board&tag=buildbin-20"
+        },
+        {
+          "name": "Enclosure",
+          "url": "https://www.amazon.com/s?k=Enclosure&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Drill"
+      ],
+      "description": "Portable speaker with ESP32 Bluetooth audio.",
+      "reference": "github.com/pschatzmann/ESP32-A2DP",
+      "reference_url": "https://github.com/pschatzmann/ESP32-A2DP",
+      "thumb": "assets/thumbs/25.webp",
+      "thumb_credit": "https://www.instructables.com/DIY-Portable-Bluetooth-Speaker/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "MIDI controller",
+      "boards": [
+        "pico",
+        "uno"
+      ],
+      "categories": [
+        "audio"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "30-60",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico (or Arduino Leonardo/Micro)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
+        },
+        {
+          "name": "Arcade buttons",
+          "url": "https://www.amazon.com/s?k=Arcade+buttons&tag=buildbin-20"
+        },
+        {
+          "name": "Potentiometers/sliders",
+          "url": "https://www.amazon.com/s?k=Potentiometers%2Fsliders&tag=buildbin-20"
+        },
+        {
+          "name": "Enclosure",
+          "url": "https://www.amazon.com/s?k=Enclosure&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Drill"
+      ],
+      "description": "USB MIDI pads and knobs for your DAW.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython",
+      "thumb": "assets/thumbs/26.webp",
+      "thumb_credit": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Retro game console (RetroPie)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "60-120",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card",
+          "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "USB controllers",
+          "url": "https://www.amazon.com/s?k=USB+controllers&tag=buildbin-20"
+        },
+        {
+          "name": "Case",
+          "url": "https://www.amazon.com/s?k=Case&tag=buildbin-20"
+        },
+        {
+          "name": "HDMI cable",
+          "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Emulation station for classic games.",
+      "reference": "retropie.org.uk",
+      "reference_url": "https://retropie.org.uk/docs/First-Installation/",
+      "thumb": "assets/thumbs/27.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Side.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Laserlicht"
+    },
+    {
+      "title": "NeoPixel LED wearable/costume",
+      "boards": [
+        "pico",
+        "nano"
+      ],
+      "categories": [
+        "wearables",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-40",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Adafruit Gemma/QT Py or Pico",
+          "url": "https://www.amazon.com/s?k=Adafruit+Gemma%2FQT+Py+or+Pico&tag=buildbin-20"
+        },
+        {
+          "name": "NeoPixel strip/rings",
+          "url": "https://www.amazon.com/s?k=NeoPixel+strip%2Frings&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo battery + charger",
+          "url": "https://www.amazon.com/s?k=LiPo+battery+%2B+charger&tag=buildbin-20"
+        },
+        {
+          "name": "Conductive thread or wire",
+          "url": "https://www.amazon.com/s?k=Conductive+thread+or+wire&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Needle"
+      ],
+      "description": "Light-up hoodie, hat or cosplay piece.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/rainbow-chakra-led-hoodie",
+      "thumb": "assets/thumbs/28.webp",
+      "thumb_credit": "https://learn.adafruit.com/rainbow-chakra-led-hoodie",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Smartwatch (ESP32 dev watch)",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "wearables"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "40-80",
+      "time": "6-10 hrs",
+      "parts": [
+        {
+          "name": "ESP32 watch dev kit (e.g. LilyGO T-Watch-class)",
+          "url": "https://www.amazon.com/s?k=ESP32+watch+dev+kit&tag=buildbin-20"
+        },
+        {
+          "name": "USB cable",
+          "url": "https://www.amazon.com/s?k=USB+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer w/ Arduino IDE/PlatformIO"
+      ],
+      "description": "Program your own watch faces and apps.",
+      "reference": "github.com/Xinyuan-LilyGO",
+      "reference_url": "https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library",
+      "thumb": "assets/thumbs/29.webp",
+      "thumb_credit": "https://www.lilygo.cc/products/t-watch-2020-v3",
+      "thumb_license": "Manufacturer product photo, © LILYGO",
+      "thumb_author": ""
+    },
+    {
+      "title": "Step counter wristband",
+      "boards": [
+        "pico",
+        "nano"
+      ],
+      "categories": [
+        "wearables",
+        "sensors-weather"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "20-40",
+      "time": "3-4 hrs",
+      "parts": [
+        {
+          "name": "Microcontroller (Pico/Nano)",
+          "url": "https://www.amazon.com/s?k=Microcontroller&tag=buildbin-20"
+        },
+        {
+          "name": "MPU6050 or LSM6DS3 IMU",
+          "url": "https://www.amazon.com/s?k=MPU6050+or+LSM6DS3+IMU&tag=buildbin-20"
+        },
+        {
+          "name": "0.96\" OLED",
+          "url": "https://www.amazon.com/s?k=0.96%22+OLED&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo + charger",
+          "url": "https://www.amazon.com/s?k=LiPo+%2B+charger&tag=buildbin-20"
+        },
+        {
+          "name": "Strap/3D-printed case",
+          "url": "https://www.amazon.com/s?k=Strap%2F3D-printed+case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "DIY pedometer with an accelerometer.",
+      "reference": "instructables.com",
+      "reference_url": "https://github.com/no-go/StepCounter",
+      "thumb": "assets/thumbs/30.webp",
+      "thumb_credit": "https://github.com/no-go/StepCounter",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Mechanical macro keypad",
+      "boards": [
+        "pico"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-40",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
+        },
+        {
+          "name": "Mechanical switches",
+          "url": "https://www.amazon.com/s?k=Mechanical+switches&tag=buildbin-20"
+        },
+        {
+          "name": "Keycaps",
+          "url": "https://www.amazon.com/s?k=Keycaps&tag=buildbin-20"
+        },
+        {
+          "name": "3D-printed or acrylic plate",
+          "url": "https://www.amazon.com/s?k=3D-printed+or+acrylic+plate&tag=buildbin-20"
+        },
+        {
+          "name": "Diodes (if matrix)",
+          "url": "https://www.amazon.com/s?k=Diodes&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers"
+      ],
+      "description": "Programmable shortcut pad with KMK/CircuitPython.",
+      "reference": "github.com/KMKfw/kmk_firmware",
+      "reference_url": "https://sanderg.nl/en/posts/3d-printed-hand-wired-macro-pad-with-raspberry-pi-pico-kmk-&-circuitpython/",
+      "thumb": "assets/thumbs/31.webp",
+      "thumb_credit": "https://learn.adafruit.com/diy-pico-mechanical-keyboard-with-fritzing-circuitpython",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Pi security camera (MotionEye)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "50-100",
+      "time": "2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "Pi Camera Module",
+          "url": "https://www.amazon.com/s?k=Pi+Camera+Module&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card",
+          "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "Power supply",
+          "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Case/mount",
+          "url": "https://www.amazon.com/s?k=Case%2Fmount&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Motion-detecting camera with web viewing.",
+      "reference": "github.com/motioneye-project",
+      "reference_url": "https://github.com/motioneye-project/motioneyeos/wiki",
+      "thumb": "assets/thumbs/32.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_with_Camera_Module.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "ZippeyKeys12"
+    },
+    {
+      "title": "ESP-Drone mini quadcopter (ESP32-S2/S3)",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "drones-fpv"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "40-80",
+      "time": "6-10 hrs",
+      "parts": [
+        {
+          "name": "ESP32-S2 or ESP32-S3 dev board",
+          "url": "https://www.amazon.com/s?k=ESP32-S2+or+ESP32-S3+dev+board&tag=buildbin-20"
+        },
+        {
+          "name": "MPU6050 IMU",
+          "url": "https://www.amazon.com/s?k=MPU6050+IMU&tag=buildbin-20"
+        },
+        {
+          "name": "4x 716 coreless brushed motors",
+          "url": "https://www.amazon.com/s?k=4x+716+coreless+brushed+motors&tag=buildbin-20"
+        },
+        {
+          "name": "4x 46mm props",
+          "url": "https://www.amazon.com/s?k=4x+46mm+props&tag=buildbin-20"
+        },
+        {
+          "name": "4x SI2302 MOSFETs (or prebuilt ESP-Drone board)",
+          "url": "https://www.amazon.com/s?k=4x+SI2302+MOSFETs&tag=buildbin-20"
+        },
+        {
+          "name": "1S LiPo battery (300-500mAh)",
+          "url": "https://www.amazon.com/s?k=1S+LiPo+battery&tag=buildbin-20"
+        },
+        {
+          "name": "Lightweight mini quad frame",
+          "url": "https://www.amazon.com/s?k=Lightweight+mini+quad+frame&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Multimeter",
+        "Wire strippers",
+        "Phone with ESP-Drone app or cfclient"
+      ],
+      "description": "Espressif's open-source Wi-Fi mini drone, based on Crazyflie firmware.",
+      "reference": "github.com/espressif/esp-drone",
+      "reference_url": "https://docs.espressif.com/projects/espressif-esp-drone/en/latest/gettingstarted.html",
+      "thumb": "assets/thumbs/33.webp",
+      "thumb_credit": "https://github.com/espressif/esp-drone",
+      "thumb_license": "Apache-2.0 (ESP-Drone docs)",
+      "thumb_author": "Espressif"
+    },
+    {
+      "title": "MagicMirror² smart mirror",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "100-250",
+      "time": "6-12 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4/5",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4%2F5&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card 32GB",
+          "url": "https://www.amazon.com/s?k=microSD+card+32GB&tag=buildbin-20"
+        },
+        {
+          "name": "Spare monitor (LCD)",
+          "url": "https://www.amazon.com/s?k=Spare+monitor&tag=buildbin-20"
+        },
+        {
+          "name": "Two-way mirror acrylic or glass",
+          "url": "https://www.amazon.com/s?k=Two-way+mirror+acrylic+or+glass&tag=buildbin-20"
+        },
+        {
+          "name": "Wood for frame",
+          "url": "https://www.amazon.com/s?k=Wood+for+frame&tag=buildbin-20"
+        },
+        {
+          "name": "HDMI cable",
+          "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Power supply",
+          "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Saw",
+        "Drill",
+        "Screwdriver",
+        "Computer for flashing"
+      ],
+      "description": "Mirror that shows weather, calendar and news using the MagicMirror² platform.",
+      "reference": "magicmirror.builders",
+      "reference_url": "https://docs.magicmirror.builders/getting-started/installation.html",
+      "thumb": "assets/thumbs/34.webp",
+      "thumb_credit": "https://www.instructables.com/Raspberry-Pi-Smart-Mirror/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "ADS-B flight tracker (PiAware / tar1090)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "50-100",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi (3B+ or newer)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "RTL-SDR USB dongle (1090MHz)",
+          "url": "https://www.amazon.com/s?k=RTL-SDR+USB+dongle&tag=buildbin-20"
+        },
+        {
+          "name": "1090MHz ADS-B antenna",
+          "url": "https://www.amazon.com/s?k=1090MHz+ADS-B+antenna&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card 16GB+",
+          "url": "https://www.amazon.com/s?k=microSD+card+16GB%2B&tag=buildbin-20"
+        },
+        {
+          "name": "Power supply",
+          "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Track nearby aircraft on a live map and share data with FlightAware.",
+      "reference": "flightaware.com/adsb/piaware/build",
+      "reference_url": "https://www.flightaware.com/adsb/piaware/build",
+      "thumb": "assets/thumbs/35.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Flightradar24_ADS-B_receiver.png",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Nubifer"
+    },
+    {
+      "title": "PiGRRL 2 handheld retro console",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "120-180",
+      "time": "8-12 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 3",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+3&tag=buildbin-20"
+        },
+        {
+          "name": "2.8 inch PiTFT display",
+          "url": "https://www.amazon.com/s?k=2.8+inch+PiTFT+display&tag=buildbin-20"
+        },
+        {
+          "name": "PowerBoost 1000C",
+          "url": "https://www.amazon.com/s?k=PowerBoost+1000C&tag=buildbin-20"
+        },
+        {
+          "name": "2500mAh LiPo battery",
+          "url": "https://www.amazon.com/s?k=2500mAh+LiPo+battery&tag=buildbin-20"
+        },
+        {
+          "name": "Tactile buttons",
+          "url": "https://www.amazon.com/s?k=Tactile+buttons&tag=buildbin-20"
+        },
+        {
+          "name": "3D printed case",
+          "url": "https://www.amazon.com/s?k=3D+printed+case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "3D printer",
+        "Computer for flashing"
+      ],
+      "description": "Game Boy-style Pi handheld running RetroPie in a 3D-printed case.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/pigrrl-2",
+      "thumb": "assets/thumbs/36.webp",
+      "thumb_credit": "https://learn.adafruit.com/pigrrl-2",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": "Adafruit"
+    },
+    {
+      "title": "2-player bartop arcade cabinet",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "250-400",
+      "time": "20-30 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "19 inch LCD monitor",
+          "url": "https://www.amazon.com/s?k=19+inch+LCD+monitor&tag=buildbin-20"
+        },
+        {
+          "name": "Arcade joystick and button kit",
+          "url": "https://www.amazon.com/s?k=Arcade+joystick+and+button+kit&tag=buildbin-20"
+        },
+        {
+          "name": "USB encoder",
+          "url": "https://www.amazon.com/s?k=USB+encoder&tag=buildbin-20"
+        },
+        {
+          "name": "MDF sheet",
+          "url": "https://www.amazon.com/s?k=MDF+sheet&tag=buildbin-20"
+        },
+        {
+          "name": "Computer speakers",
+          "url": "https://www.amazon.com/s?k=Computer+speakers&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Jigsaw",
+        "Drill",
+        "Screwdrivers",
+        "Computer for flashing"
+      ],
+      "description": "Pi-powered bartop arcade cabinet with two sets of sticks and buttons.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/",
+      "thumb": "assets/thumbs/37.webp",
+      "thumb_credit": "https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Arduboy-style handheld (DIY clone)",
+      "boards": [
+        "promicro"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "20-35",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "Arduino Pro Micro",
+          "url": "https://www.amazon.com/s?k=Arduino+Pro+Micro&tag=buildbin-20"
+        },
+        {
+          "name": "0.96 inch SSD1306 OLED",
+          "url": "https://www.amazon.com/s?k=0.96+inch+SSD1306+OLED&tag=buildbin-20"
+        },
+        {
+          "name": "Tactile buttons",
+          "url": "https://www.amazon.com/s?k=Tactile+buttons&tag=buildbin-20"
+        },
+        {
+          "name": "Piezo buzzer",
+          "url": "https://www.amazon.com/s?k=Piezo+buzzer&tag=buildbin-20"
+        },
+        {
+          "name": "Perfboard",
+          "url": "https://www.amazon.com/s?k=Perfboard&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo battery + charger",
+          "url": "https://www.amazon.com/s?k=LiPo+battery+%2B+charger&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Tiny 8-bit game handheld that plays Arduboy games.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/Arduboy-Clone/",
+      "thumb": "assets/thumbs/38.webp",
+      "thumb_credit": "https://www.instructables.com/Arduboy-Clone/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Pico NES console with HDMI (pico-infonesPlus)",
+      "boards": [
+        "pico"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "25-50",
+      "time": "1-3 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
+        },
+        {
+          "name": "Pimoroni Pico DV Demo Base",
+          "url": "https://www.amazon.com/s?k=Pimoroni+Pico+DV+Demo+Base&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card",
+          "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "USB NES-style controller",
+          "url": "https://www.amazon.com/s?k=USB+NES-style+controller&tag=buildbin-20"
+        },
+        {
+          "name": "HDMI cable",
+          "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Play NES games on a TV from a $4 microcontroller over DVI/HDMI.",
+      "reference": "github.com/fhoedemakers/pico-infonesPlus",
+      "reference_url": "https://github.com/fhoedemakers/pico-infonesPlus",
+      "thumb": "assets/thumbs/39.webp",
+      "thumb_credit": "https://github.com/fhoedemakers/pico-infonesPlus",
+      "thumb_license": "GPL-3.0 (project repo)",
+      "thumb_author": "fhoedemakers"
+    },
+    {
+      "title": "DIY arcade fight stick (GP2040-CE)",
+      "boards": [
+        "pico"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "50-90",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
+        },
+        {
+          "name": "Sanwa-style arcade joystick",
+          "url": "https://www.amazon.com/s?k=Sanwa-style+arcade+joystick&tag=buildbin-20"
+        },
+        {
+          "name": "30mm arcade buttons",
+          "url": "https://www.amazon.com/s?k=30mm+arcade+buttons&tag=buildbin-20"
+        },
+        {
+          "name": "Quick-disconnect wires",
+          "url": "https://www.amazon.com/s?k=Quick-disconnect+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Project box or acrylic case",
+          "url": "https://www.amazon.com/s?k=Project+box+or+acrylic+case&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C cable",
+          "url": "https://www.amazon.com/s?k=USB-C+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Drill + step bit",
+        "Wire crimper",
+        "Computer for flashing"
+      ],
+      "description": "Low-latency fight stick for PC, Switch and PlayStation using Pico firmware.",
+      "reference": "gp2040-ce.info",
+      "reference_url": "https://gp2040-ce.info/installation",
+      "thumb": "assets/thumbs/40.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
     }
-   ],
-   "tools": [
-    "Computer w/ ESPHome"
-   ],
-   "description": "Wi-Fi sensor that reports into Home Assistant.",
-   "reference": "esphome.io",
-   "reference_url": "https://esphome.io/components/sensor/dht/",
-   "thumb": "assets/thumbs/2.webp",
-   "thumb_credit": "https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "WLED addressable LED controller",
-   "boards": [
-    "esp32",
-    "esp8266"
-   ],
-   "categories": [
-    "led-lighting",
-    "home-automation"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "20-50",
-   "time": "1-2 hrs",
-   "parts": [
-    {
-     "name": "ESP32 or D1 mini",
-     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
-    },
-    {
-     "name": "WS2812B LED strip",
-     "url": "https://www.amazon.com/s?k=WS2812B+LED+strip&tag=buildbin-20"
-    },
-    {
-     "name": "5V power supply (sized to strip)",
-     "url": "https://www.amazon.com/s?k=5V+power+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Level shifter (74AHCT125)",
-     "url": "https://www.amazon.com/s?k=Level+shifter&tag=buildbin-20"
-    },
-    {
-     "name": "1000µF capacitor",
-     "url": "https://www.amazon.com/s?k=1000%C2%B5F+capacitor&tag=buildbin-20"
-    },
-    {
-     "name": "330Ω resistor",
-     "url": "https://www.amazon.com/s?k=330%CE%A9+resistor&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "App-controlled LED strip effects over Wi-Fi.",
-   "reference": "kno.wled.ge",
-   "reference_url": "https://kno.wled.ge/basics/getting-started/",
-   "thumb": "assets/thumbs/3.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:16346-SMD_LED_-_RGB_WS2812B_Strip_of_50_-01.jpg",
-   "thumb_license": "CC BY 2.0",
-   "thumb_author": "SparkFun Electronics"
-  },
-  {
-   "title": "Smart garage door opener",
-   "boards": [
-    "esp32",
-    "esp8266"
-   ],
-   "categories": [
-    "home-automation"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "15-30",
-   "time": "2-3 hrs",
-   "parts": [
-    {
-     "name": "ESP32 or D1 mini",
-     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
-    },
-    {
-     "name": "Relay module",
-     "url": "https://www.amazon.com/s?k=Relay+module&tag=buildbin-20"
-    },
-    {
-     "name": "Reed switch",
-     "url": "https://www.amazon.com/s?k=Reed+switch&tag=buildbin-20"
-    },
-    {
-     "name": "5V supply",
-     "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Wire",
-     "url": "https://www.amazon.com/s?k=Wire&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "Open/close and monitor the garage from your phone.",
-   "reference": "esphome.io",
-   "reference_url": "https://esphome.io/cookbook/garage-door/",
-   "thumb": "assets/thumbs/4.webp",
-   "thumb_credit": "https://www.instructables.com/ESP8266-Garage-Door-Opener/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Smart plant watering system",
-   "boards": [
-    "uno",
-    "esp32"
-   ],
-   "categories": [
-    "home-automation",
-    "sensors-weather"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "20-40",
-   "time": "2 hrs",
-   "parts": [
-    {
-     "name": "Arduino Uno or ESP32",
-     "url": "https://www.amazon.com/s?k=Arduino+Uno+or+ESP32&tag=buildbin-20"
-    },
-    {
-     "name": "Capacitive soil moisture sensor",
-     "url": "https://www.amazon.com/s?k=Capacitive+soil+moisture+sensor&tag=buildbin-20"
-    },
-    {
-     "name": "5V relay module",
-     "url": "https://www.amazon.com/s?k=5V+relay+module&tag=buildbin-20"
-    },
-    {
-     "name": "Mini submersible pump",
-     "url": "https://www.amazon.com/s?k=Mini+submersible+pump&tag=buildbin-20"
-    },
-    {
-     "name": "Silicone tubing",
-     "url": "https://www.amazon.com/s?k=Silicone+tubing&tag=buildbin-20"
-    },
-    {
-     "name": "Power supply",
-     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Wire strippers",
-    "Screwdriver"
-   ],
-   "description": "Waters plants automatically when soil is dry.",
-   "reference": "arduino.cc project hub",
-   "reference_url": "https://projecthub.arduino.cc/lc_lab/automatic-plant-watering-system-with-arduino-ee4b0c",
-   "thumb": "assets/thumbs/5.webp",
-   "thumb_credit": "",
-   "thumb_license": "Illustration by BuildBin",
-   "thumb_author": "BuildBin",
-   "thumb_illustrated": true
-  },
-  {
-   "title": "Obstacle-avoiding robot car",
-   "boards": [
-    "uno"
-   ],
-   "categories": [
-    "robotics"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "30-50",
-   "time": "3-4 hrs",
-   "parts": [
-    {
-     "name": "Arduino Uno",
-     "url": "https://www.amazon.com/s?k=Arduino+Uno&tag=buildbin-20"
-    },
-    {
-     "name": "2WD/4WD robot chassis kit",
-     "url": "https://www.amazon.com/s?k=2WD%2F4WD+robot+chassis+kit&tag=buildbin-20"
-    },
-    {
-     "name": "L298N motor driver",
-     "url": "https://www.amazon.com/s?k=L298N+motor+driver&tag=buildbin-20"
-    },
-    {
-     "name": "HC-SR04 ultrasonic sensor",
-     "url": "https://www.amazon.com/s?k=HC-SR04+ultrasonic+sensor&tag=buildbin-20"
-    },
-    {
-     "name": "SG90 servo",
-     "url": "https://www.amazon.com/s?k=SG90+servo&tag=buildbin-20"
-    },
-    {
-     "name": "Battery pack (AA or 18650)",
-     "url": "https://www.amazon.com/s?k=Battery+pack&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Screwdriver",
-    "Wire strippers"
-   ],
-   "description": "Classic first robot that drives and avoids walls.",
-   "reference": "arduino.cc project hub",
-   "reference_url": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/",
-   "thumb": "assets/thumbs/6.webp",
-   "thumb_credit": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Line-following robot",
-   "boards": [
-    "uno",
-    "nano"
-   ],
-   "categories": [
-    "robotics"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "25-45",
-   "time": "3 hrs",
-   "parts": [
-    {
-     "name": "Arduino Uno/Nano",
-     "url": "https://www.amazon.com/s?k=Arduino+Uno%2FNano&tag=buildbin-20"
-    },
-    {
-     "name": "Robot chassis w/ 2 DC motors",
-     "url": "https://www.amazon.com/s?k=Robot+chassis+w%2F+2+DC+motors&tag=buildbin-20"
-    },
-    {
-     "name": "TCRT5000 IR sensor array",
-     "url": "https://www.amazon.com/s?k=TCRT5000+IR+sensor+array&tag=buildbin-20"
-    },
-    {
-     "name": "L298N or TB6612 driver",
-     "url": "https://www.amazon.com/s?k=L298N+or+TB6612+driver&tag=buildbin-20"
-    },
-    {
-     "name": "Battery pack",
-     "url": "https://www.amazon.com/s?k=Battery+pack&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Screwdriver",
-    "Electrical tape"
-   ],
-   "description": "Follows a black tape line using IR sensors.",
-   "reference": "instructables.com",
-   "reference_url": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/",
-   "thumb": "assets/thumbs/7.webp",
-   "thumb_credit": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Otto DIY biped robot",
-   "boards": [
-    "nano"
-   ],
-   "categories": [
-    "robotics"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "30-60",
-   "time": "3-4 hrs",
-   "parts": [
-    {
-     "name": "Arduino Nano",
-     "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
-    },
-    {
-     "name": "4x SG90 servos",
-     "url": "https://www.amazon.com/s?k=4x+SG90+servos&tag=buildbin-20"
-    },
-    {
-     "name": "HC-SR04 sensor",
-     "url": "https://www.amazon.com/s?k=HC-SR04+sensor&tag=buildbin-20"
-    },
-    {
-     "name": "Buzzer",
-     "url": "https://www.amazon.com/s?k=Buzzer&tag=buildbin-20"
-    },
-    {
-     "name": "3D-printed Otto body",
-     "url": "https://www.amazon.com/s?k=3D-printed+Otto+body&tag=buildbin-20"
-    },
-    {
-     "name": "4xAA battery holder",
-     "url": "https://www.amazon.com/s?k=4xAA+battery+holder&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "3D printer (or buy printed parts)",
-    "Screwdriver"
-   ],
-   "description": "Open-source walking, dancing robot.",
-   "reference": "www.ottodiy.com",
-   "reference_url": "https://www.ottodiy.com/academy",
-   "thumb": "assets/thumbs/8.webp",
-   "thumb_credit": "https://www.ottodiy.com/academy",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Self-balancing robot",
-   "boards": [
-    "uno",
-    "esp32"
-   ],
-   "categories": [
-    "robotics"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "50-90",
-   "time": "6-10 hrs",
-   "parts": [
-    {
-     "name": "Arduino Uno or ESP32",
-     "url": "https://www.amazon.com/s?k=Arduino+Uno+or+ESP32&tag=buildbin-20"
-    },
-    {
-     "name": "MPU6050 IMU",
-     "url": "https://www.amazon.com/s?k=MPU6050+IMU&tag=buildbin-20"
-    },
-    {
-     "name": "2x NEMA17 steppers + A4988 drivers (or geared DC motors)",
-     "url": "https://www.amazon.com/s?k=2x+NEMA17+steppers+%2B+A4988+drivers&tag=buildbin-20"
-    },
-    {
-     "name": "Chassis",
-     "url": "https://www.amazon.com/s?k=Chassis&tag=buildbin-20"
-    },
-    {
-     "name": "Li-ion battery pack",
-     "url": "https://www.amazon.com/s?k=Li-ion+battery+pack&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "Two-wheel robot balanced with a PID loop.",
-   "reference": "instructables.com",
-   "reference_url": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/",
-   "thumb": "assets/thumbs/9.webp",
-   "thumb_credit": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Pi Pico robot arm (servo)",
-   "boards": [
-    "pico",
-    "uno"
-   ],
-   "categories": [
-    "robotics"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "40-80",
-   "time": "4-6 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi Pico or Arduino",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+or+Arduino&tag=buildbin-20"
-    },
-    {
-     "name": "4-6x MG90S/MG996R servos",
-     "url": "https://www.amazon.com/s?k=4-6x+MG90S%2FMG996R+servos&tag=buildbin-20"
-    },
-    {
-     "name": "Acrylic or printed arm kit",
-     "url": "https://www.amazon.com/s?k=Acrylic+or+printed+arm+kit&tag=buildbin-20"
-    },
-    {
-     "name": "PCA9685 servo driver",
-     "url": "https://www.amazon.com/s?k=PCA9685+servo+driver&tag=buildbin-20"
-    },
-    {
-     "name": "5-6V power supply",
-     "url": "https://www.amazon.com/s?k=5-6V+power+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Potentiometers for control",
-     "url": "https://www.amazon.com/s?k=Potentiometers+for+control&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Screwdriver",
-    "Hex keys"
-   ],
-   "description": "Desktop arm you control with knobs or code.",
-   "reference": "raspberrypi.com",
-   "reference_url": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/",
-   "thumb": "assets/thumbs/10.webp",
-   "thumb_credit": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "ESP32-CAM surveillance rover",
-   "boards": [
-    "esp32"
-   ],
-   "categories": [
-    "robotics"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "30-50",
-   "time": "3-5 hrs",
-   "parts": [
-    {
-     "name": "ESP32-CAM + programmer",
-     "url": "https://www.amazon.com/s?k=ESP32-CAM+%2B+programmer&tag=buildbin-20"
-    },
-    {
-     "name": "2WD chassis",
-     "url": "https://www.amazon.com/s?k=2WD+chassis&tag=buildbin-20"
-    },
-    {
-     "name": "L298N or DRV8833 driver",
-     "url": "https://www.amazon.com/s?k=L298N+or+DRV8833+driver&tag=buildbin-20"
-    },
-    {
-     "name": "18650 batteries + holder",
-     "url": "https://www.amazon.com/s?k=18650+batteries+%2B+holder&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "Drive a camera car from your browser.",
-   "reference": "randomnerdtutorials.com",
-   "reference_url": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/",
-   "thumb": "assets/thumbs/11.webp",
-   "thumb_credit": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "5-inch FPV freestyle quad (Betaflight)",
-   "boards": [
-    "f4"
-   ],
-   "categories": [
-    "drones-fpv"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "250-450 (excl. radio/goggles)",
-   "time": "8-15 hrs",
-   "parts": [
-    {
-     "name": "5\" carbon frame",
-     "url": "https://www.amazon.com/s?k=5%22+carbon+frame&tag=buildbin-20"
-    },
-    {
-     "name": "F4/F7 flight controller + 4-in-1 ESC stack",
-     "url": "https://www.amazon.com/s?k=F4%2FF7+flight+controller+%2B+4-in-1+ESC+stack&tag=buildbin-20"
-    },
-    {
-     "name": "4x 2207 motors",
-     "url": "https://www.amazon.com/s?k=4x+2207+motors&tag=buildbin-20"
-    },
-    {
-     "name": "5\" props",
-     "url": "https://www.amazon.com/s?k=5%22+props&tag=buildbin-20"
-    },
-    {
-     "name": "FPV camera + VTX (analog or digital)",
-     "url": "https://www.amazon.com/s?k=FPV+camera+%2B+VTX&tag=buildbin-20"
-    },
-    {
-     "name": "ELRS receiver",
-     "url": "https://www.amazon.com/s?k=ELRS+receiver&tag=buildbin-20"
-    },
-    {
-     "name": "6S LiPo batteries",
-     "url": "https://www.amazon.com/s?k=6S+LiPo+batteries&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Hex drivers",
-    "Smoke stopper",
-    "LiPo charger"
-   ],
-   "description": "Build and tune a freestyle quad with Betaflight.",
-   "reference": "betaflight.com / Joshua Bardwell guides",
-   "reference_url": "https://oscarliang.com/how-to-build-fpv-drone-analog/",
-   "thumb": "assets/thumbs/12.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Racing_Drone.jpg",
-   "thumb_license": "CC BY-SA 4.0",
-   "thumb_author": "Commanderbryce"
-  },
-  {
-   "title": "Tiny Whoop indoor micro drone",
-   "boards": [
-    "f4"
-   ],
-   "categories": [
-    "drones-fpv"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "100-180",
-   "time": "2-4 hrs",
-   "parts": [
-    {
-     "name": "65-75mm whoop frame",
-     "url": "https://www.amazon.com/s?k=65-75mm+whoop+frame&tag=buildbin-20"
-    },
-    {
-     "name": "1S AIO flight controller w/ ELRS",
-     "url": "https://www.amazon.com/s?k=1S+AIO+flight+controller+w%2F+ELRS&tag=buildbin-20"
-    },
-    {
-     "name": "4x 0702/0802 motors",
-     "url": "https://www.amazon.com/s?k=4x+0702%2F0802+motors&tag=buildbin-20"
-    },
-    {
-     "name": "Ducted props",
-     "url": "https://www.amazon.com/s?k=Ducted+props&tag=buildbin-20"
-    },
-    {
-     "name": "Nano FPV camera",
-     "url": "https://www.amazon.com/s?k=Nano+FPV+camera&tag=buildbin-20"
-    },
-    {
-     "name": "1S LiPo batteries",
-     "url": "https://www.amazon.com/s?k=1S+LiPo+batteries&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Fine-tip soldering iron",
-    "Tweezers"
-   ],
-   "description": "Small ducted quad that's safe to fly indoors.",
-   "reference": "betaflight.com",
-   "reference_url": "https://oscarliang.com/how-to-build-tiny-whoop/",
-   "thumb": "assets/thumbs/13.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Whoop_drone_Meteor65.jpg",
-   "thumb_license": "CC BY-SA 4.0",
-   "thumb_author": "SokilFPV"
-  },
-  {
-   "title": "INAV fixed-wing with GPS return-to-home",
-   "boards": [
-    "f4"
-   ],
-   "categories": [
-    "drones-fpv"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "200-400",
-   "time": "10-20 hrs",
-   "parts": [
-    {
-     "name": "Foam wing airframe (e.g. ~1m flying wing)",
-     "url": "https://www.amazon.com/s?k=Foam+wing+airframe&tag=buildbin-20"
-    },
-    {
-     "name": "INAV-compatible F4/F7 FC",
-     "url": "https://www.amazon.com/s?k=INAV-compatible+F4%2FF7+FC&tag=buildbin-20"
-    },
-    {
-     "name": "GPS + compass module",
-     "url": "https://www.amazon.com/s?k=GPS+%2B+compass+module&tag=buildbin-20"
-    },
-    {
-     "name": "ESC + brushless motor",
-     "url": "https://www.amazon.com/s?k=ESC+%2B+brushless+motor&tag=buildbin-20"
-    },
-    {
-     "name": "2x servos",
-     "url": "https://www.amazon.com/s?k=2x+servos&tag=buildbin-20"
-    },
-    {
-     "name": "ELRS receiver",
-     "url": "https://www.amazon.com/s?k=ELRS+receiver&tag=buildbin-20"
-    },
-    {
-     "name": "3S/4S LiPo",
-     "url": "https://www.amazon.com/s?k=3S%2F4S+LiPo&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Hot glue gun",
-    "Hobby knife"
-   ],
-   "description": "Autonomous-capable plane with waypoints and RTH.",
-   "reference": "github.com/iNavFlight/inav",
-   "reference_url": "https://github.com/iNavFlight/inav/wiki",
-   "thumb": "assets/thumbs/14.webp",
-   "thumb_credit": "",
-   "thumb_license": "Illustration by BuildBin",
-   "thumb_author": "BuildBin",
-   "thumb_illustrated": true
-  },
-  {
-   "title": "ArduPilot drone with Pi companion computer",
-   "boards": [
-    "pi",
-    "f4"
-   ],
-   "categories": [
-    "drones-fpv",
-    "robotics"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "400-800",
-   "time": "15-30 hrs",
-   "parts": [
-    {
-     "name": "Quad frame 450mm",
-     "url": "https://www.amazon.com/s?k=Quad+frame+450mm&tag=buildbin-20"
-    },
-    {
-     "name": "ArduPilot FC (e.g. Pixhawk-class)",
-     "url": "https://www.amazon.com/s?k=ArduPilot+FC&tag=buildbin-20"
-    },
-    {
-     "name": "GPS module",
-     "url": "https://www.amazon.com/s?k=GPS+module&tag=buildbin-20"
-    },
-    {
-     "name": "4x motors + ESCs",
-     "url": "https://www.amazon.com/s?k=4x+motors+%2B+ESCs&tag=buildbin-20"
-    },
-    {
-     "name": "Raspberry Pi 4",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
-    },
-    {
-     "name": "Telemetry radio",
-     "url": "https://www.amazon.com/s?k=Telemetry+radio&tag=buildbin-20"
-    },
-    {
-     "name": "4S LiPo",
-     "url": "https://www.amazon.com/s?k=4S+LiPo&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Ground station laptop (Mission Planner/QGC)"
-   ],
-   "description": "Scripted missions with MAVLink from a Pi.",
-   "reference": "ardupilot.org",
-   "reference_url": "https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html",
-   "thumb": "assets/thumbs/15.webp",
-   "thumb_credit": "",
-   "thumb_license": "Illustration by BuildBin",
-   "thumb_author": "BuildBin",
-   "thumb_illustrated": true
-  },
-  {
-   "title": "ELRS DIY receiver/backpack tinkering",
-   "boards": [
-    "esp8266",
-    "esp32"
-   ],
-   "categories": [
-    "drones-fpv"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "15-40",
-   "time": "1-3 hrs",
-   "parts": [
-    {
-     "name": "ESP8285/ESP32 ELRS-compatible board",
-     "url": "https://www.amazon.com/s?k=ESP8285%2FESP32+ELRS-compatible+board&tag=buildbin-20"
-    },
-    {
-     "name": "SX1280 radio module (or prebuilt RX)",
-     "url": "https://www.amazon.com/s?k=SX1280+radio+module&tag=buildbin-20"
-    },
-    {
-     "name": "Antenna",
-     "url": "https://www.amazon.com/s?k=Antenna&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Computer w/ ELRS Configurator"
-   ],
-   "description": "Learn ExpressLRS firmware flashing and binding.",
-   "reference": "expresslrs.org",
-   "reference_url": "https://www.expresslrs.org/quick-start/getting-started/",
-   "thumb": "assets/thumbs/16.webp",
-   "thumb_credit": "",
-   "thumb_license": "Illustration by BuildBin",
-   "thumb_author": "BuildBin",
-   "thumb_illustrated": true
-  },
-  {
-   "title": "Raspberry Pi weather station",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "sensors-weather"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "60-150",
-   "time": "4-6 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "BME280 sensor",
-     "url": "https://www.amazon.com/s?k=BME280+sensor&tag=buildbin-20"
-    },
-    {
-     "name": "Anemometer/wind vane/rain gauge kit",
-     "url": "https://www.amazon.com/s?k=Anemometer%2Fwind+vane%2Frain+gauge+kit&tag=buildbin-20"
-    },
-    {
-     "name": "ADC (MCP3008)",
-     "url": "https://www.amazon.com/s?k=ADC&tag=buildbin-20"
-    },
-    {
-     "name": "Weatherproof enclosure",
-     "url": "https://www.amazon.com/s?k=Weatherproof+enclosure&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Drill"
-   ],
-   "description": "Logs temp, pressure, wind and rain.",
-   "reference": "raspberrypi.com projects",
-   "reference_url": "https://projects.raspberrypi.org/en/projects/build-your-own-weather-station",
-   "thumb": "assets/thumbs/17.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arduino_uno_diy_lcd_weather_station.jpg",
-   "thumb_license": "CC BY-SA 3.0",
-   "thumb_author": "Crackopl"
-  },
-  {
-   "title": "Air quality monitor (PM2.5)",
-   "boards": [
-    "esp32",
-    "esp8266"
-   ],
-   "categories": [
-    "sensors-weather",
-    "home-automation"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "30-50",
-   "time": "2 hrs",
-   "parts": [
-    {
-     "name": "ESP32 or D1 mini",
-     "url": "https://www.amazon.com/s?k=ESP32+or+D1+mini&tag=buildbin-20"
-    },
-    {
-     "name": "PMS5003 or SDS011 particulate sensor",
-     "url": "https://www.amazon.com/s?k=PMS5003+or+SDS011+particulate+sensor&tag=buildbin-20"
-    },
-    {
-     "name": "BME280",
-     "url": "https://www.amazon.com/s?k=BME280&tag=buildbin-20"
-    },
-    {
-     "name": "OLED display (SSD1306)",
-     "url": "https://www.amazon.com/s?k=OLED+display&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Wire strippers"
-   ],
-   "description": "Measures particulates and shows AQI.",
-   "reference": "sensor.community",
-   "reference_url": "https://sensor.community/en/sensors/airrohr/",
-   "thumb": "assets/thumbs/18.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Feinstaubsensor_SDS011.jpg",
-   "thumb_license": "CC0",
-   "thumb_author": "ubahnverleih"
-  },
-  {
-   "title": "CO2 monitor with SCD40",
-   "boards": [
-    "esp32",
-    "pico"
-   ],
-   "categories": [
-    "sensors-weather"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "40-70",
-   "time": "1-2 hrs",
-   "parts": [
-    {
-     "name": "ESP32 or Pico W",
-     "url": "https://www.amazon.com/s?k=ESP32+or+Pico+W&tag=buildbin-20"
-    },
-    {
-     "name": "Sensirion SCD40/SCD41",
-     "url": "https://www.amazon.com/s?k=Sensirion+SCD40%2FSCD41&tag=buildbin-20"
-    },
-    {
-     "name": "OLED or e-paper display",
-     "url": "https://www.amazon.com/s?k=OLED+or+e-paper+display&tag=buildbin-20"
-    },
-    {
-     "name": "USB-C power",
-     "url": "https://www.amazon.com/s?k=USB-C+power&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron"
-   ],
-   "description": "Know when to open a window based on CO2 ppm.",
-   "reference": "learn.adafruit.com",
-   "reference_url": "https://newbiely.com/tutorials/raspberry-pico/raspberry-pi-pico-scd40-co2-sensor",
-   "thumb": "assets/thumbs/19.webp",
-   "thumb_credit": "https://learn.adafruit.com/diy-trinkey-no-solder-air-quality-monitor",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Pico W web-connected thermometer",
-   "boards": [
-    "pico"
-   ],
-   "categories": [
-    "sensors-weather"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "10-20",
-   "time": "1 hr",
-   "parts": [
-    {
-     "name": "Raspberry Pi Pico W",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+W&tag=buildbin-20"
-    },
-    {
-     "name": "DS18B20 sensor",
-     "url": "https://www.amazon.com/s?k=DS18B20+sensor&tag=buildbin-20"
-    },
-    {
-     "name": "4.7kΩ resistor",
-     "url": "https://www.amazon.com/s?k=4.7k%CE%A9+resistor&tag=buildbin-20"
-    },
-    {
-     "name": "Breadboard + jumpers",
-     "url": "https://www.amazon.com/s?k=Breadboard+%2B+jumpers&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer w/ Thonny (MicroPython)"
-   ],
-   "description": "MicroPython intro: serve readings on a web page.",
-   "reference": "raspberrypi.com",
-   "reference_url": "https://projects.raspberrypi.org/en/projects/get-started-pico-w",
-   "thumb": "assets/thumbs/20.webp",
-   "thumb_credit": "https://randomnerdtutorials.com/raspberry-pi-pico-ds18b20-micropython/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Infinity mirror",
-   "boards": [
-    "nano",
-    "esp32"
-   ],
-   "categories": [
-    "led-lighting"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "40-80",
-   "time": "4-6 hrs",
-   "parts": [
-    {
-     "name": "Arduino Nano or ESP32",
-     "url": "https://www.amazon.com/s?k=Arduino+Nano+or+ESP32&tag=buildbin-20"
-    },
-    {
-     "name": "WS2812B strip",
-     "url": "https://www.amazon.com/s?k=WS2812B+strip&tag=buildbin-20"
-    },
-    {
-     "name": "Mirror",
-     "url": "https://www.amazon.com/s?k=Mirror&tag=buildbin-20"
-    },
-    {
-     "name": "One-way mirror film/acrylic",
-     "url": "https://www.amazon.com/s?k=One-way+mirror+film%2Facrylic&tag=buildbin-20"
-    },
-    {
-     "name": "Picture frame",
-     "url": "https://www.amazon.com/s?k=Picture+frame&tag=buildbin-20"
-    },
-    {
-     "name": "5V supply",
-     "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Hot glue gun"
-   ],
-   "description": "Endless tunnel-of-light effect.",
-   "reference": "instructables.com",
-   "reference_url": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/",
-   "thumb": "assets/thumbs/21.webp",
-   "thumb_credit": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "LED matrix scrolling sign",
-   "boards": [
-    "uno",
-    "esp32"
-   ],
-   "categories": [
-    "led-lighting"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "20-40",
-   "time": "2 hrs",
-   "parts": [
-    {
-     "name": "Arduino or ESP32",
-     "url": "https://www.amazon.com/s?k=Arduino+or+ESP32&tag=buildbin-20"
-    },
-    {
-     "name": "MAX7219 8x32 LED matrix",
-     "url": "https://www.amazon.com/s?k=MAX7219+8x32+LED+matrix&tag=buildbin-20"
-    },
-    {
-     "name": "Jumper wires",
-     "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
-    },
-    {
-     "name": "5V supply",
-     "url": "https://www.amazon.com/s?k=5V+supply&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer w/ Arduino IDE"
-   ],
-   "description": "Scroll messages, clock or stock tickers.",
-   "reference": "github.com/MajicDesigns/MD_Parola",
-   "reference_url": "https://majicdesigns.github.io/MD_Parola/",
-   "thumb": "assets/thumbs/22.webp",
-   "thumb_credit": "https://lastminuteengineers.com/max7219-dot-matrix-arduino-tutorial/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Ambilight TV backlight (Hyperion)",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "led-lighting",
-    "home-automation"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "60-100",
-   "time": "3-4 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "WS2812B/SK6812 strip",
-     "url": "https://www.amazon.com/s?k=WS2812B%2FSK6812+strip&tag=buildbin-20"
-    },
-    {
-     "name": "HDMI capture/splitter",
-     "url": "https://www.amazon.com/s?k=HDMI+capture%2Fsplitter&tag=buildbin-20"
-    },
-    {
-     "name": "5V high-current supply",
-     "url": "https://www.amazon.com/s?k=5V+high-current+supply&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "Bias lighting that reacts to on-screen colors.",
-   "reference": "hyperion-project.org",
-   "reference_url": "https://docs.hyperion-project.org/",
-   "thumb": "assets/thumbs/23.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Ambilight-1.jpg",
-   "thumb_license": "CC BY 3.0",
-   "thumb_author": "Stephan Legachev"
-  },
-  {
-   "title": "Pi music streamer (Volumio/moOde)",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "audio"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "60-120",
-   "time": "2 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "DAC HAT (e.g. HiFiBerry-class)",
-     "url": "https://www.amazon.com/s?k=DAC+HAT&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card",
-     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
-    },
-    {
-     "name": "Power supply",
-     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Case",
-     "url": "https://www.amazon.com/s?k=Case&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Network audio player for an old stereo.",
-   "reference": "volumio.com / moodeaudio.org",
-   "reference_url": "https://volumio.com/get-started/",
-   "thumb": "assets/thumbs/24.webp",
-   "thumb_credit": "https://volumio.com/get-started/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Bluetooth speaker build",
-   "boards": [
-    "esp32"
-   ],
-   "categories": [
-    "audio"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "40-80",
-   "time": "4-6 hrs",
-   "parts": [
-    {
-     "name": "ESP32 (A2DP) or BT amp board",
-     "url": "https://www.amazon.com/s?k=ESP32+or+BT+amp+board&tag=buildbin-20"
-    },
-    {
-     "name": "PAM8403/MAX98357A amplifier",
-     "url": "https://www.amazon.com/s?k=PAM8403%2FMAX98357A+amplifier&tag=buildbin-20"
-    },
-    {
-     "name": "2x full-range drivers",
-     "url": "https://www.amazon.com/s?k=2x+full-range+drivers&tag=buildbin-20"
-    },
-    {
-     "name": "18650 + BMS + charger board",
-     "url": "https://www.amazon.com/s?k=18650+%2B+BMS+%2B+charger+board&tag=buildbin-20"
-    },
-    {
-     "name": "Enclosure",
-     "url": "https://www.amazon.com/s?k=Enclosure&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Drill"
-   ],
-   "description": "Portable speaker with ESP32 Bluetooth audio.",
-   "reference": "github.com/pschatzmann/ESP32-A2DP",
-   "reference_url": "https://github.com/pschatzmann/ESP32-A2DP",
-   "thumb": "assets/thumbs/25.webp",
-   "thumb_credit": "https://www.instructables.com/DIY-Portable-Bluetooth-Speaker/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "MIDI controller",
-   "boards": [
-    "pico",
-    "uno"
-   ],
-   "categories": [
-    "audio"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "30-60",
-   "time": "4-6 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi Pico (or Arduino Leonardo/Micro)",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
-    },
-    {
-     "name": "Arcade buttons",
-     "url": "https://www.amazon.com/s?k=Arcade+buttons&tag=buildbin-20"
-    },
-    {
-     "name": "Potentiometers/sliders",
-     "url": "https://www.amazon.com/s?k=Potentiometers%2Fsliders&tag=buildbin-20"
-    },
-    {
-     "name": "Enclosure",
-     "url": "https://www.amazon.com/s?k=Enclosure&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Drill"
-   ],
-   "description": "USB MIDI pads and knobs for your DAW.",
-   "reference": "learn.adafruit.com",
-   "reference_url": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython",
-   "thumb": "assets/thumbs/26.webp",
-   "thumb_credit": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Retro game console (RetroPie)",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "gaming"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "60-120",
-   "time": "2-3 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card",
-     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
-    },
-    {
-     "name": "USB controllers",
-     "url": "https://www.amazon.com/s?k=USB+controllers&tag=buildbin-20"
-    },
-    {
-     "name": "Case",
-     "url": "https://www.amazon.com/s?k=Case&tag=buildbin-20"
-    },
-    {
-     "name": "HDMI cable",
-     "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Emulation station for classic games.",
-   "reference": "retropie.org.uk",
-   "reference_url": "https://retropie.org.uk/docs/First-Installation/",
-   "thumb": "assets/thumbs/27.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Side.jpg",
-   "thumb_license": "CC BY-SA 4.0",
-   "thumb_author": "Laserlicht"
-  },
-  {
-   "title": "NeoPixel LED wearable/costume",
-   "boards": [
-    "pico",
-    "nano"
-   ],
-   "categories": [
-    "wearables",
-    "led-lighting"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "20-40",
-   "time": "2-3 hrs",
-   "parts": [
-    {
-     "name": "Adafruit Gemma/QT Py or Pico",
-     "url": "https://www.amazon.com/s?k=Adafruit+Gemma%2FQT+Py+or+Pico&tag=buildbin-20"
-    },
-    {
-     "name": "NeoPixel strip/rings",
-     "url": "https://www.amazon.com/s?k=NeoPixel+strip%2Frings&tag=buildbin-20"
-    },
-    {
-     "name": "LiPo battery + charger",
-     "url": "https://www.amazon.com/s?k=LiPo+battery+%2B+charger&tag=buildbin-20"
-    },
-    {
-     "name": "Conductive thread or wire",
-     "url": "https://www.amazon.com/s?k=Conductive+thread+or+wire&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Needle"
-   ],
-   "description": "Light-up hoodie, hat or cosplay piece.",
-   "reference": "learn.adafruit.com",
-   "reference_url": "https://learn.adafruit.com/rainbow-chakra-led-hoodie",
-   "thumb": "assets/thumbs/28.webp",
-   "thumb_credit": "https://learn.adafruit.com/rainbow-chakra-led-hoodie",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Smartwatch (ESP32 dev watch)",
-   "boards": [
-    "esp32"
-   ],
-   "categories": [
-    "wearables"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "40-80",
-   "time": "6-10 hrs",
-   "parts": [
-    {
-     "name": "ESP32 watch dev kit (e.g. LilyGO T-Watch-class)",
-     "url": "https://www.amazon.com/s?k=ESP32+watch+dev+kit&tag=buildbin-20"
-    },
-    {
-     "name": "USB cable",
-     "url": "https://www.amazon.com/s?k=USB+cable&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer w/ Arduino IDE/PlatformIO"
-   ],
-   "description": "Program your own watch faces and apps.",
-   "reference": "github.com/Xinyuan-LilyGO",
-   "reference_url": "https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library",
-   "thumb": "assets/thumbs/29.webp",
-   "thumb_credit": "https://www.lilygo.cc/products/t-watch-2020-v3",
-   "thumb_license": "Manufacturer product photo, © LILYGO",
-   "thumb_author": ""
-  },
-  {
-   "title": "Step counter wristband",
-   "boards": [
-    "pico",
-    "nano"
-   ],
-   "categories": [
-    "wearables",
-    "sensors-weather"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "20-40",
-   "time": "3-4 hrs",
-   "parts": [
-    {
-     "name": "Microcontroller (Pico/Nano)",
-     "url": "https://www.amazon.com/s?k=Microcontroller&tag=buildbin-20"
-    },
-    {
-     "name": "MPU6050 or LSM6DS3 IMU",
-     "url": "https://www.amazon.com/s?k=MPU6050+or+LSM6DS3+IMU&tag=buildbin-20"
-    },
-    {
-     "name": "0.96\" OLED",
-     "url": "https://www.amazon.com/s?k=0.96%22+OLED&tag=buildbin-20"
-    },
-    {
-     "name": "LiPo + charger",
-     "url": "https://www.amazon.com/s?k=LiPo+%2B+charger&tag=buildbin-20"
-    },
-    {
-     "name": "Strap/3D-printed case",
-     "url": "https://www.amazon.com/s?k=Strap%2F3D-printed+case&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "DIY pedometer with an accelerometer.",
-   "reference": "instructables.com",
-   "reference_url": "https://github.com/no-go/StepCounter",
-   "thumb": "assets/thumbs/30.webp",
-   "thumb_credit": "https://github.com/no-go/StepCounter",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Mechanical macro keypad",
-   "boards": [
-    "pico"
-   ],
-   "categories": [
-    "home-automation"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "20-40",
-   "time": "2-3 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi Pico",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
-    },
-    {
-     "name": "Mechanical switches",
-     "url": "https://www.amazon.com/s?k=Mechanical+switches&tag=buildbin-20"
-    },
-    {
-     "name": "Keycaps",
-     "url": "https://www.amazon.com/s?k=Keycaps&tag=buildbin-20"
-    },
-    {
-     "name": "3D-printed or acrylic plate",
-     "url": "https://www.amazon.com/s?k=3D-printed+or+acrylic+plate&tag=buildbin-20"
-    },
-    {
-     "name": "Diodes (if matrix)",
-     "url": "https://www.amazon.com/s?k=Diodes&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers"
-   ],
-   "description": "Programmable shortcut pad with KMK/CircuitPython.",
-   "reference": "github.com/KMKfw/kmk_firmware",
-   "reference_url": "https://sanderg.nl/en/posts/3d-printed-hand-wired-macro-pad-with-raspberry-pi-pico-kmk-&-circuitpython/",
-   "thumb": "assets/thumbs/31.webp",
-   "thumb_credit": "https://learn.adafruit.com/diy-pico-mechanical-keyboard-with-fritzing-circuitpython",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Pi security camera (MotionEye)",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "home-automation"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "50-100",
-   "time": "2 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "Pi Camera Module",
-     "url": "https://www.amazon.com/s?k=Pi+Camera+Module&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card",
-     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
-    },
-    {
-     "name": "Power supply",
-     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
-    },
-    {
-     "name": "Case/mount",
-     "url": "https://www.amazon.com/s?k=Case%2Fmount&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Motion-detecting camera with web viewing.",
-   "reference": "github.com/motioneye-project",
-   "reference_url": "https://github.com/motioneye-project/motioneyeos/wiki",
-   "thumb": "assets/thumbs/32.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_with_Camera_Module.jpg",
-   "thumb_license": "CC BY-SA 4.0",
-   "thumb_author": "ZippeyKeys12"
-  },
-  {
-   "title": "ESP-Drone mini quadcopter (ESP32-S2/S3)",
-   "boards": [
-    "esp32"
-   ],
-   "categories": [
-    "drones-fpv"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "40-80",
-   "time": "6-10 hrs",
-   "parts": [
-    {
-     "name": "ESP32-S2 or ESP32-S3 dev board",
-     "url": "https://www.amazon.com/s?k=ESP32-S2+or+ESP32-S3+dev+board&tag=buildbin-20"
-    },
-    {
-     "name": "MPU6050 IMU",
-     "url": "https://www.amazon.com/s?k=MPU6050+IMU&tag=buildbin-20"
-    },
-    {
-     "name": "4x 716 coreless brushed motors",
-     "url": "https://www.amazon.com/s?k=4x+716+coreless+brushed+motors&tag=buildbin-20"
-    },
-    {
-     "name": "4x 46mm props",
-     "url": "https://www.amazon.com/s?k=4x+46mm+props&tag=buildbin-20"
-    },
-    {
-     "name": "4x SI2302 MOSFETs (or prebuilt ESP-Drone board)",
-     "url": "https://www.amazon.com/s?k=4x+SI2302+MOSFETs&tag=buildbin-20"
-    },
-    {
-     "name": "1S LiPo battery (300-500mAh)",
-     "url": "https://www.amazon.com/s?k=1S+LiPo+battery&tag=buildbin-20"
-    },
-    {
-     "name": "Lightweight mini quad frame",
-     "url": "https://www.amazon.com/s?k=Lightweight+mini+quad+frame&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Multimeter",
-    "Wire strippers",
-    "Phone with ESP-Drone app or cfclient"
-   ],
-   "description": "Espressif's open-source Wi-Fi mini drone, based on Crazyflie firmware.",
-   "reference": "github.com/espressif/esp-drone",
-   "reference_url": "https://docs.espressif.com/projects/espressif-esp-drone/en/latest/gettingstarted.html",
-   "thumb": "assets/thumbs/33.webp",
-   "thumb_credit": "https://github.com/espressif/esp-drone",
-   "thumb_license": "Apache-2.0 (ESP-Drone docs)",
-   "thumb_author": "Espressif"
-  },
-  {
-   "title": "MagicMirror² smart mirror",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "home-automation"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "100-250",
-   "time": "6-12 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi 4/5",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4%2F5&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card 32GB",
-     "url": "https://www.amazon.com/s?k=microSD+card+32GB&tag=buildbin-20"
-    },
-    {
-     "name": "Spare monitor (LCD)",
-     "url": "https://www.amazon.com/s?k=Spare+monitor&tag=buildbin-20"
-    },
-    {
-     "name": "Two-way mirror acrylic or glass",
-     "url": "https://www.amazon.com/s?k=Two-way+mirror+acrylic+or+glass&tag=buildbin-20"
-    },
-    {
-     "name": "Wood for frame",
-     "url": "https://www.amazon.com/s?k=Wood+for+frame&tag=buildbin-20"
-    },
-    {
-     "name": "HDMI cable",
-     "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
-    },
-    {
-     "name": "Power supply",
-     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Saw",
-    "Drill",
-    "Screwdriver",
-    "Computer for flashing"
-   ],
-   "description": "Mirror that shows weather, calendar and news using the MagicMirror² platform.",
-   "reference": "magicmirror.builders",
-   "reference_url": "https://docs.magicmirror.builders/getting-started/installation.html",
-   "thumb": "assets/thumbs/34.webp",
-   "thumb_credit": "https://www.instructables.com/Raspberry-Pi-Smart-Mirror/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "ADS-B flight tracker (PiAware / tar1090)",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "sensors-weather"
-   ],
-   "difficulty": "Beginner",
-   "est_cost_usd": "50-100",
-   "time": "1-2 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi (3B+ or newer)",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
-    },
-    {
-     "name": "RTL-SDR USB dongle (1090MHz)",
-     "url": "https://www.amazon.com/s?k=RTL-SDR+USB+dongle&tag=buildbin-20"
-    },
-    {
-     "name": "1090MHz ADS-B antenna",
-     "url": "https://www.amazon.com/s?k=1090MHz+ADS-B+antenna&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card 16GB+",
-     "url": "https://www.amazon.com/s?k=microSD+card+16GB%2B&tag=buildbin-20"
-    },
-    {
-     "name": "Power supply",
-     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Track nearby aircraft on a live map and share data with FlightAware.",
-   "reference": "flightaware.com/adsb/piaware/build",
-   "reference_url": "https://www.flightaware.com/adsb/piaware/build",
-   "thumb": "assets/thumbs/35.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Flightradar24_ADS-B_receiver.png",
-   "thumb_license": "CC BY-SA 3.0",
-   "thumb_author": "Nubifer"
-  },
-  {
-   "title": "PiGRRL 2 handheld retro console",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "gaming"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "120-180",
-   "time": "8-12 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi 3",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+3&tag=buildbin-20"
-    },
-    {
-     "name": "2.8 inch PiTFT display",
-     "url": "https://www.amazon.com/s?k=2.8+inch+PiTFT+display&tag=buildbin-20"
-    },
-    {
-     "name": "PowerBoost 1000C",
-     "url": "https://www.amazon.com/s?k=PowerBoost+1000C&tag=buildbin-20"
-    },
-    {
-     "name": "2500mAh LiPo battery",
-     "url": "https://www.amazon.com/s?k=2500mAh+LiPo+battery&tag=buildbin-20"
-    },
-    {
-     "name": "Tactile buttons",
-     "url": "https://www.amazon.com/s?k=Tactile+buttons&tag=buildbin-20"
-    },
-    {
-     "name": "3D printed case",
-     "url": "https://www.amazon.com/s?k=3D+printed+case&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "3D printer",
-    "Computer for flashing"
-   ],
-   "description": "Game Boy-style Pi handheld running RetroPie in a 3D-printed case.",
-   "reference": "learn.adafruit.com",
-   "reference_url": "https://learn.adafruit.com/pigrrl-2",
-   "thumb": "assets/thumbs/36.webp",
-   "thumb_credit": "https://learn.adafruit.com/pigrrl-2",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": "Adafruit"
-  },
-  {
-   "title": "2-player bartop arcade cabinet",
-   "boards": [
-    "pi"
-   ],
-   "categories": [
-    "gaming"
-   ],
-   "difficulty": "Advanced",
-   "est_cost_usd": "250-400",
-   "time": "20-30 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi 4",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
-    },
-    {
-     "name": "19 inch LCD monitor",
-     "url": "https://www.amazon.com/s?k=19+inch+LCD+monitor&tag=buildbin-20"
-    },
-    {
-     "name": "Arcade joystick and button kit",
-     "url": "https://www.amazon.com/s?k=Arcade+joystick+and+button+kit&tag=buildbin-20"
-    },
-    {
-     "name": "USB encoder",
-     "url": "https://www.amazon.com/s?k=USB+encoder&tag=buildbin-20"
-    },
-    {
-     "name": "MDF sheet",
-     "url": "https://www.amazon.com/s?k=MDF+sheet&tag=buildbin-20"
-    },
-    {
-     "name": "Computer speakers",
-     "url": "https://www.amazon.com/s?k=Computer+speakers&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Jigsaw",
-    "Drill",
-    "Screwdrivers",
-    "Computer for flashing"
-   ],
-   "description": "Pi-powered bartop arcade cabinet with two sets of sticks and buttons.",
-   "reference": "instructables.com",
-   "reference_url": "https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/",
-   "thumb": "assets/thumbs/37.webp",
-   "thumb_credit": "https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Arduboy-style handheld (DIY clone)",
-   "boards": [
-    "promicro"
-   ],
-   "categories": [
-    "gaming"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "20-35",
-   "time": "3-5 hrs",
-   "parts": [
-    {
-     "name": "Arduino Pro Micro",
-     "url": "https://www.amazon.com/s?k=Arduino+Pro+Micro&tag=buildbin-20"
-    },
-    {
-     "name": "0.96 inch SSD1306 OLED",
-     "url": "https://www.amazon.com/s?k=0.96+inch+SSD1306+OLED&tag=buildbin-20"
-    },
-    {
-     "name": "Tactile buttons",
-     "url": "https://www.amazon.com/s?k=Tactile+buttons&tag=buildbin-20"
-    },
-    {
-     "name": "Piezo buzzer",
-     "url": "https://www.amazon.com/s?k=Piezo+buzzer&tag=buildbin-20"
-    },
-    {
-     "name": "Perfboard",
-     "url": "https://www.amazon.com/s?k=Perfboard&tag=buildbin-20"
-    },
-    {
-     "name": "LiPo battery + charger",
-     "url": "https://www.amazon.com/s?k=LiPo+battery+%2B+charger&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Soldering iron",
-    "Computer w/ Arduino IDE"
-   ],
-   "description": "Tiny 8-bit game handheld that plays Arduboy games.",
-   "reference": "instructables.com",
-   "reference_url": "https://www.instructables.com/Arduboy-Clone/",
-   "thumb": "assets/thumbs/38.webp",
-   "thumb_credit": "https://www.instructables.com/Arduboy-Clone/",
-   "thumb_license": "Image from the linked guide (link-preview image), © its author",
-   "thumb_author": ""
-  },
-  {
-   "title": "Pico NES console with HDMI (pico-infonesPlus)",
-   "boards": [
-    "pico"
-   ],
-   "categories": [
-    "gaming"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "25-50",
-   "time": "1-3 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi Pico",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
-    },
-    {
-     "name": "Pimoroni Pico DV Demo Base",
-     "url": "https://www.amazon.com/s?k=Pimoroni+Pico+DV+Demo+Base&tag=buildbin-20"
-    },
-    {
-     "name": "microSD card",
-     "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
-    },
-    {
-     "name": "USB NES-style controller",
-     "url": "https://www.amazon.com/s?k=USB+NES-style+controller&tag=buildbin-20"
-    },
-    {
-     "name": "HDMI cable",
-     "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Computer for flashing"
-   ],
-   "description": "Play NES games on a TV from a $4 microcontroller over DVI/HDMI.",
-   "reference": "github.com/fhoedemakers/pico-infonesPlus",
-   "reference_url": "https://github.com/fhoedemakers/pico-infonesPlus",
-   "thumb": "assets/thumbs/39.webp",
-   "thumb_credit": "https://github.com/fhoedemakers/pico-infonesPlus",
-   "thumb_license": "GPL-3.0 (project repo)",
-   "thumb_author": "fhoedemakers"
-  },
-  {
-   "title": "DIY arcade fight stick (GP2040-CE)",
-   "boards": [
-    "pico"
-   ],
-   "categories": [
-    "gaming"
-   ],
-   "difficulty": "Intermediate",
-   "est_cost_usd": "50-90",
-   "time": "4-6 hrs",
-   "parts": [
-    {
-     "name": "Raspberry Pi Pico",
-     "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico&tag=buildbin-20"
-    },
-    {
-     "name": "Sanwa-style arcade joystick",
-     "url": "https://www.amazon.com/s?k=Sanwa-style+arcade+joystick&tag=buildbin-20"
-    },
-    {
-     "name": "30mm arcade buttons",
-     "url": "https://www.amazon.com/s?k=30mm+arcade+buttons&tag=buildbin-20"
-    },
-    {
-     "name": "Quick-disconnect wires",
-     "url": "https://www.amazon.com/s?k=Quick-disconnect+wires&tag=buildbin-20"
-    },
-    {
-     "name": "Project box or acrylic case",
-     "url": "https://www.amazon.com/s?k=Project+box+or+acrylic+case&tag=buildbin-20"
-    },
-    {
-     "name": "USB-C cable",
-     "url": "https://www.amazon.com/s?k=USB-C+cable&tag=buildbin-20"
-    }
-   ],
-   "tools": [
-    "Drill + step bit",
-    "Wire crimper",
-    "Computer for flashing"
-   ],
-   "description": "Low-latency fight stick for PC, Switch and PlayStation using Pico firmware.",
-   "reference": "gp2040-ce.info",
-   "reference_url": "https://gp2040-ce.info/installation",
-   "thumb": "assets/thumbs/40.webp",
-   "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arcade_controller.jpg",
-   "thumb_license": "CC BY-SA 3.0",
-   "thumb_author": "Carioca"
-  }
- ]
+  ]
 }
