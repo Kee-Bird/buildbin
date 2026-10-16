@@ -17,7 +17,8 @@
     "led-lighting": "LED & lighting",
     "audio": "Audio",
     "wearables": "Wearables",
-    "gaming": "Gaming"
+    "gaming": "Gaming",
+    "3d-printing": "3D printing"
   },
   "projects": [
     {
@@ -1928,6 +1929,304 @@
       "reference": "gp2040-ce.info",
       "reference_url": "https://gp2040-ce.info/installation",
       "thumb": "assets/thumbs/40.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Voron 0.2 CoreXY 3D printer kit build",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "450-700",
+      "time": "25-40 hrs",
+      "parts": [
+        {
+          "name": "Voron 0.2 kit",
+          "url": "https://www.amazon.com/s?k=Voron+0.2+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi 4",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "NEMA 14 stepper motors",
+          "url": "https://www.amazon.com/s?k=NEMA+14+stepper+motors&tag=buildbin-20"
+        },
+        {
+          "name": "24V power supply",
+          "url": "https://www.amazon.com/s?k=24V+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "PETG filament",
+          "url": "https://www.amazon.com/s?k=PETG+filament&tag=buildbin-20"
+        },
+        {
+          "name": "Heat-set inserts M3",
+          "url": "https://www.amazon.com/s?k=Heat-set+inserts+M3&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Hex drivers",
+        "Soldering iron",
+        "Crimping tool",
+        "Digital calipers"
+      ],
+      "description": "Build the tiny, fast, community-designed Voron 0.2 CoreXY printer running Klipper.",
+      "reference": "docs.vorondesign.com",
+      "reference_url": "https://docs.vorondesign.com/build/",
+      "thumb": "assets/thumbs/41.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Voron_3D_printer_02.jpg",
+      "thumb_license": "CC BY-SA 2.0",
+      "thumb_author": "disinterpreter"
+    },
+    {
+      "title": "OctoPrint Raspberry Pi print server",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "60-110",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi power supply",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "32GB microSD card",
+          "url": "https://www.amazon.com/s?k=32GB+microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi camera module",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+camera+module&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB-A+to+USB-B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Control and monitor your printer from any browser with OctoPrint and a webcam.",
+      "reference": "octoprint.org",
+      "reference_url": "https://octoprint.org/download/",
+      "thumb": "assets/thumbs/42.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Octoprint_Screenshot.png",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Keanu Dölle"
+    },
+    {
+      "title": "Klipper firmware upgrade for Ender 3",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "50-90",
+      "time": "2-4 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi power supply",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "32GB microSD card",
+          "url": "https://www.amazon.com/s?k=32GB+microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C cable",
+          "url": "https://www.amazon.com/s?k=USB-C+cable&tag=buildbin-20"
+        },
+        {
+          "name": "ADXL345 accelerometer",
+          "url": "https://www.amazon.com/s?k=ADXL345+accelerometer&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing",
+        "Hex drivers"
+      ],
+      "description": "Run Klipper on a Pi for faster, smoother prints with input shaping and pressure advance.",
+      "reference": "klipper3d.org",
+      "reference_url": "https://www.klipper3d.org/Installation.html",
+      "thumb": "assets/thumbs/43.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Ender_3x_3D%E5%8D%B0%E8%A1%A8%E6%A9%9F_%E5%A5%97%E4%BB%B6_-_49804731296.jpg",
+      "thumb_license": "CC BY-SA 2.0",
+      "thumb_author": "kenming Wang"
+    },
+    {
+      "title": "Smart filament dryer with ESP32 humidity sensor",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "45-80",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Sovol filament dryer",
+          "url": "https://www.amazon.com/s?k=Sovol+filament+dryer&tag=buildbin-20"
+        },
+        {
+          "name": "ESP32-C3 Super Mini",
+          "url": "https://www.amazon.com/s?k=ESP32-C3+Super+Mini&tag=buildbin-20"
+        },
+        {
+          "name": "Mini buck converter 12V to 5V",
+          "url": "https://www.amazon.com/s?k=Mini+buck+converter+12V+to+5V&tag=buildbin-20"
+        },
+        {
+          "name": "JST XH connectors",
+          "url": "https://www.amazon.com/s?k=JST+XH+connectors&tag=buildbin-20"
+        },
+        {
+          "name": "Silicone hookup wire",
+          "url": "https://www.amazon.com/s?k=Silicone+hookup+wire&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "Screwdriver",
+        "Computer for flashing"
+      ],
+      "description": "Add ESPHome to a filament dryer to watch temperature and humidity in Home Assistant.",
+      "reference": "simplymaker.net",
+      "reference_url": "https://simplymaker.net/electronics/easily-integrate-sovol-filament-dryer-to-home-assistant-with-esp32/",
+      "thumb": "assets/thumbs/44.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "3D printed 6-inch FPV drone frame",
+      "boards": [
+        "f4"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "150-250",
+      "time": "10-15 hrs",
+      "parts": [
+        {
+          "name": "F4 flight controller stack 30x30",
+          "url": "https://www.amazon.com/s?k=F4+flight+controller+stack+30x30&tag=buildbin-20"
+        },
+        {
+          "name": "2207 brushless motors",
+          "url": "https://www.amazon.com/s?k=2207+brushless+motors&tag=buildbin-20"
+        },
+        {
+          "name": "6 inch propellers",
+          "url": "https://www.amazon.com/s?k=6+inch+propellers&tag=buildbin-20"
+        },
+        {
+          "name": "FPV camera",
+          "url": "https://www.amazon.com/s?k=FPV+camera&tag=buildbin-20"
+        },
+        {
+          "name": "5.8GHz VTX",
+          "url": "https://www.amazon.com/s?k=5.8GHz+VTX&tag=buildbin-20"
+        },
+        {
+          "name": "4S LiPo battery",
+          "url": "https://www.amazon.com/s?k=4S+LiPo+battery&tag=buildbin-20"
+        },
+        {
+          "name": "PETG filament",
+          "url": "https://www.amazon.com/s?k=PETG+filament&tag=buildbin-20"
+        },
+        {
+          "name": "M3 screw assortment",
+          "url": "https://www.amazon.com/s?k=M3+screw+assortment&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "3D printer",
+        "Soldering iron",
+        "Hex drivers",
+        "Computer for Betaflight"
+      ],
+      "description": "Fly a deadcat 6\" cruiser quad with a frame printed almost entirely in PETG.",
+      "reference": "printables.com",
+      "reference_url": "https://www.printables.com/model/196607-fpv-drone-featured-on-greatscott",
+      "thumb": "assets/thumbs/45.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Printer enclosure PID fan controller",
+      "boards": [
+        "nano"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-60",
+      "time": "3-4 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "DHT22 temperature humidity sensor",
+          "url": "https://www.amazon.com/s?k=DHT22+temperature+humidity+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "120mm PWM fan",
+          "url": "https://www.amazon.com/s?k=120mm+PWM+fan&tag=buildbin-20"
+        },
+        {
+          "name": "0.96 inch OLED display I2C",
+          "url": "https://www.amazon.com/s?k=0.96+inch+OLED+display+I2C&tag=buildbin-20"
+        },
+        {
+          "name": "N-channel MOSFET",
+          "url": "https://www.amazon.com/s?k=N-channel+MOSFET&tag=buildbin-20"
+        },
+        {
+          "name": "12V power adapter",
+          "url": "https://www.amazon.com/s?k=12V+power+adapter&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Soldering iron",
+        "3D printer",
+        "Screwdriver"
+      ],
+      "description": "Keep your enclosure at the right temperature with a DHT22 and a PID-controlled fan.",
+      "reference": "luckyresistor.me",
+      "reference_url": "https://luckyresistor.me/blog/2020/1205_221638/",
+      "thumb": "assets/thumbs/46.webp",
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
