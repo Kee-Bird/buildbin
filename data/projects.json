@@ -387,7 +387,7 @@
     "Screwdriver"
    ],
    "description": "Open-source walking, dancing robot.",
-   "reference": "ottodiy.com"
+   "reference": "www.ottodiy.com"
   },
   {
    "title": "Self-balancing robot",
@@ -1362,6 +1362,145 @@
    ],
    "description": "Motion-detecting camera with web viewing.",
    "reference": "github.com/motioneye-project"
+  },
+  {
+   "title": "ESP-Drone mini quadcopter (ESP32-S2/S3)",
+   "boards": [
+    "esp32"
+   ],
+   "categories": [
+    "drones-fpv"
+   ],
+   "difficulty": "Advanced",
+   "est_cost_usd": "40-80",
+   "time": "6-10 hrs",
+   "parts": [
+    {
+     "name": "ESP32-S2 or ESP32-S3 dev board",
+     "url": "https://www.amazon.com/s?k=ESP32-S2+or+ESP32-S3+dev+board&tag=buildbin-20"
+    },
+    {
+     "name": "MPU6050 IMU",
+     "url": "https://www.amazon.com/s?k=MPU6050+IMU&tag=buildbin-20"
+    },
+    {
+     "name": "4x 716 coreless brushed motors",
+     "url": "https://www.amazon.com/s?k=4x+716+coreless+brushed+motors&tag=buildbin-20"
+    },
+    {
+     "name": "4x 46mm props",
+     "url": "https://www.amazon.com/s?k=4x+46mm+props&tag=buildbin-20"
+    },
+    {
+     "name": "4x SI2302 MOSFETs (or prebuilt ESP-Drone board)",
+     "url": "https://www.amazon.com/s?k=4x+SI2302+MOSFETs&tag=buildbin-20"
+    },
+    {
+     "name": "1S LiPo battery (300-500mAh)",
+     "url": "https://www.amazon.com/s?k=1S+LiPo+battery&tag=buildbin-20"
+    },
+    {
+     "name": "Lightweight mini quad frame",
+     "url": "https://www.amazon.com/s?k=Lightweight+mini+quad+frame&tag=buildbin-20"
+    }
+   ],
+   "tools": [
+    "Soldering iron",
+    "Multimeter",
+    "Wire strippers",
+    "Phone with ESP-Drone app or cfclient"
+   ],
+   "description": "Espressif's open-source Wi-Fi mini drone, based on Crazyflie firmware.",
+   "reference": "github.com/espressif/esp-drone"
+  },
+  {
+   "title": "MagicMirror\u00b2 smart mirror",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "home-automation"
+   ],
+   "difficulty": "Intermediate",
+   "est_cost_usd": "100-250",
+   "time": "6-12 hrs",
+   "parts": [
+    {
+     "name": "Raspberry Pi 4/5",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi+4%2F5&tag=buildbin-20"
+    },
+    {
+     "name": "microSD card 32GB",
+     "url": "https://www.amazon.com/s?k=microSD+card+32GB&tag=buildbin-20"
+    },
+    {
+     "name": "Spare monitor (LCD)",
+     "url": "https://www.amazon.com/s?k=Spare+monitor&tag=buildbin-20"
+    },
+    {
+     "name": "Two-way mirror acrylic or glass",
+     "url": "https://www.amazon.com/s?k=Two-way+mirror+acrylic+or+glass&tag=buildbin-20"
+    },
+    {
+     "name": "Wood for frame",
+     "url": "https://www.amazon.com/s?k=Wood+for+frame&tag=buildbin-20"
+    },
+    {
+     "name": "HDMI cable",
+     "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
+    },
+    {
+     "name": "Power supply",
+     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+    }
+   ],
+   "tools": [
+    "Saw",
+    "Drill",
+    "Screwdriver",
+    "Computer for flashing"
+   ],
+   "description": "Mirror that shows weather, calendar and news using the MagicMirror\u00b2 platform.",
+   "reference": "magicmirror.builders"
+  },
+  {
+   "title": "ADS-B flight tracker (PiAware / tar1090)",
+   "boards": [
+    "pi"
+   ],
+   "categories": [
+    "sensors-weather"
+   ],
+   "difficulty": "Beginner",
+   "est_cost_usd": "50-100",
+   "time": "1-2 hrs",
+   "parts": [
+    {
+     "name": "Raspberry Pi (3B+ or newer)",
+     "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+    },
+    {
+     "name": "RTL-SDR USB dongle (1090MHz)",
+     "url": "https://www.amazon.com/s?k=RTL-SDR+USB+dongle&tag=buildbin-20"
+    },
+    {
+     "name": "1090MHz ADS-B antenna",
+     "url": "https://www.amazon.com/s?k=1090MHz+ADS-B+antenna&tag=buildbin-20"
+    },
+    {
+     "name": "microSD card 16GB+",
+     "url": "https://www.amazon.com/s?k=microSD+card+16GB%2B&tag=buildbin-20"
+    },
+    {
+     "name": "Power supply",
+     "url": "https://www.amazon.com/s?k=Power+supply&tag=buildbin-20"
+    }
+   ],
+   "tools": [
+    "Computer for flashing"
+   ],
+   "description": "Track nearby aircraft on a live map and share data with FlightAware.",
+   "reference": "flightaware.com/adsb/piaware/build"
   }
  ]
 }
