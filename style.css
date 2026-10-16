@@ -45,3 +45,6 @@ footer{text-align:center;color:var(--muted);padding:2.5rem 1.25rem;font-size:.85
 @media (max-width:600px){header{padding:3rem 1.25rem 2.5rem}main{padding:1.5rem 1rem}#results{grid-template-columns:1fr}.news{padding:1.75rem 1.25rem}.news input[type=email]{max-width:none}.news button{width:100%}select{min-width:100%}nav.cats{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.25rem}nav.cats a{white-space:nowrap}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .card>p.price{color:var(--text)}
+header h1.logo{margin:0 0 1rem;line-height:0}.banner{display:block;width:100%;max-width:720px;height:auto;margin:0 auto;border-radius:14px;box-shadow:0 0 0 1px rgba(148,163,184,.15),0 12px 40px rgba(56,189,248,.18)}
+.banner.sm{max-width:380px;border-radius:10px}header:has(.banner){padding-top:2.5rem}
+@media (max-width:600px){.banner{border-radius:10px}.banner.sm{max-width:260px}}
