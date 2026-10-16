@@ -1,0 +1,47 @@
+/* ===== BuildBin Halloween theme (seasonal, removable) =====
+   Remove the HALLOWEEN THEME block in each page <head> to turn off. */
+:root{--accent:#f97316;--accent-ink:#1c0a02;--accent-soft:#ffedd5;--hw-purple:#6d28d9}
+@media (prefers-color-scheme:dark){:root{--accent-soft:#3b1a07}}
+header{position:relative;overflow:hidden;background:
+ radial-gradient(700px 320px at 15% 110%,rgba(249,115,22,.22),transparent 70%),
+ radial-gradient(800px 380px at 85% -10%,rgba(109,40,217,.35),transparent 70%),
+ radial-gradient(1200px 400px at 50% -10%,#1e1b3a 0%,#0b0a1a 75%)}
+header .wrap{position:relative;z-index:1}
+header .banner{box-shadow:0 0 0 1px rgba(249,115,22,.25),0 12px 40px rgba(249,115,22,.22),0 0 80px rgba(109,40,217,.25)}
+.hw-web,.hw-bats{position:absolute;pointer-events:none;color:#cbd5e1;opacity:.28}
+.hw-web{top:0;width:140px;height:140px}.hw-web.l{left:0}.hw-web.r{right:0;transform:scaleX(-1)}
+.hw-bats{top:18px;right:12%;width:120px;height:60px;color:#a78bfa;opacity:.55}
+@media (prefers-reduced-motion:no-preference){.hw-bats{animation:hw-float 6s ease-in-out infinite}
+@keyframes hw-float{50%{transform:translateY(8px)}}}
+@media (max-width:600px){.hw-web{width:80px;height:80px}.hw-bats{width:72px;right:4%;top:8px}}
+.hw-banner{display:flex;gap:.75rem;align-items:center;justify-content:center;flex-wrap:wrap;background:linear-gradient(90deg,#2e1065,#7c2d12);color:#fde7d2;font-size:.92rem;padding:.55rem 2.5rem .55rem 1rem;position:relative;text-align:center}
+.hw-banner a{color:#fdba74;font-weight:600;text-decoration:none}.hw-banner a:hover{text-decoration:underline}
+.hw-banner .sep{opacity:.4}
+.hw-banner button{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);background:none;border:0;color:#fde7d2;font-size:1.1rem;cursor:pointer;padding:.25rem .5rem;border-radius:6px}
+.hw-banner button:hover,.hw-banner button:focus-visible{background:rgba(255,255,255,.12)}
+main>h2::before,.news h2::before{content:"🎃 ";}
+nav.cats a.hl{border-color:var(--accent)}
+@media (max-width:600px){.hw-banner{font-size:.85rem}.hw-banner .sep,.hw-banner a:nth-of-type(n+3){display:none}.hw-banner a{margin:0 .25rem}}
+/* --- extra decorations --- */
+.hw-deco{position:absolute;pointer-events:none;z-index:0}
+.hw-skel{left:2%;bottom:0;width:90px;height:70px}.hw-wave{transform-origin:62px 66px;transform-box:view-box}header .hw-jacks{padding-left:calc(2% + 100px)}
+.hw-ghost{width:54px;height:66px;opacity:.85}
+.hw-ghost.g1{left:7%;top:55%}.hw-ghost.g2{right:6%;top:48%;width:42px;height:52px}
+.hw-cat{right:9%;bottom:0;width:70px;height:62px}
+.hw-jacks{left:0;right:0;bottom:0;height:34px;display:flex;justify-content:space-between;padding:0 3%}
+.hw-jacks svg{width:34px;height:34px}
+header .hw-jacks{justify-content:flex-start;gap:14px}
+footer{position:relative;overflow:hidden;padding-bottom:4rem}
+footer .hw-jacks{height:40px;justify-content:center;gap:28px}footer .hw-jacks svg{width:40px;height:40px}
+.hw-peek{position:absolute;right:6%;top:-30px;width:64px;height:32px;pointer-events:none}
+.news{position:relative}
+@media (prefers-reduced-motion:no-preference){
+ .hw-wave{animation:hw-wave 2.4s ease-in-out infinite}
+ .hw-ghost{animation:hw-bob 5s ease-in-out infinite}.hw-ghost.g2{animation-delay:-2.5s}
+ .hw-jacks .flame{animation:hw-flick 2.2s ease-in-out infinite}
+ @keyframes hw-wave{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(12deg)}}
+ @keyframes hw-bob{50%{transform:translateY(-10px)}}
+ @keyframes hw-flick{50%{opacity:.6}}}
+@media (max-width:900px){.hw-ghost{display:none}}
+@media (max-width:600px){.hw-cat{width:46px;height:40px;right:4%}header .hw-jacks svg:nth-child(n+3){display:none}header .hw-jacks svg{width:26px;height:26px}.hw-peek{width:48px;height:24px;top:-23px}footer .hw-jacks{gap:16px}}
+@media (max-width:600px){.hw-skel{display:none}header .hw-jacks{padding-left:3%}}
