@@ -1,6 +1,6 @@
 const TAG='buildbin-20',amz=n=>'https://www.amazon.com/s?k='+encodeURIComponent(n.replace(/\s*\([^)]*\)/g,'').trim()||n).replace(/%20/g,'+')+'&tag='+TAG;
 const partLink=x=>{const n=typeof x=='string'?x:x.name,u=(typeof x=='object'&&x.url)||amz(n);return `<li><a href="${u}" target="_blank" rel="sponsored nofollow noopener">${n}</a></li>`};
-const ICON={'home-automation':'🏠',robotics:'🤖','drones-fpv':'🛸','sensors-weather':'🌡️','led-lighting':'💡',audio:'🎧',wearables:'⌚'};
+const ICON={'home-automation':'🏠',robotics:'🤖','drones-fpv':'🛸','sensors-weather':'🌡️','led-lighting':'💡',audio:'🎧',wearables:'⌚',gaming:'🎮'};
 const $=s=>document.querySelector(s);let D;
 fetch((window.ROOT||'')+'data/projects.json').then(r=>r.json()).then(d=>{D=d;
 for(const[k,v]of Object.entries(d.boards))$('#board').add(new Option(v,k));

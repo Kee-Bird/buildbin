@@ -15,7 +15,8 @@
     "sensors-weather": "Sensors & weather",
     "led-lighting": "LED & lighting",
     "audio": "Audio",
-    "wearables": "Wearables"
+    "wearables": "Wearables",
+    "gaming": "Gaming"
   },
   "projects": [
     {
@@ -1281,7 +1282,7 @@
         "pi"
       ],
       "categories": [
-        "audio"
+        "gaming"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "60-120",
