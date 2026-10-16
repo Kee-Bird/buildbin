@@ -48,3 +48,7 @@ footer{text-align:center;color:var(--muted);padding:2.5rem 1.25rem;font-size:.85
 header h1.logo{margin:0 0 1rem;line-height:0}.banner{display:block;width:100%;max-width:720px;height:auto;margin:0 auto;border-radius:14px;box-shadow:0 0 0 1px rgba(148,163,184,.15),0 12px 40px rgba(56,189,248,.18)}
 .banner.sm{max-width:380px;border-radius:10px}header:has(.banner){padding-top:2.5rem}
 @media (max-width:600px){.banner{border-radius:10px}.banner.sm{max-width:260px}}
+.thumb{display:block;width:calc(100% + 3rem);max-width:none;height:auto;aspect-ratio:16/10;object-fit:cover;margin:-1.5rem -1.5rem 1.25rem;border-radius:var(--r) var(--r) 0 0;border-bottom:1px solid var(--border);background:var(--bg)}
+.thumb.ph{display:flex;align-items:center;justify-content:center;font-size:3.25rem;background:linear-gradient(135deg,#1e293b,#0f172a);filter:saturate(.9)}
+.card:hover .thumb:not(.ph){filter:brightness(1.04)}
+.credits{font-size:.85rem;color:var(--muted);padding-left:1.1rem}.credits li{margin:.5rem 0;word-break:break-word}
