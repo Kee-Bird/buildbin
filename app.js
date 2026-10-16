@@ -12,7 +12,7 @@ $('#count').textContent=r.length+' matching projects';
 $('#results').innerHTML=r.map(p=>`<article class="card"><h3>${p.title}</h3><p>${p.description}</p>
 <div class="tags"><span class="t ${p.difficulty}">${p.difficulty}</span><span class="t">~$${p.est_cost_usd} (approx. estimate)</span><span class="t">⏱ ${p.time}</span></div>
 <p class="small"><b>Boards:</b> ${p.boards.map(x=>D.boards[x]).join(', ')}</p>
-<details><summary>Parts list & tools · 🛒 Buy parts</summary><ul>${p.parts.map(partLink).join('')}</ul><p class="aff">Part links are Amazon searches. As an Amazon Associate, BuildBin earns from qualifying purchases.</p><p class="small"><b>Tools:</b> ${p.tools.join(', ')}</p><p class="small"><b>Learn more:</b> ${p.reference}</p></details></article>`).join('');}
+<details><summary>Parts list & tools · 🛒 Buy parts</summary><ul>${p.parts.map(partLink).join('')}</ul><p class="aff">Part links are Amazon searches. As an Amazon Associate, BuildBin earns from qualifying purchases.</p><p class="small"><b>Tools:</b> ${p.tools.join(', ')}</p><p class="small"><b>Learn more:</b> ${p.reference_url?`<a href="${p.reference_url}" target="_blank" rel="noopener">Build guide: ${p.reference} ↗</a>`:p.reference}</p></details></article>`).join('');}
 ['#board','#cat','#lvl'].forEach(s=>document.addEventListener('change',e=>e.target.matches(s)&&render()));
 document.querySelectorAll('.nl-form').forEach(f=>f.addEventListener('submit',async e=>{e.preventDefault();
 const m=f.querySelector('.nl-msg'),b=f.querySelector('button'),email=f.email.value.trim();

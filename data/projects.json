@@ -51,7 +51,8 @@
     "Computer for flashing"
    ],
    "description": "Block ads network-wide with DNS filtering.",
-   "reference": "pi-hole.net"
+   "reference": "pi-hole.net",
+   "reference_url": "https://docs.pi-hole.net/main/basic-install/"
   },
   {
    "title": "Home Assistant server",
@@ -86,7 +87,8 @@
     "Computer for flashing"
    ],
    "description": "Central hub for smart-home automations.",
-   "reference": "home-assistant.io"
+   "reference": "home-assistant.io",
+   "reference_url": "https://www.home-assistant.io/installation/raspberrypi"
   },
   {
    "title": "ESPHome temperature/humidity sensor",
@@ -123,7 +125,8 @@
     "Computer w/ ESPHome"
    ],
    "description": "Wi-Fi sensor that reports into Home Assistant.",
-   "reference": "esphome.io"
+   "reference": "esphome.io",
+   "reference_url": "https://esphome.io/components/sensor/dht/"
   },
   {
    "title": "WLED addressable LED controller",
@@ -156,11 +159,11 @@
      "url": "https://www.amazon.com/s?k=Level+shifter&tag=buildbin-20"
     },
     {
-     "name": "1000\u00b5F capacitor",
+     "name": "1000µF capacitor",
      "url": "https://www.amazon.com/s?k=1000%C2%B5F+capacitor&tag=buildbin-20"
     },
     {
-     "name": "330\u03a9 resistor",
+     "name": "330Ω resistor",
      "url": "https://www.amazon.com/s?k=330%CE%A9+resistor&tag=buildbin-20"
     }
    ],
@@ -170,7 +173,8 @@
     "Wire strippers"
    ],
    "description": "App-controlled LED strip effects over Wi-Fi.",
-   "reference": "kno.wled.ge"
+   "reference": "kno.wled.ge",
+   "reference_url": "https://kno.wled.ge/basics/getting-started/"
   },
   {
    "title": "Smart garage door opener",
@@ -212,7 +216,8 @@
     "Wire strippers"
    ],
    "description": "Open/close and monitor the garage from your phone.",
-   "reference": "esphome.io"
+   "reference": "esphome.io",
+   "reference_url": "https://esphome.io/cookbook/garage-door/"
   },
   {
    "title": "Smart plant watering system",
@@ -258,7 +263,8 @@
     "Screwdriver"
    ],
    "description": "Waters plants automatically when soil is dry.",
-   "reference": "arduino.cc project hub"
+   "reference": "arduino.cc project hub",
+   "reference_url": "https://projecthub.arduino.cc/lc_lab/automatic-plant-watering-system-with-arduino-ee4b0c"
   },
   {
    "title": "Obstacle-avoiding robot car",
@@ -302,7 +308,8 @@
     "Wire strippers"
    ],
    "description": "Classic first robot that drives and avoids walls.",
-   "reference": "arduino.cc project hub"
+   "reference": "arduino.cc project hub",
+   "reference_url": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/"
   },
   {
    "title": "Line-following robot",
@@ -343,7 +350,8 @@
     "Electrical tape"
    ],
    "description": "Follows a black tape line using IR sensors.",
-   "reference": "instructables.com"
+   "reference": "instructables.com",
+   "reference_url": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/"
   },
   {
    "title": "Otto DIY biped robot",
@@ -387,7 +395,8 @@
     "Screwdriver"
    ],
    "description": "Open-source walking, dancing robot.",
-   "reference": "www.ottodiy.com"
+   "reference": "www.ottodiy.com",
+   "reference_url": "https://www.ottodiy.com/academy"
   },
   {
    "title": "Self-balancing robot",
@@ -429,7 +438,8 @@
     "Wire strippers"
    ],
    "description": "Two-wheel robot balanced with a PID loop.",
-   "reference": "instructables.com"
+   "reference": "instructables.com",
+   "reference_url": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/"
   },
   {
    "title": "Pi Pico robot arm (servo)",
@@ -474,7 +484,8 @@
     "Hex keys"
    ],
    "description": "Desktop arm you control with knobs or code.",
-   "reference": "raspberrypi.com"
+   "reference": "raspberrypi.com",
+   "reference_url": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/"
   },
   {
    "title": "ESP32-CAM surveillance rover",
@@ -511,7 +522,8 @@
     "Wire strippers"
    ],
    "description": "Drive a camera car from your browser.",
-   "reference": "randomnerdtutorials.com"
+   "reference": "randomnerdtutorials.com",
+   "reference_url": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/"
   },
   {
    "title": "5-inch FPV freestyle quad (Betaflight)",
@@ -563,7 +575,8 @@
     "LiPo charger"
    ],
    "description": "Build and tune a freestyle quad with Betaflight.",
-   "reference": "betaflight.com / Joshua Bardwell guides"
+   "reference": "betaflight.com / Joshua Bardwell guides",
+   "reference_url": "https://oscarliang.com/how-to-build-fpv-drone-analog/"
   },
   {
    "title": "Tiny Whoop indoor micro drone",
@@ -607,7 +620,8 @@
     "Tweezers"
    ],
    "description": "Small ducted quad that's safe to fly indoors.",
-   "reference": "betaflight.com"
+   "reference": "betaflight.com",
+   "reference_url": "https://oscarliang.com/how-to-build-tiny-whoop/"
   },
   {
    "title": "INAV fixed-wing with GPS return-to-home",
@@ -658,7 +672,8 @@
     "Hobby knife"
    ],
    "description": "Autonomous-capable plane with waypoints and RTH.",
-   "reference": "github.com/iNavFlight/inav"
+   "reference": "github.com/iNavFlight/inav",
+   "reference_url": "https://github.com/iNavFlight/inav/wiki"
   },
   {
    "title": "ArduPilot drone with Pi companion computer",
@@ -710,7 +725,8 @@
     "Ground station laptop (Mission Planner/QGC)"
    ],
    "description": "Scripted missions with MAVLink from a Pi.",
-   "reference": "ardupilot.org"
+   "reference": "ardupilot.org",
+   "reference_url": "https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html"
   },
   {
    "title": "ELRS DIY receiver/backpack tinkering",
@@ -743,7 +759,8 @@
     "Computer w/ ELRS Configurator"
    ],
    "description": "Learn ExpressLRS firmware flashing and binding.",
-   "reference": "expresslrs.org"
+   "reference": "expresslrs.org",
+   "reference_url": "https://www.expresslrs.org/quick-start/getting-started/"
   },
   {
    "title": "Raspberry Pi weather station",
@@ -785,7 +802,8 @@
     "Drill"
    ],
    "description": "Logs temp, pressure, wind and rain.",
-   "reference": "raspberrypi.com projects"
+   "reference": "raspberrypi.com projects",
+   "reference_url": "https://projects.raspberrypi.org/en/projects/build-your-own-weather-station"
   },
   {
    "title": "Air quality monitor (PM2.5)",
@@ -822,7 +840,8 @@
     "Wire strippers"
    ],
    "description": "Measures particulates and shows AQI.",
-   "reference": "sensor.community"
+   "reference": "sensor.community",
+   "reference_url": "https://sensor.community/en/sensors/airrohr/"
   },
   {
    "title": "CO2 monitor with SCD40",
@@ -858,7 +877,8 @@
     "Soldering iron"
    ],
    "description": "Know when to open a window based on CO2 ppm.",
-   "reference": "learn.adafruit.com"
+   "reference": "learn.adafruit.com",
+   "reference_url": "https://newbiely.com/tutorials/raspberry-pico/raspberry-pi-pico-scd40-co2-sensor"
   },
   {
    "title": "Pico W web-connected thermometer",
@@ -881,7 +901,7 @@
      "url": "https://www.amazon.com/s?k=DS18B20+sensor&tag=buildbin-20"
     },
     {
-     "name": "4.7k\u03a9 resistor",
+     "name": "4.7kΩ resistor",
      "url": "https://www.amazon.com/s?k=4.7k%CE%A9+resistor&tag=buildbin-20"
     },
     {
@@ -893,7 +913,8 @@
     "Computer w/ Thonny (MicroPython)"
    ],
    "description": "MicroPython intro: serve readings on a web page.",
-   "reference": "raspberrypi.com"
+   "reference": "raspberrypi.com",
+   "reference_url": "https://projects.raspberrypi.org/en/projects/get-started-pico-w"
   },
   {
    "title": "Infinity mirror",
@@ -940,7 +961,8 @@
     "Hot glue gun"
    ],
    "description": "Endless tunnel-of-light effect.",
-   "reference": "instructables.com"
+   "reference": "instructables.com",
+   "reference_url": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/"
   },
   {
    "title": "LED matrix scrolling sign",
@@ -976,7 +998,8 @@
     "Computer w/ Arduino IDE"
    ],
    "description": "Scroll messages, clock or stock tickers.",
-   "reference": "github.com/MajicDesigns/MD_Parola"
+   "reference": "github.com/MajicDesigns/MD_Parola",
+   "reference_url": "https://majicdesigns.github.io/MD_Parola/"
   },
   {
    "title": "Ambilight TV backlight (Hyperion)",
@@ -1014,7 +1037,8 @@
     "Wire strippers"
    ],
    "description": "Bias lighting that reacts to on-screen colors.",
-   "reference": "hyperion-project.org"
+   "reference": "hyperion-project.org",
+   "reference_url": "https://docs.hyperion-project.org/"
   },
   {
    "title": "Pi music streamer (Volumio/moOde)",
@@ -1053,7 +1077,8 @@
     "Computer for flashing"
    ],
    "description": "Network audio player for an old stereo.",
-   "reference": "volumio.com / moodeaudio.org"
+   "reference": "volumio.com / moodeaudio.org",
+   "reference_url": "https://volumio.com/get-started/"
   },
   {
    "title": "Bluetooth speaker build",
@@ -1095,7 +1120,8 @@
     "Drill"
    ],
    "description": "Portable speaker with ESP32 Bluetooth audio.",
-   "reference": "github.com/pschatzmann/ESP32-A2DP"
+   "reference": "github.com/pschatzmann/ESP32-A2DP",
+   "reference_url": "https://github.com/pschatzmann/ESP32-A2DP"
   },
   {
    "title": "MIDI controller",
@@ -1134,7 +1160,8 @@
     "Drill"
    ],
    "description": "USB MIDI pads and knobs for your DAW.",
-   "reference": "learn.adafruit.com"
+   "reference": "learn.adafruit.com",
+   "reference_url": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython"
   },
   {
    "title": "Retro game console (RetroPie)",
@@ -1173,7 +1200,8 @@
     "Computer for flashing"
    ],
    "description": "Emulation station for classic games.",
-   "reference": "retropie.org.uk"
+   "reference": "retropie.org.uk",
+   "reference_url": "https://retropie.org.uk/docs/First-Installation/"
   },
   {
    "title": "NeoPixel LED wearable/costume",
@@ -1211,7 +1239,8 @@
     "Needle"
    ],
    "description": "Light-up hoodie, hat or cosplay piece.",
-   "reference": "learn.adafruit.com"
+   "reference": "learn.adafruit.com",
+   "reference_url": "https://learn.adafruit.com/rainbow-chakra-led-hoodie"
   },
   {
    "title": "Smartwatch (ESP32 dev watch)",
@@ -1238,7 +1267,8 @@
     "Computer w/ Arduino IDE/PlatformIO"
    ],
    "description": "Program your own watch faces and apps.",
-   "reference": "github.com/Xinyuan-LilyGO"
+   "reference": "github.com/Xinyuan-LilyGO",
+   "reference_url": "https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library"
   },
   {
    "title": "Step counter wristband",
@@ -1281,7 +1311,8 @@
     "Wire strippers"
    ],
    "description": "DIY pedometer with an accelerometer.",
-   "reference": "instructables.com"
+   "reference": "instructables.com",
+   "reference_url": "https://github.com/no-go/StepCounter"
   },
   {
    "title": "Mechanical macro keypad",
@@ -1322,7 +1353,8 @@
     "Wire strippers"
    ],
    "description": "Programmable shortcut pad with KMK/CircuitPython.",
-   "reference": "github.com/KMKfw/kmk_firmware"
+   "reference": "github.com/KMKfw/kmk_firmware",
+   "reference_url": "https://sanderg.nl/en/posts/3d-printed-hand-wired-macro-pad-with-raspberry-pi-pico-kmk-&-circuitpython/"
   },
   {
    "title": "Pi security camera (MotionEye)",
@@ -1361,7 +1393,8 @@
     "Computer for flashing"
    ],
    "description": "Motion-detecting camera with web viewing.",
-   "reference": "github.com/motioneye-project"
+   "reference": "github.com/motioneye-project",
+   "reference_url": "https://github.com/motioneye-project/motioneyeos/wiki"
   },
   {
    "title": "ESP-Drone mini quadcopter (ESP32-S2/S3)",
@@ -1411,10 +1444,11 @@
     "Phone with ESP-Drone app or cfclient"
    ],
    "description": "Espressif's open-source Wi-Fi mini drone, based on Crazyflie firmware.",
-   "reference": "github.com/espressif/esp-drone"
+   "reference": "github.com/espressif/esp-drone",
+   "reference_url": "https://docs.espressif.com/projects/espressif-esp-drone/en/latest/gettingstarted.html"
   },
   {
-   "title": "MagicMirror\u00b2 smart mirror",
+   "title": "MagicMirror² smart mirror",
    "boards": [
     "pi"
    ],
@@ -1460,8 +1494,9 @@
     "Screwdriver",
     "Computer for flashing"
    ],
-   "description": "Mirror that shows weather, calendar and news using the MagicMirror\u00b2 platform.",
-   "reference": "magicmirror.builders"
+   "description": "Mirror that shows weather, calendar and news using the MagicMirror² platform.",
+   "reference": "magicmirror.builders",
+   "reference_url": "https://docs.magicmirror.builders/getting-started/installation.html"
   },
   {
    "title": "ADS-B flight tracker (PiAware / tar1090)",
@@ -1500,7 +1535,8 @@
     "Computer for flashing"
    ],
    "description": "Track nearby aircraft on a live map and share data with FlightAware.",
-   "reference": "flightaware.com/adsb/piaware/build"
+   "reference": "flightaware.com/adsb/piaware/build",
+   "reference_url": "https://www.flightaware.com/adsb/piaware/build"
   }
  ]
 }
