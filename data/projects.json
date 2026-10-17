@@ -183,9 +183,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "App-controlled LED strip effects over Wi-Fi.",
       "reference": "kno.wled.ge",
@@ -230,9 +239,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Open/close and monitor the garage from your phone.",
       "reference": "esphome.io",
@@ -282,8 +300,14 @@
         }
       ],
       "tools": [
-        "Wire strippers",
-        "Screwdriver"
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        }
       ],
       "description": "Waters plants automatically when soil is dry.",
       "reference": "arduino.cc project hub",
@@ -332,8 +356,14 @@
         }
       ],
       "tools": [
-        "Screwdriver",
-        "Wire strippers"
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Classic first robot that drives and avoids walls.",
       "reference": "arduino.cc project hub",
@@ -378,8 +408,14 @@
         }
       ],
       "tools": [
-        "Screwdriver",
-        "Electrical tape"
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        {
+          "name": "Electrical tape",
+          "url": "https://www.amazon.com/s?k=electrical+tape&tag=buildbin-20"
+        }
       ],
       "description": "Follows a black tape line using IR sensors.",
       "reference": "instructables.com",
@@ -427,8 +463,14 @@
         }
       ],
       "tools": [
-        "3D printer (or buy printed parts)",
-        "Screwdriver"
+        {
+          "name": "3D printer (or buy printed parts)",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        }
       ],
       "description": "Open-source walking, dancing robot.",
       "reference": "www.ottodiy.com",
@@ -473,9 +515,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Two-wheel robot balanced with a PID loop.",
       "reference": "instructables.com",
@@ -524,8 +575,14 @@
         }
       ],
       "tools": [
-        "Screwdriver",
-        "Hex keys"
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        {
+          "name": "Hex keys",
+          "url": "https://www.amazon.com/s?k=hex+key+allen+wrench+set&tag=buildbin-20"
+        }
       ],
       "description": "Desktop arm you control with knobs or code.",
       "reference": "raspberrypi.com",
@@ -565,9 +622,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Drive a camera car from your browser.",
       "reference": "randomnerdtutorials.com",
@@ -619,12 +685,30 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
-        "Hex drivers",
-        "Smoke stopper",
-        "LiPo charger"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Hex drivers",
+          "url": "https://www.amazon.com/s?k=hex+driver+set&tag=buildbin-20"
+        },
+        {
+          "name": "Smoke stopper",
+          "url": "https://www.amazon.com/s?k=FPV+smoke+stopper&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo charger",
+          "url": "https://www.amazon.com/s?k=LiPo+balance+charger&tag=buildbin-20"
+        }
       ],
       "description": "Build and tune a freestyle quad with Betaflight.",
       "reference": "betaflight.com / Joshua Bardwell guides",
@@ -672,8 +756,14 @@
         }
       ],
       "tools": [
-        "Fine-tip soldering iron",
-        "Tweezers"
+        {
+          "name": "Fine-tip soldering iron",
+          "url": "https://www.amazon.com/s?k=fine+tip+soldering+iron&tag=buildbin-20"
+        },
+        {
+          "name": "Tweezers",
+          "url": "https://www.amazon.com/s?k=precision+tweezers+set&tag=buildbin-20"
+        }
       ],
       "description": "Small ducted quad that's safe to fly indoors.",
       "reference": "betaflight.com",
@@ -725,11 +815,26 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
-        "Hot glue gun",
-        "Hobby knife"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        },
+        {
+          "name": "Hobby knife",
+          "url": "https://www.amazon.com/s?k=hobby+knife+precision&tag=buildbin-20"
+        }
       ],
       "description": "Autonomous-capable plane with waypoints and RTH.",
       "reference": "github.com/iNavFlight/inav",
@@ -784,9 +889,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
         "Ground station laptop (Mission Planner/QGC)"
       ],
       "description": "Scripted missions with MAVLink from a Pi.",
@@ -825,7 +939,10 @@
         }
       ],
       "tools": [
-        "Soldering iron",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
         "Computer w/ ELRS Configurator"
       ],
       "description": "Learn ExpressLRS firmware flashing and binding.",
@@ -871,10 +988,22 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
-        "Drill"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Drill",
+          "url": "https://www.amazon.com/s?k=cordless+drill&tag=buildbin-20"
+        }
       ],
       "description": "Logs temp, pressure, wind and rain.",
       "reference": "raspberrypi.com projects",
@@ -916,7 +1045,10 @@
         }
       ],
       "tools": [
-        "Wire strippers"
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Measures particulates and shows AQI.",
       "reference": "sensor.community",
@@ -957,7 +1089,10 @@
         }
       ],
       "tools": [
-        "Soldering iron"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        }
       ],
       "description": "Know when to open a window based on CO2 ppm.",
       "reference": "learn.adafruit.com",
@@ -1046,10 +1181,22 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
-        "Hot glue gun"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        }
       ],
       "description": "Endless tunnel-of-light effect.",
       "reference": "instructables.com",
@@ -1131,9 +1278,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Bias lighting that reacts to on-screen colors.",
       "reference": "hyperion-project.org",
@@ -1221,10 +1377,22 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
-        "Drill"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Drill",
+          "url": "https://www.amazon.com/s?k=cordless+drill&tag=buildbin-20"
+        }
       ],
       "description": "Portable speaker with ESP32 Bluetooth audio.",
       "reference": "github.com/pschatzmann/ESP32-A2DP",
@@ -1265,10 +1433,22 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
-        "Drill"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Drill",
+          "url": "https://www.amazon.com/s?k=cordless+drill&tag=buildbin-20"
+        }
       ],
       "description": "USB MIDI pads and knobs for your DAW.",
       "reference": "learn.adafruit.com",
@@ -1354,7 +1534,10 @@
         }
       ],
       "tools": [
-        "Soldering iron",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
         "Needle"
       ],
       "description": "Light-up hoodie, hat or cosplay piece.",
@@ -1433,9 +1616,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "DIY pedometer with an accelerometer.",
       "reference": "instructables.com",
@@ -1479,9 +1671,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
       ],
       "description": "Programmable shortcut pad with KMK/CircuitPython.",
       "reference": "github.com/KMKfw/kmk_firmware",
@@ -1577,9 +1778,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Multimeter",
-        "Wire strippers",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
         "Phone with ESP-Drone app or cfclient"
       ],
       "description": "Espressif's open-source Wi-Fi mini drone, based on Crazyflie firmware.",
@@ -1632,9 +1842,18 @@
         }
       ],
       "tools": [
-        "Saw",
-        "Drill",
-        "Screwdriver",
+        {
+          "name": "Saw",
+          "url": "https://www.amazon.com/s?k=hand+saw&tag=buildbin-20"
+        },
+        {
+          "name": "Drill",
+          "url": "https://www.amazon.com/s?k=cordless+drill&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
         "Computer for flashing"
       ],
       "description": "Mirror that shows weather, calendar and news using the MagicMirror² platform.",
@@ -1727,8 +1946,14 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "3D printer",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
         "Computer for flashing"
       ],
       "description": "Game Boy-style Pi handheld running RetroPie in a 3D-printed case.",
@@ -1777,9 +2002,18 @@
         }
       ],
       "tools": [
-        "Jigsaw",
-        "Drill",
-        "Screwdrivers",
+        {
+          "name": "Jigsaw",
+          "url": "https://www.amazon.com/s?k=jigsaw+power+tool&tag=buildbin-20"
+        },
+        {
+          "name": "Drill",
+          "url": "https://www.amazon.com/s?k=cordless+drill&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdrivers",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
         "Computer for flashing"
       ],
       "description": "Pi-powered bartop arcade cabinet with two sets of sticks and buttons.",
@@ -1828,7 +2062,10 @@
         }
       ],
       "tools": [
-        "Soldering iron",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
         "Computer w/ Arduino IDE"
       ],
       "description": "Tiny 8-bit game handheld that plays Arduboy games.",
@@ -1921,8 +2158,14 @@
         }
       ],
       "tools": [
-        "Drill + step bit",
-        "Wire crimper",
+        {
+          "name": "Drill + step bit",
+          "url": "https://www.amazon.com/s?k=step+drill+bit+set&tag=buildbin-20"
+        },
+        {
+          "name": "Wire crimper",
+          "url": "https://www.amazon.com/s?k=wire+crimper+tool&tag=buildbin-20"
+        },
         "Computer for flashing"
       ],
       "description": "Low-latency fight stick for PC, Switch and PlayStation using Pico firmware.",
@@ -1972,10 +2215,22 @@
         }
       ],
       "tools": [
-        "Hex drivers",
-        "Soldering iron",
-        "Crimping tool",
-        "Digital calipers"
+        {
+          "name": "Hex drivers",
+          "url": "https://www.amazon.com/s?k=hex+driver+set&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Crimping tool",
+          "url": "https://www.amazon.com/s?k=wire+crimping+tool+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Digital calipers",
+          "url": "https://www.amazon.com/s?k=digital+calipers&tag=buildbin-20"
+        }
       ],
       "description": "Build the tiny, fast, community-designed Voron 0.2 CoreXY printer running Klipper.",
       "reference": "docs.vorondesign.com",
@@ -2064,7 +2319,10 @@
       ],
       "tools": [
         "Computer for flashing",
-        "Hex drivers"
+        {
+          "name": "Hex drivers",
+          "url": "https://www.amazon.com/s?k=hex+driver+set&tag=buildbin-20"
+        }
       ],
       "description": "Run Klipper on a Pi for faster, smoother prints with input shaping and pressure advance.",
       "reference": "klipper3d.org",
@@ -2108,8 +2366,14 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "Screwdriver",
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
         "Computer for flashing"
       ],
       "description": "Add ESPHome to a filament dryer to watch temperature and humidity in Home Assistant.",
@@ -2167,9 +2431,18 @@
         }
       ],
       "tools": [
-        "3D printer",
-        "Soldering iron",
-        "Hex drivers",
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Hex drivers",
+          "url": "https://www.amazon.com/s?k=hex+driver+set&tag=buildbin-20"
+        },
         "Computer for Betaflight"
       ],
       "description": "Fly a deadcat 6\" cruiser quad with a frame printed almost entirely in PETG.",
@@ -2219,9 +2492,18 @@
         }
       ],
       "tools": [
-        "Soldering iron",
-        "3D printer",
-        "Screwdriver"
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        }
       ],
       "description": "Keep your enclosure at the right temperature with a DHT22 and a PID-controlled fan.",
       "reference": "luckyresistor.me",

@@ -42,6 +42,8 @@ p("Step counter wristband",["pico","nano"],["wearables","sensors-weather"],"Inte
 p("Mechanical macro keypad",["pico"],["home-automation"],"Beginner","20-40","2-3 hrs",["Raspberry Pi Pico","Mechanical switches","Keycaps","3D-printed or acrylic plate","Diodes (if matrix)"],S,"Programmable shortcut pad with KMK/CircuitPython.","github.com/KMKfw/kmk_firmware"),
 p("Pi security camera (MotionEye)",["pi"],["home-automation"],"Beginner","50-100","2 hrs",["Raspberry Pi","Pi Camera Module","microSD card","Power supply","Case/mount"],["Computer for flashing"],"Motion-detecting camera with web viewing.","github.com/motioneye-project"),
 ]
-for _p in P: _p["parts"]=[{"name":x,"url":url(x)} for x in _p["parts"]]
+for _p in P: _p["parts"]=[x if isinstance(x,dict) else {"name":x,"url":url(x)} for x in _p["parts"]]
+TOOL_Q={"3D printer":"3D printer","3D printer (or buy printed parts)":"3D printer","Crimping tool":"wire crimping tool kit","Digital calipers":"digital calipers","Drill":"cordless drill","Drill + step bit":"step drill bit set","Electrical tape":"electrical tape","Fine-tip soldering iron":"fine tip soldering iron","Hex drivers":"hex driver set","Hex keys":"hex key allen wrench set","Hobby knife":"hobby knife precision","Hot glue gun":"hot glue gun","Jigsaw":"jigsaw power tool","LiPo charger":"LiPo balance charger","Multimeter":"digital multimeter","Saw":"hand saw","Screwdriver":"precision screwdriver set","Screwdrivers":"precision screwdriver set","Smoke stopper":"FPV smoke stopper","Soldering iron":"soldering iron kit","Tweezers":"precision tweezers set","Wire crimper":"wire crimper tool","Wire strippers":"wire strippers"}
+for _p in P: _p["tools"]=[t if isinstance(t,dict) else ({"name":t,"url":"https://www.amazon.com/s?k="+urllib.parse.quote_plus(TOOL_Q[t])+"&tag=buildbin-20"} if t in TOOL_Q else t) for t in _p.get("tools",[])]
 json.dump(dict(boards=B,categories=C,projects=P),open("data/projects.json","w"),indent=1)
 print(len(P))
