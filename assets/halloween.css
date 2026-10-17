@@ -45,3 +45,4 @@ footer .hw-jacks{height:40px;justify-content:center;gap:28px}footer .hw-jacks sv
 @media (max-width:900px){.hw-ghost{display:none}}
 @media (max-width:600px){.hw-cat{width:46px;height:40px;right:4%}header .hw-jacks svg:nth-child(n+3){display:none}header .hw-jacks svg{width:26px;height:26px}.hw-peek{width:48px;height:24px;top:-23px}footer .hw-jacks{gap:16px}}
 @media (max-width:600px){.hw-skel{display:none}header .hw-jacks{padding-left:3%}}
+@media (max-width:600px){.hw-banner{padding:.25rem 2.75rem .25rem .75rem}.hw-banner a{min-height:44px;display:inline-flex;align-items:center}.hw-banner button{width:44px;height:44px;right:0}footer{padding-bottom:4rem}}
