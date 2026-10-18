@@ -1,0 +1,90 @@
+/* ===== BuildBin Halloween theme (seasonal, removable) =====
+   Remove the HALLOWEEN THEME block in each page <head> to turn off. */
+:root{--accent:#f97316;--accent-ink:#1c0a02;--accent-soft:#ffedd5;--hw-purple:#6d28d9}
+@media (prefers-color-scheme:dark){:root{--accent-soft:#3b1a07}}
+header{position:relative;overflow:hidden;background:
+ radial-gradient(700px 320px at 15% 110%,rgba(249,115,22,.22),transparent 70%),
+ radial-gradient(800px 380px at 85% -10%,rgba(109,40,217,.35),transparent 70%),
+ radial-gradient(1200px 400px at 50% -10%,#1e1b3a 0%,#0b0a1a 75%)}
+header .wrap{position:relative;z-index:1}
+header .banner{box-shadow:0 0 0 1px rgba(249,115,22,.25),0 12px 40px rgba(249,115,22,.22),0 0 80px rgba(109,40,217,.25)}
+.hw-web,.hw-bats{position:absolute;pointer-events:none;color:#cbd5e1;opacity:.28}
+.hw-web{top:0;width:140px;height:140px}.hw-web.l{left:0}.hw-web.r{right:0;transform:scaleX(-1)}
+.hw-bats{top:18px;right:12%;width:120px;height:60px;color:#a78bfa;opacity:.55}
+@media (prefers-reduced-motion:no-preference){.hw-bats{animation:hw-float 6s ease-in-out infinite}
+@keyframes hw-float{50%{transform:translateY(8px)}}}
+@media (max-width:600px){.hw-web{width:80px;height:80px}.hw-bats{width:72px;right:4%;top:8px}}
+.hw-banner{display:flex;gap:.75rem;align-items:center;justify-content:center;flex-wrap:wrap;background:linear-gradient(90deg,#2e1065,#7c2d12);color:#fde7d2;font-size:.92rem;padding:.55rem 2.5rem .55rem 1rem;position:relative;text-align:center}
+.hw-banner a{color:#fdba74;font-weight:600;text-decoration:none}.hw-banner a:hover{text-decoration:underline}
+.hw-banner .sep{opacity:.4}
+.hw-banner button{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);background:none;border:0;color:#fde7d2;font-size:1.1rem;cursor:pointer;padding:.25rem .5rem;border-radius:6px}
+.hw-banner button:hover,.hw-banner button:focus-visible{background:rgba(255,255,255,.12)}
+main>h2::before,.news h2::before{content:"🎃 ";}
+nav.cats a.hl{border-color:var(--accent)}
+@media (max-width:600px){.hw-banner{font-size:.85rem}.hw-banner .sep,.hw-banner a:nth-of-type(n+3){display:none}.hw-banner a{margin:0 .25rem}}
+/* --- extra decorations --- */
+.hw-deco{position:absolute;pointer-events:none;z-index:0}
+.hw-skel{left:2%;bottom:0;width:90px;height:70px}.hw-wave{transform-origin:62px 66px;transform-box:view-box}header .hw-jacks{padding-left:calc(2% + 100px)}
+.hw-ghost{width:54px;height:66px;opacity:.85}
+.hw-ghost.g1{left:7%;top:55%}.hw-ghost.g2{right:6%;top:48%;width:42px;height:52px}
+.hw-cat{right:8%;bottom:0;width:104px;height:93px}
+.hw-jacks{left:0;right:0;bottom:0;height:34px;display:flex;justify-content:space-between;padding:0 3%}
+.hw-jacks svg{width:34px;height:34px}
+header .hw-jacks{justify-content:flex-start;gap:14px}
+footer{position:relative;overflow:hidden;padding-bottom:4rem}
+footer .hw-jacks{height:40px;justify-content:center;gap:28px}footer .hw-jacks svg{width:40px;height:40px}
+.hw-peek{position:absolute;right:6%;top:-35px;width:76px;height:38px;pointer-events:none}
+.news{position:relative}
+@media (prefers-reduced-motion:no-preference){
+ .hw-wave{animation:hw-wave 2.4s ease-in-out infinite}
+ .hw-ghost{animation:hw-bob 5s ease-in-out infinite}.hw-ghost.g2{animation-delay:-2.5s}
+ .hw-jacks .flame{animation:hw-flick 2.2s ease-in-out infinite}
+ @keyframes hw-wave{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(12deg)}}
+ @keyframes hw-bob{50%{transform:translateY(-10px)}}
+ @keyframes hw-flick{50%{opacity:.6}}}
+@media (max-width:900px){.hw-ghost{display:none}}
+@media (max-width:600px){.hw-cat{width:66px;height:59px;right:3%}header .hw-jacks svg:nth-child(n+3){display:none}header .hw-jacks svg{width:26px;height:26px}.hw-peek{width:60px;height:30px;top:-28px}footer .hw-jacks{gap:16px}}
+@media (max-width:600px){.hw-skel{display:none}header .hw-jacks{padding-left:3%}}
+@media (max-width:600px){.hw-banner{padding:.25rem 2.75rem .25rem .75rem}.hw-banner a{min-height:44px;display:inline-flex;align-items:center}.hw-banner button{width:44px;height:44px;right:0}footer{padding-bottom:4rem}}
+/* --- v2: tombstones, dangling spiders, flying bats --- */
+.hw-stones{right:calc(8% + 112px);bottom:0;height:62px;display:flex;align-items:flex-end;gap:10px}
+.hw-stones svg{width:50px;height:63px;filter:drop-shadow(0 0 6px rgba(167,139,250,.35))}
+.hw-stones svg:nth-child(2){width:44px;height:56px}
+.hw-spider{top:0;width:34px;height:145px;transform-origin:50% 0}
+.hw-spider.s1{left:150px;width:40px;height:170px}.hw-spider.s2{right:150px;height:136px;width:32px}
+@media (prefers-reduced-motion:no-preference){
+ .hw-spider{animation:hw-dangle 4.5s ease-in-out infinite}.hw-spider.s2{animation-duration:5.5s;animation-delay:-2s}
+ .hw-cat .hw-eyes{animation:hw-blink 6s infinite;transform-box:fill-box;transform-origin:center}
+ @keyframes hw-dangle{0%,100%{transform:translateY(-26px) rotate(1.5deg)}50%{transform:translateY(0) rotate(-1.5deg)}}
+ @keyframes hw-blink{0%,46%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.1)}}
+}
+@media (max-width:900px){.hw-stones svg:nth-child(3){display:none}.hw-spider.s2{right:96px}}
+@media (max-width:600px){
+ .hw-stones{right:auto;left:calc(3% + 80px);height:36px}.hw-stones svg{width:28px;height:36px}.hw-stones svg:nth-child(n+2){display:none}
+ .hw-spider.s1{left:10px;width:26px;height:100px}.hw-spider.s2{display:none}
+}
+/* --- v3: realistic flying bats (wings hinge at the shoulders, ~7 beats/sec, fluttery path) --- */
+.hw-flyer{top:0;left:0;z-index:2;width:68px;height:30px;opacity:0;filter:drop-shadow(0 0 1.5px rgba(203,213,225,.28))}
+.hw-flyer.f2{width:52px;height:23px}
+.hw-flut,.hw-batsvg{display:block;width:100%;height:100%}
+.hw-batsvg{overflow:visible}
+.hw-wl,.hw-wr,.hw-bob{transform-box:view-box}
+.hw-wl{transform-origin:55px 25.5px}.hw-wr{transform-origin:65px 25.5px}
+.hw-wl,.hw-wr{transform:rotate(18deg) scale(1,.95)}.hw-wr{transform:rotate(-18deg) scale(1,.95)}
+@media (prefers-reduced-motion:no-preference){
+ .hw-flyer.f1{animation:hw-fly 14s linear infinite;animation-delay:-4.3s}
+ .hw-flyer.f2{animation:hw-fly2 19s linear infinite;animation-delay:-5.8s}
+ .hw-flut{animation:hw-flut 1.7s ease-in-out infinite}.f2 .hw-flut{animation-duration:1.3s;animation-delay:-.6s}
+ .hw-wl{animation:hw-wl .135s linear infinite}.hw-wr{animation:hw-wr .135s linear infinite}.hw-bob{animation:hw-bob2 .135s linear infinite}
+ .f2 .hw-wl,.f2 .hw-wr,.f2 .hw-bob{animation-duration:.12s}
+ @keyframes hw-wl{0%,100%{transform:rotate(40deg) scale(.5,.85)}20%{transform:rotate(26deg) scale(1,1)}50%{transform:rotate(-14deg) scale(1,.95)}68%{transform:rotate(-30deg) scale(.82,.8)}84%{transform:rotate(-4deg) scale(.45,.75)}}
+ @keyframes hw-wr{0%,100%{transform:rotate(-40deg) scale(.5,.85)}20%{transform:rotate(-26deg) scale(1,1)}50%{transform:rotate(14deg) scale(1,.95)}68%{transform:rotate(30deg) scale(.82,.8)}84%{transform:rotate(4deg) scale(.45,.75)}}
+ @keyframes hw-bob2{0%,100%{transform:translateY(2px)}50%{transform:translateY(-2.5px)}}
+ @keyframes hw-flut{0%,100%{transform:translate(0,0) rotate(0)}18%{transform:translate(3px,-6px) rotate(-6deg)}37%{transform:translate(-2px,5px) rotate(4deg)}55%{transform:translate(4px,-3px) rotate(-3deg)}74%{transform:translate(-3px,7px) rotate(7deg)}}
+ @keyframes hw-fly{0%{opacity:1;transform:translate(-90px,110px) rotate(-10deg)}4%{transform:translate(4vw,72px) rotate(-14deg)}8%{transform:translate(9vw,96px) rotate(8deg)}11%{transform:translate(14vw,58px) rotate(-16deg)}15%{transform:translate(19vw,7px) rotate(-6deg)}19%{transform:translate(25vw,10px) rotate(7deg)}23%{transform:translate(30vw,4px) rotate(-9deg)}27%{transform:translate(36vw,7px) rotate(6deg)}31%{transform:translate(41vw,2px) rotate(-5deg)}35%{transform:translate(47vw,6px) rotate(8deg)}38%{transform:translate(52vw,3px) rotate(-6deg)}42%{transform:translate(58vw,7px) rotate(9deg)}46%{transform:translate(64vw,2px) rotate(-7deg)}50%{transform:translate(71vw,6px) rotate(6deg)}53%{transform:translate(78vw,62px) rotate(12deg)}56%{transform:translate(85vw,104px) rotate(4deg)}58%{transform:translate(91vw,74px) rotate(-12deg)}60%{opacity:1;transform:translate(calc(100vw + 90px),52px) rotate(-6deg)}60.1%,100%{opacity:0;transform:translate(calc(100vw + 90px),52px)}}
+ @keyframes hw-fly2{0%{opacity:1;transform:translate(calc(100vw + 70px),150px) rotate(8deg)}4%{transform:translate(93vw,120px) rotate(14deg)}8%{transform:translate(86vw,150px) rotate(-6deg)}12%{transform:translate(81vw,96px) rotate(10deg)}16%{transform:translate(76vw,40px) rotate(6deg)}20%{transform:translate(70vw,5px) rotate(-6deg)}24%{transform:translate(63vw,8px) rotate(7deg)}28%{transform:translate(57vw,3px) rotate(-8deg)}32%{transform:translate(50vw,6px) rotate(5deg)}36%{transform:translate(43vw,2px) rotate(-6deg)}40%{transform:translate(36vw,5px) rotate(8deg)}44%{transform:translate(29vw,2px) rotate(-5deg)}48%{transform:translate(22vw,58px) rotate(-12deg)}51%{transform:translate(16vw,98px) rotate(-4deg)}54%{transform:translate(10vw,70px) rotate(10deg)}58%{opacity:1;transform:translate(-80px,90px) rotate(4deg)}58.1%,100%{opacity:0;transform:translate(-80px,90px)}}
+}
+@media (prefers-reduced-motion:reduce){.hw-flyer{display:none}}
+@media (max-width:600px){.hw-flyer.f1{width:46px;height:20px}.hw-flyer.f2{display:none}
+ @keyframes hw-fly{0%{opacity:1;transform:translate(-60px,70px) rotate(-10deg)}6%{transform:translate(5vw,40px) rotate(-12deg)}12%{transform:translate(11vw,58px) rotate(8deg)}18%{transform:translate(18vw,6px) rotate(-10deg)}24%{transform:translate(27vw,-2px) rotate(6deg)}30%{transform:translate(36vw,6px) rotate(-6deg)}36%{transform:translate(45vw,-3px) rotate(7deg)}42%{transform:translate(55vw,5px) rotate(-5deg)}48%{transform:translate(65vw,-2px) rotate(6deg)}54%{transform:translate(75vw,4px) rotate(-6deg)}58%{transform:translate(85vw,30px) rotate(12deg)}62%{opacity:1;transform:translate(calc(100vw + 60px),48px) rotate(6deg)}62.1%,100%{opacity:0;transform:translate(calc(100vw + 60px),48px)}}
+}
