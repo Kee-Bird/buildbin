@@ -12,7 +12,8 @@
     "microbit": "BBC micro:bit",
     "makeymakey": "Makey Makey",
     "none": "No microcontroller (simple circuit)",
-    "cpx": "Adafruit Circuit Playground Express"
+    "cpx": "Adafruit Circuit Playground Express",
+    "promini": "Arduino Pro Mini (3.3V/8MHz)"
   },
   "categories": {
     "home-automation": "Home automation",
@@ -26,7 +27,8 @@
     "3d-printing": "3D printing",
     "meshtastic": "Meshtastic",
     "kids": "Kids Projects",
-    "halloween": "Halloween Builds"
+    "halloween": "Halloween Builds",
+    "solar": "Solar Projects"
   },
   "projects": [
     {
@@ -2535,7 +2537,8 @@
         "nrf52"
       ],
       "categories": [
-        "meshtastic"
+        "meshtastic",
+        "solar"
       ],
       "difficulty": "Intermediate",
       "est_cost_usd": "110-160",
@@ -3679,6 +3682,523 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Candy_corn_strewn_on_a_black_background.jpg",
       "thumb_license": "CC BY 2.0",
       "thumb_author": "liz west"
+    },
+    {
+      "title": "Solar USB phone charger power bank",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "solar"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "25-45",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "6V 2W mini solar panel",
+          "url": "https://www.amazon.com/s?k=6V+2W+mini+solar+panel&tag=buildbin-20"
+        },
+        {
+          "name": "TP4056 USB-C charger module with protection",
+          "url": "https://www.amazon.com/s?k=TP4056+USB-C+charger+module+with+protection&tag=buildbin-20"
+        },
+        {
+          "name": "MT3608 boost converter module",
+          "url": "https://www.amazon.com/s?k=MT3608+boost+converter+module&tag=buildbin-20"
+        },
+        {
+          "name": "Protected 18650 battery 3000mAh",
+          "url": "https://www.amazon.com/s?k=Protected+18650+battery+3000mAh&tag=buildbin-20"
+        },
+        {
+          "name": "18650 battery holder with leads",
+          "url": "https://www.amazon.com/s?k=18650+battery+holder+with+leads&tag=buildbin-20"
+        },
+        {
+          "name": "1N5819 Schottky diode",
+          "url": "https://www.amazon.com/s?k=1N5819+Schottky+diode&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A female breakout board",
+          "url": "https://www.amazon.com/s?k=USB-A+female+breakout+board&tag=buildbin-20"
+        },
+        {
+          "name": "Mini slide switch",
+          "url": "https://www.amazon.com/s?k=Mini+slide+switch&tag=buildbin-20"
+        },
+        {
+          "name": "ABS project box",
+          "url": "https://www.amazon.com/s?k=ABS+project+box&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        }
+      ],
+      "description": "Panel to TP4056 charger to an 18650 cell, then an MT3608 boost to 5V USB. It's a sunny-day top-up, not a fast charger: a 2W panel needs about a full day of sun to fill one cell. Safety: use a protected 18650 from a reputable brand, set the boost to 5.0V with a multimeter before plugging in a phone, and never leave lithium cells charging in a hot car.",
+      "reference": "hackster.io",
+      "reference_url": "https://www.hackster.io/az-delivery/solar-powered-power-bank-22fb23",
+      "thumb": "assets/thumbs/67.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:TP4056_board_P1089956.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "-stk"
+    },
+    {
+      "title": "ESP32 solar weather station with deep sleep",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "solar",
+        "sensors-weather"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-65",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "ESP32 dev board",
+          "url": "https://www.amazon.com/s?k=ESP32+dev+board&tag=buildbin-20"
+        },
+        {
+          "name": "BME280 temperature humidity pressure sensor",
+          "url": "https://www.amazon.com/s?k=BME280+temperature+humidity+pressure+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "6V 1W mini solar panel 2 pack",
+          "url": "https://www.amazon.com/s?k=6V+1W+mini+solar+panel+2+pack&tag=buildbin-20"
+        },
+        {
+          "name": "TP4056 charger module with protection",
+          "url": "https://www.amazon.com/s?k=TP4056+charger+module+with+protection&tag=buildbin-20"
+        },
+        {
+          "name": "Protected 18650 battery 3000mAh",
+          "url": "https://www.amazon.com/s?k=Protected+18650+battery+3000mAh&tag=buildbin-20"
+        },
+        {
+          "name": "18650 battery holder with leads",
+          "url": "https://www.amazon.com/s?k=18650+battery+holder+with+leads&tag=buildbin-20"
+        },
+        {
+          "name": "MCP1700-3302E LDO regulator",
+          "url": "https://www.amazon.com/s?k=MCP1700-3302E+LDO+regulator&tag=buildbin-20"
+        },
+        {
+          "name": "100uF electrolytic capacitor",
+          "url": "https://www.amazon.com/s?k=100uF+electrolytic+capacitor&tag=buildbin-20"
+        },
+        {
+          "name": "100nF ceramic capacitor",
+          "url": "https://www.amazon.com/s?k=100nF+ceramic+capacitor&tag=buildbin-20"
+        },
+        {
+          "name": "27k and 100k ohm resistors",
+          "url": "https://www.amazon.com/s?k=27k+and+100k+ohm+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "IP65 junction box",
+          "url": "https://www.amazon.com/s?k=IP65+junction+box&tag=buildbin-20"
+        },
+        {
+          "name": "PG7 cable glands",
+          "url": "https://www.amazon.com/s?k=PG7+cable+glands&tag=buildbin-20"
+        },
+        {
+          "name": "Weather station radiation shield",
+          "url": "https://www.amazon.com/s?k=Weather+station+radiation+shield&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Drill + step bit",
+          "url": "https://www.amazon.com/s?k=step+drill+bit+set&tag=buildbin-20"
+        },
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Two small panels and an 18650 keep an ESP32 and BME280 reporting for months. The ESP32 wakes every 10 minutes, sends a reading over Wi-Fi (MQTT or Home Assistant), and goes back to deep sleep. Safety: mount the box in shade with the sensor in a vented shield; lithium cells shouldn't be charged above about 113°F (45°C), which an Arizona box in full sun easily passes.",
+      "reference": "randomnerdtutorials.com",
+      "reference_url": "https://randomnerdtutorials.com/power-esp32-esp8266-solar-panels-battery-level-monitoring/",
+      "thumb": "assets/thumbs/68.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "DIY sun tracker with LDRs and a servo",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "solar",
+        "robotics",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-35",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno compatible board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+compatible+board&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 micro servo",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo&tag=buildbin-20"
+        },
+        {
+          "name": "Photoresistor LDR assortment",
+          "url": "https://www.amazon.com/s?k=Photoresistor+LDR+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "10k ohm resistors",
+          "url": "https://www.amazon.com/s?k=10k+ohm+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "5V 1W mini solar panel",
+          "url": "https://www.amazon.com/s?k=5V+1W+mini+solar+panel&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size solderless breadboard",
+          "url": "https://www.amazon.com/s?k=Half-size+solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=Male-to-male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Foam board sheets",
+          "url": "https://www.amazon.com/s?k=Foam+board+sheets&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        },
+        {
+          "name": "Hobby knife",
+          "url": "https://www.amazon.com/s?k=hobby+knife+precision&tag=buildbin-20"
+        },
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Two light sensors split by a little fin tell an Arduino which side is brighter, and a servo tilts the panel toward the sun. It's a fun intro to sensors and feedback loops. Honest note: on small setups a fixed panel at the right tilt usually beats a tracker on cost. No soldering, and it's USB powered, so it's kid-friendly with a grown-up handling the hobby knife.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/How-to-Make-Solar-Tracker-Using-Arduino-and-Servo-/",
+      "thumb": "assets/thumbs/69.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Smarter Arduino solar garden path lights",
+      "boards": [
+        "promini"
+      ],
+      "categories": [
+        "solar",
+        "led-lighting"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "25-40",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Solar garden stake lights 4 pack",
+          "url": "https://www.amazon.com/s?k=Solar+garden+stake+lights+4+pack&tag=buildbin-20"
+        },
+        {
+          "name": "Arduino Pro Mini 3.3V 8MHz",
+          "url": "https://www.amazon.com/s?k=Arduino+Pro+Mini+3.3V+8MHz&tag=buildbin-20"
+        },
+        {
+          "name": "FTDI USB to serial adapter 3.3V",
+          "url": "https://www.amazon.com/s?k=FTDI+USB+to+serial+adapter+3.3V&tag=buildbin-20"
+        },
+        {
+          "name": "2N2222 NPN transistor",
+          "url": "https://www.amazon.com/s?k=2N2222+NPN+transistor&tag=buildbin-20"
+        },
+        {
+          "name": "Resistor assortment kit",
+          "url": "https://www.amazon.com/s?k=Resistor+assortment+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AA NiMH rechargeable batteries",
+          "url": "https://www.amazon.com/s?k=AA+NiMH+rechargeable+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Silicone stranded wire 26AWG",
+          "url": "https://www.amazon.com/s?k=Silicone+stranded+wire+26AWG&tag=buildbin-20"
+        },
+        {
+          "name": "Clear heat shrink tubing",
+          "url": "https://www.amazon.com/s?k=Clear+heat+shrink+tubing&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Hack a cheap solar stake light with a low-power Arduino. It uses the panel as the light sensor, fades on at dusk, and shuts off at a set time to save the battery for later. Safety: these lights charge NiMH cells, so stick with NiMH and don't swap in lithium AAs.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/Intelligent-Solar-Garden-Light-Part-1/",
+      "thumb": "assets/thumbs/70.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Solar_garden_light.jpg",
+      "thumb_license": "Public domain",
+      "thumb_author": "Leon Brooks"
+    },
+    {
+      "title": "Solar birdbath or pond fountain",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "solar",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-45",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Solar fountain pump kit 3.5W",
+          "url": "https://www.amazon.com/s?k=Solar+fountain+pump+kit+3.5W&tag=buildbin-20"
+        },
+        {
+          "name": "Plastic planter saucer 16 inch",
+          "url": "https://www.amazon.com/s?k=Plastic+planter+saucer+16+inch&tag=buildbin-20"
+        },
+        {
+          "name": "Vinyl tubing 3/8 inch",
+          "url": "https://www.amazon.com/s?k=Vinyl+tubing+3/8+inch&tag=buildbin-20"
+        },
+        {
+          "name": "River rocks",
+          "url": "https://www.amazon.com/s?k=River+rocks&tag=buildbin-20"
+        },
+        {
+          "name": "Clear silicone sealant",
+          "url": "https://www.amazon.com/s?k=Clear+silicone+sealant&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Utility knife",
+          "url": "https://www.amazon.com/s?k=utility+knife&tag=buildbin-20"
+        },
+        {
+          "name": "Drill + step bit",
+          "url": "https://www.amazon.com/s?k=step+drill+bit+set&tag=buildbin-20"
+        }
+      ],
+      "description": "A panel wired straight to a small DC pump makes a fountain that runs whenever the sun is out, with no batteries and no mains power. Turn a planter saucer or old birdbath into a bubbler the birds will love. Keep the water topped up so the pump never runs dry, and change it weekly so mosquitoes can't breed.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/DIY-Solar-Powered-BirdBath-Fountain/",
+      "thumb": "assets/thumbs/71.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Solar_powered_fountain_2.jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "Squigfried"
+    },
+    {
+      "title": "12V LiFePO4 solar power station",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "solar"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "400-700",
+      "time": "1-2 days",
+      "parts": [
+        {
+          "name": "12V 50Ah LiFePO4 battery with BMS",
+          "url": "https://www.amazon.com/s?k=12V+50Ah+LiFePO4+battery+with+BMS&tag=buildbin-20"
+        },
+        {
+          "name": "20A MPPT solar charge controller LiFePO4",
+          "url": "https://www.amazon.com/s?k=20A+MPPT+solar+charge+controller+LiFePO4&tag=buildbin-20"
+        },
+        {
+          "name": "100W 12V monocrystalline solar panel",
+          "url": "https://www.amazon.com/s?k=100W+12V+monocrystalline+solar+panel&tag=buildbin-20"
+        },
+        {
+          "name": "MC4 solar extension cable 10AWG",
+          "url": "https://www.amazon.com/s?k=MC4+solar+extension+cable+10AWG&tag=buildbin-20"
+        },
+        {
+          "name": "MRBF terminal fuse block",
+          "url": "https://www.amazon.com/s?k=MRBF+terminal+fuse+block&tag=buildbin-20"
+        },
+        {
+          "name": "Blade fuse block 6 way with cover",
+          "url": "https://www.amazon.com/s?k=Blade+fuse+block+6+way+with+cover&tag=buildbin-20"
+        },
+        {
+          "name": "Battery disconnect switch 12V",
+          "url": "https://www.amazon.com/s?k=Battery+disconnect+switch+12V&tag=buildbin-20"
+        },
+        {
+          "name": "10AWG and 8AWG battery cable with ring terminals",
+          "url": "https://www.amazon.com/s?k=10AWG+and+8AWG+battery+cable+with+ring+terminals&tag=buildbin-20"
+        },
+        {
+          "name": "Anderson Powerpole connectors 30A",
+          "url": "https://www.amazon.com/s?k=Anderson+Powerpole+connectors+30A&tag=buildbin-20"
+        },
+        {
+          "name": "12V USB-C PD socket panel",
+          "url": "https://www.amazon.com/s?k=12V+USB-C+PD+socket+panel&tag=buildbin-20"
+        },
+        {
+          "name": "Battery monitor with shunt 12V",
+          "url": "https://www.amazon.com/s?k=Battery+monitor+with+shunt+12V&tag=buildbin-20"
+        },
+        {
+          "name": "Waterproof hard case",
+          "url": "https://www.amazon.com/s?k=Waterproof+hard+case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Lug crimper",
+          "url": "https://www.amazon.com/s?k=hydraulic+lug+crimper&tag=buildbin-20"
+        },
+        {
+          "name": "Ratcheting crimper",
+          "url": "https://www.amazon.com/s?k=ratcheting+crimper+powerpole&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Drill + step bit",
+          "url": "https://www.amazon.com/s?k=step+drill+bit+set&tag=buildbin-20"
+        },
+        {
+          "name": "Heat gun",
+          "url": "https://www.amazon.com/s?k=heat+gun&tag=buildbin-20"
+        }
+      ],
+      "description": "A panel, MPPT controller, and 12V LiFePO4 battery in a case, with fused 12V, USB, and Powerpole outputs for camping, ham radio, or outages. Safety: put the main fuse as close to the battery positive as possible, fuse every branch and size the wire to its fuse, use the controller's LiFePO4 profile (about 14.2V), don't charge below freezing, and cover the terminals. If you add an AC inverter, buy a complete unit and leave mains wiring to a pro.",
+      "reference": "oh8stn.org",
+      "reference_url": "https://oh8stn.org/blog/2018/12/09/diy-solar-generator-576wh/",
+      "thumb": "assets/thumbs/72.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Lithium_iron_phosphate_battery,_12_V,_48_Wh,_240_A.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Cjp24"
+    },
+    {
+      "title": "Solar battery monitor with INA219 and OLED",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "solar",
+        "sensors-weather"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "20-35",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "ESP32 dev board",
+          "url": "https://www.amazon.com/s?k=ESP32+dev+board&tag=buildbin-20"
+        },
+        {
+          "name": "INA219 current sensor module",
+          "url": "https://www.amazon.com/s?k=INA219+current+sensor+module&tag=buildbin-20"
+        },
+        {
+          "name": "SSD1306 0.96 inch OLED I2C",
+          "url": "https://www.amazon.com/s?k=SSD1306+0.96+inch+OLED+I2C&tag=buildbin-20"
+        },
+        {
+          "name": "Inline blade fuse holder 12V",
+          "url": "https://www.amazon.com/s?k=Inline+blade+fuse+holder+12V&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size solderless breadboard",
+          "url": "https://www.amazon.com/s?k=Half-size+solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=Male-to-male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Screw terminal blocks",
+          "url": "https://www.amazon.com/s?k=Screw+terminal+blocks&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Wire an INA219 in line with a panel or battery to see volts, amps, and watt-hours live on an OLED, then log it over Wi-Fi. Great for checking what your panel really makes. Limits: the INA219 tops out at 26V and about 3A with its stock shunt, which is fine for 12V systems and small panels. A \"12V\" panel can hit 22V open-circuit, so don't use it on 24V panels or series strings, and put a fuse on the battery side.",
+      "reference": "iotwithesp.com",
+      "reference_url": "https://www.iotwithesp.com/projects/energy-monitor/",
+      "thumb": "assets/thumbs/73.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Adafruit_INA219_high_side_DC_current_sensor_module_2.jpg",
+      "thumb_license": "CC BY-SA 2.0",
+      "thumb_author": "oomlout"
     }
   ]
 }
