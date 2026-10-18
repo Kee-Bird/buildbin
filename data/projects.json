@@ -7,7 +7,8 @@
     "nano": "Arduino Nano",
     "esp8266": "ESP8266 (NodeMCU/D1 mini)",
     "f4": "STM32 F4 flight controller",
-    "promicro": "Arduino Pro Micro (ATmega32U4)"
+    "promicro": "Arduino Pro Micro (ATmega32U4)",
+    "nrf52": "nRF52840 (RAK4631 / Pro Micro)"
   },
   "categories": {
     "home-automation": "Home automation",
@@ -18,7 +19,8 @@
     "audio": "Audio",
     "wearables": "Wearables",
     "gaming": "Gaming",
-    "3d-printing": "3D printing"
+    "3d-printing": "3D printing",
+    "meshtastic": "Meshtastic"
   },
   "projects": [
     {
@@ -2513,6 +2515,373 @@
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
       "thumb_illustrated": true
+    },
+    {
+      "title": "Solar Meshtastic repeater node (RAK WisBlock)",
+      "boards": [
+        "nrf52"
+      ],
+      "categories": [
+        "meshtastic"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "110-160",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "RAK WisBlock Meshtastic starter kit (RAK19007 + RAK4631)",
+          "url": "https://www.amazon.com/s?k=RAK+WisBlock+Meshtastic+starter+kit+%28RAK19007+%2B+RAK4631%29&tag=buildbin-20"
+        },
+        {
+          "name": "Soshine 6W mini solar panel",
+          "url": "https://www.amazon.com/s?k=Soshine+6W+mini+solar+panel&tag=buildbin-20"
+        },
+        {
+          "name": "3.7V 10000mAh LiPo battery (JST PH 2.0)",
+          "url": "https://www.amazon.com/s?k=3.7V+10000mAh+LiPo+battery+%28JST+PH+2.0%29&tag=buildbin-20"
+        },
+        {
+          "name": "IP67 waterproof junction box",
+          "url": "https://www.amazon.com/s?k=IP67+waterproof+junction+box&tag=buildbin-20"
+        },
+        {
+          "name": "915MHz fiberglass omni antenna N-type",
+          "url": "https://www.amazon.com/s?k=915MHz+fiberglass+omni+antenna+N-type&tag=buildbin-20"
+        },
+        {
+          "name": "U.FL to N-type female bulkhead pigtail",
+          "url": "https://www.amazon.com/s?k=U.FL+to+N-type+female+bulkhead+pigtail&tag=buildbin-20"
+        },
+        {
+          "name": "Waterproof breather vent",
+          "url": "https://www.amazon.com/s?k=Waterproof+breather+vent&tag=buildbin-20"
+        },
+        {
+          "name": "M2.5 standoff kit",
+          "url": "https://www.amazon.com/s?k=M2.5+standoff+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Clear silicone sealant",
+          "url": "https://www.amazon.com/s?k=Clear+silicone+sealant&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Drill + step bit",
+          "url": "https://www.amazon.com/s?k=step+drill+bit+set&tag=buildbin-20"
+        },
+        {
+          "name": "Rotary tool",
+          "url": "https://www.amazon.com/s?k=rotary+tool+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        "Computer for flashing"
+      ],
+      "description": "Build an off-grid, solar-powered Meshtastic repeater with a RAK4631 in a weatherproof box that keeps the mesh up for weeks without sun.",
+      "reference": "pupius.com",
+      "reference_url": "https://pupius.com/resources/meshtastic/solar",
+      "thumb": "assets/thumbs/47.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:2025-09-25-RAK4631-MeshCore-Repeater-Solar-at-DB0IL.jpg",
+      "thumb_license": "CC BY 4.0",
+      "thumb_author": "Fabian Horst"
+    },
+    {
+      "title": "Heltec V3 pocket Meshtastic node in a printed case",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "meshtastic"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-45",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Heltec WiFi LoRa 32 V3 915MHz",
+          "url": "https://www.amazon.com/s?k=Heltec+WiFi+LoRa+32+V3+915MHz&tag=buildbin-20"
+        },
+        {
+          "name": "3.7V 3000mAh LiPo battery 1S",
+          "url": "https://www.amazon.com/s?k=3.7V+3000mAh+LiPo+battery+1S&tag=buildbin-20"
+        },
+        {
+          "name": "915MHz SMA antenna with IPEX pigtail",
+          "url": "https://www.amazon.com/s?k=915MHz+SMA+antenna+with+IPEX+pigtail&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C data cable",
+          "url": "https://www.amazon.com/s?k=USB-C+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "PLA filament",
+          "url": "https://www.amazon.com/s?k=PLA+filament&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Spudger / pry tool",
+          "url": "https://www.amazon.com/s?k=plastic+spudger+pry+tool&tag=buildbin-20"
+        },
+        "Computer for flashing"
+      ],
+      "description": "Flash Meshtastic onto a Heltec V3, add a big battery, and snap it into a printed case for cheap off-grid texting from your phone.",
+      "reference": "thedirtygrunt.com",
+      "reference_url": "https://thedirtygrunt.com/2024/03/heltec-v3-meshtastic-mobile-build/",
+      "thumb": "assets/thumbs/48.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "LILYGO T-Beam GPS tracker node",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "meshtastic"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "50-75",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "LILYGO T-Beam Meshtastic 915MHz SX1262",
+          "url": "https://www.amazon.com/s?k=LILYGO+T-Beam+Meshtastic+915MHz+SX1262&tag=buildbin-20"
+        },
+        {
+          "name": "18650 battery button top",
+          "url": "https://www.amazon.com/s?k=18650+battery+button+top&tag=buildbin-20"
+        },
+        {
+          "name": "915MHz LoRa antenna SMA upgrade",
+          "url": "https://www.amazon.com/s?k=915MHz+LoRa+antenna+SMA+upgrade&tag=buildbin-20"
+        },
+        {
+          "name": "T-Beam case (or PLA filament to print one)",
+          "url": "https://www.amazon.com/s?k=T-Beam+case+%28or+PLA+filament+to+print+one%29&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C data cable",
+          "url": "https://www.amazon.com/s?k=USB-C+data+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        "Computer for flashing"
+      ],
+      "description": "Turn a LILYGO T-Beam into a GPS tracker that shares your position on the mesh for hikes, events, and group trips with no cell service.",
+      "reference": "meshtastic.org",
+      "reference_url": "https://meshtastic.org/docs/hardware/devices/lilygo/tbeam/",
+      "thumb": "assets/thumbs/49.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Meshtastic_T-Beam.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Chiffre01"
+    },
+    {
+      "title": "T-Deck standalone Meshtastic messenger",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "meshtastic"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "70-110",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "LILYGO T-Deck Plus 915MHz",
+          "url": "https://www.amazon.com/s?k=LILYGO+T-Deck+Plus+915MHz&tag=buildbin-20"
+        },
+        {
+          "name": "915MHz LoRa antenna SMA",
+          "url": "https://www.amazon.com/s?k=915MHz+LoRa+antenna+SMA&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card 32GB (offline maps)",
+          "url": "https://www.amazon.com/s?k=microSD+card+32GB+%28offline+maps%29&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C data cable",
+          "url": "https://www.amazon.com/s?k=USB-C+data+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer for flashing"
+      ],
+      "description": "Flash Meshtastic UI onto a LILYGO T-Deck for a pocket keyboard messenger that sends texts over the mesh without a phone.",
+      "reference": "meshtastic.org",
+      "reference_url": "https://meshtastic.org/docs/hardware/devices/lilygo/tdeck/",
+      "thumb": "assets/thumbs/50.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Station G2 rooftop Meshtastic base station",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "meshtastic"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "220-320",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "Station G2 Meshtastic base station",
+          "url": "https://www.amazon.com/s?k=Station+G2+Meshtastic+base+station&tag=buildbin-20"
+        },
+        {
+          "name": "915MHz 5.8dBi fiberglass omni antenna",
+          "url": "https://www.amazon.com/s?k=915MHz+5.8dBi+fiberglass+omni+antenna&tag=buildbin-20"
+        },
+        {
+          "name": "LMR-400 coax cable N-type",
+          "url": "https://www.amazon.com/s?k=LMR-400+coax+cable+N-type&tag=buildbin-20"
+        },
+        {
+          "name": "Coax lightning surge arrestor N-type",
+          "url": "https://www.amazon.com/s?k=Coax+lightning+surge+arrestor+N-type&tag=buildbin-20"
+        },
+        {
+          "name": "Antenna mast mount bracket",
+          "url": "https://www.amazon.com/s?k=Antenna+mast+mount+bracket&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C PD power adapter 30W",
+          "url": "https://www.amazon.com/s?k=USB-C+PD+power+adapter+30W&tag=buildbin-20"
+        },
+        {
+          "name": "Coax sealing tape self-amalgamating",
+          "url": "https://www.amazon.com/s?k=Coax+sealing+tape+self-amalgamating&tag=buildbin-20"
+        },
+        {
+          "name": "IP65 outdoor enclosure",
+          "url": "https://www.amazon.com/s?k=IP65+outdoor+enclosure&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Adjustable wrench",
+          "url": "https://www.amazon.com/s?k=adjustable+wrench+set&tag=buildbin-20"
+        },
+        {
+          "name": "Drill",
+          "url": "https://www.amazon.com/s?k=cordless+drill&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        "Ladder",
+        "Computer for flashing"
+      ],
+      "description": "Put a high-power Station G2 and a fiberglass antenna on your roof to anchor the local mesh and reach nodes miles away.",
+      "reference": "phillymesh.net",
+      "reference_url": "https://phillymesh.net/2025/03/24/station-g2-node-installation/",
+      "thumb": "assets/thumbs/51.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:2025-10_Meshtastic_Node_temporaerhaus_P1090106.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "-stk"
+    },
+    {
+      "title": "DIY FakeTec low-power node (nRF52840)",
+      "boards": [
+        "nrf52"
+      ],
+      "categories": [
+        "meshtastic"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "30-50",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "FakeTec PCB (order from a PCB fab)",
+          "url": "https://github.com/gargomoma/fakeTec_pcb"
+        },
+        {
+          "name": "Pro Micro nRF52840 (nice!nano clone)",
+          "url": "https://www.amazon.com/s?k=Pro+Micro+nRF52840+%28nice%21nano+clone%29&tag=buildbin-20"
+        },
+        {
+          "name": "Heltec HT-RA62 LoRa module",
+          "url": "https://www.amazon.com/s?k=Heltec+HT-RA62+LoRa+module&tag=buildbin-20"
+        },
+        {
+          "name": "0.96 inch OLED display I2C SSD1306",
+          "url": "https://www.amazon.com/s?k=0.96+inch+OLED+display+I2C+SSD1306&tag=buildbin-20"
+        },
+        {
+          "name": "680K and 1M resistors",
+          "url": "https://www.amazon.com/s?k=680K+and+1M+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "3.7V 1000mAh LiPo battery JST",
+          "url": "https://www.amazon.com/s?k=3.7V+1000mAh+LiPo+battery+JST&tag=buildbin-20"
+        },
+        {
+          "name": "915MHz antenna with IPEX pigtail",
+          "url": "https://www.amazon.com/s?k=915MHz+antenna+with+IPEX+pigtail&tag=buildbin-20"
+        },
+        {
+          "name": "Solder flux pen",
+          "url": "https://www.amazon.com/s?k=Solder+flux+pen&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Tweezers",
+          "url": "https://www.amazon.com/s?k=precision+tweezers+set&tag=buildbin-20"
+        },
+        {
+          "name": "Flush cutters",
+          "url": "https://www.amazon.com/s?k=flush+cutters&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        "Computer for flashing"
+      ],
+      "description": "Solder a Pro Micro nRF52840 and an HT-RA62 radio onto the open-source FakeTec board for a cheap node that sips power for weeks.",
+      "reference": "adrelien.com",
+      "reference_url": "https://adrelien.com/diy-meshtastic-how-to-build-your-own-meshtastic-device-with-faketec-pcb-nrf52840/",
+      "thumb": "assets/thumbs/52.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Meshtastic_FakeTec_node_with_display_P1089966.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "-stk"
     }
   ]
 }
