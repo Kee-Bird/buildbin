@@ -35,7 +35,13 @@ if(hd)hd.insertAdjacentHTML('beforeend','<div class="hw-deco hw-stones" aria-hid
 /* dangling spiders */
 function spider(c){return '<svg '+A.replace('hw-deco','hw-deco hw-spider '+c)+' viewBox="0 0 40 170"><line x1="20" y1="-40" x2="20" y2="140" stroke="#e2e8f0" stroke-width="1" opacity=".7"/><g transform="translate(20,150)"><g fill="none" stroke="#c4b5fd" stroke-width="1.6" stroke-linecap="round"><path d="M-5-3l-8-7-4 4M-5 0l-10-3-5 5M-5 3l-9 3-4 7M-4 6l-6 7-1 6M5-3l8-7 4 4M5 0l10-3 5 5M5 3l9 3 4 7M4 6l6 7 1 6"/></g><ellipse cy="5" rx="7" ry="8.5" fill="#0b0a1a" stroke="#c4b5fd" stroke-width="1.3"/><circle cy="-6" r="5" fill="#0b0a1a" stroke="#c4b5fd" stroke-width="1.3"/><circle cx="-2" cy="-6.5" r="1.3" fill="#f97316"/><circle cx="2" cy="-6.5" r="1.3" fill="#f97316"/><path d="M-3 3h6l-3 5z" fill="#dc2626" opacity=".85"/></g></svg>';}
 /* flying bats */
-var fbat='<path d="M20 14c-3-5-9-6-14-3 3 0 5 2 5 4-3-1-6 0-8 2 4 0 7 1 9 3 2-2 5-3 8-2 3-1 6 0 8 2 2-2 5-3 9-3-2-2-5-3-8-2 0-2 2-4 5-4-5-3-11-2-14 3z" fill="#1a1033" stroke="#c4b5fd" stroke-width="1"/><circle cx="18.6" cy="15" r=".7" fill="#f97316"/><circle cx="21.4" cy="15" r=".7" fill="#f97316"/>';
-function flyer(c){return '<svg '+A.replace('hw-deco','hw-deco hw-flyer '+c)+' viewBox="0 0 40 26"><g class="hw-flap">'+fbat+'</g></svg>';}
+/* flying bats: realistic silhouette, wings hinge at the shoulders */
+var WING='<path d="M55 25.5L39 18.5Q24 12 6 11Q15 21 3 30Q16 30.5 13 42Q23 38.5 27 47.5Q38 37 53.5 35.5Z" fill="#2a2220" fill-opacity=".96"/><path d="M55 25.5L39 18.5L6 11M39 18.5L3 30M39 18.5L13 42M39 18.5L27 47.5" fill="none" stroke="#3b312d" stroke-width=".75" stroke-linecap="round"/><path d="M55 25.5L39 18.5" stroke="#3a302c" stroke-width="2.2" stroke-linecap="round"/><path d="M39 18.5l-2.6-3.4" stroke="#3a302c" stroke-width="1.3" stroke-linecap="round"/>';
+var fbat='<g class="hw-wl">'+WING+'</g><g class="hw-wr"><g transform="matrix(-1 0 0 1 120 0)">'+WING+'</g></g>'+
+ '<path d="M55.5 37Q60 47 64.5 37Z" fill="#2a2220" fill-opacity=".9"/><path d="M56.5 39.5l-1.5 3.5M63.5 39.5l1.5 3.5" stroke="#3a302c" stroke-width="1" stroke-linecap="round"/>'+
+ '<ellipse cx="60" cy="29" rx="5.6" ry="9.2" fill="#2d2421"/><path d="M55.4 26q-1 3 .3 6M64.6 26q1 3-.3 6M57 35.5l-.7 1.6M63 35.5l.7 1.6M60 37.5v1.5" stroke="#3d322e" stroke-width=".8" fill="none"/>'+
+ '<path d="M56.3 18.5L55.4 10.6L58.6 16.2ZM63.7 18.5L64.6 10.6L61.4 16.2Z" fill="#2d2421"/><ellipse cx="60" cy="19" rx="4.4" ry="4" fill="#2d2421"/><path d="M58.8 21.4l1.2 1.4 1.2-1.4" fill="#1f1816"/>'+
+ '<circle cx="58.3" cy="18.6" r=".55" fill="#9ca3af" fill-opacity=".55"/><circle cx="61.7" cy="18.6" r=".55" fill="#9ca3af" fill-opacity=".55"/>';
+function flyer(c){return '<span class="hw-deco hw-flyer '+c+'" aria-hidden="true"><span class="hw-flut"><svg class="hw-batsvg" viewBox="0 0 120 52" focusable="false"><g class="hw-bob">'+fbat+'</g></svg></span></span>';}
 if(hd)hd.insertAdjacentHTML('beforeend',spider('s1')+spider('s2')+flyer('f1')+flyer('f2'));
 })();

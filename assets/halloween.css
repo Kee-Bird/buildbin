@@ -52,24 +52,39 @@ footer .hw-jacks{height:40px;justify-content:center;gap:28px}footer .hw-jacks sv
 .hw-stones svg:nth-child(2){width:44px;height:56px}
 .hw-spider{top:0;width:34px;height:145px;transform-origin:50% 0}
 .hw-spider.s1{left:150px;width:40px;height:170px}.hw-spider.s2{right:150px;height:136px;width:32px}
-.hw-flyer{top:0;left:0;z-index:2;width:60px;height:39px;opacity:0;filter:drop-shadow(0 0 4px rgba(196,181,253,.5))}
-.hw-flyer.f2{width:44px;height:29px}
-.hw-flap{transform-box:fill-box;transform-origin:50% 55%}
 @media (prefers-reduced-motion:no-preference){
  .hw-spider{animation:hw-dangle 4.5s ease-in-out infinite}.hw-spider.s2{animation-duration:5.5s;animation-delay:-2s}
- .hw-flyer.f1{animation:hw-fly 14s linear infinite;animation-delay:-3.3s}
- .hw-flyer.f2{animation:hw-fly2 19s linear infinite;animation-delay:-9.4s}
- .hw-flap{animation:hw-flap .32s ease-in-out infinite alternate}
  .hw-cat .hw-eyes{animation:hw-blink 6s infinite;transform-box:fill-box;transform-origin:center}
  @keyframes hw-dangle{0%,100%{transform:translateY(-26px) rotate(1.5deg)}50%{transform:translateY(0) rotate(-1.5deg)}}
- @keyframes hw-flap{from{transform:scaleY(1)}to{transform:scaleY(.35)}}
  @keyframes hw-blink{0%,46%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.1)}}
- @keyframes hw-fly{0%{opacity:1;transform:translate(-70px,120px)}12%{transform:translate(14vw,60px)}24%{transform:translate(34vw,24px)}36%{transform:translate(56vw,34px)}48%{transform:translate(80vw,90px)}60%{opacity:1;transform:translate(calc(100vw + 70px),50px)}60.1%,100%{opacity:0;transform:translate(calc(100vw + 70px),50px)}}
- @keyframes hw-fly2{0%{opacity:1;transform:translate(calc(100vw + 40px),40px) scaleX(-1)}15%{transform:translate(80vw,150px) scaleX(-1)}30%{transform:translate(52vw,30px) scaleX(-1)}45%{transform:translate(24vw,40px) scaleX(-1)}58%{opacity:1;transform:translate(-50px,60px) scaleX(-1)}58.1%,100%{opacity:0;transform:translate(-50px,60px) scaleX(-1)}}}
-@media (prefers-reduced-motion:reduce){.hw-flyer{display:none}}
+}
 @media (max-width:900px){.hw-stones svg:nth-child(3){display:none}.hw-spider.s2{right:96px}}
 @media (max-width:600px){
  .hw-stones{right:auto;left:calc(3% + 80px);height:36px}.hw-stones svg{width:28px;height:36px}.hw-stones svg:nth-child(n+2){display:none}
  .hw-spider.s1{left:10px;width:26px;height:100px}.hw-spider.s2{display:none}
- .hw-flyer.f1{width:32px;height:21px}.hw-flyer.f2{display:none}
- @keyframes hw-fly{0%{opacity:1;transform:translate(-40px,40px)}20%{transform:translate(24vw,0)}40%{transform:translate(50vw,-2px)}60%{opacity:1;transform:translate(calc(100vw + 40px),30px)}60.1%,100%{opacity:0;transform:translate(calc(100vw + 40px),30px)}}}
+}
+/* --- v3: realistic flying bats (wings hinge at the shoulders, ~7 beats/sec, fluttery path) --- */
+.hw-flyer{top:0;left:0;z-index:2;width:68px;height:30px;opacity:0;filter:drop-shadow(0 0 1.5px rgba(203,213,225,.28))}
+.hw-flyer.f2{width:52px;height:23px}
+.hw-flut,.hw-batsvg{display:block;width:100%;height:100%}
+.hw-batsvg{overflow:visible}
+.hw-wl,.hw-wr,.hw-bob{transform-box:view-box}
+.hw-wl{transform-origin:55px 25.5px}.hw-wr{transform-origin:65px 25.5px}
+.hw-wl,.hw-wr{transform:rotate(18deg) scale(1,.95)}.hw-wr{transform:rotate(-18deg) scale(1,.95)}
+@media (prefers-reduced-motion:no-preference){
+ .hw-flyer.f1{animation:hw-fly 14s linear infinite;animation-delay:-4.3s}
+ .hw-flyer.f2{animation:hw-fly2 19s linear infinite;animation-delay:-5.8s}
+ .hw-flut{animation:hw-flut 1.7s ease-in-out infinite}.f2 .hw-flut{animation-duration:1.3s;animation-delay:-.6s}
+ .hw-wl{animation:hw-wl .135s linear infinite}.hw-wr{animation:hw-wr .135s linear infinite}.hw-bob{animation:hw-bob2 .135s linear infinite}
+ .f2 .hw-wl,.f2 .hw-wr,.f2 .hw-bob{animation-duration:.12s}
+ @keyframes hw-wl{0%,100%{transform:rotate(40deg) scale(.5,.85)}20%{transform:rotate(26deg) scale(1,1)}50%{transform:rotate(-14deg) scale(1,.95)}68%{transform:rotate(-30deg) scale(.82,.8)}84%{transform:rotate(-4deg) scale(.45,.75)}}
+ @keyframes hw-wr{0%,100%{transform:rotate(-40deg) scale(.5,.85)}20%{transform:rotate(-26deg) scale(1,1)}50%{transform:rotate(14deg) scale(1,.95)}68%{transform:rotate(30deg) scale(.82,.8)}84%{transform:rotate(4deg) scale(.45,.75)}}
+ @keyframes hw-bob2{0%,100%{transform:translateY(2px)}50%{transform:translateY(-2.5px)}}
+ @keyframes hw-flut{0%,100%{transform:translate(0,0) rotate(0)}18%{transform:translate(3px,-6px) rotate(-6deg)}37%{transform:translate(-2px,5px) rotate(4deg)}55%{transform:translate(4px,-3px) rotate(-3deg)}74%{transform:translate(-3px,7px) rotate(7deg)}}
+ @keyframes hw-fly{0%{opacity:1;transform:translate(-90px,110px) rotate(-10deg)}4%{transform:translate(4vw,72px) rotate(-14deg)}8%{transform:translate(9vw,96px) rotate(8deg)}11%{transform:translate(14vw,58px) rotate(-16deg)}15%{transform:translate(19vw,7px) rotate(-6deg)}19%{transform:translate(25vw,10px) rotate(7deg)}23%{transform:translate(30vw,4px) rotate(-9deg)}27%{transform:translate(36vw,7px) rotate(6deg)}31%{transform:translate(41vw,2px) rotate(-5deg)}35%{transform:translate(47vw,6px) rotate(8deg)}38%{transform:translate(52vw,3px) rotate(-6deg)}42%{transform:translate(58vw,7px) rotate(9deg)}46%{transform:translate(64vw,2px) rotate(-7deg)}50%{transform:translate(71vw,6px) rotate(6deg)}53%{transform:translate(78vw,62px) rotate(12deg)}56%{transform:translate(85vw,104px) rotate(4deg)}58%{transform:translate(91vw,74px) rotate(-12deg)}60%{opacity:1;transform:translate(calc(100vw + 90px),52px) rotate(-6deg)}60.1%,100%{opacity:0;transform:translate(calc(100vw + 90px),52px)}}
+ @keyframes hw-fly2{0%{opacity:1;transform:translate(calc(100vw + 70px),150px) rotate(8deg)}4%{transform:translate(93vw,120px) rotate(14deg)}8%{transform:translate(86vw,150px) rotate(-6deg)}12%{transform:translate(81vw,96px) rotate(10deg)}16%{transform:translate(76vw,40px) rotate(6deg)}20%{transform:translate(70vw,5px) rotate(-6deg)}24%{transform:translate(63vw,8px) rotate(7deg)}28%{transform:translate(57vw,3px) rotate(-8deg)}32%{transform:translate(50vw,6px) rotate(5deg)}36%{transform:translate(43vw,2px) rotate(-6deg)}40%{transform:translate(36vw,5px) rotate(8deg)}44%{transform:translate(29vw,2px) rotate(-5deg)}48%{transform:translate(22vw,58px) rotate(-12deg)}51%{transform:translate(16vw,98px) rotate(-4deg)}54%{transform:translate(10vw,70px) rotate(10deg)}58%{opacity:1;transform:translate(-80px,90px) rotate(4deg)}58.1%,100%{opacity:0;transform:translate(-80px,90px)}}
+}
+@media (prefers-reduced-motion:reduce){.hw-flyer{display:none}}
+@media (max-width:600px){.hw-flyer.f1{width:46px;height:20px}.hw-flyer.f2{display:none}
+ @keyframes hw-fly{0%{opacity:1;transform:translate(-60px,70px) rotate(-10deg)}6%{transform:translate(5vw,40px) rotate(-12deg)}12%{transform:translate(11vw,58px) rotate(8deg)}18%{transform:translate(18vw,6px) rotate(-10deg)}24%{transform:translate(27vw,-2px) rotate(6deg)}30%{transform:translate(36vw,6px) rotate(-6deg)}36%{transform:translate(45vw,-3px) rotate(7deg)}42%{transform:translate(55vw,5px) rotate(-5deg)}48%{transform:translate(65vw,-2px) rotate(6deg)}54%{transform:translate(75vw,4px) rotate(-6deg)}58%{transform:translate(85vw,30px) rotate(12deg)}62%{opacity:1;transform:translate(calc(100vw + 60px),48px) rotate(6deg)}62.1%,100%{opacity:0;transform:translate(calc(100vw + 60px),48px)}}
+}
