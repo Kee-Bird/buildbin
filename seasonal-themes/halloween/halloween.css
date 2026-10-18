@@ -88,3 +88,8 @@ footer .hw-jacks{height:40px;justify-content:center;gap:28px}footer .hw-jacks sv
 @media (max-width:600px){.hw-flyer.f1{width:46px;height:20px}.hw-flyer.f2{display:none}
  @keyframes hw-fly{0%{opacity:1;transform:translate(-60px,70px) rotate(-10deg)}6%{transform:translate(5vw,40px) rotate(-12deg)}12%{transform:translate(11vw,58px) rotate(8deg)}18%{transform:translate(18vw,6px) rotate(-10deg)}24%{transform:translate(27vw,-2px) rotate(6deg)}30%{transform:translate(36vw,6px) rotate(-6deg)}36%{transform:translate(45vw,-3px) rotate(7deg)}42%{transform:translate(55vw,5px) rotate(-5deg)}48%{transform:translate(65vw,-2px) rotate(6deg)}54%{transform:translate(75vw,4px) rotate(-6deg)}58%{transform:translate(85vw,30px) rotate(12deg)}62%{opacity:1;transform:translate(calc(100vw + 60px),48px) rotate(6deg)}62.1%,100%{opacity:0;transform:translate(calc(100vw + 60px),48px)}}
 }
+
+/* "All Halloween builds" pill in the spooky bar (links category/halloween.html, which is only linked from here) */
+.hw-banner a.hw-all{background:#f97316;color:#1c0a02;padding:.2rem .75rem;border-radius:999px;font-weight:800;white-space:nowrap}
+.hw-banner a.hw-all:hover,.hw-banner a.hw-all:focus-visible{background:#fdba74;text-decoration:none}
+@media (max-width:600px){.hw-banner a:not(.hw-all){display:none}.hw-banner{gap:.4rem}.hw-banner a.hw-all{display:inline-flex}}

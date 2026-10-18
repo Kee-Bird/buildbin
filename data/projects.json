@@ -11,7 +11,8 @@
     "nrf52": "nRF52840 (RAK4631 / Pro Micro)",
     "microbit": "BBC micro:bit",
     "makeymakey": "Makey Makey",
-    "none": "No microcontroller (simple circuit)"
+    "none": "No microcontroller (simple circuit)",
+    "cpx": "Adafruit Circuit Playground Express"
   },
   "categories": {
     "home-automation": "Home automation",
@@ -24,7 +25,8 @@
     "gaming": "Gaming",
     "3d-printing": "3D printing",
     "meshtastic": "Meshtastic",
-    "kids": "Kids Projects"
+    "kids": "Kids Projects",
+    "halloween": "Halloween Builds"
   },
   "projects": [
     {
@@ -157,7 +159,8 @@
       ],
       "categories": [
         "led-lighting",
-        "home-automation"
+        "home-automation",
+        "halloween"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "20-50",
@@ -1158,7 +1161,8 @@
         "esp32"
       ],
       "categories": [
-        "led-lighting"
+        "led-lighting",
+        "halloween"
       ],
       "difficulty": "Intermediate",
       "est_cost_usd": "40-80",
@@ -1520,7 +1524,8 @@
       ],
       "categories": [
         "wearables",
-        "led-lighting"
+        "led-lighting",
+        "halloween"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "20-40",
@@ -3205,6 +3210,475 @@
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
       "thumb_illustrated": true
+    },
+    {
+      "title": "Flickering Circuit Playground jack-o'-lantern",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "halloween",
+        "led-lighting",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-40",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "3xAAA battery holder with switch JST",
+          "url": "https://www.amazon.com/s?k=3xAAA+battery+holder+with+switch+JST&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Foam craft pumpkin",
+          "url": "https://www.amazon.com/s?k=Foam+craft+pumpkin&tag=buildbin-20"
+        },
+        {
+          "name": "Zip-top sandwich bags",
+          "url": "https://www.amazon.com/s?k=Zip-top+sandwich+bags&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Pumpkin carving kit",
+          "url": "https://www.amazon.com/s?k=pumpkin+carving+kit&tag=buildbin-20"
+        },
+        "Computer with MakeCode or Arduino IDE"
+      ],
+      "description": "Code a Circuit Playground to flicker like a real candle, then pop it in a pumpkin or paper lantern instead of a flame. No soldering. Kids 8+ can do the coding, and an adult should do the carving.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/circuit-playground-jack-o-lantern",
+      "thumb": "assets/thumbs/59.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Jack-O-Lantern_at_night.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Alabama Extension"
+    },
+    {
+      "title": "Motion-activated talking pumpkin candy bowl",
+      "boards": [
+        "nano"
+      ],
+      "categories": [
+        "halloween",
+        "audio"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "25-40",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "HC-SR501 PIR motion sensor",
+          "url": "https://www.amazon.com/s?k=HC-SR501+PIR+motion+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "DFPlayer Mini MP3 module",
+          "url": "https://www.amazon.com/s?k=DFPlayer+Mini+MP3+module&tag=buildbin-20"
+        },
+        {
+          "name": "Micro SD card 8GB",
+          "url": "https://www.amazon.com/s?k=Micro+SD+card+8GB&tag=buildbin-20"
+        },
+        {
+          "name": "3W 4 ohm mini speaker",
+          "url": "https://www.amazon.com/s?k=3W+4+ohm+mini+speaker&tag=buildbin-20"
+        },
+        {
+          "name": "1k ohm resistor",
+          "url": "https://www.amazon.com/s?k=1k+ohm+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Plastic pumpkin candy bowl",
+          "url": "https://www.amazon.com/s?k=Plastic+pumpkin+candy+bowl&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        },
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "A PIR sensor spots trick-or-treaters and a DFPlayer plays a sound from the candy bowl. Load it with meows, giggles, or a friendly \"Happy Halloween!\" to keep it cute.",
+      "reference": "hackster.io",
+      "reference_url": "https://www.hackster.io/rachnajain/spooky-motion-activated-halloween-pumpkin-using-arduino-nano-73e35f",
+      "thumb": "assets/thumbs/60.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Jack-o-lantern_pumpkins.jpg",
+      "thumb_license": "Public domain",
+      "thumb_author": "Petr Kratochvil"
+    },
+    {
+      "title": "Milk-jug ghost lanterns with LED string lights",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "halloween",
+        "kids",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "30-45 min",
+      "parts": [
+        {
+          "name": "Battery LED fairy string lights",
+          "url": "https://www.amazon.com/s?k=Battery+LED+fairy+string+lights&tag=buildbin-20"
+        },
+        {
+          "name": "AA batteries",
+          "url": "https://www.amazon.com/s?k=AA+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Black permanent markers",
+          "url": "https://www.amazon.com/s?k=Black+permanent+markers&tag=buildbin-20"
+        },
+        {
+          "name": "Clean empty milk jugs",
+          "url": "https://www.amazon.com/s?k=Clean+empty+milk+jugs&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Craft scissors",
+          "url": "https://www.amazon.com/s?k=craft+scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Hobby knife",
+          "url": "https://www.amazon.com/s?k=hobby+knife+precision&tag=buildbin-20"
+        }
+      ],
+      "description": "Draw cute ghost faces on empty milk jugs and light them up with battery fairy lights for a glowing porch or path. Ages 5+. An adult should cut the opening, and use LEDs only, never candles.",
+      "reference": "hilanddairy.com",
+      "reference_url": "https://hilanddairy.com/blog/milk-jug-ghost-lantern-3/",
+      "thumb": "assets/thumbs/61.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Twinkling NeoPixie dust bag costume prop",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "halloween",
+        "wearables",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "35-45",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "3xAAA battery holder with switch JST",
+          "url": "https://www.amazon.com/s?k=3xAAA+battery+holder+with+switch+JST&tag=buildbin-20"
+        },
+        {
+          "name": "Alligator clip test leads",
+          "url": "https://www.amazon.com/s?k=Alligator+clip+test+leads&tag=buildbin-20"
+        },
+        {
+          "name": "Organza drawstring bags",
+          "url": "https://www.amazon.com/s?k=Organza+drawstring+bags&tag=buildbin-20"
+        },
+        {
+          "name": "Kosher flake salt",
+          "url": "https://www.amazon.com/s?k=Kosher+flake+salt&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with MakeCode"
+      ],
+      "description": "A sparkly fairy-costume bag that twinkles and changes color when you squeeze it, coded in MakeCode blocks. No soldering, so it's great for kids 8+.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/neopixie-dust-bag-cpx",
+      "thumb": "assets/thumbs/62.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Circuit-playground-sideview.jpg",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Smitop (board design by Adafruit Industries)"
+    },
+    {
+      "title": "Waving pumpkin with servo arms",
+      "boards": [
+        "nano"
+      ],
+      "categories": [
+        "halloween",
+        "robotics",
+        "3d-printing"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "20-35",
+      "time": "2-4 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 micro servo",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo&tag=buildbin-20"
+        },
+        {
+          "name": "Foam craft pumpkin",
+          "url": "https://www.amazon.com/s?k=Foam+craft+pumpkin&tag=buildbin-20"
+        },
+        {
+          "name": "5V USB power bank",
+          "url": "https://www.amazon.com/s?k=5V+USB+power+bank&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "PLA filament",
+          "url": "https://www.amazon.com/s?k=PLA+filament&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        "Computer w/ Arduino IDE"
+      ],
+      "description": "Two micro servos and 3D-printed arms make a pumpkin wave hello at the door. It's a friendly greeter, not a scare.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/Halloween-Waving-Pumpkin-Arms-Using-Micro-Servos-a/",
+      "thumb": "assets/thumbs/63.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Light-up cat or bunny ears headband",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "halloween",
+        "wearables",
+        "led-lighting"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-60",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "NeoPixel LED strip 60 LED/m",
+          "url": "https://www.amazon.com/s?k=NeoPixel+LED+strip+60+LED/m&tag=buildbin-20"
+        },
+        {
+          "name": "Cat ears headband",
+          "url": "https://www.amazon.com/s?k=Cat+ears+headband&tag=buildbin-20"
+        },
+        {
+          "name": "3.7V 500mAh LiPo battery JST",
+          "url": "https://www.amazon.com/s?k=3.7V+500mAh+LiPo+battery+JST&tag=buildbin-20"
+        },
+        {
+          "name": "JST battery switch cable",
+          "url": "https://www.amazon.com/s?k=JST+battery+switch+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Silicone stranded wire 26AWG",
+          "url": "https://www.amazon.com/s?k=Silicone+stranded+wire+26AWG&tag=buildbin-20"
+        },
+        {
+          "name": "Clear heat shrink tubing",
+          "url": "https://www.amazon.com/s?k=Clear+heat+shrink+tubing&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        },
+        {
+          "name": "Seam ripper",
+          "url": "https://www.amazon.com/s?k=seam+ripper&tag=buildbin-20"
+        },
+        "Computer with MakeCode"
+      ],
+      "description": "Add NeoPixel strips inside fuzzy ears that ripple left or right when you tilt your head. The guide uses bunny ears, and cat ears work the same way. Needs a little soldering.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/bunny-ears-with-makecode",
+      "thumb": "assets/thumbs/64.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "3D-printed ghost pendant with LED eyes",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "halloween",
+        "3d-printing",
+        "wearables"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Glow in the dark PLA filament",
+          "url": "https://www.amazon.com/s?k=Glow+in+the+dark+PLA+filament&tag=buildbin-20"
+        },
+        {
+          "name": "Electrifi conductive filament",
+          "url": "https://www.amazon.com/s?k=Electrifi+conductive+filament&tag=buildbin-20"
+        },
+        {
+          "name": "5050 SMD LEDs",
+          "url": "https://www.amazon.com/s?k=5050+SMD+LEDs&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cell battery",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cell+battery&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 battery holder",
+          "url": "https://www.amazon.com/s?k=CR2032+battery+holder&tag=buildbin-20"
+        },
+        {
+          "name": "M2 screws and nuts",
+          "url": "https://www.amazon.com/s?k=M2+screws+and+nuts&tag=buildbin-20"
+        },
+        {
+          "name": "Lanyard",
+          "url": "https://www.amazon.com/s?k=Lanyard&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Tweezers",
+          "url": "https://www.amazon.com/s?k=precision+tweezers+set&tag=buildbin-20"
+        },
+        {
+          "name": "Hex keys",
+          "url": "https://www.amazon.com/s?k=hex+key+allen+wrench+set&tag=buildbin-20"
+        }
+      ],
+      "description": "Print a glow-in-the-dark ghost and give it LED eyes with a coin cell for a cute wearable. An adult should handle the soldering iron step, and keep coin cells away from little kids.",
+      "reference": "instructables.com",
+      "reference_url": "https://www.instructables.com/3D-Printed-Ghost-Pendant-With-LED-Eyes/",
+      "thumb": "assets/thumbs/65.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "NeoPixel candy corn party lights (Pico)",
+      "boards": [
+        "pico"
+      ],
+      "categories": [
+        "halloween",
+        "led-lighting",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-35",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico with headers",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+with+headers&tag=buildbin-20"
+        },
+        {
+          "name": "WS2812B NeoPixel LED strip 30 LED",
+          "url": "https://www.amazon.com/s?k=WS2812B+NeoPixel+LED+strip+30+LED&tag=buildbin-20"
+        },
+        {
+          "name": "Tactile push buttons",
+          "url": "https://www.amazon.com/s?k=Tactile+push+buttons&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size solderless breadboard",
+          "url": "https://www.amazon.com/s?k=Half-size+solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=Male-to-male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Micro USB data cable",
+          "url": "https://www.amazon.com/s?k=Micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Frosted glass jar",
+          "url": "https://www.amazon.com/s?k=Frosted+glass+jar&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Thonny"
+      ],
+      "description": "Run Candy Corn Wave, Pumpkin Pulse, and Ghost Fade light patterns on a Pico and NeoPixel strip, then diffuse them in a frosted jar. USB-safe power, and great for kids 10+ learning MicroPython.",
+      "reference": "dmccreary.github.io (Moving Rainbow)",
+      "reference_url": "https://dmccreary.github.io/moving-rainbow/kits/halloween/",
+      "thumb": "assets/thumbs/66.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Candy_corn_strewn_on_a_black_background.jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "liz west"
     }
   ]
 }

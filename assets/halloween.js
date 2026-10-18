@@ -5,10 +5,10 @@ var web='<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-wid
 var bat='<path d="M20 14c-3-5-9-6-14-3 3 0 5 2 5 4-3-1-6 0-8 2 4 0 7 1 9 3 2-2 5-3 8-2 3-1 6 0 8 2 2-2 5-3 9-3-2-2-5-3-8-2 0-2 2-4 5-4-5-3-11-2-14 3z" fill="currentColor"/>';
 var hd=document.querySelector('header');
 if(hd){hd.insertAdjacentHTML('afterbegin','<span class="hw-web l" aria-hidden="true">'+web+'</span><span class="hw-web r" aria-hidden="true">'+web+'</span><svg class="hw-bats" aria-hidden="true" viewBox="0 0 120 60"><g transform="translate(0,20)">'+bat+'</g><g transform="translate(60,0) scale(.7)">'+bat+'</g><g transform="translate(85,30) scale(.5)">'+bat+'</g></svg>');}
-var K='bb-hw-2026-dismissed';
+var K='bb-hw-2026b-dismissed';
 try{if(localStorage.getItem(K))return;}catch(e){}
 var b=document.createElement('div');b.className='hw-banner';b.setAttribute('role','region');b.setAttribute('aria-label','Spooky season builds');
-b.innerHTML='<span>🦇 <strong>Spooky season builds:</strong></span><a href="'+H+'#p-28">Glowing NeoPixel costume</a><span class="sep">·</span><a href="'+H+'#p-21">Infinity mirror</a><span class="sep">·</span><a href="'+H+'#p-3">WLED porch lights</a><span class="sep">·</span><a href="'+H+'#p-8">Otto robot</a><button type="button" aria-label="Dismiss Halloween banner">×</button>';
+b.innerHTML='<span>🦇 <strong>Spooky season builds:</strong></span><a href="'+H+'#p-59">Flickering jack-o\'-lantern</a><span class="sep">·</span><a href="'+H+'#p-61">Milk-jug ghost lanterns</a><span class="sep">·</span><a href="'+H+'#p-60">Talking candy bowl</a><span class="sep">·</span><a href="'+H+'#p-28">Glowing NeoPixel costume</a><a class="hw-all" href="'+R+'category/halloween.html">All Halloween builds →</a><button type="button" aria-label="Dismiss Halloween banner">×</button>';
 b.querySelector('button').onclick=function(){b.remove();try{localStorage.setItem(K,'1')}catch(e){}};
 document.body.insertBefore(b,document.body.firstChild);
 })();
