@@ -8,7 +8,10 @@
     "esp8266": "ESP8266 (NodeMCU/D1 mini)",
     "f4": "STM32 F4 flight controller",
     "promicro": "Arduino Pro Micro (ATmega32U4)",
-    "nrf52": "nRF52840 (RAK4631 / Pro Micro)"
+    "nrf52": "nRF52840 (RAK4631 / Pro Micro)",
+    "microbit": "BBC micro:bit",
+    "makeymakey": "Makey Makey",
+    "none": "No microcontroller (simple circuit)"
   },
   "categories": {
     "home-automation": "Home automation",
@@ -20,7 +23,8 @@
     "wearables": "Wearables",
     "gaming": "Gaming",
     "3d-printing": "3D printing",
-    "meshtastic": "Meshtastic"
+    "meshtastic": "Meshtastic",
+    "kids": "Kids Projects"
   },
   "projects": [
     {
@@ -326,7 +330,8 @@
         "uno"
       ],
       "categories": [
-        "robotics"
+        "robotics",
+        "kids"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "30-50",
@@ -382,7 +387,8 @@
         "nano"
       ],
       "categories": [
-        "robotics"
+        "robotics",
+        "kids"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "25-45",
@@ -433,7 +439,8 @@
         "nano"
       ],
       "categories": [
-        "robotics"
+        "robotics",
+        "kids"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "30-60",
@@ -1466,7 +1473,8 @@
         "pi"
       ],
       "categories": [
-        "gaming"
+        "gaming",
+        "kids"
       ],
       "difficulty": "Beginner",
       "est_cost_usd": "60-120",
@@ -2882,6 +2890,321 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Meshtastic_FakeTec_node_with_display_P1089966.jpg",
       "thumb_license": "CC BY-SA 4.0",
       "thumb_author": "-stk"
+    },
+    {
+      "title": "micro:bit two-player reaction game",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "gaming"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-35",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Alligator clip test leads",
+          "url": "https://www.amazon.com/s?k=Alligator+clip+test+leads&tag=buildbin-20"
+        },
+        {
+          "name": "Aluminum foil",
+          "url": "https://www.amazon.com/s?k=Aluminum+foil&tag=buildbin-20"
+        },
+        {
+          "name": "Cardboard",
+          "url": "https://www.amazon.com/s?k=Cardboard&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Kid-safe scissors",
+          "url": "https://www.amazon.com/s?k=kids+safety+scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Glue stick",
+          "url": "https://www.amazon.com/s?k=glue+sticks&tag=buildbin-20"
+        },
+        "Computer or tablet with MakeCode"
+      ],
+      "description": "Build two cardboard-and-foil buttons and code a micro:bit game to see who reacts fastest. Ages 8+, no soldering, and kids can do the coding in blocks.",
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/reaction-game/",
+      "thumb": "assets/thumbs/53.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Micro-bit_v2.JPG",
+      "thumb_license": "CC0",
+      "thumb_author": "Crash48 at English Wikipedia"
+    },
+    {
+      "title": "Makey Makey banana piano",
+      "boards": [
+        "makeymakey"
+      ],
+      "categories": [
+        "kids",
+        "audio"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "50-60",
+      "time": "30 min",
+      "parts": [
+        {
+          "name": "Makey Makey Classic kit",
+          "url": "https://www.amazon.com/s?k=Makey+Makey+Classic+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Alligator clip test leads",
+          "url": "https://www.amazon.com/s?k=Alligator+clip+test+leads&tag=buildbin-20"
+        },
+        {
+          "name": "Bananas (or any fruit)",
+          "url": "https://www.amazon.com/s?k=Bananas+%28or+any+fruit%29&tag=buildbin-20"
+        },
+        {
+          "name": "Play-Doh",
+          "url": "https://www.amazon.com/s?k=Play-Doh&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with a web browser"
+      ],
+      "description": "Clip a Makey Makey to bananas and play a piano in your browser by touching fruit. Ages 8+, no tools or soldering, and it works with Play-Doh, foil, or pencil drawings too.",
+      "reference": "makeymakey.com",
+      "reference_url": "https://makeymakey.com/blogs/how-to-instructions/first-time-set-up-basic-how-to-guide",
+      "thumb": "assets/thumbs/54.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Makey_Makey.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Padaguan"
+    },
+    {
+      "title": "Light-up paper circuit greeting card",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "kids",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Copper foil tape with conductive adhesive",
+          "url": "https://www.amazon.com/s?k=Copper+foil+tape+with+conductive+adhesive&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cell battery",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cell+battery&tag=buildbin-20"
+        },
+        {
+          "name": "LED stickers or 3mm LEDs assortment",
+          "url": "https://www.amazon.com/s?k=LED+stickers+or+3mm+LEDs+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "Cardstock paper",
+          "url": "https://www.amazon.com/s?k=Cardstock+paper&tag=buildbin-20"
+        },
+        {
+          "name": "Binder clips",
+          "url": "https://www.amazon.com/s?k=Binder+clips&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Kid-safe scissors",
+          "url": "https://www.amazon.com/s?k=kids+safety+scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Clear tape",
+          "url": "https://www.amazon.com/s?k=clear+scotch+tape&tag=buildbin-20"
+        },
+        "Markers"
+      ],
+      "description": "Draw a card, lay a copper-tape circuit, and make an LED light up with a coin cell. Ages 8+. Keep coin cells away from little kids, since they're dangerous if swallowed.",
+      "reference": "exploratorium.edu",
+      "reference_url": "https://www.exploratorium.edu/tinkering/projects/paper-circuits",
+      "thumb": "assets/thumbs/55.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Paper_circuit.jpg",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Mosborne01"
+    },
+    {
+      "title": "Scribbling machine art robot",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "kids",
+        "robotics"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Small DC hobby motors 1.5-3V",
+          "url": "https://www.amazon.com/s?k=Small+DC+hobby+motors+1.5-3V&tag=buildbin-20"
+        },
+        {
+          "name": "AA battery holder with leads",
+          "url": "https://www.amazon.com/s?k=AA+battery+holder+with+leads&tag=buildbin-20"
+        },
+        {
+          "name": "AA batteries",
+          "url": "https://www.amazon.com/s?k=AA+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Washable markers",
+          "url": "https://www.amazon.com/s?k=Washable+markers&tag=buildbin-20"
+        },
+        {
+          "name": "Rubber bands",
+          "url": "https://www.amazon.com/s?k=Rubber+bands&tag=buildbin-20"
+        },
+        {
+          "name": "Popsicle sticks",
+          "url": "https://www.amazon.com/s?k=Popsicle+sticks&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Low-temp hot glue gun",
+          "url": "https://www.amazon.com/s?k=low+temp+hot+glue+gun+for+kids&tag=buildbin-20"
+        },
+        {
+          "name": "Masking tape",
+          "url": "https://www.amazon.com/s?k=masking+tape&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
+      ],
+      "description": "Turn a berry basket, a wobbly motor, and markers into a jittery robot that draws its own art. Ages 8+. An adult should handle the hot glue gun and wire stripping.",
+      "reference": "exploratorium.edu",
+      "reference_url": "https://www.exploratorium.edu/tinkering/projects/scribbling-machines",
+      "thumb": "assets/thumbs/56.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Scribbling_machine_%2814646828792%29.jpg",
+      "thumb_license": "CC BY-SA 2.0",
+      "thumb_author": "Sally Wilson"
+    },
+    {
+      "title": "Raspberry Pi Pico LED reaction game",
+      "boards": [
+        "pico"
+      ],
+      "categories": [
+        "kids",
+        "gaming"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi Pico with headers",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Pico+with+headers&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size solderless breadboard",
+          "url": "https://www.amazon.com/s?k=Half-size+solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Assorted LEDs",
+          "url": "https://www.amazon.com/s?k=Assorted+LEDs&tag=buildbin-20"
+        },
+        {
+          "name": "220 ohm resistors",
+          "url": "https://www.amazon.com/s?k=220+ohm+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "Tactile push buttons",
+          "url": "https://www.amazon.com/s?k=Tactile+push+buttons&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=Male-to-male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Micro USB data cable",
+          "url": "https://www.amazon.com/s?k=Micro+USB+data+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Mu or Thonny editor"
+      ],
+      "description": "Wire an LED and a button on a breadboard, then code a Pico in Python to time your reactions in milliseconds. Ages 10-14, no soldering if you buy a Pico with headers.",
+      "reference": "learn.adafruit.com",
+      "reference_url": "https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/reaction-game",
+      "thumb": "assets/thumbs/57.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Automatic breadboard night-light",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "kids",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "45 min",
+      "parts": [
+        {
+          "name": "Mini solderless breadboard",
+          "url": "https://www.amazon.com/s?k=Mini+solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Photoresistor LDR",
+          "url": "https://www.amazon.com/s?k=Photoresistor+LDR&tag=buildbin-20"
+        },
+        {
+          "name": "10k potentiometer",
+          "url": "https://www.amazon.com/s?k=10k+potentiometer&tag=buildbin-20"
+        },
+        {
+          "name": "2N2222 NPN transistor",
+          "url": "https://www.amazon.com/s?k=2N2222+NPN+transistor&tag=buildbin-20"
+        },
+        {
+          "name": "Super bright 5mm LEDs",
+          "url": "https://www.amazon.com/s?k=Super+bright+5mm+LEDs&tag=buildbin-20"
+        },
+        {
+          "name": "Resistor assortment",
+          "url": "https://www.amazon.com/s?k=Resistor+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "AAA battery holder with leads",
+          "url": "https://www.amazon.com/s?k=AAA+battery+holder+with+leads&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Needle-nose pliers",
+          "url": "https://www.amazon.com/s?k=needle+nose+pliers+small&tag=buildbin-20"
+        },
+        "Craft supplies to decorate"
+      ],
+      "description": "Build a night-light that turns itself on when the room gets dark, using a light sensor and a transistor on a breadboard. Ages 9+, low voltage and no soldering.",
+      "reference": "sciencebuddies.org",
+      "reference_url": "https://www.sciencebuddies.org/stem-activities/night-light",
+      "thumb": "assets/thumbs/58.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
     }
   ]
 }
