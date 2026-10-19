@@ -321,8 +321,8 @@
         }
       ],
       "description": "Waters plants automatically when soil is dry.",
-      "reference": "arduino.cc project hub",
-      "reference_url": "https://projecthub.arduino.cc/lc_lab/automatic-plant-watering-system-with-arduino-ee4b0c",
+      "reference": "arduinogetstarted.com",
+      "reference_url": "https://arduinogetstarted.com/tutorials/arduino-soil-moisture-sensor-pump",
       "thumb": "assets/thumbs/5.webp",
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
