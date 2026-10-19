@@ -4199,6 +4199,166 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Adafruit_INA219_high_side_DC_current_sensor_module_2.jpg",
       "thumb_license": "CC BY-SA 2.0",
       "thumb_author": "oomlout"
+    },
+    {
+      "title": "DIY Pomodoro LED focus timer",
+      "boards": [
+        "uno",
+        "nano"
+      ],
+      "categories": [
+        "home-automation",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-35",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno or Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+or+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "RGB LED or NeoPixel ring",
+          "url": "https://www.amazon.com/s?k=NeoPixel+ring&tag=buildbin-20"
+        },
+        {
+          "name": "Push button switch",
+          "url": "https://www.amazon.com/s?k=Push+button+switch+Arduino&tag=buildbin-20"
+        },
+        {
+          "name": "Breadboard and jumper wires",
+          "url": "https://www.amazon.com/s?k=Breadboard+and+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "220 ohm resistors",
+          "url": "https://www.amazon.com/s?k=220+ohm+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "USB cable for Arduino",
+          "url": "https://www.amazon.com/s?k=USB+cable+for+Arduino&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=Soldering+iron&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE"
+      ],
+      "description": "Build a classic Pomodoro focus timer with an Arduino and LEDs that count 25-minute work blocks and short breaks.",
+      "reference": "instructables.com — Pomodoro Timer",
+      "reference_url": "https://www.instructables.com/Pomodoro-Timer/",
+      "thumb": "assets/thumbs/74.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pomodoro_Technique.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Vungoctho"
+    },
+    {
+      "title": "Arduino CNC plotter / drawbot",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "robotics",
+        "3d-printing"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-90",
+      "time": "4-8 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno&tag=buildbin-20"
+        },
+        {
+          "name": "CNC shield V3 for Arduino",
+          "url": "https://www.amazon.com/s?k=CNC+shield+V3+Arduino&tag=buildbin-20"
+        },
+        {
+          "name": "A4988 stepper drivers (2+)",
+          "url": "https://www.amazon.com/s?k=A4988+stepper+driver&tag=buildbin-20"
+        },
+        {
+          "name": "NEMA 17 stepper motors (2)",
+          "url": "https://www.amazon.com/s?k=NEMA+17+stepper+motor&tag=buildbin-20"
+        },
+        {
+          "name": "GT2 timing belt and pulleys",
+          "url": "https://www.amazon.com/s?k=GT2+timing+belt+pulleys&tag=buildbin-20"
+        },
+        {
+          "name": "Servo for pen lift",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo&tag=buildbin-20"
+        },
+        {
+          "name": "12V power supply for steppers",
+          "url": "https://www.amazon.com/s?k=12V+2A+power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=Soldering+iron&tag=buildbin-20"
+        },
+        {
+          "name": "Hex key / allen wrench set",
+          "url": "https://www.amazon.com/s?k=hex+key+allen+wrench+set&tag=buildbin-20"
+        },
+        {
+          "name": "3D printer (optional for frame)",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE / GRBL"
+      ],
+      "description": "Turn scrap DVD drives or a printed frame into a 2-axis CNC plotter that draws with a pen under GRBL or similar firmware.",
+      "reference": "instructables.com — CNC Plotter",
+      "reference_url": "https://www.instructables.com/CNC-Plotter/",
+      "thumb": "assets/thumbs/75.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arduino_UNO_compatible_board,_CNC_shield_stepper_motor_controller,_and_a_NEMA_17_stepper_motor.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "DotEagle"
+    },
+    {
+      "title": "Circuit Playground Express capacitive tone piano",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "kids",
+        "audio"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "25-40",
+      "time": "30-90 min",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "USB micro-B data cable",
+          "url": "https://www.amazon.com/s?k=USB+micro-B+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "3xAAA battery holder with switch JST",
+          "url": "https://www.amazon.com/s?k=3xAAA+battery+holder+with+switch+JST&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with MakeCode or CircuitPython Mu editor"
+      ],
+      "description": "Code the Circuit Playground's capacitive pads and onboard speaker into a simple tone piano—no soldering, great for ages 8+.",
+      "reference": "learn.adafruit.com — Make It Sound",
+      "reference_url": "https://learn.adafruit.com/make-it-sound",
+      "thumb": "assets/thumbs/76.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Circuit-playground-sideview.jpg",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Smitop (board design by Adafruit Industries)"
     }
   ]
 }
