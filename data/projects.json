@@ -13,7 +13,8 @@
     "makeymakey": "Makey Makey",
     "none": "No microcontroller (simple circuit)",
     "cpx": "Adafruit Circuit Playground Express",
-    "promini": "Arduino Pro Mini (3.3V/8MHz)"
+    "promini": "Arduino Pro Mini (3.3V/8MHz)",
+    "flora": "Adafruit FLORA (wearable Arduino-compatible)"
   },
   "categories": {
     "home-automation": "Home automation",
@@ -4359,6 +4360,184 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Circuit-playground-sideview.jpg",
       "thumb_license": "CC BY-SA 3.0",
       "thumb_author": "Smitop (board design by Adafruit Industries)"
+    },
+    {
+      "title": "Animated snake eyes Halloween prop (Raspberry Pi)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "halloween",
+        "led-lighting"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "60-110",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 3 or Pi Zero",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+3+Model+B&tag=buildbin-20"
+        },
+        {
+          "name": "Adafruit Animated Eyes Bonnet for Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Adafruit+Animated+Eyes+Bonnet+Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "1.54 inch 240x240 TFT display (x2)",
+          "url": "https://www.amazon.com/s?k=1.54+inch+240x240+TFT+display+SPI&tag=buildbin-20"
+        },
+        {
+          "name": "MicroSD card 16GB",
+          "url": "https://www.amazon.com/s?k=microSD+card+16GB&tag=buildbin-20"
+        },
+        {
+          "name": "5V 2.5A micro USB power supply",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+5V+2.5A+micro+USB+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Female-to-female jumper wires",
+          "url": "https://www.amazon.com/s?k=female+to+female+jumper+wires&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        "Computer with SD card reader"
+      ],
+      "description": "Two little TFT screens and Adafruit's Snake Eyes Bonnet turn a Raspberry Pi into a pair of blinking, pupil-tracking eyes for a pumpkin, skull, or spooky portrait.",
+      "reference": "learn.adafruit.com — Animated Snake Eyes Bonnet",
+      "reference_url": "https://learn.adafruit.com/animated-snake-eyes-bonnet-for-raspberry-pi",
+      "thumb": "assets/thumbs/77.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "ESP32 e-paper weather display",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "home-automation",
+        "sensors-weather"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "70-120",
+      "time": "3-6 hrs",
+      "parts": [
+        {
+          "name": "FireBeetle 2 ESP32-E",
+          "url": "https://www.amazon.com/s?k=DFRobot+FireBeetle+2+ESP32-E&tag=buildbin-20"
+        },
+        {
+          "name": "Waveshare 7.5 inch e-paper display (800x480)",
+          "url": "https://www.amazon.com/s?k=Waveshare+7.5+inch+e-paper+display+800x480&tag=buildbin-20"
+        },
+        {
+          "name": "DESPI-C02 e-paper adapter board",
+          "url": "https://www.amazon.com/s?k=DESPI-C02+e-paper+adapter&tag=buildbin-20"
+        },
+        {
+          "name": "BME280 temperature/humidity/pressure sensor",
+          "url": "https://www.amazon.com/s?k=BME280+sensor+module&tag=buildbin-20"
+        },
+        {
+          "name": "3.7V LiPo battery with JST-PH2.0",
+          "url": "https://www.amazon.com/s?k=3.7V+LiPo+battery+JST+PH2.0+5000mAh&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=jumper+wires+dupont&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "3D printer (optional, for a stand)",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        "Computer with PlatformIO"
+      ],
+      "description": "A low-power ESP32 wakes up, pulls an OpenWeatherMap forecast, draws it on a big 7.5\" e-paper screen, and sleeps—running months on one LiPo charge.",
+      "reference": "github.com — lmarzen/esp32-weather-epd",
+      "reference_url": "https://github.com/lmarzen/esp32-weather-epd",
+      "thumb": "assets/thumbs/78.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Firewalker LED sneakers",
+      "boards": [
+        "flora"
+      ],
+      "categories": [
+        "wearables",
+        "led-lighting"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-70",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "Adafruit FLORA wearable board",
+          "url": "https://www.amazon.com/s?k=Adafruit+FLORA&tag=buildbin-20"
+        },
+        {
+          "name": "NeoPixel RGB LED strip, 60 LED/m",
+          "url": "https://www.amazon.com/s?k=NeoPixel+LED+strip+60+LED+per+meter&tag=buildbin-20"
+        },
+        {
+          "name": "Velostat pressure-sensitive sheet",
+          "url": "https://www.amazon.com/s?k=Velostat+pressure+sensitive+conductive+sheet&tag=buildbin-20"
+        },
+        {
+          "name": "Stainless conductive thread",
+          "url": "https://www.amazon.com/s?k=stainless+steel+conductive+thread&tag=buildbin-20"
+        },
+        {
+          "name": "3xAAA battery holder with switch JST",
+          "url": "https://www.amazon.com/s?k=3xAAA+battery+holder+with+switch+JST&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Clear silicone sealant / E6000 glue",
+          "url": "https://www.amazon.com/s?k=E6000+glue&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Sewing needle set",
+          "url": "https://www.amazon.com/s?k=sewing+needle+set&tag=buildbin-20"
+        },
+        {
+          "name": "Alligator clip test leads",
+          "url": "https://www.amazon.com/s?k=alligator+clip+test+leads&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE",
+        "Pair of sneakers"
+      ],
+      "description": "Sew a FLORA and a homemade Velostat step sensor into your shoes so a NeoPixel strip flares up in fiery colors every time your heel hits the ground.",
+      "reference": "learn.adafruit.com — Firewalker LED Sneakers",
+      "reference_url": "https://learn.adafruit.com/firewalker-led-sneakers",
+      "thumb": "assets/thumbs/79.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Adafruit_FLORA_Board.jpg",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Becky Stern"
     }
   ]
 }
