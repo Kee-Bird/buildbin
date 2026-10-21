@@ -4538,6 +4538,125 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Adafruit_FLORA_Board.jpg",
       "thumb_license": "CC BY-SA 3.0",
       "thumb_author": "Becky Stern"
+    },
+    {
+      "title": "4x4x4 LED cube (Arduino Uno)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "led-lighting",
+        "halloween"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "20-35",
+      "time": "6-10 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno R3",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3&tag=buildbin-20"
+        },
+        {
+          "name": "5mm LEDs (64+, diffused, one color)",
+          "url": "https://www.amazon.com/s?k=5mm+diffused+LED+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "220 ohm resistors",
+          "url": "https://www.amazon.com/s?k=220+ohm+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "Perfboard / prototype PCB",
+          "url": "https://www.amazon.com/s?k=perfboard+prototype+pcb&tag=buildbin-20"
+        },
+        {
+          "name": "Tinned copper wire",
+          "url": "https://www.amazon.com/s?k=tinned+copper+bus+wire+22+awg&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=dupont+jumper+wires&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Solder (rosin core)",
+          "url": "https://www.amazon.com/s?k=rosin+core+solder&tag=buildbin-20"
+        },
+        {
+          "name": "Flush wire cutters",
+          "url": "https://www.amazon.com/s?k=flush+cutters&tag=buildbin-20"
+        },
+        {
+          "name": "Helping hands",
+          "url": "https://www.amazon.com/s?k=helping+hands+soldering&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE",
+        "Scrap wood for a soldering jig"
+      ],
+      "description": "Bend and solder 64 LEDs into a glowing 4x4x4 cube, wire the layers to an Arduino Uno, and program rain, spiral and wave animations.",
+      "reference": "instructables.com — 4x4x4 LED Cube (Arduino Uno)",
+      "reference_url": "https://www.instructables.com/4x4x4-LED-Cube-Arduino-Uno/",
+      "thumb": "assets/thumbs/80.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:LED_cube_(30780823977).jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "Billie Grace Ward"
+    },
+    {
+      "title": "Raspberry Pi NAS with OpenMediaVault",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "90-180",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4 or 5 (4GB+)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+4GB&tag=buildbin-20"
+        },
+        {
+          "name": "Official Raspberry Pi USB-C power supply",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+USB-C+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card, 32GB",
+          "url": "https://www.amazon.com/s?k=32GB+microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "External USB 3.0 hard drive or SSD",
+          "url": "https://www.amazon.com/s?k=external+USB+3.0+hard+drive&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi case with fan",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+case+with+fan&tag=buildbin-20"
+        },
+        {
+          "name": "Ethernet cable",
+          "url": "https://www.amazon.com/s?k=cat6+ethernet+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "USB microSD card reader",
+          "url": "https://www.amazon.com/s?k=USB+microSD+card+reader&tag=buildbin-20"
+        },
+        "Computer with Raspberry Pi Imager",
+        "Home router"
+      ],
+      "description": "Turn a Raspberry Pi and a USB drive into a home network file server with OpenMediaVault, with shared folders for backups, photos and media.",
+      "reference": "pimylifeup.com — Installing OpenMediaVault to a Raspberry Pi",
+      "reference_url": "https://pimylifeup.com/raspberry-pi-openmediavault/",
+      "thumb": "assets/thumbs/81.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Nextcloud_Box_(30968331640).png",
+      "thumb_license": "CC BY-SA 2.0",
+      "thumb_author": "Gareth Halfacree"
     }
   ]
 }
