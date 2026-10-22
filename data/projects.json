@@ -4657,6 +4657,120 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Nextcloud_Box_(30968331640).png",
       "thumb_license": "CC BY-SA 2.0",
       "thumb_author": "Gareth Halfacree"
+    },
+    {
+      "title": "Arduino Simon Says memory game",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "gaming",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno (or compatible)",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3&tag=buildbin-20"
+        },
+        {
+          "name": "Half or full-size breadboard",
+          "url": "https://www.amazon.com/s?k=solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "5mm LEDs (red, yellow, green, blue)",
+          "url": "https://www.amazon.com/s?k=5mm+LED+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "Tactile push buttons (x4)",
+          "url": "https://www.amazon.com/s?k=tactile+push+button+12mm&tag=buildbin-20"
+        },
+        {
+          "name": "220-330 ohm resistors",
+          "url": "https://www.amazon.com/s?k=resistor+assortment+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Piezo buzzer or small speaker",
+          "url": "https://www.amazon.com/s?k=piezo+buzzer+5V&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=breadboard+jumper+wires&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE",
+        {
+          "name": "USB-B cable for Arduino Uno",
+          "url": "https://www.amazon.com/s?k=USB+A+to+B+cable+Arduino&tag=buildbin-20"
+        }
+      ],
+      "description": "Build the classic Simon memory game on a breadboard: four colored LEDs and buttons, a buzzer for tones, and an Arduino that plays longer and longer sequences for you to repeat. No soldering needed.",
+      "reference": "instructables.com — Arduino Simon Says",
+      "reference_url": "https://www.instructables.com/Arduino-Simon-Says/",
+      "thumb": "assets/thumbs/82.webp",
+      "thumb_credit": "https://www.instructables.com/Arduino-Simon-Says/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": ""
+    },
+    {
+      "title": "Raspberry Pi Spotify Connect speaker (Raspotify)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "audio"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "45-120",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Raspberry Pi 3, 4 or Zero 2 W",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "Official Raspberry Pi power supply",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+USB-C+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card, 16-32GB",
+          "url": "https://www.amazon.com/s?k=32GB+microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "USB DAC or I2S DAC HAT (optional, better sound)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+DAC+HAT&tag=buildbin-20"
+        },
+        {
+          "name": "Powered speakers or amplifier",
+          "url": "https://www.amazon.com/s?k=powered+computer+speakers+3.5mm&tag=buildbin-20"
+        },
+        {
+          "name": "3.5mm audio cable",
+          "url": "https://www.amazon.com/s?k=3.5mm+aux+audio+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi case",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "USB microSD card reader",
+          "url": "https://www.amazon.com/s?k=USB+microSD+card+reader&tag=buildbin-20"
+        },
+        "Computer with Raspberry Pi Imager",
+        "Phone with Spotify app (Premium account)"
+      ],
+      "description": "Turn a Raspberry Pi into a Spotify Connect receiver with Raspotify, so any old speakers show up in the Spotify app and play music over your Wi-Fi.",
+      "reference": "pimylifeup.com — How to Setup Spotify Connect on the Raspberry Pi",
+      "reference_url": "https://pimylifeup.com/raspberry-pi-spotify/",
+      "thumb": "assets/thumbs/83.webp",
+      "thumb_credit": "https://pimylifeup.com/raspberry-pi-spotify/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": "pimylifeup.com"
     }
   ]
 }
