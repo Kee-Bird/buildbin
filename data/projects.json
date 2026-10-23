@@ -4771,6 +4771,123 @@
       "thumb_credit": "https://pimylifeup.com/raspberry-pi-spotify/",
       "thumb_license": "Image from the linked guide (link-preview image), © its author",
       "thumb_author": "pimylifeup.com"
+    },
+    {
+      "title": "Arduino ultrasonic parking sensor (HC-SR04)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "kids",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 (or compatible)",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3&tag=buildbin-20"
+        },
+        {
+          "name": "HC-SR04 ultrasonic distance sensor",
+          "url": "https://www.amazon.com/s?k=HC-SR04+ultrasonic+distance+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "Red, yellow and green 5mm LEDs",
+          "url": "https://www.amazon.com/s?k=5mm+LED+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "220 ohm resistors",
+          "url": "https://www.amazon.com/s?k=220+ohm+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "Active piezo buzzer, 5V",
+          "url": "https://www.amazon.com/s?k=active+piezo+buzzer+5V&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=Half-size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=jumper+wires+dupont&tag=buildbin-20"
+        },
+        {
+          "name": "USB cable for Arduino Uno (USB-A to USB-B)",
+          "url": "https://www.amazon.com/s?k=USB+A+to+B+cable+Arduino&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE",
+        {
+          "name": "Tape measure (to test distances)",
+          "url": "https://www.amazon.com/s?k=tape+measure&tag=buildbin-20"
+        }
+      ],
+      "description": "Measure distance with an HC-SR04 sonar sensor and light green, yellow and red LEDs (plus a beeper that speeds up) as something gets closer—like a car's parking sensor. A great first sensor build for kids; no soldering.",
+      "reference": "lastminuteengineers.com — How HC-SR04 Ultrasonic Sensor Works & Interface It With Arduino",
+      "reference_url": "https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/",
+      "thumb": "assets/thumbs/84.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:SparkFun_HC-SR04_Ultrasonic-Sensor_13959-01a.jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "SparkFun Electronics"
+    },
+    {
+      "title": "Klipper input shaping with an ADXL345 accelerometer",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "10-25",
+      "time": "1-3 hrs",
+      "parts": [
+        {
+          "name": "ADXL345 accelerometer module",
+          "url": "https://www.amazon.com/s?k=ADXL345+accelerometer+module&tag=buildbin-20"
+        },
+        {
+          "name": "Dupont jumper wires, 30-50cm",
+          "url": "https://www.amazon.com/s?k=dupont+jumper+wires+female+to+female+40cm&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi already running Klipper (or a Pi 4 for a new setup)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4&tag=buildbin-20"
+        },
+        {
+          "name": "M3 screws and nuts",
+          "url": "https://www.amazon.com/s?k=M3+screw+nut+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "Zip ties",
+          "url": "https://www.amazon.com/s?k=small+zip+ties&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron (to attach header pins)",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Hex key set",
+          "url": "https://www.amazon.com/s?k=metric+hex+key+set&tag=buildbin-20"
+        },
+        {
+          "name": "3D printer (to print an ADXL345 mount)",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        "Computer with web browser (Mainsail/Fluidd)"
+      ],
+      "description": "Bolt a cheap ADXL345 to your Klipper printer's toolhead and bed, wire it to the Raspberry Pi's SPI pins, and run Klipper's resonance test to auto-tune input shaping—cutting ringing so you can print faster with cleaner walls.",
+      "reference": "klipper3d.org — Measuring Resonances",
+      "reference_url": "https://www.klipper3d.org/Measuring_Resonances.html",
+      "thumb": "assets/thumbs/85.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:SparkFun_Triple-Axis-Accelerometer-Breakout_ADXL345_09836-_01c.jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "SparkFun Electronics"
     }
   ]
 }
