@@ -1,6 +1,31 @@
 {
   "redirects": [
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.buildbin.dev" }], "destination": "https://buildbin.dev/:path*", "permanent": true },
-    { "source": "/index.html", "destination": "/", "permanent": true }
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.buildbin.dev"
+        }
+      ],
+      "destination": "https://buildbin.dev/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.buildbin.dev"
+        }
+      ],
+      "destination": "https://buildbin.dev/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
   ]
 }
