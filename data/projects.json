@@ -4888,6 +4888,128 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:SparkFun_Triple-Axis-Accelerometer-Breakout_ADXL345_09836-_01c.jpg",
       "thumb_license": "CC BY 2.0",
       "thumb_author": "SparkFun Electronics"
+    },
+    {
+      "title": "Arduino RFID access control with an RC522 reader",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "home-automation",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 (or compatible)",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3&tag=buildbin-20"
+        },
+        {
+          "name": "MFRC522 RFID reader module with cards and key tags",
+          "url": "https://www.amazon.com/s?k=MFRC522+RFID+reader+module+with+cards+and+key+tags&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 micro servo",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo&tag=buildbin-20"
+        },
+        {
+          "name": "5mm LED assortment",
+          "url": "https://www.amazon.com/s?k=5mm+LED+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "220 ohm resistor",
+          "url": "https://www.amazon.com/s?k=220+ohm+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "piezo buzzer",
+          "url": "https://www.amazon.com/s?k=piezo+buzzer&tag=buildbin-20"
+        },
+        {
+          "name": "half size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "dupont jumper wires",
+          "url": "https://www.amazon.com/s?k=dupont+jumper+wires&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "USB A to B cable for Arduino",
+          "url": "https://www.amazon.com/s?k=USB+A+to+B+cable+for+Arduino&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron (to attach the RC522 header pins)",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE"
+      ],
+      "description": "Wire an MFRC522 RFID reader to an Arduino Uno, read the unique ID of each card or key fob, and grant access only to the tags you approve: a green LED and a servo 'lock' for the right card, a red LED and buzzer for the wrong one. A great first step toward a real smart door lock.",
+      "reference": "Random Nerd Tutorials — Security Access using MFRC522 RFID Reader with Arduino",
+      "reference_url": "https://randomnerdtutorials.com/security-access-using-mfrc522-rfid-reader-with-arduino/",
+      "thumb": "assets/thumbs/86.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:RFID-RC522_photo.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Giacomo Alessandroni"
+    },
+    {
+      "title": "DIY PiKVM remote KVM-over-IP (Raspberry Pi 4)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "80-130",
+      "time": "2-4 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4 Model B 2GB",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+Model+B+2GB&tag=buildbin-20"
+        },
+        {
+          "name": "TC358743 HDMI to CSI-2 bridge Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=TC358743+HDMI+to+CSI-2+bridge+Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C power data splitter Y cable",
+          "url": "https://www.amazon.com/s?k=USB-C+power+data+splitter+Y+cable&tag=buildbin-20"
+        },
+        {
+          "name": "32GB microSD card",
+          "url": "https://www.amazon.com/s?k=32GB+microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi 4 power supply USB-C",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+power+supply+USB-C&tag=buildbin-20"
+        },
+        {
+          "name": "HDMI cable",
+          "url": "https://www.amazon.com/s?k=HDMI+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi 4 case with fan",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+case+with+fan&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "microSD card reader",
+          "url": "https://www.amazon.com/s?k=USB+microSD+card+reader&tag=buildbin-20"
+        },
+        "Computer for flashing the PiKVM image",
+        "Ethernet connection to your router"
+      ],
+      "description": "Turn a Raspberry Pi 4 into a PiKVM: an HDMI capture bridge and USB-C OTG let you see another computer's screen and type, click, reboot, and even get into its BIOS from any web browser on your network. Handy for a headless home server or a homelab rack.",
+      "reference": "PiKVM docs — DIY PiKVM V2 (Raspberry Pi 4)",
+      "reference_url": "https://docs.pikvm.org/v2/",
+      "thumb": "assets/thumbs/87.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pi-KVM_Screenshot.png",
+      "thumb_license": "GPLv3",
+      "thumb_author": "Maxim Devaev"
     }
   ]
 }
