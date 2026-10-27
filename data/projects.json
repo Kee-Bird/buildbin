@@ -5010,6 +5010,113 @@
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pi-KVM_Screenshot.png",
       "thumb_license": "GPLv3",
       "thumb_author": "Maxim Devaev"
+    },
+    {
+      "title": "Raspberry Pi time-lapse camera (Camera Module)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "home-automation",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "60-110",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4 Model B 2GB",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+Model+B+2GB&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi Camera Module 3",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Camera+Module+3&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi camera ribbon cable",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+camera+ribbon+cable&tag=buildbin-20"
+        },
+        {
+          "name": "32GB microSD card",
+          "url": "https://www.amazon.com/s?k=32GB+microSD+card&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi 4 power supply USB-C",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+power+supply+USB-C&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi camera mount case",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+camera+mount+case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "microSD card reader",
+          "url": "https://www.amazon.com/s?k=USB+microSD+card+reader&tag=buildbin-20"
+        },
+        "Computer for flashing Raspberry Pi OS"
+      ],
+      "description": "Point a Raspberry Pi and its official camera at a sunset, a growing plant, or a 3D print and let it snap a photo every few seconds, then stitch the shots into a smooth time-lapse video. A great first Pi camera project that teaches cron jobs and command-line photo capture. Costs are approximate.",
+      "reference": "Pi My Life Up — Raspberry Pi Time-Lapse in Four Easy Steps",
+      "reference_url": "https://pimylifeup.com/raspberry-pi-time-lapse/",
+      "thumb": "assets/thumbs/88.webp",
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Camera_Module_v2_with_ribbon.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "the Raspberry Pi Foundation"
+    },
+    {
+      "title": "Arduino light theremin (photoresistor + piezo)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "kids",
+        "audio"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Arduino Uno R3",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3&tag=buildbin-20"
+        },
+        {
+          "name": "Photoresistor LDR assortment",
+          "url": "https://www.amazon.com/s?k=Photoresistor+LDR+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "Piezo buzzer passive",
+          "url": "https://www.amazon.com/s?k=Piezo+buzzer+passive&tag=buildbin-20"
+        },
+        {
+          "name": "10k ohm resistor assortment",
+          "url": "https://www.amazon.com/s?k=10k+ohm+resistor+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=Half-size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires male to male",
+          "url": "https://www.amazon.com/s?k=Jumper+wires+male+to+male&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "USB A to B cable for Arduino",
+          "url": "https://www.amazon.com/s?k=USB+A+to+B+cable+Arduino&tag=buildbin-20"
+        },
+        "Computer with the Arduino IDE"
+      ],
+      "description": "Wave your hand over a light sensor and the Arduino turns the changing light level into a rising or falling tone on a piezo buzzer, like a tiny electronic theremin. A classic first Arduino project that needs no soldering and teaches analog input and the tone() function. Costs are approximate.",
+      "reference": "Instructables — Arduino Light Theremin",
+      "reference_url": "https://www.instructables.com/Arduino-Light-Theremin/",
+      "thumb": "assets/thumbs/89.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
     }
   ]
 }
