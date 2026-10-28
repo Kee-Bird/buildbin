@@ -93,3 +93,19 @@ footer .hw-jacks{height:40px;justify-content:center;gap:28px}footer .hw-jacks sv
 .hw-banner a.hw-all{background:#f97316;color:#1c0a02;padding:.2rem .75rem;border-radius:999px;font-weight:800;white-space:nowrap}
 .hw-banner a.hw-all:hover,.hw-banner a.hw-all:focus-visible{background:#fdba74;text-decoration:none}
 @media (max-width:600px){.hw-banner a:not(.hw-all){display:none}.hw-banner{gap:.4rem}.hw-banner a.hw-all{display:inline-flex}}
+
+/* --- v4: grim reaper peeking from behind the left edge of the banner (decor only, never blocks clicks) --- */
+.hw-reaper{left:calc(50% - 360px - 74px);top:22px;width:92px;height:147px;z-index:0;pointer-events:none;filter:drop-shadow(0 0 8px rgba(167,139,250,.35))}
+header:has(.banner.sm) .hw-reaper{left:calc(50% - 190px - 62px);top:18px;width:74px;height:118px}
+@media (prefers-reduced-motion:no-preference){
+ .hw-reaper{animation:hw-reap 6s ease-in-out infinite;transform-origin:50% 100%}
+ .hw-reaper .hw-reye{animation:hw-blink 7s infinite;transform-box:fill-box;transform-origin:center}
+ @keyframes hw-reap{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+}
+@media (max-width:900px) and (min-width:601px){.hw-reaper{display:none}}
+@media (max-width:600px){
+ .hw-reaper,header:has(.banner.sm) .hw-reaper{left:auto;right:calc(50% - 150px - 34px);top:40px;width:38px;height:60px;transform:scaleX(-1)}
+ header:has(.banner.sm) .hw-reaper{right:calc(50% - 120px - 34px)}
+ @media (prefers-reduced-motion:no-preference){.hw-reaper{animation:hw-reap-m 6s ease-in-out infinite}
+  @keyframes hw-reap-m{0%,100%{transform:scaleX(-1) translateY(0)}50%{transform:scaleX(-1) translateY(-5px)}}}
+}

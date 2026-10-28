@@ -45,3 +45,20 @@ var fbat='<g class="hw-wl">'+WING+'</g><g class="hw-wr"><g transform="matrix(-1 
 function flyer(c){return '<span class="hw-deco hw-flyer '+c+'" aria-hidden="true"><span class="hw-flut"><svg class="hw-batsvg" viewBox="0 0 120 52" focusable="false"><g class="hw-bob">'+fbat+'</g></svg></span></span>';}
 if(hd)hd.insertAdjacentHTML('beforeend',spider('s1')+spider('s2')+flyer('f1')+flyer('f2'));
 })();
+/* grim reaper (v4): friendly hooded reaper with a scythe, peeking out from behind the left edge of the banner */
+(function(){
+var hd=document.querySelector('header');if(!hd)return;
+var RIM='stroke="#e2e8f0" stroke-opacity=".22" stroke-width="1" stroke-linejoin="round"';
+hd.insertAdjacentHTML('beforeend','<svg class="hw-deco hw-reaper" aria-hidden="true" focusable="false" viewBox="0 0 100 160">'+
+ '<defs><linearGradient id="hwrb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e2e8f0"/><stop offset="1" stop-color="#94a3b8"/></linearGradient><filter id="hwrg" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2"/></filter></defs>'+
+ '<path d="M80 16L71 158" stroke="#5b3a24" stroke-width="3.4" stroke-linecap="round"/>'+
+ '<path d="M80 18C62 3 31 3 8 23c22-8 47-7 70 7z" fill="url(#hwrb)" stroke="#f1f5f9" stroke-opacity=".6" stroke-width=".8" stroke-linejoin="round"/>'+
+ '<path d="M76 24c-14-8-34-9-54-3" fill="none" stroke="#64748b" stroke-width=".8" opacity=".7"/>'+
+ '<path d="M40 30C24 30 17 46 20 64L10 150q7-6 14 2 8-8 16 0 8-8 16 0 7-7 14-1L62 68c3-20-5-38-22-38z" fill="#050507" '+RIM+'/>'+
+ '<path d="M57 78q9 3 16 9l-1 8q-9-4-18-6z" fill="#050507" '+RIM+'/>'+
+ '<g fill="#e5e7eb"><rect x="69" y="85" width="9" height="3" rx="1.5"/><rect x="68.6" y="89" width="9" height="3" rx="1.5"/><rect x="68.2" y="93" width="8" height="2.6" rx="1.3"/></g>'+
+ '<ellipse cx="40" cy="55" rx="11" ry="13" fill="#000"/>'+
+ '<g filter="url(#hwrg)" fill="#a78bfa"><circle cx="35.5" cy="54" r="3.6"/><circle cx="44.5" cy="54" r="3.6"/></g>'+
+ '<g class="hw-reye" fill="#ede9fe"><circle cx="35.5" cy="54" r="1.9"/><circle cx="44.5" cy="54" r="1.9"/></g>'+
+ '</svg>');
+})();
