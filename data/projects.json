@@ -5117,6 +5117,121 @@
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
       "thumb_illustrated": true
+    },
+    {
+      "title": "ESP32 Bluetooth game controller (ESP32-BLE-Gamepad)",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "gaming"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "20-40",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "ESP32 DevKit V1 board",
+          "url": "https://www.amazon.com/s?k=ESP32+DevKit+V1+board&tag=buildbin-20"
+        },
+        {
+          "name": "Tactile push button assortment",
+          "url": "https://www.amazon.com/s?k=Tactile+push+button+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "Analog joystick module",
+          "url": "https://www.amazon.com/s?k=Analog+joystick+module&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo battery 3.7V 1000mAh",
+          "url": "https://www.amazon.com/s?k=LiPo+battery+3.7V+1000mAh&tag=buildbin-20"
+        },
+        {
+          "name": "TP4056 USB-C charging module",
+          "url": "https://www.amazon.com/s?k=TP4056+USB-C+charging+module&tag=buildbin-20"
+        },
+        {
+          "name": "Perfboard prototype PCB",
+          "url": "https://www.amazon.com/s?k=Perfboard+prototype+PCB&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron kit",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Micro USB data cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        "Computer with the Arduino IDE",
+        "Phone, PC, or console that pairs with Bluetooth gamepads"
+      ],
+      "description": "Turn an ESP32 into a wireless Bluetooth gamepad that a PC, Android phone, or Raspberry Pi sees as a regular controller. The open-source ESP32-BLE-Gamepad Arduino library handles buttons, joysticks, and the battery level report, so you just wire up buttons and a thumbstick and upload an example sketch. Costs are approximate.",
+      "reference": "GitHub — lemmingDev/ESP32-BLE-Gamepad",
+      "reference_url": "https://github.com/lemmingDev/ESP32-BLE-Gamepad",
+      "thumb": "assets/thumbs/90.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "Gridfinity modular workshop storage (3D printed)",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "3d-printing"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-40",
+      "time": "An afternoon (mostly print time)",
+      "parts": [
+        {
+          "name": "PLA filament 1kg",
+          "url": "https://www.amazon.com/s?k=PLA+filament+1kg&tag=buildbin-20"
+        },
+        {
+          "name": "6x2mm neodymium magnets",
+          "url": "https://www.amazon.com/s?k=6x2mm+neodymium+magnets&tag=buildbin-20"
+        },
+        {
+          "name": "M3 screw assortment",
+          "url": "https://www.amazon.com/s?k=M3+screw+assortment&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Flush cutters",
+          "url": "https://www.amazon.com/s?k=flush+cutters&tag=buildbin-20"
+        },
+        {
+          "name": "Digital calipers",
+          "url": "https://www.amazon.com/s?k=digital+calipers&tag=buildbin-20"
+        },
+        "Computer with a slicer (Cura, PrusaSlicer, or Bambu Studio)"
+      ],
+      "description": "Print Zack Freedman's Gridfinity system: a 42mm grid of baseplates with snap-in bins that keep resistors, screws, drill bits, and tools organized in drawers or on the bench. Thousands of free bin designs exist, and optional magnets hold bins in place. A great first useful print for a new 3D printer. Costs are approximate.",
+      "reference": "Gridfinity unofficial wiki",
+      "reference_url": "https://gridfinity.xyz/",
+      "thumb": "assets/thumbs/91.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
     }
   ]
 }
