@@ -5232,6 +5232,136 @@
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
       "thumb_illustrated": true
+    },
+    {
+      "title": "mmWave presence sensor for Home Assistant (ESP32 + LD2410)",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "home-automation",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "ESP32 dev board",
+          "url": "https://www.amazon.com/s?k=ESP32+development+board&tag=buildbin-20"
+        },
+        {
+          "name": "HLK-LD2410 mmWave radar sensor",
+          "url": "https://www.amazon.com/s?k=HLK-LD2410+mmWave+presence+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "Dupont jumper wires",
+          "url": "https://www.amazon.com/s?k=dupont+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB power adapter 5V",
+          "url": "https://www.amazon.com/s?k=USB+wall+charger+5V&tag=buildbin-20"
+        },
+        {
+          "name": "Small project enclosure",
+          "url": "https://www.amazon.com/s?k=small+plastic+project+box+enclosure&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron (for header pins)",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Micro USB / USB-C data cable",
+          "url": "https://www.amazon.com/s?k=USB+data+cable&tag=buildbin-20"
+        },
+        "Computer running Home Assistant and the ESPHome add-on"
+      ],
+      "description": "Unlike a PIR motion sensor, a 24GHz mmWave radar can tell a room is occupied even when you sit perfectly still. Wire an HLK-LD2410 to an ESP32 over UART, flash ESPHome, and Home Assistant gets reliable presence, distance, and per-gate sensitivity controls for lights that stay on while you read. Costs are approximate.",
+      "reference": "ESPHome docs: LD2410 Sensor",
+      "reference_url": "https://esphome.io/components/sensor/ld2410/",
+      "thumb": "assets/thumbs/92.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true
+    },
+    {
+      "title": "5-inch digital HD FPV drone build (DJI O4 Pro)",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "drones-fpv"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "450-650",
+      "time": "A weekend",
+      "parts": [
+        {
+          "name": "5-inch FPV freestyle frame",
+          "url": "https://www.amazon.com/s?k=5+inch+FPV+drone+frame&tag=buildbin-20"
+        },
+        {
+          "name": "F405 flight controller + 55A ESC stack",
+          "url": "https://www.amazon.com/s?k=SpeedyBee+F405+V4+stack&tag=buildbin-20"
+        },
+        {
+          "name": "2207 FPV motors (set of 4)",
+          "url": "https://www.amazon.com/s?k=2207+FPV+motors&tag=buildbin-20"
+        },
+        {
+          "name": "DJI O4 Air Unit Pro",
+          "url": "https://www.amazon.com/s?k=DJI+O4+Air+Unit+Pro&tag=buildbin-20"
+        },
+        {
+          "name": "ExpressLRS receiver",
+          "url": "https://www.amazon.com/s?k=ExpressLRS+receiver+2.4GHz&tag=buildbin-20"
+        },
+        {
+          "name": "5-inch tri-blade props",
+          "url": "https://www.amazon.com/s?k=5+inch+FPV+propellers&tag=buildbin-20"
+        },
+        {
+          "name": "6S 1100-1300mAh LiPo batteries",
+          "url": "https://www.amazon.com/s?k=6S+1300mAh+LiPo+FPV&tag=buildbin-20"
+        },
+        {
+          "name": "XT60 connectors and battery straps",
+          "url": "https://www.amazon.com/s?k=XT60+connector+battery+strap+FPV&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron (60W+, temperature controlled)",
+          "url": "https://www.amazon.com/s?k=temperature+controlled+soldering+iron+60W&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Smoke stopper",
+          "url": "https://www.amazon.com/s?k=FPV+smoke+stopper&tag=buildbin-20"
+        },
+        {
+          "name": "Hex driver set",
+          "url": "https://www.amazon.com/s?k=hex+screwdriver+set+1.5+2.0+2.5&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo balance charger",
+          "url": "https://www.amazon.com/s?k=LiPo+balance+charger&tag=buildbin-20"
+        },
+        "Computer with Betaflight Configurator"
+      ],
+      "description": "Oscar Liang's step-by-step build of a modern 5-inch freestyle quad with crisp digital HD video from DJI's O4 Air Unit Pro: frame assembly, soldering motors and the FC/ESC stack, wiring the ExpressLRS receiver and air unit, then Betaflight setup and first flight checks. You also need DJI goggles and an ExpressLRS radio. Costs are approximate.",
+      "reference": "Oscar Liang: How to Build an FPV Drone (DJI O4 Pro)",
+      "reference_url": "https://oscarliang.com/how-to-build-fpv-drone/",
+      "thumb": "assets/thumbs/93.webp",
+      "thumb_credit": "https://oscarliang.com/how-to-build-fpv-drone/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": "Oscar Liang"
     }
   ]
 }
