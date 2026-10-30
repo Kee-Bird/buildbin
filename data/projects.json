@@ -5362,6 +5362,125 @@
       "thumb_credit": "https://oscarliang.com/how-to-build-fpv-drone/",
       "thumb_license": "Image from the linked guide (link-preview image), © its author",
       "thumb_author": "Oscar Liang"
+    },
+    {
+      "title": "Motion-reactive LED sparkle skirt (Adafruit FLORA)",
+      "boards": [
+        "flora"
+      ],
+      "categories": [
+        "wearables",
+        "led-lighting"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "45-70",
+      "time": "An afternoon",
+      "parts": [
+        {
+          "name": "Adafruit FLORA wearable board",
+          "url": "https://www.amazon.com/s?k=Adafruit+FLORA+wearable&tag=buildbin-20"
+        },
+        {
+          "name": "LSM303 accelerometer/compass breakout",
+          "url": "https://www.amazon.com/s?k=LSM303+accelerometer+compass+module&tag=buildbin-20"
+        },
+        {
+          "name": "Flora RGB Smart NeoPixels (about 12)",
+          "url": "https://www.amazon.com/s?k=Adafruit+Flora+NeoPixel&tag=buildbin-20"
+        },
+        {
+          "name": "Stainless conductive thread",
+          "url": "https://www.amazon.com/s?k=stainless+conductive+thread&tag=buildbin-20"
+        },
+        {
+          "name": "3.7V 150mAh LiPo battery (JST)",
+          "url": "https://www.amazon.com/s?k=3.7V+150mAh+LiPo+battery+JST&tag=buildbin-20"
+        },
+        {
+          "name": "Skirt with a lining or sheer overlay",
+          "url": "https://www.amazon.com/s?k=tulle+skirt+with+lining&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Sewing needle set",
+          "url": "https://www.amazon.com/s?k=sewing+needle+set&tag=buildbin-20"
+        },
+        {
+          "name": "Clear nail polish (to seal thread knots)",
+          "url": "https://www.amazon.com/s?k=clear+nail+polish&tag=buildbin-20"
+        },
+        {
+          "name": "Micro USB LiPo charger",
+          "url": "https://www.amazon.com/s?k=micro+USB+LiPo+charger+JST&tag=buildbin-20"
+        },
+        "Scissors",
+        "Computer with Arduino IDE"
+      ],
+      "description": "Becky Stern's classic Adafruit wearable: twelve NeoPixels sewn into a skirt lining with conductive thread, wired to a FLORA and an accelerometer so the pixels flash and sparkle whenever you move. No soldering needed, just careful sewing, then upload the Arduino sketch and tuck in a small LiPo. Costs are approximate.",
+      "reference": "Adafruit Learning System: Sparkle Skirt",
+      "reference_url": "https://learn.adafruit.com/sparkle-skirt",
+      "thumb": "assets/thumbs/94.webp",
+      "thumb_credit": "https://learn.adafruit.com/sparkle-skirt",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": "Becky Stern / Adafruit"
+    },
+    {
+      "title": "MeArm desktop robot arm (4 servos, Arduino)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "robotics",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-60",
+      "time": "An afternoon",
+      "parts": [
+        {
+          "name": "MeArm robot arm kit (acrylic, laser-cut)",
+          "url": "https://www.amazon.com/s?k=MeArm+robot+arm+kit&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 / MG90S micro servos (set of 4)",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo+4+pack&tag=buildbin-20"
+        },
+        {
+          "name": "Arduino Uno (or compatible)",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3&tag=buildbin-20"
+        },
+        {
+          "name": "Analog joystick modules (2)",
+          "url": "https://www.amazon.com/s?k=analog+joystick+module+Arduino&tag=buildbin-20"
+        },
+        {
+          "name": "Breadboard and jumper wires",
+          "url": "https://www.amazon.com/s?k=breadboard+jumper+wires+kit&tag=buildbin-20"
+        },
+        {
+          "name": "5V 2A power supply",
+          "url": "https://www.amazon.com/s?k=5V+2A+power+supply+barrel+jack&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Small Phillips screwdriver set",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        },
+        {
+          "name": "Needle-nose pliers",
+          "url": "https://www.amazon.com/s?k=needle+nose+pliers&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE"
+      ],
+      "description": "The open-source MeArm is a pocket-sized four-servo robot arm you bolt together from laser-cut acrylic (or cut yourself from the free files). This build guide from its makers covers calibrating the servos first, assembling the base, sides and gripper, then driving it from an Arduino with joysticks. A great first robotics kit for kids with an adult helper. Costs are approximate.",
+      "reference": "Instructables (phenoptix): MeArm Robot Arm V1.0 build",
+      "reference_url": "https://www.instructables.com/MeArm-Robot-Arm-Your-Robot-V10/",
+      "thumb": "assets/thumbs/95.webp",
+      "thumb_credit": "https://www.instructables.com/MeArm-Robot-Arm-Your-Robot-V10/",
+      "thumb_license": "Image from the linked guide (link-preview image), © its author",
+      "thumb_author": "phenoptix"
     }
   ]
 }
