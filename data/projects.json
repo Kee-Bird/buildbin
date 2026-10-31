@@ -70,7 +70,8 @@
       "thumb": "assets/thumbs/0.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pi-hole_Screenshot.png",
       "thumb_license": "Public domain",
-      "thumb_author": "Pi-hole"
+      "thumb_author": "Pi-hole",
+      "thumb_license_url": "https://commons.wikimedia.org/wiki/Help:Public_domain"
     },
     {
       "title": "Home Assistant server",
@@ -110,7 +111,8 @@
       "thumb": "assets/thumbs/1.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Screenshot_of_Home_Assistant_Frontend.png",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Fabian.a"
+      "thumb_author": "Fabian.a",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "ESPHome temperature/humidity sensor",
@@ -150,9 +152,10 @@
       "reference": "esphome.io",
       "reference_url": "https://esphome.io/components/sensor/dht/",
       "thumb": "assets/thumbs/2.webp",
-      "thumb_credit": "https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:DHT22-Temperatur-Sensor.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Ubahnverleih",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "WLED addressable LED controller",
@@ -214,7 +217,8 @@
       "thumb": "assets/thumbs/3.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:16346-SMD_LED_-_RGB_WS2812B_Strip_of_50_-01.jpg",
       "thumb_license": "CC BY 2.0",
-      "thumb_author": "SparkFun Electronics"
+      "thumb_author": "SparkFun Electronics",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Smart garage door opener",
@@ -268,9 +272,10 @@
       "reference": "esphome.io",
       "reference_url": "https://esphome.io/cookbook/garage-door/",
       "thumb": "assets/thumbs/4.webp",
-      "thumb_credit": "https://www.instructables.com/ESP8266-Garage-Door-Opener/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Garage_door_opener.jpg",
+      "thumb_license": "Public domain",
+      "thumb_author": "Oleg Alexandrov",
+      "thumb_license_url": "https://commons.wikimedia.org/wiki/Help:Public_domain"
     },
     {
       "title": "Smart plant watering system",
@@ -328,7 +333,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Obstacle-avoiding robot car",
@@ -382,9 +388,10 @@
       "reference": "arduino.cc project hub",
       "reference_url": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/",
       "thumb": "assets/thumbs/6.webp",
-      "thumb_credit": "https://www.instructables.com/Obstacle-Avoiding-Robot-Arduino/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Obstacle_avoidance_robot_car.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Anani A. George",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "Line-following robot",
@@ -435,9 +442,10 @@
       "reference": "instructables.com",
       "reference_url": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/",
       "thumb": "assets/thumbs/7.webp",
-      "thumb_credit": "https://www.instructables.com/Line-Follower-Robot-Using-Arduino-2/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Line_following_robot.JPG",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Gsparr86",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Otto DIY biped robot",
@@ -491,9 +499,10 @@
       "reference": "www.ottodiy.com",
       "reference_url": "https://www.ottodiy.com/academy",
       "thumb": "assets/thumbs/8.webp",
-      "thumb_credit": "https://www.ottodiy.com/academy",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Self-balancing robot",
@@ -547,9 +556,10 @@
       "reference": "instructables.com",
       "reference_url": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/",
       "thumb": "assets/thumbs/9.webp",
-      "thumb_credit": "https://www.instructables.com/Arduino-Self-Balancing-Robot-1/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Self-balancing_robot.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Calleballe04",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "Pi Pico robot arm (servo)",
@@ -603,9 +613,10 @@
       "reference": "raspberrypi.com",
       "reference_url": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/",
       "thumb": "assets/thumbs/10.webp",
-      "thumb_credit": "https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "ESP32-CAM surveillance rover",
@@ -654,9 +665,10 @@
       "reference": "randomnerdtutorials.com",
       "reference_url": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/",
       "thumb": "assets/thumbs/11.webp",
-      "thumb_credit": "https://randomnerdtutorials.com/esp32-cam-car-robot-web-server/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:ESP32-CAM.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Nowforever",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "5-inch FPV freestyle quad (Betaflight)",
@@ -731,7 +743,8 @@
       "thumb": "assets/thumbs/12.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Racing_Drone.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Commanderbryce"
+      "thumb_author": "Commanderbryce",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Tiny Whoop indoor micro drone",
@@ -786,7 +799,8 @@
       "thumb": "assets/thumbs/13.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Whoop_drone_Meteor65.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "SokilFPV"
+      "thumb_author": "SokilFPV",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "INAV fixed-wing with GPS return-to-home",
@@ -858,7 +872,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "ArduPilot drone with Pi companion computer",
@@ -925,7 +940,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "ELRS DIY receiver/backpack tinkering",
@@ -967,7 +983,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Raspberry Pi weather station",
@@ -1026,7 +1043,8 @@
       "thumb": "assets/thumbs/17.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arduino_uno_diy_lcd_weather_station.jpg",
       "thumb_license": "CC BY-SA 3.0",
-      "thumb_author": "Crackopl"
+      "thumb_author": "Crackopl",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "title": "Air quality monitor (PM2.5)",
@@ -1071,7 +1089,8 @@
       "thumb": "assets/thumbs/18.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Feinstaubsensor_SDS011.jpg",
       "thumb_license": "CC0",
-      "thumb_author": "ubahnverleih"
+      "thumb_author": "ubahnverleih",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "CO2 monitor with SCD40",
@@ -1113,9 +1132,10 @@
       "reference": "learn.adafruit.com",
       "reference_url": "https://newbiely.com/tutorials/raspberry-pico/raspberry-pi-pico-scd40-co2-sensor",
       "thumb": "assets/thumbs/19.webp",
-      "thumb_credit": "https://learn.adafruit.com/diy-trinkey-no-solder-air-quality-monitor",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Carbon_Dioxide_Sensor_SCD4x.jpg",
+      "thumb_license": "CC BY-SA 4.0",
+      "thumb_author": "Sensirion AG",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Pico W web-connected thermometer",
@@ -1153,9 +1173,10 @@
       "reference": "raspberrypi.com",
       "reference_url": "https://projects.raspberrypi.org/en/projects/get-started-pico-w",
       "thumb": "assets/thumbs/20.webp",
-      "thumb_credit": "https://randomnerdtutorials.com/raspberry-pi-pico-ds18b20-micropython/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:RPI_PICO_W_1.jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "SparkFun Electronics",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Infinity mirror",
@@ -1218,9 +1239,10 @@
       "reference": "instructables.com",
       "reference_url": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/",
       "thumb": "assets/thumbs/21.webp",
-      "thumb_credit": "https://www.instructables.com/Arduino-Programmable-LED-Infinity-Mirror/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Infinity_mirror_dodecahedron.png",
+      "thumb_license": "CC BY 4.0",
+      "thumb_author": "The Sophocrat",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "title": "LED matrix scrolling sign",
@@ -1259,9 +1281,10 @@
       "reference": "github.com/MajicDesigns/MD_Parola",
       "reference_url": "https://majicdesigns.github.io/MD_Parola/",
       "thumb": "assets/thumbs/22.webp",
-      "thumb_credit": "https://lastminuteengineers.com/max7219-dot-matrix-arduino-tutorial/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:DIY_Arduino_LED_screen_for_audio_spectrum_analyzer_1.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Retired electrician",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "Ambilight TV backlight (Hyperion)",
@@ -1313,7 +1336,8 @@
       "thumb": "assets/thumbs/23.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Ambilight-1.jpg",
       "thumb_license": "CC BY 3.0",
-      "thumb_author": "Stephan Legachev"
+      "thumb_author": "Stephan Legachev",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/3.0/"
     },
     {
       "title": "Pi music streamer (Volumio/moOde)",
@@ -1355,9 +1379,10 @@
       "reference": "volumio.com / moodeaudio.org",
       "reference_url": "https://volumio.com/get-started/",
       "thumb": "assets/thumbs/24.webp",
-      "thumb_credit": "https://volumio.com/get-started/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4B_%26_HiFiBerry_DAC%2B_Light_sound_card_(50946777077).jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "Olgierd",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Bluetooth speaker build",
@@ -1414,9 +1439,10 @@
       "reference": "github.com/pschatzmann/ESP32-A2DP",
       "reference_url": "https://github.com/pschatzmann/ESP32-A2DP",
       "thumb": "assets/thumbs/25.webp",
-      "thumb_credit": "https://www.instructables.com/DIY-Portable-Bluetooth-Speaker/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "MIDI controller",
@@ -1470,9 +1496,10 @@
       "reference": "learn.adafruit.com",
       "reference_url": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython",
       "thumb": "assets/thumbs/26.webp",
-      "thumb_credit": "https://learn.adafruit.com/grand-central-usb-midi-controller-in-circuitpython",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:MIDI_Fighter_DIY_copy_(2014-08-20_14.02.50_by_c-g.).jpg",
+      "thumb_license": "CC BY 2.0",
+      "thumb_author": "c-g.",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Retro game console (RetroPie)",
@@ -1517,7 +1544,8 @@
       "thumb": "assets/thumbs/27.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Side.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Laserlicht"
+      "thumb_author": "Laserlicht",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "NeoPixel LED wearable/costume",
@@ -1562,9 +1590,10 @@
       "reference": "learn.adafruit.com",
       "reference_url": "https://learn.adafruit.com/rainbow-chakra-led-hoodie",
       "thumb": "assets/thumbs/28.webp",
-      "thumb_credit": "https://learn.adafruit.com/rainbow-chakra-led-hoodie",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Smartwatch (ESP32 dev watch)",
@@ -1594,9 +1623,10 @@
       "reference": "github.com/Xinyuan-LilyGO",
       "reference_url": "https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library",
       "thumb": "assets/thumbs/29.webp",
-      "thumb_credit": "https://www.lilygo.cc/products/t-watch-2020-v3",
-      "thumb_license": "Manufacturer product photo, © LILYGO",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Step counter wristband",
@@ -1651,9 +1681,10 @@
       "reference": "instructables.com",
       "reference_url": "https://github.com/no-go/StepCounter",
       "thumb": "assets/thumbs/30.webp",
-      "thumb_credit": "https://github.com/no-go/StepCounter",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Mechanical macro keypad",
@@ -1706,9 +1737,10 @@
       "reference": "github.com/KMKfw/kmk_firmware",
       "reference_url": "https://sanderg.nl/en/posts/3d-printed-hand-wired-macro-pad-with-raspberry-pi-pico-kmk-&-circuitpython/",
       "thumb": "assets/thumbs/31.webp",
-      "thumb_credit": "https://learn.adafruit.com/diy-pico-mechanical-keyboard-with-fritzing-circuitpython",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Pi security camera (MotionEye)",
@@ -1752,7 +1784,8 @@
       "thumb": "assets/thumbs/32.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_with_Camera_Module.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "ZippeyKeys12"
+      "thumb_author": "ZippeyKeys12",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "ESP-Drone mini quadcopter (ESP32-S2/S3)",
@@ -1816,7 +1849,8 @@
       "thumb": "assets/thumbs/33.webp",
       "thumb_credit": "https://github.com/espressif/esp-drone",
       "thumb_license": "Apache-2.0 (ESP-Drone docs)",
-      "thumb_author": "Espressif"
+      "thumb_author": "Espressif",
+      "thumb_license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
       "title": "MagicMirror² smart mirror",
@@ -1878,9 +1912,10 @@
       "reference": "magicmirror.builders",
       "reference_url": "https://docs.magicmirror.builders/getting-started/installation.html",
       "thumb": "assets/thumbs/34.webp",
-      "thumb_credit": "https://www.instructables.com/Raspberry-Pi-Smart-Mirror/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "ADS-B flight tracker (PiAware / tar1090)",
@@ -1924,7 +1959,8 @@
       "thumb": "assets/thumbs/35.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Flightradar24_ADS-B_receiver.png",
       "thumb_license": "CC BY-SA 3.0",
-      "thumb_author": "Nubifer"
+      "thumb_author": "Nubifer",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "title": "PiGRRL 2 handheld retro console",
@@ -1978,9 +2014,10 @@
       "reference": "learn.adafruit.com",
       "reference_url": "https://learn.adafruit.com/pigrrl-2",
       "thumb": "assets/thumbs/36.webp",
-      "thumb_credit": "https://learn.adafruit.com/pigrrl-2",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": "Adafruit"
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "2-player bartop arcade cabinet",
@@ -2038,9 +2075,10 @@
       "reference": "instructables.com",
       "reference_url": "https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/",
       "thumb": "assets/thumbs/37.webp",
-      "thumb_credit": "https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Arduboy-style handheld (DIY clone)",
@@ -2090,9 +2128,10 @@
       "reference": "instructables.com",
       "reference_url": "https://www.instructables.com/Arduboy-Clone/",
       "thumb": "assets/thumbs/38.webp",
-      "thumb_credit": "https://www.instructables.com/Arduboy-Clone/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arduboy_front_back.jpg",
+      "thumb_license": "CC0",
+      "thumb_author": "Drummyfish",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "Pico NES console with HDMI (pico-infonesPlus)",
@@ -2136,7 +2175,8 @@
       "thumb": "assets/thumbs/39.webp",
       "thumb_credit": "https://github.com/fhoedemakers/pico-infonesPlus",
       "thumb_license": "GPL-3.0 (project repo)",
-      "thumb_author": "fhoedemakers"
+      "thumb_author": "fhoedemakers",
+      "thumb_license_url": "https://www.gnu.org/licenses/gpl-3.0.html"
     },
     {
       "title": "DIY arcade fight stick (GP2040-CE)",
@@ -2193,7 +2233,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Voron 0.2 CoreXY 3D printer kit build",
@@ -2256,7 +2297,8 @@
       "thumb": "assets/thumbs/41.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Voron_3D_printer_02.jpg",
       "thumb_license": "CC BY-SA 2.0",
-      "thumb_author": "disinterpreter"
+      "thumb_author": "disinterpreter",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "title": "OctoPrint Raspberry Pi print server",
@@ -2300,7 +2342,8 @@
       "thumb": "assets/thumbs/42.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Octoprint_Screenshot.png",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Keanu Dölle"
+      "thumb_author": "Keanu Dölle",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Klipper firmware upgrade for Ender 3",
@@ -2348,7 +2391,8 @@
       "thumb": "assets/thumbs/43.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Ender_3x_3D%E5%8D%B0%E8%A1%A8%E6%A9%9F_%E5%A5%97%E4%BB%B6_-_49804731296.jpg",
       "thumb_license": "CC BY-SA 2.0",
-      "thumb_author": "kenming Wang"
+      "thumb_author": "kenming Wang",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "title": "Smart filament dryer with ESP32 humidity sensor",
@@ -2401,7 +2445,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "3D printed 6-inch FPV drone frame",
@@ -2470,7 +2515,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Printer enclosure PID fan controller",
@@ -2530,7 +2576,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Solar Meshtastic repeater node (RAK WisBlock)",
@@ -2611,7 +2658,8 @@
       "thumb": "assets/thumbs/47.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:2025-09-25-RAK4631-MeshCore-Repeater-Solar-at-DB0IL.jpg",
       "thumb_license": "CC BY 4.0",
-      "thumb_author": "Fabian Horst"
+      "thumb_author": "Fabian Horst",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "title": "Heltec V3 pocket Meshtastic node in a printed case",
@@ -2664,7 +2712,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "LILYGO T-Beam GPS tracker node",
@@ -2716,7 +2765,8 @@
       "thumb": "assets/thumbs/49.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Meshtastic_T-Beam.jpg",
       "thumb_license": "CC0",
-      "thumb_author": "Chiffre01"
+      "thumb_author": "Chiffre01",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "T-Deck standalone Meshtastic messenger",
@@ -2757,7 +2807,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Station G2 rooftop Meshtastic base station",
@@ -2826,7 +2877,8 @@
       "thumb": "assets/thumbs/51.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:2025-10_Meshtastic_Node_temporaerhaus_P1090106.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "-stk"
+      "thumb_author": "-stk",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "DIY FakeTec low-power node (nRF52840)",
@@ -2898,7 +2950,8 @@
       "thumb": "assets/thumbs/52.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Meshtastic_FakeTec_node_with_display_P1089966.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "-stk"
+      "thumb_author": "-stk",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "micro:bit two-player reaction game",
@@ -2947,7 +3000,8 @@
       "thumb": "assets/thumbs/53.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Micro-bit_v2.JPG",
       "thumb_license": "CC0",
-      "thumb_author": "Crash48 at English Wikipedia"
+      "thumb_author": "Crash48 at English Wikipedia",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "Makey Makey banana piano",
@@ -2988,7 +3042,8 @@
       "thumb": "assets/thumbs/54.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Makey_Makey.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Padaguan"
+      "thumb_author": "Padaguan",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Light-up paper circuit greeting card",
@@ -3041,7 +3096,8 @@
       "thumb": "assets/thumbs/55.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Paper_circuit.jpg",
       "thumb_license": "CC BY-SA 3.0",
-      "thumb_author": "Mosborne01"
+      "thumb_author": "Mosborne01",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "title": "Scribbling machine art robot",
@@ -3101,7 +3157,8 @@
       "thumb": "assets/thumbs/56.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Scribbling_machine_%2814646828792%29.jpg",
       "thumb_license": "CC BY-SA 2.0",
-      "thumb_author": "Sally Wilson"
+      "thumb_author": "Sally Wilson",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "title": "Raspberry Pi Pico LED reaction game",
@@ -3155,7 +3212,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Automatic breadboard night-light",
@@ -3213,7 +3271,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Flickering Circuit Playground jack-o'-lantern",
@@ -3263,7 +3322,8 @@
       "thumb": "assets/thumbs/59.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Jack-O-Lantern_at_night.jpg",
       "thumb_license": "CC0",
-      "thumb_author": "Alabama Extension"
+      "thumb_author": "Alabama Extension",
+      "thumb_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "title": "Motion-activated talking pumpkin candy bowl",
@@ -3328,7 +3388,8 @@
       "thumb": "assets/thumbs/60.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Jack-o-lantern_pumpkins.jpg",
       "thumb_license": "Public domain",
-      "thumb_author": "Petr Kratochvil"
+      "thumb_author": "Petr Kratochvil",
+      "thumb_license_url": "https://commons.wikimedia.org/wiki/Help:Public_domain"
     },
     {
       "title": "Milk-jug ghost lanterns with LED string lights",
@@ -3378,7 +3439,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Twinkling NeoPixie dust bag costume prop",
@@ -3424,7 +3486,8 @@
       "thumb": "assets/thumbs/62.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Circuit-playground-sideview.jpg",
       "thumb_license": "CC BY-SA 3.0",
-      "thumb_author": "Smitop (board design by Adafruit Industries)"
+      "thumb_author": "Smitop (board design by Adafruit Industries)",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "title": "Waving pumpkin with servo arms",
@@ -3487,7 +3550,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Light-up cat or bunny ears headband",
@@ -3558,7 +3622,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "3D-printed ghost pendant with LED eyes",
@@ -3628,7 +3693,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "NeoPixel candy corn party lights (Pico)",
@@ -3682,7 +3748,8 @@
       "thumb": "assets/thumbs/66.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Candy_corn_strewn_on_a_black_background.jpg",
       "thumb_license": "CC BY 2.0",
-      "thumb_author": "liz west"
+      "thumb_author": "liz west",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Solar USB phone charger power bank",
@@ -3757,7 +3824,8 @@
       "thumb": "assets/thumbs/67.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:TP4056_board_P1089956.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "-stk"
+      "thumb_author": "-stk",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "ESP32 solar weather station with deep sleep",
@@ -3851,7 +3919,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "DIY sun tracker with LDRs and a servo",
@@ -3918,7 +3987,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Smarter Arduino solar garden path lights",
@@ -3987,7 +4057,8 @@
       "thumb": "assets/thumbs/70.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Solar_garden_light.jpg",
       "thumb_license": "Public domain",
-      "thumb_author": "Leon Brooks"
+      "thumb_author": "Leon Brooks",
+      "thumb_license_url": "https://commons.wikimedia.org/wiki/Help:Public_domain"
     },
     {
       "title": "Solar birdbath or pond fountain",
@@ -4039,7 +4110,8 @@
       "thumb": "assets/thumbs/71.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Solar_powered_fountain_2.jpg",
       "thumb_license": "CC BY 2.0",
-      "thumb_author": "Squigfried"
+      "thumb_author": "Squigfried",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "12V LiFePO4 solar power station",
@@ -4134,7 +4206,8 @@
       "thumb": "assets/thumbs/72.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Lithium_iron_phosphate_battery,_12_V,_48_Wh,_240_A.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Cjp24"
+      "thumb_author": "Cjp24",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Solar battery monitor with INA219 and OLED",
@@ -4199,7 +4272,8 @@
       "thumb": "assets/thumbs/73.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Adafruit_INA219_high_side_DC_current_sensor_module_2.jpg",
       "thumb_license": "CC BY-SA 2.0",
-      "thumb_author": "oomlout"
+      "thumb_author": "oomlout",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "title": "DIY Pomodoro LED focus timer",
@@ -4253,7 +4327,8 @@
       "thumb": "assets/thumbs/74.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pomodoro_Technique.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Vungoctho"
+      "thumb_author": "Vungoctho",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Arduino CNC plotter / drawbot",
@@ -4318,7 +4393,8 @@
       "thumb": "assets/thumbs/75.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Arduino_UNO_compatible_board,_CNC_shield_stepper_motor_controller,_and_a_NEMA_17_stepper_motor.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "DotEagle"
+      "thumb_author": "DotEagle",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Circuit Playground Express capacitive tone piano",
@@ -4359,7 +4435,8 @@
       "thumb": "assets/thumbs/76.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Circuit-playground-sideview.jpg",
       "thumb_license": "CC BY-SA 3.0",
-      "thumb_author": "Smitop (board design by Adafruit Industries)"
+      "thumb_author": "Smitop (board design by Adafruit Industries)",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "title": "Animated snake eyes Halloween prop (Raspberry Pi)",
@@ -4413,7 +4490,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "ESP32 e-paper weather display",
@@ -4471,7 +4549,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Firewalker LED sneakers",
@@ -4537,7 +4616,8 @@
       "thumb": "assets/thumbs/79.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Adafruit_FLORA_Board.jpg",
       "thumb_license": "CC BY-SA 3.0",
-      "thumb_author": "Becky Stern"
+      "thumb_author": "Becky Stern",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "title": "4x4x4 LED cube (Arduino Uno)",
@@ -4603,7 +4683,8 @@
       "thumb": "assets/thumbs/80.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:LED_cube_(30780823977).jpg",
       "thumb_license": "CC BY 2.0",
-      "thumb_author": "Billie Grace Ward"
+      "thumb_author": "Billie Grace Ward",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Raspberry Pi NAS with OpenMediaVault",
@@ -4656,7 +4737,8 @@
       "thumb": "assets/thumbs/81.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Nextcloud_Box_(30968331640).png",
       "thumb_license": "CC BY-SA 2.0",
-      "thumb_author": "Gareth Halfacree"
+      "thumb_author": "Gareth Halfacree",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "title": "Arduino Simon Says memory game",
@@ -4711,9 +4793,10 @@
       "reference": "instructables.com — Arduino Simon Says",
       "reference_url": "https://www.instructables.com/Arduino-Simon-Says/",
       "thumb": "assets/thumbs/82.webp",
-      "thumb_credit": "https://www.instructables.com/Arduino-Simon-Says/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": ""
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Raspberry Pi Spotify Connect speaker (Raspotify)",
@@ -4768,9 +4851,10 @@
       "reference": "pimylifeup.com — How to Setup Spotify Connect on the Raspberry Pi",
       "reference_url": "https://pimylifeup.com/raspberry-pi-spotify/",
       "thumb": "assets/thumbs/83.webp",
-      "thumb_credit": "https://pimylifeup.com/raspberry-pi-spotify/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": "pimylifeup.com"
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Radio_(32786688860).jpg",
+      "thumb_license": "CC BY-SA 2.0",
+      "thumb_author": "James West",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "title": "Arduino ultrasonic parking sensor (HC-SR04)",
@@ -4831,7 +4915,8 @@
       "thumb": "assets/thumbs/84.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:SparkFun_HC-SR04_Ultrasonic-Sensor_13959-01a.jpg",
       "thumb_license": "CC BY 2.0",
-      "thumb_author": "SparkFun Electronics"
+      "thumb_author": "SparkFun Electronics",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Klipper input shaping with an ADXL345 accelerometer",
@@ -4887,7 +4972,8 @@
       "thumb": "assets/thumbs/85.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:SparkFun_Triple-Axis-Accelerometer-Breakout_ADXL345_09836-_01c.jpg",
       "thumb_license": "CC BY 2.0",
-      "thumb_author": "SparkFun Electronics"
+      "thumb_author": "SparkFun Electronics",
+      "thumb_license_url": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "title": "Arduino RFID access control with an RC522 reader",
@@ -4952,7 +5038,8 @@
       "thumb": "assets/thumbs/86.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:RFID-RC522_photo.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "Giacomo Alessandroni"
+      "thumb_author": "Giacomo Alessandroni",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "DIY PiKVM remote KVM-over-IP (Raspberry Pi 4)",
@@ -5009,7 +5096,8 @@
       "thumb": "assets/thumbs/87.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Pi-KVM_Screenshot.png",
       "thumb_license": "GPLv3",
-      "thumb_author": "Maxim Devaev"
+      "thumb_author": "Maxim Devaev",
+      "thumb_license_url": "https://www.gnu.org/licenses/gpl-3.0.html"
     },
     {
       "title": "Raspberry Pi time-lapse camera (Camera Module)",
@@ -5062,7 +5150,8 @@
       "thumb": "assets/thumbs/88.webp",
       "thumb_credit": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Camera_Module_v2_with_ribbon.jpg",
       "thumb_license": "CC BY-SA 4.0",
-      "thumb_author": "the Raspberry Pi Foundation"
+      "thumb_author": "the Raspberry Pi Foundation",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "title": "Arduino light theremin (photoresistor + piezo)",
@@ -5116,7 +5205,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "ESP32 Bluetooth game controller (ESP32-BLE-Gamepad)",
@@ -5182,7 +5272,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "Gridfinity modular workshop storage (3D printed)",
@@ -5231,7 +5322,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "mmWave presence sensor for Home Assistant (ESP32 + LD2410)",
@@ -5285,7 +5377,8 @@
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
-      "thumb_illustrated": true
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     },
     {
       "title": "5-inch digital HD FPV drone build (DJI O4 Pro)",
@@ -5359,9 +5452,10 @@
       "reference": "Oscar Liang: How to Build an FPV Drone (DJI O4 Pro)",
       "reference_url": "https://oscarliang.com/how-to-build-fpv-drone/",
       "thumb": "assets/thumbs/93.webp",
-      "thumb_credit": "https://oscarliang.com/how-to-build-fpv-drone/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": "Oscar Liang"
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "Motion-reactive LED sparkle skirt (Adafruit FLORA)",
@@ -5421,9 +5515,10 @@
       "reference": "Adafruit Learning System: Sparkle Skirt",
       "reference_url": "https://learn.adafruit.com/sparkle-skirt",
       "thumb": "assets/thumbs/94.webp",
-      "thumb_credit": "https://learn.adafruit.com/sparkle-skirt",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": "Becky Stern / Adafruit"
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_license_url": ""
     },
     {
       "title": "MeArm desktop robot arm (4 servos, Arduino)",
@@ -5478,9 +5573,10 @@
       "reference": "Instructables (phenoptix): MeArm Robot Arm V1.0 build",
       "reference_url": "https://www.instructables.com/MeArm-Robot-Arm-Your-Robot-V10/",
       "thumb": "assets/thumbs/95.webp",
-      "thumb_credit": "https://www.instructables.com/MeArm-Robot-Arm-Your-Robot-V10/",
-      "thumb_license": "Image from the linked guide (link-preview image), © its author",
-      "thumb_author": "phenoptix"
+      "thumb_credit": "https://commons.wikimedia.org/wiki/File:Blueblack_preview_featured.jpg",
+      "thumb_license": "CC BY-SA 3.0",
+      "thumb_author": "Phenoptix",
+      "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     }
   ]
 }
