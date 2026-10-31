@@ -46,7 +46,7 @@ module.exports = async (req, res) => {
       from: 'BuildBin <hello@buildbin.dev>',
       to: [email],
       subject: "You're on the BuildBin list 🔧",
-      text: "Thanks for joining the BuildBin weekly build list!\n\nEach issue: a few hand-picked maker projects (Arduino, Raspberry Pi, ESP32, drones/FPV) with parts lists, plus news worth knowing.\n\nFind your next build: https://buildbin.dev\n\nHappy tinkering,\nBuildBin\n\nDidn't sign up? Just ignore this email.\n\nUnsubscribe anytime: reply \"unsubscribe\" or email hello@buildbin.dev and we'll remove you. Privacy policy: https://buildbin.dev/privacy.html\n\nBuildBin · {{MAILING_ADDRESS}}",
+      text: "Thanks for joining the BuildBin weekly build list!\n\nEach issue: a few hand-picked maker projects (Arduino, Raspberry Pi, ESP32, drones/FPV) with parts lists, plus news worth knowing.\n\nFind your next build: https://buildbin.dev\n\nHappy tinkering,\nBuildBin\n\nDidn't sign up? Just ignore this email.\n\nUnsubscribe anytime: reply \"unsubscribe\" or email hello@buildbin.dev and we'll remove you. Privacy policy: https://buildbin.dev/privacy.html",
       headers: { 'List-Unsubscribe': '<mailto:hello@buildbin.dev?subject=unsubscribe>' },
     });
     welcomed = w.ok;
