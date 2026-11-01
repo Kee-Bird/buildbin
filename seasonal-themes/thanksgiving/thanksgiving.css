@@ -1,0 +1,52 @@
+/* ===== BuildBin Thanksgiving theme (seasonal, removable) =====
+   Remove the THANKSGIVING THEME snippets from each page and delete this file to turn off. */
+:root{--accent:#ea8a1e;--accent-ink:#1f0d02;--accent-soft:#fdecd3;--tg-rust:#b45309;--tg-cran:#9f1239;--tg-gold:#f2b544}
+@media (prefers-color-scheme:dark){:root{--accent-soft:#3a2207}}
+header{position:relative;overflow:hidden;background:
+ radial-gradient(700px 300px at 12% 115%,rgba(180,83,9,.30),transparent 70%),
+ radial-gradient(700px 320px at 88% 115%,rgba(159,18,57,.22),transparent 70%),
+ radial-gradient(1200px 400px at 50% -10%,#1e293b 0%,var(--brand) 70%)}
+header .wrap{position:relative;z-index:1}
+header .banner{box-shadow:0 0 0 1px rgba(242,181,68,.25),0 12px 40px rgba(234,138,30,.20)}
+.tg-deco{position:absolute;pointer-events:none;z-index:0}
+.tg-leaf{width:34px;height:34px;opacity:.85}
+.tg-leaf.l1{left:6%;top:14%;transform:rotate(-20deg)}
+.tg-leaf.l2{left:14%;top:46%;width:26px;height:26px;transform:rotate(25deg)}
+.tg-leaf.l3{right:9%;top:12%;transform:rotate(35deg)}
+.tg-leaf.l4{right:16%;top:52%;width:24px;height:24px;transform:rotate(-40deg)}
+.tg-leaf.l5{left:30%;top:6%;width:20px;height:20px;transform:rotate(60deg);opacity:.6}
+.tg-leaf.l6{right:30%;top:8%;width:22px;height:22px;transform:rotate(-15deg);opacity:.6}
+.tg-pumpkins{bottom:0;width:120px;height:58px}
+.tg-pumpkins.pl{left:2%}.tg-pumpkins.pr{right:2%;transform:scaleX(-1)}
+@media (prefers-reduced-motion:no-preference){
+ .tg-leaf{animation:tg-sway 7s ease-in-out infinite}
+ .tg-leaf.l2,.tg-leaf.l4{animation-duration:9s;animation-delay:-3s}
+ .tg-leaf.l5,.tg-leaf.l6{animation-duration:11s;animation-delay:-5s}
+ @keyframes tg-sway{50%{translate:0 7px;rotate:12deg}}}
+@media (max-width:600px){.tg-pumpkins{width:74px;height:36px}.tg-leaf{width:22px;height:22px}.tg-leaf.l2,.tg-leaf.l4,.tg-leaf.l5,.tg-leaf.l6{display:none}}
+.tg-banner{display:flex;gap:.5rem;align-items:center;justify-content:center;flex-wrap:wrap;background:linear-gradient(90deg,#7c2d12,#92400e 50%,#7c2d12);color:#fdf1dc;font-size:.92rem;padding:.55rem 2.5rem .55rem 1rem;position:relative;text-align:center}
+.tg-banner a{color:#fcd38a;font-weight:600;text-decoration:none}.tg-banner a:hover{text-decoration:underline}
+.tg-banner button{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);background:none;border:0;color:#fdf1dc;font-size:1.1rem;cursor:pointer;padding:.25rem .5rem;border-radius:6px}
+.tg-banner button:hover,.tg-banner button:focus-visible{background:rgba(255,255,255,.12)}
+@media (max-width:600px){.tg-banner{font-size:.85rem}}
+main>h2::before,.news h2::before{content:"🍂 ";}
+nav.cats a.hl{border-color:var(--accent)}
+
+/* Walking turkeys: live inside the header (which clips them), sit in the header's bottom padding, never take clicks */
+.tg-turkey{bottom:2px;left:4%;width:52px;height:49px;z-index:1}
+.tg-turkey.t2{left:44%;width:44px;height:41px}
+.tg-turkey.t3{left:auto;right:16%;width:48px;height:45px;scale:-1 1}
+.tg-tk{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 2px 2px rgba(0,0,0,.35))}
+@media (prefers-reduced-motion:no-preference){
+ .tg-turkey{animation:tg-walk 34s linear infinite}
+ .tg-turkey.t2{animation-duration:42s;animation-delay:-19s}
+ .tg-turkey.t3{right:auto;animation-duration:38s;animation-delay:-9s}
+ @keyframes tg-walk{0%{left:-60px;scale:1 1}49.99%{left:calc(100% + 10px);scale:1 1}50%{left:calc(100% + 10px);scale:-1 1}100%{left:-60px;scale:-1 1}}
+ .tg-tk{animation:tg-bob .5s ease-in-out infinite alternate;transform-origin:50% 100%}
+ @keyframes tg-bob{from{translate:0 0;rotate:-3deg}to{translate:0 -3px;rotate:3deg}}
+ .tg-leg{transform-box:fill-box;transform-origin:50% 0;animation:tg-step .5s ease-in-out infinite alternate}
+ .tg-leg.b{animation-direction:alternate-reverse}
+ @keyframes tg-step{from{rotate:-18deg}to{rotate:18deg}}
+ .tg-tail{transform-box:fill-box;transform-origin:50% 90%;animation:tg-fan 1.6s ease-in-out infinite alternate}
+ @keyframes tg-fan{to{scale:1.06}}}
+@media (max-width:600px){header{padding-bottom:3.4rem}.tg-turkey{width:46px;height:43px}.tg-turkey.t2{width:40px;height:38px}.tg-turkey.t3{display:none}}
