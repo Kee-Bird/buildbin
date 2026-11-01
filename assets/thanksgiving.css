@@ -32,7 +32,7 @@ header .banner{box-shadow:0 0 0 1px rgba(242,181,68,.25),0 12px 40px rgba(234,13
 main>h2::before,.news h2::before{content:"🍂 ";}
 nav.cats a.hl{border-color:var(--accent)}
 
-/* Hopping turkeys: live inside the header (which clips them), sit in the header's bottom padding, never take clicks.
+/* Derpy hopping turkeys: live inside the header (which clips them), sit in the header's bottom padding, never take clicks.
    Layers: .tg-turkey walks left/right (and flips), .tg-hop does the bouncy jumps with squash/stretch, .tg-tk waddles. */
 header{padding-bottom:5.5rem}
 .tg-turkey{bottom:2px;left:4%;width:78px;height:74px;z-index:1;--hop:20px}
@@ -66,5 +66,13 @@ header{padding-bottom:5.5rem}
  .tg-leg.b{animation-direction:alternate-reverse}
  @keyframes tg-step{from{rotate:-18deg}to{rotate:18deg}}
  .tg-tail{transform-box:fill-box;transform-origin:50% 90%;animation:tg-fan 3s ease-in-out infinite alternate}
- @keyframes tg-fan{to{scale:1.06}}}
+ @keyframes tg-fan{to{scale:1.06}}
+ /* derpy bits: floppy wattle swings, googly pupils roll around now and then (each eye on its own clock) */
+ .tg-wat{transform-box:fill-box;transform-origin:30% 0;animation:tg-swing 1.8s ease-in-out infinite alternate}
+ @keyframes tg-swing{from{rotate:-14deg}to{rotate:16deg}}
+ .tg-pup{animation:tg-roll 7s ease-in-out infinite}
+ .tg-pup.p2{animation-duration:5.3s;animation-delay:-2s}
+ .tg-turkey.t2 .tg-pup{animation-duration:8.2s;animation-delay:-3s}.tg-turkey.t2 .tg-pup.p2{animation-duration:6.1s;animation-delay:-4.5s}
+ .tg-turkey.t3 .tg-pup{animation-duration:6.4s;animation-delay:-1s}.tg-turkey.t3 .tg-pup.p2{animation-duration:9s;animation-delay:-6s}
+ @keyframes tg-roll{0%,84%,100%{translate:0 0}87%{translate:1.2px -1px}90%{translate:-1px 1.2px}93%{translate:1.3px 1px}96%{translate:-1px -1px}}}
 @media (max-width:600px){header{padding-bottom:5.25rem}.tg-turkey{width:69px;height:65px;--hop:16px}.tg-turkey.t2{width:60px;height:57px;--hop:14px}.tg-turkey.t3{display:none}}
