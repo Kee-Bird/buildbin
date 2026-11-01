@@ -10,11 +10,13 @@ var hd=document.querySelector('header');
 if(hd){var h='';['l1','l2','l3','l4','l5','l6'].forEach(function(k,i){h+=leaf(k,C[i]);});
 
 // Cute derpy hopping turkeys (original BuildBin drawing): simple flat cartoon with googly eyes, goofy grin and a floppy wattle; decorative only.
-// Every shape sits inside the viewBox (with room for the tail-fan and leg animations), so nothing relies on SVG overflow and no browser can clip the tail.
+// Every shape sits inside the viewBox (with room for the tail-fan, leg and peck animations), so nothing relies on SVG overflow and no browser can clip the tail or beak.
+// Pecking: .tg-pk groups (tail + body/head) lean forward a little around the feet, and the two .tg-nk groups (neck outline, neck + head)
+// swing down together around the neck base (56,58), which stays hidden inside the body, so the head never comes loose from the neck.
 var O='#3a1c0c';
-var TP={1:{tilt:0,e1:[-2,-2],e2:[1.8,1.6],tongue:1},
-        2:{tilt:-12,e1:[2.6,1],e2:[-1.8,1],tongue:0},
-        3:{tilt:10,e1:[.6,-2.6],e2:[1.2,-2],tongue:2}};
+var TP={1:{pk:80,tilt:0,e1:[-2,-2],e2:[1.8,1.6],tongue:1},
+        2:{pk:82,tilt:-12,e1:[2.6,1],e2:[-1.8,1],tongue:0},
+        3:{pk:76,tilt:10,e1:[.6,-2.6],e2:[1.2,-2],tongue:2}};
 function feather(c,ang,len,w){return '<ellipse cx="44" cy="'+(56-len/2)+'" rx="'+w+'" ry="'+(len/2)+'" fill="'+c+'" stroke="'+O+'" stroke-width="2" transform="rotate('+ang+' 44 56)"/>';}
 function leg(x){return '<path d="M'+x+' 76V85m0 0l-4 2.5m4-2.5l4 2.5m-4-2.5v3" stroke="#ea8a1e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>';}
 function eye(cx,cy,r,d,pr,k){return '<circle cx="'+cx+'" cy="'+cy+'" r="'+r+'" fill="#fff" stroke="'+O+'" stroke-width="1.8"/>'+
@@ -22,13 +24,12 @@ function eye(cx,cy,r,d,pr,k){return '<circle cx="'+cx+'" cy="'+cy+'" r="'+r+'" f
 function turkey(n){var P=TP[n];
  var back=[['#9f1239',-58],['#c2410c',-29],['#f2b544',0],['#c2410c',29],['#9f1239',58]].map(function(f){return feather(f[0],f[1],40,9);}).join('');
  var front=[['#ea8a1e',-44],['#f2b544',-15],['#ea8a1e',15],['#f2b544',44]].map(function(f){return feather(f[0],f[1],30,7);}).join('');
- return '<div class="tg-deco tg-turkey t'+n+'"><span class="tg-hop"><svg class="tg-tk" '+A+' viewBox="0 8 96 83">'+
- '<g class="tg-tail">'+back+front+'</g>'+
+ return '<div class="tg-deco tg-turkey t'+n+'" style="--pk:'+P.pk+'deg"><span class="tg-hop"><svg class="tg-tk" '+A+' viewBox="0 8 108 83">'+
+ '<g class="tg-pk"><g class="tg-tail">'+back+front+'</g></g>'+
  '<g class="tg-leg a">'+leg(43)+'</g><g class="tg-leg b">'+leg(54)+'</g>'+
- '<path d="M56 58Q62 50 64 40" stroke="'+O+'" stroke-width="13" stroke-linecap="round" fill="none"/>'+
+ '<g class="tg-pk"><g class="tg-nk"><path d="M56 58Q62 50 64 40" stroke="'+O+'" stroke-width="13" stroke-linecap="round" fill="none"/></g>'+
  '<circle cx="48" cy="60" r="18" fill="#8b5a2b" stroke="'+O+'" stroke-width="2"/>'+
- '<path d="M56 58Q62 50 64 40" stroke="#a8703a" stroke-width="9" stroke-linecap="round" fill="none"/>'+
- '<path d="M36 60q8 11 20 2q-9-6-20-2z" fill="#6b4220" stroke="'+O+'" stroke-width="1.6" stroke-linejoin="round"/>'+
+ '<g class="tg-nk"><path d="M56 58Q62 50 64 40" stroke="#a8703a" stroke-width="9" stroke-linecap="round" fill="none"/>'+
  '<g transform="rotate('+P.tilt+' 64 36)">'+
  '<path d="M63 22q-2-6 3-7" stroke="'+O+'" stroke-width="3.2" stroke-linecap="round" fill="none"/>'+
  '<circle cx="65" cy="34" r="13" fill="#a8703a" stroke="'+O+'" stroke-width="2"/>'+
@@ -38,9 +39,27 @@ function turkey(n){var P=TP[n];
   '<path d="M62 41q5 3 11-.5" stroke="'+O+'" stroke-width="1.8" stroke-linecap="round" fill="none"/>'+
  '<circle cx="60" cy="38" r="2.6" fill="#f472b6" opacity=".6"/>'+
  eye(62,29,7,P.e1,2.8,1)+eye(72,28,5,P.e2,2.1,2)+
- '</g></svg></span></div>';}
+ '</g></g>'+
+ '<path d="M36 60q8 11 20 2q-9-6-20-2z" fill="#6b4220" stroke="'+O+'" stroke-width="1.6" stroke-linejoin="round"/></g>'+
+ '</svg></span></div>';}
  h+=turkey(1)+turkey(2)+turkey(3);
- h+=pk.replace('%c','pl')+pk.replace('%c','pr');hd.insertAdjacentHTML('afterbegin',h);}
+ h+=pk.replace('%c','pl')+pk.replace('%c','pr');hd.insertAdjacentHTML('afterbegin',h);
+ // Pecking: every 8-22s (random, per turkey) a turkey that is standing on the ground between hops stops walking and hopping,
+ // pecks the ground 2 or 3 times (CSS .tg-peck2/.tg-peck3), then carries on. Nothing runs under prefers-reduced-motion.
+ var mq=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)');
+ if(mq&&!mq.matches&&document.getAnimations){[].forEach.call(hd.querySelectorAll('.tg-turkey'),function(t,i){
+  var hop=t.querySelector('.tg-hop'),nk=t.querySelectorAll('.tg-nk')[1],busy=0;
+  function later(ms){setTimeout(go,ms);}
+  function done(){if(!busy)return;busy=0;t.classList.remove('tg-pecking','tg-peck2','tg-peck3');later(8000+Math.random()*14000);}
+  function go(){if(busy)return;if(mq.matches||document.hidden||!t.offsetWidth){later(4000);return;}
+   var a=(hop.getAnimations?hop.getAnimations():[]).filter(function(x){return x.animationName==='tg-hop';})[0];
+   var pr=a&&a.effect&&a.effect.getComputedTiming().progress;
+   if(pr==null){return;} // no hop animation running: leave the turkey alone
+   if(pr>.8&&pr<.995){later(900);return;} // mid-hop: wait until it lands
+   busy=1;t.classList.add('tg-pecking',Math.random()<.5?'tg-peck2':'tg-peck3');setTimeout(done,6000);}
+  nk.addEventListener('animationend',function(e){if(/^tg-peck/.test(e.animationName))done();});
+  later(3000+i*4000+Math.random()*9000);});}
+}
 var K='bb-tg-2026-dismissed';
 try{if(localStorage.getItem(K))return;}catch(e){}
 var b=document.createElement('div');b.className='tg-banner';b.setAttribute('role','region');b.setAttribute('aria-label','Happy Thanksgiving');

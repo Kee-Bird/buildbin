@@ -33,20 +33,22 @@ main>h2::before,.news h2::before{content:"🍂 ";}
 nav.cats a.hl{border-color:var(--accent)}
 
 /* Derpy hopping turkeys (simple flat cartoon): live inside the header, sit in the header's bottom padding, never take clicks.
-   The whole drawing (tail fan included) sits inside each SVG's viewBox with a margin, so nothing depends on SVG overflow
+   The whole drawing (tail fan included, and the head at the bottom of a peck) sits inside each SVG's viewBox (0 8 108 83; the
+   right 12 units are room for the pecking head) with a margin, so nothing depends on SVG overflow
    (Safari/iPad clips an animated SVG to its own box, which used to slice the tail tips flat).
-   Layers: .tg-turkey walks left/right (and flips), .tg-hop does the bouncy jumps with squash/stretch, .tg-tk waddles. */
+   Layers: .tg-turkey walks left/right (and flips), .tg-hop does the bouncy jumps with squash/stretch, .tg-tk waddles,
+   .tg-pk (body) leans and .tg-nk (neck+head) dips while pecking. */
 header{padding-bottom:5.5rem}
-.tg-turkey{bottom:1px;left:4%;width:100px;height:86px;z-index:1;--hop:20px}
-.tg-turkey.t2{left:44%;width:85px;height:73px;--hop:16px}
-.tg-turkey.t3{left:auto;right:16%;width:92px;height:79px;scale:-1 1;--hop:18px}
+.tg-turkey{bottom:1px;left:4%;width:112px;height:86px;z-index:1;--hop:20px}
+.tg-turkey.t2{left:44%;width:96px;height:73px;--hop:16px}
+.tg-turkey.t3{left:auto;right:16%;width:104px;height:79px;scale:-1 1;--hop:18px}
 .tg-hop{display:block;width:100%;height:100%;transform-origin:50% 100%}
 .tg-tk{display:block;width:100%;height:100%;overflow:visible}
 @media (prefers-reduced-motion:no-preference){
  .tg-turkey{animation:tg-walk 100s linear infinite}
  .tg-turkey.t2{animation-duration:125s;animation-delay:-57s}
  .tg-turkey.t3{right:auto;animation-duration:115s;animation-delay:-27s}
- @keyframes tg-walk{0%{left:-110px;scale:1 1}49.99%{left:calc(100% + 12px);scale:1 1}50%{left:calc(100% + 12px);scale:-1 1}100%{left:-110px;scale:-1 1}}
+ @keyframes tg-walk{0%{left:-125px;scale:1 1}49.99%{left:calc(100% + 12px);scale:1 1}50%{left:calc(100% + 12px);scale:-1 1}100%{left:-125px;scale:-1 1}}
  /* hop cycle (slow): walk ~10s, then a ~2s floaty hop: crouch (squash), spring up (stretch), land (squash), then a little second bounce */
  .tg-hop{animation:tg-hop 12s ease-in-out infinite}
  .tg-turkey.t2 .tg-hop{animation-duration:14s;animation-delay:-5.5s}
@@ -76,5 +78,15 @@ header{padding-bottom:5.5rem}
  .tg-pup.p2{animation-duration:5.3s;animation-delay:-2s}
  .tg-turkey.t2 .tg-pup{animation-duration:8.2s;animation-delay:-3s}.tg-turkey.t2 .tg-pup.p2{animation-duration:6.1s;animation-delay:-4.5s}
  .tg-turkey.t3 .tg-pup{animation-duration:6.4s;animation-delay:-1s}.tg-turkey.t3 .tg-pup.p2{animation-duration:9s;animation-delay:-6s}
+ /* pecking (JS adds .tg-pecking + .tg-peck2/.tg-peck3 now and then): walk, hop, waddle and legs pause; the neck+head (.tg-nk) swings down
+    around the neck base to tap the beak on the ground 2-3 times while the body leans in a little (.tg-pk); the wattle swings faster */
+ .tg-pk,.tg-nk{transform-box:view-box}.tg-pk{transform-origin:48px 88px}.tg-nk{transform-origin:56px 58px}
+ .tg-turkey.tg-pecking,.tg-pecking .tg-hop,.tg-pecking .tg-tk,.tg-pecking .tg-leg{animation-play-state:paused}
+ .tg-peck2 .tg-nk{animation:tg-peck2 3.2s ease-in-out}.tg-peck3 .tg-nk{animation:tg-peck3 4.2s ease-in-out}
+ .tg-peck2 .tg-pk{animation:tg-lean 3.2s ease-in-out}.tg-peck3 .tg-pk{animation:tg-lean 4.2s ease-in-out}
+ .tg-pecking .tg-wat{animation-duration:.7s}
+ @keyframes tg-peck2{0%{rotate:0deg}22%{rotate:var(--pk)}32%{rotate:calc(var(--pk) * .62)}44%{rotate:var(--pk)}56%{rotate:calc(var(--pk) * .62)}70%{rotate:calc(var(--pk) * .3)}100%{rotate:0deg}}
+ @keyframes tg-peck3{0%{rotate:0deg}17%{rotate:var(--pk)}25%{rotate:calc(var(--pk) * .62)}34%{rotate:var(--pk)}42%{rotate:calc(var(--pk) * .62)}51%{rotate:var(--pk)}61%{rotate:calc(var(--pk) * .62)}75%{rotate:calc(var(--pk) * .3)}100%{rotate:0deg}}
+ @keyframes tg-lean{0%,100%{rotate:0deg}20%,65%{rotate:5deg}}
  @keyframes tg-roll{0%,84%,100%{translate:0 0}87%{translate:1.2px -1px}90%{translate:-1px 1.2px}93%{translate:1.3px 1px}96%{translate:-1px -1px}}}
-@media (max-width:600px){header{padding-bottom:5.25rem}.tg-turkey{width:88px;height:76px;--hop:16px}.tg-turkey.t2{width:77px;height:66px;--hop:14px}.tg-turkey.t3{display:none}}
+@media (max-width:600px){header{padding-bottom:5.25rem}.tg-turkey{width:99px;height:76px;--hop:16px}.tg-turkey.t2{width:87px;height:66px;--hop:14px}.tg-turkey.t3{display:none}}
