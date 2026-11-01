@@ -32,19 +32,21 @@ header .banner{box-shadow:0 0 0 1px rgba(242,181,68,.25),0 12px 40px rgba(234,13
 main>h2::before,.news h2::before{content:"🍂 ";}
 nav.cats a.hl{border-color:var(--accent)}
 
-/* Derpy hopping turkeys: live inside the header (which clips them), sit in the header's bottom padding, never take clicks.
+/* Derpy hopping turkeys (simple flat cartoon): live inside the header, sit in the header's bottom padding, never take clicks.
+   The whole drawing (tail fan included) sits inside each SVG's viewBox with a margin, so nothing depends on SVG overflow
+   (Safari/iPad clips an animated SVG to its own box, which used to slice the tail tips flat).
    Layers: .tg-turkey walks left/right (and flips), .tg-hop does the bouncy jumps with squash/stretch, .tg-tk waddles. */
 header{padding-bottom:5.5rem}
-.tg-turkey{bottom:2px;left:4%;width:78px;height:74px;z-index:1;--hop:20px}
-.tg-turkey.t2{left:44%;width:66px;height:62px;--hop:16px}
-.tg-turkey.t3{left:auto;right:16%;width:72px;height:68px;scale:-1 1;--hop:18px}
+.tg-turkey{bottom:1px;left:4%;width:100px;height:86px;z-index:1;--hop:20px}
+.tg-turkey.t2{left:44%;width:85px;height:73px;--hop:16px}
+.tg-turkey.t3{left:auto;right:16%;width:92px;height:79px;scale:-1 1;--hop:18px}
 .tg-hop{display:block;width:100%;height:100%;transform-origin:50% 100%}
-.tg-tk{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 3px 2px rgba(0,0,0,.35))}
+.tg-tk{display:block;width:100%;height:100%;overflow:visible}
 @media (prefers-reduced-motion:no-preference){
  .tg-turkey{animation:tg-walk 100s linear infinite}
  .tg-turkey.t2{animation-duration:125s;animation-delay:-57s}
  .tg-turkey.t3{right:auto;animation-duration:115s;animation-delay:-27s}
- @keyframes tg-walk{0%{left:-90px;scale:1 1}49.99%{left:calc(100% + 12px);scale:1 1}50%{left:calc(100% + 12px);scale:-1 1}100%{left:-90px;scale:-1 1}}
+ @keyframes tg-walk{0%{left:-110px;scale:1 1}49.99%{left:calc(100% + 12px);scale:1 1}50%{left:calc(100% + 12px);scale:-1 1}100%{left:-110px;scale:-1 1}}
  /* hop cycle (slow): walk ~10s, then a ~2s floaty hop: crouch (squash), spring up (stretch), land (squash), then a little second bounce */
  .tg-hop{animation:tg-hop 12s ease-in-out infinite}
  .tg-turkey.t2 .tg-hop{animation-duration:14s;animation-delay:-5.5s}
@@ -75,4 +77,4 @@ header{padding-bottom:5.5rem}
  .tg-turkey.t2 .tg-pup{animation-duration:8.2s;animation-delay:-3s}.tg-turkey.t2 .tg-pup.p2{animation-duration:6.1s;animation-delay:-4.5s}
  .tg-turkey.t3 .tg-pup{animation-duration:6.4s;animation-delay:-1s}.tg-turkey.t3 .tg-pup.p2{animation-duration:9s;animation-delay:-6s}
  @keyframes tg-roll{0%,84%,100%{translate:0 0}87%{translate:1.2px -1px}90%{translate:-1px 1.2px}93%{translate:1.3px 1px}96%{translate:-1px -1px}}}
-@media (max-width:600px){header{padding-bottom:5.25rem}.tg-turkey{width:69px;height:65px;--hop:16px}.tg-turkey.t2{width:60px;height:57px;--hop:14px}.tg-turkey.t3{display:none}}
+@media (max-width:600px){header{padding-bottom:5.25rem}.tg-turkey{width:88px;height:76px;--hop:16px}.tg-turkey.t2{width:77px;height:66px;--hop:14px}.tg-turkey.t3{display:none}}
