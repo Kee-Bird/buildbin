@@ -41,30 +41,30 @@ header{padding-bottom:5.5rem}
 .tg-hop{display:block;width:100%;height:100%;transform-origin:50% 100%}
 .tg-tk{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 3px 2px rgba(0,0,0,.35))}
 @media (prefers-reduced-motion:no-preference){
- .tg-turkey{animation:tg-walk 34s linear infinite}
- .tg-turkey.t2{animation-duration:42s;animation-delay:-19s}
- .tg-turkey.t3{right:auto;animation-duration:38s;animation-delay:-9s}
+ .tg-turkey{animation:tg-walk 100s linear infinite}
+ .tg-turkey.t2{animation-duration:125s;animation-delay:-57s}
+ .tg-turkey.t3{right:auto;animation-duration:115s;animation-delay:-27s}
  @keyframes tg-walk{0%{left:-90px;scale:1 1}49.99%{left:calc(100% + 12px);scale:1 1}50%{left:calc(100% + 12px);scale:-1 1}100%{left:-90px;scale:-1 1}}
- /* hop cycle: walk a while, crouch (squash), spring up (stretch), land (squash), then a little second bounce */
- .tg-hop{animation:tg-hop 3.4s ease-in-out infinite}
- .tg-turkey.t2 .tg-hop{animation-duration:4.3s;animation-delay:-1.6s}
- .tg-turkey.t3 .tg-hop{animation-duration:3.8s;animation-delay:-2.9s}
+ /* hop cycle (slow): walk ~10s, then a ~2s floaty hop: crouch (squash), spring up (stretch), land (squash), then a little second bounce */
+ .tg-hop{animation:tg-hop 12s ease-in-out infinite}
+ .tg-turkey.t2 .tg-hop{animation-duration:14s;animation-delay:-5.5s}
+ .tg-turkey.t3 .tg-hop{animation-duration:10.5s;animation-delay:-8.5s}
  @keyframes tg-hop{
-  0%,48%{translate:0 0;scale:1 1;rotate:0deg}
-  54%{translate:0 0;scale:1.16 .8;rotate:0deg;animation-timing-function:cubic-bezier(.2,.7,.4,1)}
-  62%{translate:0 calc(var(--hop) * -.8);scale:.9 1.1;rotate:-6deg}
-  67%{translate:0 calc(var(--hop) * -1);scale:1 1;rotate:-3deg;animation-timing-function:cubic-bezier(.6,0,.8,.4)}
-  74%{translate:0 0;scale:1.2 .76;rotate:2deg}
-  79%{translate:0 0;scale:.95 1.06;rotate:0deg}
-  83%{translate:0 0;scale:1.08 .9;rotate:0deg;animation-timing-function:cubic-bezier(.2,.7,.4,1)}
-  88%{translate:0 calc(var(--hop) * -.4);scale:.95 1.07;rotate:-3deg;animation-timing-function:cubic-bezier(.6,0,.8,.4)}
-  93%{translate:0 0;scale:1.1 .88;rotate:0deg}
-  97%,100%{translate:0 0;scale:1 1;rotate:0deg}}
- .tg-tk{animation:tg-bob .5s ease-in-out infinite alternate;transform-origin:50% 100%}
+  0%,82%{translate:0 0;scale:1 1;rotate:0deg}
+  84.1%{translate:0 0;scale:1.16 .8;rotate:0deg;animation-timing-function:cubic-bezier(.2,.7,.4,1)}
+  86.8%{translate:0 calc(var(--hop) * -.8);scale:.9 1.1;rotate:-6deg}
+  88.6%{translate:0 calc(var(--hop) * -1);scale:1 1;rotate:-3deg;animation-timing-function:cubic-bezier(.6,0,.8,.4)}
+  91%{translate:0 0;scale:1.2 .76;rotate:2deg}
+  92.7%{translate:0 0;scale:.95 1.06;rotate:0deg}
+  94.1%{translate:0 0;scale:1.08 .9;rotate:0deg;animation-timing-function:cubic-bezier(.2,.7,.4,1)}
+  95.8%{translate:0 calc(var(--hop) * -.4);scale:.95 1.07;rotate:-3deg;animation-timing-function:cubic-bezier(.6,0,.8,.4)}
+  97.6%{translate:0 0;scale:1.1 .88;rotate:0deg}
+  99%,100%{translate:0 0;scale:1 1;rotate:0deg}}
+ .tg-tk{animation:tg-bob .9s ease-in-out infinite alternate;transform-origin:50% 100%}
  @keyframes tg-bob{from{translate:0 0;rotate:-3deg}to{translate:0 -3px;rotate:3deg}}
- .tg-leg{transform-box:fill-box;transform-origin:50% 0;animation:tg-step .5s ease-in-out infinite alternate}
+ .tg-leg{transform-box:fill-box;transform-origin:50% 0;animation:tg-step .9s ease-in-out infinite alternate}
  .tg-leg.b{animation-direction:alternate-reverse}
  @keyframes tg-step{from{rotate:-18deg}to{rotate:18deg}}
- .tg-tail{transform-box:fill-box;transform-origin:50% 90%;animation:tg-fan 1.6s ease-in-out infinite alternate}
+ .tg-tail{transform-box:fill-box;transform-origin:50% 90%;animation:tg-fan 3s ease-in-out infinite alternate}
  @keyframes tg-fan{to{scale:1.06}}}
 @media (max-width:600px){header{padding-bottom:5.25rem}.tg-turkey{width:69px;height:65px;--hop:16px}.tg-turkey.t2{width:60px;height:57px;--hop:14px}.tg-turkey.t3{display:none}}

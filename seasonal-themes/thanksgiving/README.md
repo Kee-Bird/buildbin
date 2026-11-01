@@ -4,7 +4,7 @@ Live every year Nov 1 through the Sunday after Thanksgiving (2026: Nov 1 – Nov
 
 What it does: dismissible "Happy Thanksgiving from BuildBin" banner (remembers dismissal in localStorage key `bb-tg-2026-dismissed`; bump the year each season),
 harvest glow on the navy header, swaying inline-SVG autumn leaves, pumpkins in the header's bottom corners, three original cartoon turkeys
-walking and hopping (staggered squash-and-stretch jumps) along the header bottom (two on phones; ~1.5x size since the Nov 1 hop update), 🍂 before section headings, orange accent. All decorations are pointer-events:none, aria-hidden,
+walking slowly and hopping now and then (staggered squash-and-stretch jumps; walk 100/125/115s, hop every 12/14/10.5s) along the header bottom (two on phones; ~1.5x size since the Nov 1 hop update), 🍂 before section headings, orange accent. All decorations are pointer-events:none, aria-hidden,
 clipped by the header (no page overflow) and stand still under prefers-reduced-motion. The theme sets header padding-bottom to 5.5rem on desktop (base is 3.5rem, so +32px) and 5.25rem on phones (≤600px) for the turkey lane; removing the theme restores the normal header height.
 
 Files: `thanksgiving.css`, `thanksgiving.js` (saved copies here; live copies in assets/).
