@@ -29,7 +29,9 @@
     "meshtastic": "Meshtastic",
     "kids": "Kids Projects",
     "halloween": "Halloween Builds",
-    "solar": "Solar Projects"
+    "solar": "Solar Projects",
+    "christmas": "Christmas Builds",
+    "thanksgiving": "Kids Thanksgiving"
   },
   "projects": [
     {
@@ -5577,6 +5579,1119 @@
       "thumb_license": "CC BY-SA 3.0",
       "thumb_author": "Phenoptix",
       "thumb_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "title": "ESP32 WLED Christmas tree lights",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting",
+        "home-automation"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "40-90",
+      "time": "3-5 hrs",
+      "parts": [
+        {
+          "name": "ESP32 dev board",
+          "url": "https://www.amazon.com/s?k=ESP32+dev+board&tag=buildbin-20"
+        },
+        {
+          "name": "WS2811/WS2812B addressable LED string (50-100 pixels)",
+          "url": "https://www.amazon.com/s?k=WS2811+WS2812B+addressable+LED+string&tag=buildbin-20"
+        },
+        {
+          "name": "5V 10A power supply (sized to LEDs)",
+          "url": "https://www.amazon.com/s?k=5V+10A+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Level shifter (74AHCT125)",
+          "url": "https://www.amazon.com/s?k=Level+shifter&tag=buildbin-20"
+        },
+        {
+          "name": "1000µF capacitor",
+          "url": "https://www.amazon.com/s?k=1000%C2%B5F+capacitor&tag=buildbin-20"
+        },
+        {
+          "name": "330Ω resistor",
+          "url": "https://www.amazon.com/s?k=330%CE%A9+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "Zip ties",
+          "url": "https://www.amazon.com/s?k=Zip+ties&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
+      ],
+      "description": "Swap a tree's plain lights for addressable pixels and run twinkle, candy-cane and fire effects from your phone with WLED.",
+      "reference": "Resinchem Tech",
+      "reference_url": "https://resinchemtech.blogspot.com/2021/11/rewiring-christmas-tree-for-wled.html",
+      "thumb": "assets/thumbs/96.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Music-synced Christmas light show (Arduino + MSGEQ7)",
+      "boards": [
+        "nano"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting",
+        "audio"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "25-50",
+      "time": "4-6 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "MSGEQ7 audio spectrum chip",
+          "url": "https://www.amazon.com/s?k=MSGEQ7+audio+spectrum+chip&tag=buildbin-20"
+        },
+        {
+          "name": "3.5mm audio jack breakout",
+          "url": "https://www.amazon.com/s?k=3.5mm+audio+jack+breakout&tag=buildbin-20"
+        },
+        {
+          "name": "Low-voltage LED light strings or 12V LED strip",
+          "url": "https://www.amazon.com/s?k=Low-voltage+LED+light+strings+or+12V+LED+strip&tag=buildbin-20"
+        },
+        {
+          "name": "Logic-level MOSFETs (IRLZ44N)",
+          "url": "https://www.amazon.com/s?k=Logic-level+MOSFETs&tag=buildbin-20"
+        },
+        {
+          "name": "Breadboard and jumper wires",
+          "url": "https://www.amazon.com/s?k=Breadboard+and+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "12V power supply",
+          "url": "https://www.amazon.com/s?k=12V+power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
+      ],
+      "description": "An MSGEQ7 splits music into bands so each string of lights pulses with the bass, mids or highs. Stick to low-voltage LED lights unless you're qualified for mains wiring.",
+      "reference": "Instructables",
+      "reference_url": "https://www.instructables.com/Musically-Synchronized-Christmas-Lights-Spectrum-A/",
+      "thumb": "assets/thumbs/97.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Circuit Playground smart ornament",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting",
+        "3d-printing"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "45-70",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Bluefruit or Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Bluefruit+or+Express&tag=buildbin-20"
+        },
+        {
+          "name": "Adafruit TFT Gizmo or E-Ink Gizmo display",
+          "url": "https://www.amazon.com/s?k=Adafruit+TFT+Gizmo+or+E-Ink+Gizmo+display&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo battery 500mAh (with charger)",
+          "url": "https://www.amazon.com/s?k=LiPo+battery+500mAh&tag=buildbin-20"
+        },
+        {
+          "name": "3D-printed ornament case",
+          "url": "https://www.amazon.com/s?k=3D-printed+ornament+case&tag=buildbin-20"
+        },
+        {
+          "name": "Ribbon or ornament hook",
+          "url": "https://www.amazon.com/s?k=Ribbon+or+ornament+hook&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        }
+      ],
+      "description": "A Circuit Playground plus a snap-on Gizmo display becomes a glowing ornament that shows your own pictures and NeoPixel animations.",
+      "reference": "Adafruit Learning System",
+      "reference_url": "https://learn.adafruit.com/display-ornaments-with-circuit-playground",
+      "thumb": "assets/thumbs/98.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Raspberry Pi Sense HAT advent calendar",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "christmas"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "40-100",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Raspberry Pi (any model with 40-pin header)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "Raspberry Pi Sense HAT",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+Sense+HAT&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card 16GB",
+          "url": "https://www.amazon.com/s?k=microSD+card+16GB&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C or micro USB power supply",
+          "url": "https://www.amazon.com/s?k=USB-C+or+micro+USB+power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        }
+      ],
+      "description": "Code a digital advent calendar in Python: press the Sense HAT joystick to open each day's door and reveal a new 8x8 pixel picture, Dec 1-24.",
+      "reference": "Raspberry Pi Foundation",
+      "reference_url": "https://projects.raspberrypi.org/en/projects/sense-hat-advent-calendar",
+      "thumb": "assets/thumbs/99.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Motion-activated singing Christmas tree (Santa greeter)",
+      "boards": [
+        "nano"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting",
+        "audio"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "25-45",
+      "time": "2-4 hrs",
+      "parts": [
+        {
+          "name": "Arduino Nano",
+          "url": "https://www.amazon.com/s?k=Arduino+Nano&tag=buildbin-20"
+        },
+        {
+          "name": "PIR motion sensor (HC-SR501)",
+          "url": "https://www.amazon.com/s?k=PIR+motion+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "WS2812B LED strip",
+          "url": "https://www.amazon.com/s?k=WS2812B+LED+strip&tag=buildbin-20"
+        },
+        {
+          "name": "JQ6500 or DFPlayer Mini MP3 module",
+          "url": "https://www.amazon.com/s?k=JQ6500+or+DFPlayer+Mini+MP3+module&tag=buildbin-20"
+        },
+        {
+          "name": "8Ω 0.5W speaker",
+          "url": "https://www.amazon.com/s?k=8%CE%A9+0.5W+speaker&tag=buildbin-20"
+        },
+        {
+          "name": "7805 voltage regulator",
+          "url": "https://www.amazon.com/s?k=7805+voltage+regulator&tag=buildbin-20"
+        },
+        {
+          "name": "12V battery pack or power supply",
+          "url": "https://www.amazon.com/s?k=12V+battery+pack+or+power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        }
+      ],
+      "description": "A PIR sensor spots visitors, then NeoPixels light up and a jingle or a 'Ho ho ho!' plays. Hide it in a tree or behind a Santa figure.",
+      "reference": "Circuit Digest",
+      "reference_url": "https://circuitdigest.com/microcontroller-projects/arduino-based-decorative-christmas-tree-with-neo-pixel-and-voice-module",
+      "thumb": "assets/thumbs/100.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit NeoPixel star tree topper",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "christmas",
+        "kids",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "25-45",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "BBC micro:bit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "Crazy Circuits Bit Board (or micro:bit breakout)",
+          "url": "https://www.amazon.com/s?k=Crazy+Circuits+Bit+Board&tag=buildbin-20"
+        },
+        {
+          "name": "NeoPixel string (WS2812B, 5V)",
+          "url": "https://www.amazon.com/s?k=NeoPixel+string&tag=buildbin-20"
+        },
+        {
+          "name": "Sculpture wire (about 2 feet)",
+          "url": "https://www.amazon.com/s?k=Sculpture+wire&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=Jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Long header pins",
+          "url": "https://www.amazon.com/s?k=Long+header+pins&tag=buildbin-20"
+        },
+        {
+          "name": "AA battery pack for micro:bit",
+          "url": "https://www.amazon.com/s?k=AA+battery+pack+for+micro%3Abit&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Flush cutters",
+          "url": "https://www.amazon.com/s?k=flush+cutters&tag=buildbin-20"
+        }
+      ],
+      "description": "Bend wire into a star, wrap it with NeoPixels and code a micro:bit to twinkle or react to music. No soldering, great to build with kids. Adult supervision required.",
+      "reference": "Brown Dog Gadgets",
+      "reference_url": "https://learn.browndoggadgets.com/Guide/NeoPixel+Star+LED+Tree+Topper+Tutorial/631",
+      "thumb": "assets/thumbs/101.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Countdown-to-Christmas LED display",
+      "boards": [
+        "esp8266"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-25",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Wemos D1 mini (ESP8266)",
+          "url": "https://www.amazon.com/s?k=Wemos+D1+mini&tag=buildbin-20"
+        },
+        {
+          "name": "MAX7219 4-in-1 dot matrix module",
+          "url": "https://www.amazon.com/s?k=MAX7219+4-in-1+dot+matrix+module&tag=buildbin-20"
+        },
+        {
+          "name": "Female-to-female jumper wires",
+          "url": "https://www.amazon.com/s?k=Female-to-female+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB cable and phone charger",
+          "url": "https://www.amazon.com/s?k=USB+cable+and+phone+charger&tag=buildbin-20"
+        },
+        {
+          "name": "3D-printed case (optional)",
+          "url": "https://www.amazon.com/s?k=3D-printed+case&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        }
+      ],
+      "description": "An ESP8266 gets the date over Wi-Fi and scrolls how many sleeps are left until Santa on a MAX7219 LED matrix. No clock battery to set.",
+      "reference": "element14 Community",
+      "reference_url": "https://community.element14.com/challenges-projects/holidays/a/holiday-projects-2024/c/project/HP75/santa-countdown",
+      "thumb": "assets/thumbs/102.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "3D-printed LED snowflake ornament",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "christmas",
+        "3d-printing",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "2-3 hrs + print",
+      "parts": [
+        {
+          "name": "Flexible LED filament (nOOds, 3V)",
+          "url": "https://www.amazon.com/s?k=Flexible+LED+filament&tag=buildbin-20"
+        },
+        {
+          "name": "2xCR2032 battery holder with switch",
+          "url": "https://www.amazon.com/s?k=2xCR2032+battery+holder+with+switch&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cells",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cells&tag=buildbin-20"
+        },
+        {
+          "name": "Translucent PLA filament",
+          "url": "https://www.amazon.com/s?k=Translucent+PLA+filament&tag=buildbin-20"
+        },
+        {
+          "name": "Silicone-coated wire",
+          "url": "https://www.amazon.com/s?k=Silicone-coated+wire&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        }
+      ],
+      "description": "Print a snowflake frame, thread glowing LED 'noodle' filament through it and power it from two coin cells for a no-code ornament. Keep coin cells away from small kids.",
+      "reference": "Adafruit Learning System",
+      "reference_url": "https://learn.adafruit.com/led-noodle-snowflake",
+      "thumb": "assets/thumbs/103.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Shake-to-light LED snow globe",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "35-50",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "DIY snow globe with hollow base",
+          "url": "https://www.amazon.com/s?k=DIY+snow+globe+with+hollow+base&tag=buildbin-20"
+        },
+        {
+          "name": "LiPo battery 500mAh (with charger)",
+          "url": "https://www.amazon.com/s?k=LiPo+battery+500mAh&tag=buildbin-20"
+        },
+        {
+          "name": "Glycerin",
+          "url": "https://www.amazon.com/s?k=Glycerin&tag=buildbin-20"
+        },
+        {
+          "name": "Glitter or fake snow",
+          "url": "https://www.amazon.com/s?k=Glitter+or+fake+snow&tag=buildbin-20"
+        },
+        {
+          "name": "E6000 glue",
+          "url": "https://www.amazon.com/s?k=E6000+glue&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        }
+      ],
+      "description": "Shake the globe and the Circuit Playground's accelerometer sets off a light show and plays Jingle Bells. Codes in CircuitPython or MakeCode.",
+      "reference": "Adafruit Learning System",
+      "reference_url": "https://learn.adafruit.com/circuitpython-snow-globe",
+      "thumb": "assets/thumbs/104.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Light-up Christmas cards (paper circuits)",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "christmas",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Copper foil tape 5mm (conductive adhesive)",
+          "url": "https://www.amazon.com/s?k=Copper+foil+tape+5mm&tag=buildbin-20"
+        },
+        {
+          "name": "LEDs 3mm or LED stickers",
+          "url": "https://www.amazon.com/s?k=LEDs+3mm+or+LED+stickers&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cell batteries",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cell+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Coin cell holder (sewable or adhesive)",
+          "url": "https://www.amazon.com/s?k=Coin+cell+holder&tag=buildbin-20"
+        },
+        {
+          "name": "Cardstock",
+          "url": "https://www.amazon.com/s?k=Cardstock&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Clear tape",
+          "url": "https://www.amazon.com/s?k=clear+tape&tag=buildbin-20"
+        }
+      ],
+      "description": "Kids trace a copper-tape circuit under a printed tree or gingerbread house so the LEDs glow when you press the card. No soldering. Adult supervision required. Keep coin cells away from young children.",
+      "reference": "SparkFun Learn",
+      "reference_url": "https://learn.sparkfun.com/tutorials/let-it-glow-holiday-cards/all",
+      "thumb": "assets/thumbs/105.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Raspberry Pi RGB Christmas tree",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "christmas",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Raspberry Pi (any model with 40-pin header)",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "RGB Xmas Tree kit for Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=RGB+Xmas+Tree+kit+for+Raspberry+Pi&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card 16GB",
+          "url": "https://www.amazon.com/s?k=microSD+card+16GB&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C or micro USB power supply",
+          "url": "https://www.amazon.com/s?k=USB-C+or+micro+USB+power+supply&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        }
+      ],
+      "description": "Solder a small 3D circuit-board tree onto your Pi's GPIO header and animate its 25 RGB LEDs with a few lines of Python and GPIO Zero.",
+      "reference": "The Pi Hut on GitHub",
+      "reference_url": "https://github.com/ThePiHut/rgbxmastree",
+      "thumb": "assets/thumbs/106.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Light-up ugly Christmas sweater",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "christmas",
+        "wearables",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "25-45",
+      "time": "3 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno&tag=buildbin-20"
+        },
+        {
+          "name": "Arduino Proto Shield",
+          "url": "https://www.amazon.com/s?k=Arduino+Proto+Shield&tag=buildbin-20"
+        },
+        {
+          "name": "WS2812B NeoPixel strip (60 LED/m)",
+          "url": "https://www.amazon.com/s?k=WS2812B+NeoPixel+strip&tag=buildbin-20"
+        },
+        {
+          "name": "RGB LED 5mm",
+          "url": "https://www.amazon.com/s?k=RGB+LED+5mm&tag=buildbin-20"
+        },
+        {
+          "name": "470Ω resistor",
+          "url": "https://www.amazon.com/s?k=470%CE%A9+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "1000µF capacitor",
+          "url": "https://www.amazon.com/s?k=1000%C2%B5F+capacitor&tag=buildbin-20"
+        },
+        {
+          "name": "USB power bank",
+          "url": "https://www.amazon.com/s?k=USB+power+bank&tag=buildbin-20"
+        },
+        {
+          "name": "Felt sheets",
+          "url": "https://www.amazon.com/s?k=Felt+sheets&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Wire strippers",
+          "url": "https://www.amazon.com/s?k=wire+strippers&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        }
+      ],
+      "description": "A felt tree stitched with NeoPixel strips and a color-changing star turns any sweater into the blinkiest one at the party. Runs off a USB power bank.",
+      "reference": "Hackster.io",
+      "reference_url": "https://www.hackster.io/mike3d0g/rgb-led-ugly-holiday-sweater-909bc4",
+      "thumb": "assets/thumbs/107.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Light-up paper-circuit turkey",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "8-15",
+      "time": "30-45 min",
+      "parts": [
+        {
+          "name": "Copper foil tape 5mm (conductive adhesive)",
+          "url": "https://www.amazon.com/s?k=Copper+foil+tape+5mm&tag=buildbin-20"
+        },
+        {
+          "name": "LEDs 5mm (assorted colors)",
+          "url": "https://www.amazon.com/s?k=LEDs+5mm&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cell batteries",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cell+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Cardstock",
+          "url": "https://www.amazon.com/s?k=Cardstock&tag=buildbin-20"
+        },
+        {
+          "name": "Binder clips",
+          "url": "https://www.amazon.com/s?k=Binder+clips&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Clear tape",
+          "url": "https://www.amazon.com/s?k=clear+tape&tag=buildbin-20"
+        }
+      ],
+      "description": "Kids build a paper turkey whose eyes or feathers light up with copper tape, an LED and a coin cell. A first lesson in how circuits work. Adult supervision required. Keep coin cells away from young children.",
+      "reference": "Left Brain Craft Brain",
+      "reference_url": "https://leftbraincraftbrain.com/light-up-thanksgiving-turkey-circuits-craft-for-kids/",
+      "thumb": "assets/thumbs/108.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Paper-circuit Thanksgiving place cards",
+      "boards": [
+        "none"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-15",
+      "time": "45-60 min",
+      "parts": [
+        {
+          "name": "Copper foil tape 5mm (conductive adhesive)",
+          "url": "https://www.amazon.com/s?k=Copper+foil+tape+5mm&tag=buildbin-20"
+        },
+        {
+          "name": "LEDs 5mm (assorted colors)",
+          "url": "https://www.amazon.com/s?k=LEDs+5mm&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cell batteries",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cell+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Cardstock",
+          "url": "https://www.amazon.com/s?k=Cardstock&tag=buildbin-20"
+        },
+        {
+          "name": "Markers",
+          "url": "https://www.amazon.com/s?k=Markers&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Clear tape",
+          "url": "https://www.amazon.com/s?k=clear+tape&tag=buildbin-20"
+        }
+      ],
+      "description": "Light-up table toppers with each guest's name: kids design the card, then add a copper-tape circuit with a press-to-glow switch. Adult supervision required. Keep coin cells away from young children.",
+      "reference": "Rosie Research",
+      "reference_url": "https://rosieresearch.com/thanksgiving-table-toppers/",
+      "thumb": "assets/thumbs/109.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit cardboard turkey with wagging tail",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids",
+        "robotics"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "25-40",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "BBC micro:bit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 micro servo",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo&tag=buildbin-20"
+        },
+        {
+          "name": "Crocodile clip to male jumper leads",
+          "url": "https://www.amazon.com/s?k=Crocodile+clip+to+male+jumper+leads&tag=buildbin-20"
+        },
+        {
+          "name": "AA battery pack for micro:bit",
+          "url": "https://www.amazon.com/s?k=AA+battery+pack+for+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "Cardboard and craft feathers",
+          "url": "https://www.amazon.com/s?k=Cardboard+and+craft+feathers&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        }
+      ],
+      "description": "Tape a cardboard tail to a micro servo and code the micro:bit so pressing A makes the turkey fan and wag its feathers. Block coding, no soldering. Adult supervision required.",
+      "reference": "Microsoft MakeCode (Invent to Learn)",
+      "reference_url": "https://makecode.microbit.org/63286-30438-12564-72412",
+      "thumb": "assets/thumbs/110.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Makey Makey turkey drum",
+      "boards": [
+        "makeymakey"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids",
+        "audio"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "30-50",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Makey Makey kit",
+          "url": "https://www.amazon.com/s?k=Makey+Makey+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Aluminum foil",
+          "url": "https://www.amazon.com/s?k=Aluminum+foil&tag=buildbin-20"
+        },
+        {
+          "name": "Cardboard box or oatmeal canister",
+          "url": "https://www.amazon.com/s?k=Cardboard+box+or+oatmeal+canister&tag=buildbin-20"
+        },
+        {
+          "name": "Alligator clips",
+          "url": "https://www.amazon.com/s?k=Alligator+clips&tag=buildbin-20"
+        },
+        {
+          "name": "Craft feathers and paper",
+          "url": "https://www.amazon.com/s?k=Craft+feathers+and+paper&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Clear tape",
+          "url": "https://www.amazon.com/s?k=clear+tape&tag=buildbin-20"
+        }
+      ],
+      "description": "Turn a foil-covered box decorated as a turkey into a drum. Tap the pads and Scratch plays drum beats or a 'gobble gobble'. No soldering, ages 8+. Adult supervision required.",
+      "reference": "Makey Makey (JoyLabz)",
+      "reference_url": "https://makeymakey.com/blogs/how-to-instructions/creating-makey-makey-instruments",
+      "thumb": "assets/thumbs/111.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit gratitude jar light",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-35",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "BBC micro:bit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "Single NeoPixel or GlowBug LED",
+          "url": "https://www.amazon.com/s?k=Single+NeoPixel+or+GlowBug+LED&tag=buildbin-20"
+        },
+        {
+          "name": "Crocodile clip leads",
+          "url": "https://www.amazon.com/s?k=Crocodile+clip+leads&tag=buildbin-20"
+        },
+        {
+          "name": "AA battery pack for micro:bit",
+          "url": "https://www.amazon.com/s?k=AA+battery+pack+for+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "Glass or plastic jar",
+          "url": "https://www.amazon.com/s?k=Glass+or+plastic+jar&tag=buildbin-20"
+        },
+        {
+          "name": "Bubble wrap",
+          "url": "https://www.amazon.com/s?k=Bubble+wrap&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Clear tape",
+          "url": "https://www.amazon.com/s?k=clear+tape&tag=buildbin-20"
+        }
+      ],
+      "description": "Fill a jar with thank-you notes and a micro:bit-driven NeoPixel that changes color when you shake it. A glowing centerpiece for the Thanksgiving table. Adult supervision required.",
+      "reference": "Lorraine Underwood",
+      "reference_url": "https://lorraine.mcunderwood.org/light-up-dream-jar/",
+      "thumb": "assets/thumbs/112.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Talking robot turkey (Circuit Playground + Crickit)",
+      "boards": [
+        "cpx"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids",
+        "robotics"
+      ],
+      "difficulty": "Intermediate",
+      "est_cost_usd": "55-75",
+      "time": "2-3 hrs",
+      "parts": [
+        {
+          "name": "Adafruit Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "Adafruit CRICKIT for Circuit Playground Express",
+          "url": "https://www.amazon.com/s?k=Adafruit+CRICKIT+for+Circuit+Playground+Express&tag=buildbin-20"
+        },
+        {
+          "name": "Micro servo",
+          "url": "https://www.amazon.com/s?k=Micro+servo&tag=buildbin-20"
+        },
+        {
+          "name": "Mini metal speaker 8Ω",
+          "url": "https://www.amazon.com/s?k=Mini+metal+speaker+8%CE%A9&tag=buildbin-20"
+        },
+        {
+          "name": "5V 2A power supply",
+          "url": "https://www.amazon.com/s?k=5V+2A+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "Cardboard and printed turkey cutout",
+          "url": "https://www.amazon.com/s?k=Cardboard+and+printed+turkey+cutout&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "Hot glue gun",
+          "url": "https://www.amazon.com/s?k=hot+glue+gun&tag=buildbin-20"
+        },
+        {
+          "name": "Scissors",
+          "url": "https://www.amazon.com/s?k=scissors&tag=buildbin-20"
+        },
+        {
+          "name": "Screwdriver",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        }
+      ],
+      "description": "A cardboard 'hand turkey' that flaps on a servo and gobbles through a speaker when you touch it. Codes in MakeCode. Adult supervision required.",
+      "reference": "Adafruit Learning System",
+      "reference_url": "https://learn.adafruit.com/talking-turkey-hand",
+      "thumb": "assets/thumbs/113.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit Turkey Trot step counter",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "thanksgiving",
+        "kids",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "30-60 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "AA battery pack for micro:bit",
+          "url": "https://www.amazon.com/s?k=AA+battery+pack+for+micro%3Abit&tag=buildbin-20"
+        },
+        {
+          "name": "Velcro strap or sock",
+          "url": "https://www.amazon.com/s?k=Velcro+strap+or+sock&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Computer with USB cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        }
+      ],
+      "description": "Code a micro:bit pedometer with its accelerometer, strap it on and count steps during the family Turkey Trot. Kids can add a turkey icon for every 100 steps. Adult supervision required.",
+      "reference": "Microsoft MakeCode",
+      "reference_url": "https://makecode.microbit.org/projects/step-counter",
+      "thumb": "assets/thumbs/114.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     }
   ]
 }
