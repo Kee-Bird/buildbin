@@ -31,3 +31,22 @@ header .banner{box-shadow:0 0 0 1px rgba(242,181,68,.25),0 12px 40px rgba(234,13
 @media (max-width:600px){.tg-banner{font-size:.85rem}}
 main>h2::before,.news h2::before{content:"🍂 ";}
 nav.cats a.hl{border-color:var(--accent)}
+
+/* Walking turkeys: live inside the header (which clips them), sit in the header's bottom padding, never take clicks */
+.tg-turkey{bottom:2px;left:4%;width:52px;height:49px;z-index:1}
+.tg-turkey.t2{left:44%;width:44px;height:41px}
+.tg-turkey.t3{left:auto;right:16%;width:48px;height:45px;scale:-1 1}
+.tg-tk{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 2px 2px rgba(0,0,0,.35))}
+@media (prefers-reduced-motion:no-preference){
+ .tg-turkey{animation:tg-walk 34s linear infinite}
+ .tg-turkey.t2{animation-duration:42s;animation-delay:-19s}
+ .tg-turkey.t3{right:auto;animation-duration:38s;animation-delay:-9s}
+ @keyframes tg-walk{0%{left:-60px;scale:1 1}49.99%{left:calc(100% + 10px);scale:1 1}50%{left:calc(100% + 10px);scale:-1 1}100%{left:-60px;scale:-1 1}}
+ .tg-tk{animation:tg-bob .5s ease-in-out infinite alternate;transform-origin:50% 100%}
+ @keyframes tg-bob{from{translate:0 0;rotate:-3deg}to{translate:0 -3px;rotate:3deg}}
+ .tg-leg{transform-box:fill-box;transform-origin:50% 0;animation:tg-step .5s ease-in-out infinite alternate}
+ .tg-leg.b{animation-direction:alternate-reverse}
+ @keyframes tg-step{from{rotate:-18deg}to{rotate:18deg}}
+ .tg-tail{transform-box:fill-box;transform-origin:50% 90%;animation:tg-fan 1.6s ease-in-out infinite alternate}
+ @keyframes tg-fan{to{scale:1.06}}}
+@media (max-width:600px){header{padding-bottom:3.4rem}.tg-turkey{width:46px;height:43px}.tg-turkey.t2{width:40px;height:38px}.tg-turkey.t3{display:none}}
