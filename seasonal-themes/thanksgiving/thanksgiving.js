@@ -9,8 +9,8 @@ var pk='<svg class="tg-deco tg-pumpkins %c" '+A+' viewBox="0 0 120 58">'+pumpkin
 var hd=document.querySelector('header');
 if(hd){var h='';['l1','l2','l3','l4','l5','l6'].forEach(function(k,i){h+=leaf(k,C[i]);});
 
-// Cute walking turkeys (original BuildBin drawing): waddle along the bottom of the header, decorative only.
-function turkey(n){return '<div class="tg-deco tg-turkey t'+n+'"><svg class="tg-tk" '+A+' viewBox="0 0 64 60">'+
+// Cute hopping turkeys (original BuildBin drawing): waddle and hop along the bottom of the header, decorative only.
+function turkey(n){return '<div class="tg-deco tg-turkey t'+n+'"><span class="tg-hop"><svg class="tg-tk" '+A+' viewBox="0 0 64 60">'+
  '<g class="tg-tail">'+[['#9f1239',-62],['#c2410c',-32],['#f2b544',0],['#ea8a1e',32],['#b45309',62]].map(function(f){return '<ellipse cx="22" cy="16" rx="7" ry="15" fill="'+f[0]+'" transform="rotate('+f[1]+' 22 32)"/>';}).join('')+
  '<circle cx="22" cy="31" r="10" fill="#7c2d12"/></g>'+
  '<g class="tg-leg a"><path d="M24 46v9m0 0l-3 2m3-2l1 3m-1-3l4 1" stroke="#ea8a1e" stroke-width="2.4" stroke-linecap="round" fill="none"/></g>'+
@@ -22,7 +22,7 @@ function turkey(n){return '<div class="tg-deco tg-turkey t'+n+'"><svg class="tg-
  '<circle cx="46" cy="14" r="2.3" fill="#fff"/><circle cx="46.7" cy="14" r="1.25" fill="#1f0d02"/>'+
  '<circle cx="42.5" cy="18.6" r="1.6" fill="#f472b6" opacity=".55"/>'+
  '<path d="M50.5 15.5l5 2-5 2z" fill="#f2b544"/>'+
- '<path d="M50 19.5q2 5-1 7q-2-3 1-7z" fill="#dc2626"/></svg></div>';}
+ '<path d="M50 19.5q2 5-1 7q-2-3 1-7z" fill="#dc2626"/></svg></span></div>';}
  h+=turkey(1)+turkey(2)+turkey(3);
  h+=pk.replace('%c','pl')+pk.replace('%c','pr');hd.insertAdjacentHTML('afterbegin',h);}
 var K='bb-tg-2026-dismissed';
