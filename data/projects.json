@@ -14,7 +14,8 @@
     "none": "No microcontroller (simple circuit)",
     "cpx": "Adafruit Circuit Playground Express",
     "promini": "Arduino Pro Mini (3.3V/8MHz)",
-    "flora": "Adafruit FLORA (wearable Arduino-compatible)"
+    "flora": "Adafruit FLORA (wearable Arduino-compatible)",
+    "matrixportal": "Adafruit Matrix Portal (M4/S3)"
   },
   "categories": {
     "home-automation": "Home automation",
@@ -6687,6 +6688,124 @@
       "reference": "Microsoft MakeCode",
       "reference_url": "https://makecode.microbit.org/projects/step-counter",
       "thumb": "assets/thumbs/114.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Moon phase clock on an RGB LED matrix (Adafruit Matrix Portal)",
+      "boards": [
+        "matrixportal"
+      ],
+      "categories": [
+        "led-lighting",
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "70-90",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Adafruit Matrix Portal (M4 or S3)",
+          "url": "https://www.amazon.com/s?k=Adafruit+Matrix+Portal&tag=buildbin-20"
+        },
+        {
+          "name": "64x32 RGB LED matrix panel (4mm pitch)",
+          "url": "https://www.amazon.com/s?k=64x32+RGB+LED+matrix+panel+4mm&tag=buildbin-20"
+        },
+        {
+          "name": "USB-C data cable",
+          "url": "https://www.amazon.com/s?k=USB+C+data+cable&tag=buildbin-20"
+        },
+        {
+          "name": "5V 2.5A+ USB-C power supply",
+          "url": "https://www.amazon.com/s?k=5V+3A+USB+C+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "LED diffusion acrylic panel (optional)",
+          "url": "https://www.amazon.com/s?k=LED+diffusion+acrylic+black&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer (for CircuitPython)"
+      ],
+      "description": "A Wi-Fi Matrix Portal looks up your location's moon data and shows the current moon phase plus the time on a 64x32 RGB LED panel. No soldering: it plugs straight onto the panel and runs CircuitPython.",
+      "reference": "Adafruit Learning System",
+      "reference_url": "https://learn.adafruit.com/moon-phase-clock-for-adafruit-matrixportal",
+      "thumb": "assets/thumbs/115.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "RGB LED matrix cube with pixel sand (Raspberry Pi 4)",
+      "boards": [
+        "pi"
+      ],
+      "categories": [
+        "led-lighting",
+        "3d-printing"
+      ],
+      "difficulty": "Advanced",
+      "est_cost_usd": "400-500",
+      "time": "Weekend",
+      "parts": [
+        {
+          "name": "Raspberry Pi 4 Model B",
+          "url": "https://www.amazon.com/s?k=Raspberry+Pi+4+Model+B&tag=buildbin-20"
+        },
+        {
+          "name": "64x64 RGB LED matrix panels (x6)",
+          "url": "https://www.amazon.com/s?k=64x64+RGB+LED+matrix+panel+2.5mm&tag=buildbin-20"
+        },
+        {
+          "name": "Adafruit RGB Matrix Bonnet for Raspberry Pi",
+          "url": "https://www.amazon.com/s?k=Adafruit+RGB+Matrix+Bonnet&tag=buildbin-20"
+        },
+        {
+          "name": "LIS3DH accelerometer breakout",
+          "url": "https://www.amazon.com/s?k=LIS3DH+accelerometer&tag=buildbin-20"
+        },
+        {
+          "name": "5V 10A power supply",
+          "url": "https://www.amazon.com/s?k=5V+10A+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "HUB75 ribbon cables",
+          "url": "https://www.amazon.com/s?k=HUB75+ribbon+cable+16+pin&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card (16GB+)",
+          "url": "https://www.amazon.com/s?k=microSD+card+32GB&tag=buildbin-20"
+        },
+        {
+          "name": "PLA filament for the frame",
+          "url": "https://www.amazon.com/s?k=PLA+filament+1.75mm&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "3D printer",
+          "url": "https://www.amazon.com/s?k=3D+printer&tag=buildbin-20"
+        },
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Hex screwdriver set",
+          "url": "https://www.amazon.com/s?k=hex+screwdriver+set&tag=buildbin-20"
+        },
+        "Computer"
+      ],
+      "description": "Six 64x64 LED panels on a 3D-printed frame make a glowing cube, and an accelerometer lets glowing pixel sand pour across every face as you tilt it. Safety note: the panels draw several amps, so use a properly rated 5V supply and keep wiring secure.",
+      "reference": "Adafruit Learning System",
+      "reference_url": "https://learn.adafruit.com/rgb-led-matrix-cube-for-pi",
+      "thumb": "assets/thumbs/116.webp",
       "thumb_credit": "",
       "thumb_license": "Illustration by BuildBin",
       "thumb_author": "BuildBin",
