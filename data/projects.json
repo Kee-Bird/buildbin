@@ -6811,6 +6811,88 @@
       "thumb_author": "BuildBin",
       "thumb_illustrated": true,
       "thumb_license_url": ""
+    },
+    {
+      "title": "ESP8266 Wi-Fi weather clock with OLED (ThingPulse)",
+      "boards": [
+        "esp8266"
+      ],
+      "categories": [
+        "sensors-weather",
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Wemos D1 Mini ESP8266 board",
+          "url": "https://www.amazon.com/s?k=Wemos+D1+Mini+ESP8266&tag=buildbin-20"
+        },
+        {
+          "name": "0.96 inch SSD1306 I2C OLED display",
+          "url": "https://www.amazon.com/s?k=0.96+inch+SSD1306+I2C+OLED&tag=buildbin-20"
+        },
+        {
+          "name": "Jumper wires",
+          "url": "https://www.amazon.com/s?k=dupont+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Micro USB cable and 5V USB charger",
+          "url": "https://www.amazon.com/s?k=micro+USB+cable+5V+charger&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE"
+      ],
+      "description": "A tiny desk clock that syncs the time over Wi-Fi and shows current weather and a forecast on a small OLED screen, using ThingPulse's open-source ESP8266 weather station code and a free weather API key.",
+      "reference": "ThingPulse esp8266-weather-station (GitHub)",
+      "reference_url": "https://github.com/ThingPulse/esp8266-weather-station",
+      "thumb": "assets/thumbs/117.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit rock, paper, scissors game",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "gaming"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "30 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "description": "Shake the micro:bit and it randomly shows a rock, paper or scissors icon on its LED grid, so kids can play against a friend and learn about random numbers in block code. Ages 8+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/rock-paper-scissors/",
+      "thumb": "assets/thumbs/118.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     }
   ]
 }
