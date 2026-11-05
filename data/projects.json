@@ -6893,6 +6893,96 @@
       "thumb_author": "BuildBin",
       "thumb_illustrated": true,
       "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino desk clock with a DS3231 RTC and I2C LCD",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "home-automation",
+        "led-lighting"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-35",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 compatible board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+compatible+board&tag=buildbin-20"
+        },
+        {
+          "name": "DS3231 RTC module",
+          "url": "https://www.amazon.com/s?k=DS3231+RTC+module&tag=buildbin-20"
+        },
+        {
+          "name": "CR2032 coin cell battery",
+          "url": "https://www.amazon.com/s?k=CR2032+coin+cell+battery&tag=buildbin-20"
+        },
+        {
+          "name": "16x2 I2C LCD display module",
+          "url": "https://www.amazon.com/s?k=16x2+I2C+LCD+display+module&tag=buildbin-20"
+        },
+        {
+          "name": "Dupont jumper wires",
+          "url": "https://www.amazon.com/s?k=Dupont+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB A to B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "description": "A simple desk clock that keeps accurate time even when unplugged: the DS3231 real-time clock module holds the time on its coin cell, and the Arduino prints the time and date on a 16x2 LCD over I2C. A great first project for learning I2C, libraries and setting the clock from your computer. No soldering needed with jumper wires. Keep spare coin cells away from children and pets.",
+      "reference": "Last Minute Engineers",
+      "reference_url": "https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/",
+      "thumb": "assets/thumbs/119.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit scrolling name badge",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "wearables"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "30 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        },
+        {
+          "name": "Lanyard with clip",
+          "url": "https://www.amazon.com/s?k=Lanyard+with+clip&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "description": "Kids code their name to scroll across the micro:bit's LED grid, then wear it on a lanyard as a light-up badge, learning loops and text output in block code. Ages 8+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/name-badge/",
+      "thumb": "assets/thumbs/120.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     }
   ]
 }
