@@ -6983,6 +6983,112 @@
       "thumb_author": "BuildBin",
       "thumb_illustrated": true,
       "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino ultrasonic radar with Processing display",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "sensors-weather",
+        "robotics"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 compatible board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+compatible+board&tag=buildbin-20"
+        },
+        {
+          "name": "HC-SR04 ultrasonic sensor",
+          "url": "https://www.amazon.com/s?k=HC-SR04+ultrasonic+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 micro servo motor",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo+motor&tag=buildbin-20"
+        },
+        {
+          "name": "Breadboard and jumper wires",
+          "url": "https://www.amazon.com/s?k=Breadboard+and+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB cable for Arduino",
+          "url": "https://www.amazon.com/s?k=USB+cable+for+Arduino&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE and Processing"
+      ],
+      "description": "Mount an HC-SR04 on a servo, sweep it across a room, and watch a green radar-style scan on your computer drawn by Processing. A classic beginner build that teaches ultrasonics, serial data and simple graphics.",
+      "reference": "HowToMechatronics",
+      "reference_url": "https://howtomechatronics.com/projects/arduino-radar-project/",
+      "thumb": "assets/thumbs/121.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "ESP32-CAM Wi-Fi video streaming webcam",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "home-automation",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-30",
+      "time": "1-2 hrs",
+      "parts": [
+        {
+          "name": "ESP32-CAM AI-Thinker board with OV2640",
+          "url": "https://www.amazon.com/s?k=ESP32-CAM+AI-Thinker+board+with+OV2640&tag=buildbin-20"
+        },
+        {
+          "name": "FTDI USB to TTL serial programmer",
+          "url": "https://www.amazon.com/s?k=FTDI+USB+to+TTL+serial+programmer&tag=buildbin-20"
+        },
+        {
+          "name": "Female-to-female jumper wires",
+          "url": "https://www.amazon.com/s?k=Female-to-female+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "5V USB power supply",
+          "url": "https://www.amazon.com/s?k=5V+USB+power+supply&tag=buildbin-20"
+        },
+        {
+          "name": "microSD card (optional)",
+          "url": "https://www.amazon.com/s?k=microSD+card&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Soldering iron",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Multimeter",
+          "url": "https://www.amazon.com/s?k=digital+multimeter&tag=buildbin-20"
+        },
+        "Computer with Arduino IDE"
+      ],
+      "description": "Upload the CameraWebServer example and open the ESP32-CAM's IP address in a browser for a live Wi-Fi video stream. Use a solid 5V supply to avoid brownouts; keep the stream on your local network unless you know how to secure remote access.",
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/",
+      "thumb": "assets/thumbs/122.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     }
   ]
 }
