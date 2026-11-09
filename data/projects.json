@@ -7089,6 +7089,91 @@
       "thumb_author": "BuildBin",
       "thumb_illustrated": true,
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit compass that points north",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "sensors-weather"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "30 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "description": "Kids use the micro:bit's built-in magnetometer to make a pocket compass that lights up an N when it faces north, learning about magnetism, variables and if/else logic in block code or Python. Ages 8+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/compass-north/",
+      "thumb": "assets/thumbs/123.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
+    },
+    {
+      "title": "ESP32 Wi-Fi web server to switch LEDs from your phone",
+      "boards": [
+        "esp32"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "difficulty": "Beginner",
+      "est_cost_usd": "10-20",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "ESP32 DevKit V1 development board",
+          "url": "https://www.amazon.com/s?k=ESP32+DevKit+V1+development+board&tag=buildbin-20"
+        },
+        {
+          "name": "5mm LEDs",
+          "url": "https://www.amazon.com/s?k=5mm+LED+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "330 ohm resistors",
+          "url": "https://www.amazon.com/s?k=330+ohm+resistors&tag=buildbin-20"
+        },
+        {
+          "name": "Solderless breadboard",
+          "url": "https://www.amazon.com/s?k=solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Micro-USB data cable",
+          "url": "https://www.amazon.com/s?k=micro+USB+data+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "description": "Program an ESP32 to host a simple web page on your home Wi-Fi with on and off buttons for two LEDs, then tap them from any phone or laptop on the network. It's a solderless first step toward Wi-Fi switches and smart home gadgets; stick to low-voltage loads and keep it on your local network.",
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/esp32-web-server-arduino-ide/",
+      "thumb": "assets/thumbs/124.webp",
+      "thumb_credit": "",
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_author": "BuildBin",
+      "thumb_illustrated": true,
+      "thumb_license_url": ""
     }
   ]
 }
