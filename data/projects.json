@@ -7256,6 +7256,100 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit thermometer that shows the temperature",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "sensors-weather"
+      ],
+      "description": "Kids code the micro:bit to read its built-in temperature sensor and show the reading on the LED grid at the press of a button, then test it in a warm sunny spot and a cool fridge door. A quick intro to sensors and variables in block code or Python. Ages 8+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "20 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/thermometer/",
+      "thumb": "assets/thumbs/127.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino PIR motion sensor alarm (HC-SR501)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "sensors-weather",
+        "home-automation"
+      ],
+      "description": "Hook an HC-SR501 passive infrared motion sensor to an Arduino Uno so an LED lights up and the Serial Monitor reports whenever someone walks past. Learn to tune the sensor's sensitivity and delay knobs, then swap the LED for a buzzer to make a simple room alarm. Fully solderless on a breadboard.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "45 min",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "HC-SR501 PIR motion sensor module",
+          "url": "https://www.amazon.com/s?k=HC-SR501+PIR+motion+sensor&tag=buildbin-20"
+        },
+        {
+          "name": "5mm LEDs with 220 ohm resistors",
+          "url": "https://www.amazon.com/s?k=5mm+LED+220+ohm+resistor+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Solderless breadboard",
+          "url": "https://www.amazon.com/s?k=solderless+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "Active piezo buzzer (optional)",
+          "url": "https://www.amazon.com/s?k=active+piezo+buzzer+5V&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE",
+        {
+          "name": "Small precision screwdriver set",
+          "url": "https://www.amazon.com/s?k=precision+screwdriver+set&tag=buildbin-20"
+        }
+      ],
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/",
+      "thumb": "assets/thumbs/128.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
