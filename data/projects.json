@@ -7350,6 +7350,87 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit Magic 8-ball fortune teller",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "gaming"
+      ],
+      "description": "Kids ask the micro:bit a yes-or-no question, give it a shake, and the accelerometer picks a random answer to show on the LED grid. A fun first lesson in shake events, random numbers and if/else choices using MakeCode blocks or Python. Ages 8+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "20 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/magic-8ball/",
+      "thumb": "assets/thumbs/129.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino scrolling LED matrix sign (MAX7219)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "led-lighting"
+      ],
+      "description": "Chain four MAX7219 8x8 LED dot matrix modules to an Arduino Uno and scroll any message across them, like a mini shop sign. Learn SPI wiring with just three data pins, install the MD_Parola library, and tweak scroll speed, brightness and text effects. Solderless with pre-assembled 4-in-1 modules.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "MAX7219 4-in-1 8x8 LED dot matrix module",
+          "url": "https://www.amazon.com/s?k=MAX7219+4+in+1+dot+matrix+module&tag=buildbin-20"
+        },
+        {
+          "name": "Female-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=female+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        },
+        {
+          "name": "5V 2A power supply (optional, for full brightness)",
+          "url": "https://www.amazon.com/s?k=5V+2A+power+supply+barrel+jack&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Last Minute Engineers",
+      "reference_url": "https://lastminuteengineers.com/max7219-dot-matrix-arduino-tutorial/",
+      "thumb": "assets/thumbs/130.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
