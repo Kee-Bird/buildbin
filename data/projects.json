@@ -7431,6 +7431,83 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit clap-controlled lights",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "led-lighting"
+      ],
+      "description": "Clap your hands (or make any loud sound) and the micro:bit V2's built-in microphone switches its LED grid on; clap again and it turns off. Kids learn how sensor inputs trigger outputs and how a true/false Boolean variable works as a toggle switch, using MakeCode blocks or Python. Needs a micro:bit V2 for the microphone. Ages 8+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "20 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/clap-lights/",
+      "thumb": "assets/thumbs/131.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino 4x4 membrane keypad input (password entry)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "home-automation"
+      ],
+      "description": "Wire a cheap 4x4 membrane keypad to eight Arduino Uno pins, read key presses with the Keypad library, and build a simple password checker that prints to the Serial Monitor. A handy first step toward keypad door locks, safes and menu controls. Solderless with jumper wires.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1 hr",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "4x4 membrane matrix keypad",
+          "url": "https://www.amazon.com/s?k=4x4+membrane+matrix+keypad+arduino&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Last Minute Engineers",
+      "reference_url": "https://lastminuteengineers.com/arduino-keypad-tutorial/",
+      "thumb": "assets/thumbs/132.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
