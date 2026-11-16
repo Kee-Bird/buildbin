@@ -7508,6 +7508,91 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit automatic nightlight",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "led-lighting"
+      ],
+      "description": "Turn the micro:bit's LED display into a light sensor: when the room gets dark the whole 5x5 grid lights up, and when it's bright again it switches off. Kids learn about sensor inputs, if/else decisions and tuning a threshold number, using MakeCode blocks or Python. Works on micro:bit V1 or V2. Ages 7+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "15 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "microbit.org",
+      "reference_url": "https://microbit.org/projects/make-it-code-it/nightlight/",
+      "thumb": "assets/thumbs/133.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino servo motor controlled by a potentiometer",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "description": "Learn how hobby servos work by wiring an SG90 micro servo and a 10k potentiometer to an Arduino Uno, then use the Servo library to make the servo horn follow the knob. The same idea drives robot arms, pan/tilt camera mounts and animatronic props. Solderless on a breadboard with jumper wires.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "45 min",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "SG90 micro servo motor",
+          "url": "https://www.amazon.com/s?k=SG90+micro+servo+motor&tag=buildbin-20"
+        },
+        {
+          "name": "10k potentiometer",
+          "url": "https://www.amazon.com/s?k=10k+potentiometer+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Last Minute Engineers",
+      "reference_url": "https://lastminuteengineers.com/servo-motor-arduino-tutorial/",
+      "thumb": "assets/thumbs/134.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
