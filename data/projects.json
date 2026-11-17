@@ -7593,6 +7593,90 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit love meter",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids"
+      ],
+      "description": "A classic first micro:bit project: hold the GND pin with one hand, touch pin 0 with the other, and the micro:bit 'measures your love' by showing a random score from 0 to 100. Kids learn about touch inputs, electric circuits through the body and random numbers in MakeCode blocks, then can add their own messages or LED pictures for each score range. Works on micro:bit V1 or V2. Ages 7+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "15 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "MakeCode for micro:bit",
+      "reference_url": "https://makecode.microbit.org/projects/love-meter",
+      "thumb": "assets/thumbs/135.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino stepper motor control (28BYJ-48 + ULN2003)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "robotics"
+      ],
+      "description": "Drive the cheap and ubiquitous 28BYJ-48 geared stepper motor from an Arduino Uno through a ULN2003 driver board, using the built-in Stepper library or AccelStepper to turn precise angles, change speed and reverse direction. A great first step toward camera sliders, rotating displays, automatic blinds and clock hands. Solderless with jumper wires; power the motor from a separate 5V supply rather than the Uno's pin for reliable motion.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1 hour",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "28BYJ-48 stepper motor with ULN2003 driver board",
+          "url": "https://www.amazon.com/s?k=28BYJ-48+stepper+motor+ULN2003+driver&tag=buildbin-20"
+        },
+        {
+          "name": "Female-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=female+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "5V 2A power supply with barrel jack adapter",
+          "url": "https://www.amazon.com/s?k=5V+2A+power+supply+barrel+jack+terminal+adapter&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Last Minute Engineers",
+      "reference_url": "https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/",
+      "thumb": "assets/thumbs/136.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
