@@ -7677,6 +7677,98 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit hot potato game",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "gaming"
+      ],
+      "description": "A fast party game for a micro:bit: press button A to start a secret random countdown, then pass the micro:bit (taped to a real potato, a beanbag or a soft toy) around the circle. When the timer runs out the display flips to a skull and whoever is holding it is out. Kids learn variables, random numbers and while loops in MakeCode blocks, then can add sounds, a shorter timer for each round or a score. Works on micro:bit V1 or V2. Ages 7+, no soldering or tools needed. Adult supervision recommended for young kids: pass it hand to hand rather than throwing it, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "20 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode",
+        "Masking tape",
+        "A potato, beanbag or soft toy"
+      ],
+      "reference": "MakeCode for micro:bit",
+      "reference_url": "https://makecode.microbit.org/projects/hot-potato",
+      "thumb": "assets/thumbs/137.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino IR remote control of LEDs",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "home-automation",
+        "led-lighting"
+      ],
+      "description": "Reuse an old TV remote (or the small remote in most starter kits) to switch things with an Arduino Uno. A 38 kHz IR receiver such as the TSOP4838 or VS1838B decodes each button press with the IRremote library; you print the codes in the Serial Monitor, then map buttons to turn three LEDs on and off. The same pattern later drives relays, servos or menus. Solderless on a breadboard with jumper wires; check your receiver's pinout before powering it, since modules differ.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "1 hour",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "IR receiver and remote control kit",
+          "url": "https://www.amazon.com/s?k=IR+receiver+remote+control+kit+Arduino&tag=buildbin-20"
+        },
+        {
+          "name": "5mm LED assortment",
+          "url": "https://www.amazon.com/s?k=5mm+LED+assortment&tag=buildbin-20"
+        },
+        {
+          "name": "220 ohm resistors",
+          "url": "https://www.amazon.com/s?k=220+ohm+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/arduino-ir-remote-control/",
+      "thumb": "assets/thumbs/138.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
