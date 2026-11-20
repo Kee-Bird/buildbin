@@ -7769,6 +7769,92 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit coin flipper",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "gaming"
+      ],
+      "description": "Turn a micro:bit into a virtual coin for settling who goes first: press button A and the display shows a quick flipping animation, then lands on heads or tails at random. Kids learn random true/false values and if/else blocks in MakeCode, then can add a sound, a running tally of heads and tails, or a shake-to-flip gesture on V2. Works on micro:bit V1 or V2. Ages 7+, no soldering or tools needed. Adult supervision recommended for young kids, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-30",
+      "time": "15 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "MakeCode for micro:bit",
+      "reference_url": "https://makecode.microbit.org/projects/coin-flipper",
+      "thumb": "assets/thumbs/139.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino DHT11/DHT22 temperature and humidity monitor",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "sensors-weather",
+        "home-automation"
+      ],
+      "description": "Read room temperature and humidity with an Arduino Uno and a low-cost DHT11 or the more accurate DHT22 (AM2302) sensor. The Adafruit DHT sensor library handles the single-wire timing; readings print to the Serial Monitor every couple of seconds, and the same sketch is a starting point for adding an LCD or OLED, a fan relay or data logging. Solderless on a breadboard; bare sensors need a 10k pull-up resistor on the data pin, while most 3-pin breakout modules already include one.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "45 min",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "DHT22 temperature and humidity sensor module",
+          "url": "https://www.amazon.com/s?k=DHT22+temperature+humidity+sensor+module&tag=buildbin-20"
+        },
+        {
+          "name": "10k ohm resistors",
+          "url": "https://www.amazon.com/s?k=10k+ohm+resistor&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/",
+      "thumb": "assets/thumbs/140.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
