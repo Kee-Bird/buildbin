@@ -7855,6 +7855,96 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit headphone music player",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids",
+        "audio"
+      ],
+      "description": "Turn a micro:bit into a tiny music player by clipping a pair of wired headphones to it with crocodile clips: one clip goes from pin 0 to the tip of the headphone plug and another from GND to the base. Kids code melodies with the MakeCode music blocks, then make button A and button B play different tunes or build a simple sound effects box. On micro:bit V2 the same tunes also play from the built-in speaker. Ages 7+, no soldering. Adult supervision recommended for young kids; start with the volume low and keep headphones away from ears until you know how loud it is, and keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "20-35",
+      "time": "20 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "Crocodile clip test leads",
+          "url": "https://www.amazon.com/s?k=crocodile+alligator+clip+test+leads&tag=buildbin-20"
+        },
+        {
+          "name": "Wired headphones with 3.5mm plug",
+          "url": "https://www.amazon.com/s?k=wired+headphones+3.5mm&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "MakeCode for micro:bit",
+      "reference_url": "https://makecode.microbit.org/projects/hack-your-headphones",
+      "thumb": "assets/thumbs/141.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino 0.96-inch I2C OLED display (SSD1306)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "sensors-weather",
+        "led-lighting"
+      ],
+      "description": "Wire a 0.96-inch 128x64 SSD1306 OLED to an Arduino Uno with just four jumpers (5V, GND, SDA to A4, SCL to A5) and use the Adafruit SSD1306 and GFX libraries to print text, draw lines, shapes and small bitmap images. It is a cheap, crisp screen for showing sensor readings, a menu or a tiny game, and the guide finishes by showing temperature and humidity from a DHT sensor. Solderless on a breadboard if your module comes with header pins already attached.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "45 min",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "0.96 inch SSD1306 I2C OLED display module (128x64)",
+          "url": "https://www.amazon.com/s?k=0.96+inch+SSD1306+I2C+OLED+display+128x64&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE"
+      ],
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/",
+      "thumb": "assets/thumbs/142.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
