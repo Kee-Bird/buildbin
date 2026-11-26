@@ -7945,6 +7945,95 @@
       "thumb_illustrated": true,
       "thumb_license": "Illustration by BuildBin",
       "thumb_license_url": ""
+    },
+    {
+      "title": "micro:bit Micro Chat radio messenger",
+      "boards": [
+        "microbit"
+      ],
+      "categories": [
+        "kids"
+      ],
+      "description": "Use the micro:bit's built-in radio to send short messages between two or more micro:bits. Kids put every board in the same radio group, make button A send a message and show any message that arrives on the LED display, then add more buttons for different messages or switch groups to send secret notes to a friend across the room. The MakeCode simulator shows a second micro:bit, so you can test it with just one board. Ages 8+, no soldering. Adult supervision recommended for young kids; keep loose batteries away from little ones.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "35-50 (two boards)",
+      "time": "20 min",
+      "parts": [
+        {
+          "name": "BBC micro:bit V2 Go kit (x2)",
+          "url": "https://www.amazon.com/s?k=BBC+micro%3Abit+V2+Go+kit&tag=buildbin-20"
+        },
+        {
+          "name": "AAA batteries",
+          "url": "https://www.amazon.com/s?k=AAA+batteries&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer or tablet with MakeCode"
+      ],
+      "reference": "MakeCode for micro:bit",
+      "reference_url": "https://makecode.microbit.org/projects/micro-chat",
+      "thumb": "assets/thumbs/143.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
+    },
+    {
+      "title": "Arduino MPU-6050 accelerometer and gyroscope (tilt sensing)",
+      "boards": [
+        "uno"
+      ],
+      "categories": [
+        "sensors-weather",
+        "robotics"
+      ],
+      "description": "Wire an MPU-6050 accelerometer/gyroscope module to an Arduino Uno over I2C (VCC, GND, SDA to A4, SCL to A5) and read acceleration, rotation and temperature with the Adafruit MPU6050 library. Watch the X, Y and Z values move on the Serial Plotter as you tilt and shake the board, then show the readings on a small OLED. It is the same kind of motion sensor used in self-balancing robots, drones and gesture controllers. Some cheap modules need their header pins soldered on first.",
+      "difficulty": "Beginner",
+      "est_cost_usd": "15-25",
+      "time": "45 min",
+      "parts": [
+        {
+          "name": "Arduino Uno R3 board",
+          "url": "https://www.amazon.com/s?k=Arduino+Uno+R3+board&tag=buildbin-20"
+        },
+        {
+          "name": "MPU-6050 accelerometer gyroscope module (GY-521)",
+          "url": "https://www.amazon.com/s?k=MPU-6050+GY-521+accelerometer+gyroscope+module&tag=buildbin-20"
+        },
+        {
+          "name": "0.96 inch SSD1306 I2C OLED display (optional)",
+          "url": "https://www.amazon.com/s?k=0.96+inch+SSD1306+I2C+OLED+display+128x64&tag=buildbin-20"
+        },
+        {
+          "name": "Half-size breadboard",
+          "url": "https://www.amazon.com/s?k=half+size+breadboard&tag=buildbin-20"
+        },
+        {
+          "name": "Male-to-male jumper wires",
+          "url": "https://www.amazon.com/s?k=male+to+male+jumper+wires&tag=buildbin-20"
+        },
+        {
+          "name": "USB-A to USB-B cable",
+          "url": "https://www.amazon.com/s?k=USB+A+to+USB+B+cable&tag=buildbin-20"
+        }
+      ],
+      "tools": [
+        "Computer with Arduino IDE",
+        {
+          "name": "Soldering iron kit (if headers are loose)",
+          "url": "https://www.amazon.com/s?k=soldering+iron+kit&tag=buildbin-20"
+        }
+      ],
+      "reference": "Random Nerd Tutorials",
+      "reference_url": "https://randomnerdtutorials.com/arduino-mpu-6050-accelerometer-gyroscope/",
+      "thumb": "assets/thumbs/144.webp",
+      "thumb_author": "BuildBin",
+      "thumb_credit": "",
+      "thumb_illustrated": true,
+      "thumb_license": "Illustration by BuildBin",
+      "thumb_license_url": ""
     }
   ]
 }
